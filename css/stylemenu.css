@@ -1,0 +1,5 @@
+#rmcmenu {z-index:5; width:100px; color:black; background:white; float:left; border:2px white outset; cursor:default}
+#rmcmenu .appear {position:absolute; width:100px; color:black; background:white; visibility:hidden; border:2px white outset; margin:2px}
+#rmcmenu P {margin-top:0px; margin-bottom:0px; width:100px}
+#rmcmenu .above {color:white; background:blue; font-weight:bold}
+#rmcmenu A {color:black; text-decoration:none; cursor:hand; cursor:pointer}
