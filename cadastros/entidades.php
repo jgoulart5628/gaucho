@@ -1,5 +1,4 @@
 <?php
-// declare(strict_types=1);
 error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
 //error_reporting(E_ALL);
 ini_set('date.timezone', 'America/Sao_Paulo');
