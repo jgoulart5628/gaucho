@@ -1,0 +1,1505 @@
+** xajax Error Log - Mar 16 2023 05:02:26 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 16 2023 10:43:26 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 16 2023 11:04:09 PM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:12:53 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:20:40 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:23:56 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:28:44 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 338 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 339 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 340 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:37:05 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 0
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 1
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 341 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 342 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined offset: 2
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 343 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:37:58 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:41:36 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 186 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 187 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:52:06 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 174 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 175 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 01:53:06 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 174 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 175 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 02:03:54 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 174 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 175 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 02:08:45 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 175 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 176 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 02:11:45 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 175 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 176 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 02:12:01 AM **
+
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 279 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 280 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 11:47:06 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 178 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 179 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 11:52:21 AM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 178 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 179 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 11:53:23 AM **
+
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 286 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 287 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 12:34:03 PM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 182 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 183 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 12:36:04 PM **
+
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 290 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 291 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 12:47:29 PM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 176 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 177 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 12:48:01 PM **
+
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 283 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Trying to access array offset on value of type null
+Error on line 284 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 02:19:16 PM **
+
+----
+[NOTICE] Undefined variable: checkM
+Error on line 177 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 178 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 03:16:56 PM **
+
+----
+[NOTICE] Undefined variable: login
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: usuario
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 03:22:18 PM **
+
+----
+[NOTICE] Undefined variable: login
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: usuario
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 03:22:26 PM **
+
+----
+[NOTICE] Undefined variable: login
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: usuario
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 03:25:42 PM **
+
+----
+[NOTICE] Undefined variable: login
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: usuario
+Error on line 115 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkM
+Error on line 177 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: checkF
+Error on line 178 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 17 2023 03:34:46 PM **
+
+----
+[NOTICE] Undefined variable: login
+Error on line 119 of file /AUX/www/gaucho/cadastros/pessoas.php
+----
+[NOTICE] Undefined variable: usuario
+Error on line 119 of file /AUX/www/gaucho/cadastros/pessoas.php
+
+
+** xajax Error Log - Mar 20 2023 05:12:04 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 166 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 07:59:04 PM **
+
+----
+[NOTICE] Undefined index: entidade_id
+Error on line 233 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 08:31:21 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 166 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 08:33:03 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 166 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 08:35:21 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 166 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 08:49:16 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 20 2023 08:49:29 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 22 2023 03:01:55 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 22 2023 03:29:16 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 22 2023 03:33:34 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 22 2023 04:00:44 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 22 2023 04:01:39 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 122 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 22 2023 09:02:16 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 27 2023 09:55:49 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 127 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 28 2023 11:35:51 AM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 28 2023 02:49:09 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 138 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: tipo_end
+Error on line 296 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cep
+Error on line 305 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: logradouro
+Error on line 310 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: numero
+Error on line 314 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: complemento
+Error on line 318 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: bairro
+Error on line 324 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: distrito
+Error on line 328 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cidade
+Error on line 332 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: uf
+Error on line 336 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 11:09:09 AM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 155 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 11:14:25 AM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: tipo_end
+Error on line 319 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cep
+Error on line 328 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: logradouro
+Error on line 333 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: numero
+Error on line 337 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: complemento
+Error on line 341 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: bairro
+Error on line 347 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: distrito
+Error on line 351 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cidade
+Error on line 355 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: uf
+Error on line 359 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 11:20:29 AM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 158 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: tipo_end
+Error on line 335 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cep
+Error on line 344 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: logradouro
+Error on line 349 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: numero
+Error on line 353 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: complemento
+Error on line 357 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: bairro
+Error on line 363 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: distrito
+Error on line 367 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cidade
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: uf
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 04:42:41 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 154 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: tipo_end
+Error on line 336 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cep
+Error on line 345 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: logradouro
+Error on line 350 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: numero
+Error on line 354 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: complemento
+Error on line 358 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: bairro
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: distrito
+Error on line 368 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: cidade
+Error on line 372 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: uf
+Error on line 376 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 04:43:05 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 30 2023 04:43:44 PM **
+
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[NOTICE] Undefined variable: invernada
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] in_array() expects parameter 2 to be array, null given
+Error on line 159 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Mar 31 2023 12:27:05 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 31 2023 12:33:21 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Mar 31 2023 12:46:40 PM **
+
+----
+[NOTICE] Undefined variable: entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr  3 2023 04:05:52 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr  8 2023 12:20:11 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr  8 2023 12:41:35 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr  8 2023 02:36:27 PM **
+
+----
+[WARNING] Undefined variable $cep
+Error on line 345 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 350 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 354 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 358 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 368 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 372 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 376 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr  8 2023 02:56:18 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 353 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 362 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 367 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 381 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr  8 2023 02:58:08 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 353 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 362 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 367 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 381 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr  8 2023 02:58:19 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 353 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 362 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 367 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 381 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr  9 2023 12:09:05 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 357 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 366 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 379 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 397 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr  9 2023 12:10:02 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr  9 2023 10:09:35 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 357 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 366 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 371 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 379 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 397 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 17 2023 08:48:44 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 355 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 369 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 373 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 377 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 383 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 387 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 391 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 395 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 17 2023 09:09:32 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 355 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 369 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 373 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 377 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 383 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 387 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 391 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 395 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 11:33:46 AM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 12:04:24 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 355 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 369 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 373 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 377 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 383 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 387 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 391 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 395 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 03:26:42 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 167 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:32:34 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:32:46 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:34:18 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:37:07 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:37:52 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:39:21 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:41:06 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:42:56 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 03:43:30 PM **
+
+----
+[WARNING] Undefined variable $entidade
+Error on line 176 of file /AUX/www/gaucho/cadastros/eventos.php
+
+
+** xajax Error Log - Apr 18 2023 07:48:33 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 363 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 372 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 377 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 381 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 391 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 395 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 399 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 403 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 07:51:10 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 363 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 372 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 377 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 381 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 385 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 391 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 395 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 399 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 403 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 07:54:51 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 373 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 378 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 382 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 386 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 392 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 396 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 400 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 404 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 07:56:56 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 370 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 379 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 383 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 397 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 401 of file /AUX/www/gaucho/cadastros/entidades.php
+
+
+** xajax Error Log - Apr 18 2023 07:59:58 PM **
+
+----
+[WARNING] Undefined variable $tipo_end
+Error on line 364 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cep
+Error on line 370 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $logradouro
+Error on line 375 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $numero
+Error on line 379 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $complemento
+Error on line 383 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $bairro
+Error on line 389 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $distrito
+Error on line 393 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $cidade
+Error on line 397 of file /AUX/www/gaucho/cadastros/entidades.php
+----
+[WARNING] Undefined variable $uf
+Error on line 401 of file /AUX/www/gaucho/cadastros/entidades.php
+
+

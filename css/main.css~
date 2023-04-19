@@ -1,0 +1,316 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.dropdown {
+    cursor:pointer;
+}
+
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+.shframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+.hiframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 0;
+    width: 0;
+    border: 0;
+    border: none;
+}
+
+/* 
+.row > div {
+    margin-top:10px;
+    padding: 20px;
+    outline: 2px solid #ccc;
+    outline-offset: -10px;
+    box-shadow: -.5px -.5px 0 .5px #ccc, inset -1px -1px 0 0 #ccc;  
+    -moz-outline-radius: 10px;
+    -webkit-outline-radius: 10px;
+ }
+*/
+
+  .fundo   {  background: #e4f5fc; /* Old browsers */
+               background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);   /* FF3.6+ */
+               background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+               background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+               background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+               background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+               background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+               filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+               width: 95%; border: 1px outset;
+               margin-right: auto; margin-left: auto;
+	 }
+.texto  { color: #FFFFFF !important;   cursor: pointer;   text-shadow: 0 1px #002F2F !important; background-color: #000000; width: 100px;}
+
+.caixa .legenda {  
+    display: block;
+    padding: 0;
+    font-size: 21px;
+    line-height: 40px;
+    color: #333333;
+    background-color: #659CD8; border: 2px outset; }
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+.borda  {  outline: 1px solid red; } 
+
+ .formLogin {
+        width: 288px; height: 320px;
+        box-shadow: 12px 12px 10px #888888; 
+	z-index:1;
+	border: 7px outset;
+        background-color: #e8ab7c;
+        margin-top: 60px;
+        margin-left: auto; margin-right: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}
+
+      th { text-align: center; }
+      .bbc { width: 20px; }
+      .esquerda  {  float: left;}
+      .boxa  { font-size: 1.1em; font-weight: bold; color: red; }
+      .barra { background-color: #78cbd1; border: 2px outset;}
+       nav { margin-top: 4px; margin-bottom: 4px; }
+      .rodape { height: 50px;}
+  .fundox   {  background: #e4f5fc; /* Old browsers    #D2D7E4;*/
+/*               background: -moz-linear-gradient(top #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);  no-repeat; /* FF3.6+ */
+               background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+               background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+               background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+               background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+               background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+               filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+               width: 90%; border: 2px outset;
+	 }
+   table       { margin: 0 auto;  border-collapse: collapse; font-family: Verdana, Times, serif;  } 
+  .t_line1      {  background-color: #FFFFFF;  }
+  .t_line2      {  background-color: #CCCCCC;  }
+  .linha  { text-align: right;  }
+  .contar { background-color: red; border: 2px outset; }
+  .verde { background-color: green; border: 2px outset; }
+  ul { list-style-type: none;  margin: auto;}
+  li  { text-align: left; }
+  .padrao { width: 210px; margin-left: 5px; }
+  .centro { text-align: center; }
+  li a:hover span { width: 60%; background:#fff; visibility: visible; display: block; text-align: center;}
+  a { position: relative; text-decoration: none; }
+  a span  {  display: none;  }
+ .roda { vertical-align: top;  float: right; }
+ caption { background-color: #e4f5fc;  font-weight: bold; }  
+  .caixa_usu    { background-color: #A7CBC9; position: relative; margin:0 auto; width: 50%; font-size: 0.9em; font-weight: bold;
+                 border-radius: 7px; -moz-border-radius: 7px; -webkit-border-radius: 7px;  border: 4px outset; }  
+.caixa_sombra { box-shadow: 5px 5px 3px #888888; width:140px; padding:3px; text-align:center; font-size:12px; background:#21759b; 
+                       margin:0 auto; color:#ffffff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+q.mostrar  { display: visible; } 
+.esconder { display: none;  }
+
+	.modal-login {
+		color: #636363;
+		width: 350px;
+	}
+	.modal-login .modal-content {
+		padding: 20px;
+		border-radius: 5px;
+		border: 3px outset;
+    background-color: #E5D4B5FF;
+	}
+	.modal-login .modal-header {
+		border-bottom: none;
+		position: relative;
+		justify-content: center;
+	}
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+	.modal-login  .form-group {
+		position: relative;
+	}
+	.modal-login i {
+		position: absolute;
+		left: 13px;
+		top: 11px;
+		font-size: 18px;
+	}
+	.modal-login .form-control {
+		padding-left: 40px;
+	}
+	.modal-login .form-control:focus {
+		border-color: #00ce81;
+	}
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 40px;
+		border-radius: 3px; 
+	}
+	.modal-login .hint-text {
+		text-align: center;
+		padding-top: 10px;
+	}
+	.modal-login .close {
+        position: absolute;
+		top: -5px;
+		right: -5px;
+	}
+	.modal-login .btn {
+		background: #00ce81;
+		border: none;
+		line-height: normal;
+	}
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #00bf78;
+	}
+	.modal-login .modal-footer {
+		background: #ecf0f1;
+		border-color: #dee4e7;
+		text-align: center;
+		margin: 0 -20px -20px;
+		border-radius: 5px;
+		font-size: 13px;
+		justify-content: center;
+	}
+	.modal-login .modal-footer a {
+		color: #999;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+    

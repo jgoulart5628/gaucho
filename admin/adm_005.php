@@ -1,25 +1,30 @@
 <?php
-error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT));
-// error_reporting(E_ALL);
-ini_set('display_errors', true);
+// Alteração de Senha
+error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+//error_reporting(E_ALL);
 ini_set('date.timezone', 'America/Sao_Paulo');
-ini_set('default_charset','UTF-8');
-require_once '../inc/sessao.php';
-$sessao    = new Session; 
-include("../inc/Classes_Dados.php");
-$db = new getDados_model('MYSQL_deal');
+ini_set('memory_limit', -1);
+ini_set('default_charset', 'UTF-8');
+ini_set('display_errors', true);
+define('TABELA', 'adm_menus');
+define('ROOT', dirname(__DIR__));
+define('DS', DIRECTORY_SEPARATOR);
+require ROOT.DS.'autoload.php';
+$sessao = new sessao();
+// Banco de dados
+$db = new acesso_db('MYSQL_gaucho');
 // require("../logar.php");
-$usuario    =  $_SESSION['Deal_usuario'];
-$id_usuario =  $_SESSION['Deal_id'];
+$usuario = $_SESSION['Gaucho_usuario'];
+$id_usuario = $_SESSION['Gaucho_id'];
 //AJAX
-require_once("../xajax/xajax_core/xajax.inc.php");
+require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();
 // $xajax->configure('debug',true);
-$xajax->register(XAJAX_FUNCTION,"Lista");
-$xajax->register(XAJAX_FUNCTION,"Altera");
-$xajax->register(XAJAX_FUNCTION,"Cancela");
+$xajax->register(XAJAX_FUNCTION, 'Lista');
+$xajax->register(XAJAX_FUNCTION, 'Altera');
+$xajax->register(XAJAX_FUNCTION, 'Cancela');
 $xajax->processRequest();
-$xajax->configure('javascript URI','../xajax/');
+$xajax->configure('javascript URI', '../xajax/');
 ?>
 
 <html>
@@ -45,6 +50,7 @@ $xajax->configure('javascript URI','../xajax/');
  .entra       { color: #000088; border: 1px inset #00008D; background-color: #ADD8E0; height: 20px;}
  fieldset input:focus { border: 2px inset red;}
   </style>
+    <link rel=stylesheet href="../css/style4.css" type="text/css">
     <script type="text/javascript" src="../js/main.js"></script>
     <script type="text/javascript">
             function chamar(frm) {
@@ -58,8 +64,8 @@ $xajax->configure('javascript URI','../xajax/');
 </script>
     <?php $xajax->printJavascript('../xajax'); ?>
 </head>
-<body>
-    <script type="text/javascript">xajax_Lista('<? echo $usuario; ?>');</script>
+<body class="opaco">
+    <script type="text/javascript">xajax_Lista('<?php echo $usuario; ?>');</script>
     <div id="tela_saida"  class="dados_pag"></div>
     <br>
 </body>
@@ -67,10 +73,11 @@ $xajax->configure('javascript URI','../xajax/');
 
 <?php
 // Funcoes AJAX
-function Lista($usu) {
-   $resp = new xajaxResponse();
-   $vazio = '&nbsp;';
-   $tela  = '<form id="dados_pag" name="altpag">
+function Lista($usu)
+{
+    $resp = new xajaxResponse();
+    $vazio = '&nbsp;';
+    $tela = '<form id="dados_pag" name="altpag">
                <fieldset>
                <legend> Troca de Senha do  Usuário '.$usu.'</legend>
               <ol>
@@ -89,52 +96,68 @@ function Lista($usu) {
                  <input type="button"   class="submit" name="Cancela" value="Cancela" onclick="xajax_Cancela(); return false;">
               </fieldset>
              </form>';
-   $resp->assign("tela_saida","innerHTML", $tela);
-   $script = "document.getElementById('senha_ant').focus()";
-   $resp->script($script);
-   return $resp;
-}
+    $resp->assign('tela_saida', 'innerHTML', $tela);
+    $script = "document.getElementById('senha_ant').focus()";
+    $resp->script($script);
 
-function Cancela () {
-    $resp = new xajaxResponse();
-    $resp->redirect($_SERVER["PHP_SELF"]);
     return $resp;
 }
 
-function Altera($dados) {
-     $resp       = new xajaxResponse();
-     global  $sessao;
-     global  $db;
-     $usuario    = $dados['usuario'];
-     $senha_ant  = $dados['senha_ant'];
-     $senha      = $dados['senha'];
-     $senhax    = $dados['senhax'];
-     if ($senha_ant)  {
-        if (!$senha || !$senhax)   {  $resp->alert("É necessário preencher a senha e repetí-la");  return $resp; }
-        if ($senha !== $senhax) {  $resp->alert("As duas senha devem ser iguais, digite novamente.");  return $resp; }
-     }
-     if ($usuario )   {
-        $query       = " select senha, from adm_usuario where codigo = '$usuario' ";
-        $resul = $db->Execta_Query_Single($query);
-     }  
-//     $resp->addAlert(strtoupper($senha_ant).'-'.decode5t($resul['SENHA']).'-'.$query); return $resp;
-     if ($senha)  {
-        if (sha1($senha_ant) == $resul['senha'] ) { 
-           $senha_nova =   sha1($senha); 
-        } else { $resp->alert("Senha anterior incorreta!");   return $resp;
-         } 
-//        $resp->addAlert(strtoupper($senha_ant).'-'.decode5t($resul['SENHA'])); return $resp;
-     }
-     $query = " update adm_usuario set senha = '$senha_nova'  where usuario = '$usuario' ";
-//     $resp->addAlert($query); return $resp;
-     $e = $db->Executa_Query_SQL($query);
-     if ($e == 2) {
-        $resp->alert("Senha nao alterada! ".$query);
-     } else   
-     	{ $resp->alert("Senha Alterada! Fazer novo Login.");  session_destroy(); 
-                 $db->Executa_Query_SQL(" delete adm_sess_login where usuario = '$usuario' ");
-                 $resp->script('chamar(document.forms[0])');
-     } 
+function Cancela()
+{
+    $resp = new xajaxResponse();
+    $resp->redirect($_SERVER['PHP_SELF']);
 
-     return $resp;
+    return $resp;
+}
+
+function Altera($dados)
+{
+    $resp = new xajaxResponse();
+    global  $sessao;
+    global  $db;
+    $usuario = $dados['usuario'];
+    $senha_ant = $dados['senha_ant'];
+    $senha = $dados['senha'];
+    $senhax = $dados['senhax'];
+    if ($senha_ant) {
+        if (!$senha || !$senhax) {
+            $resp->alert('É necessário preencher a senha e repetí-la');
+
+            return $resp;
+        }
+        if ($senha !== $senhax) {
+            $resp->alert('As duas senha devem ser iguais, digite novamente.');
+
+            return $resp;
+        }
+    }
+    if ($usuario) {
+        $query = " select senha, from adm_usuario where codigo = '$usuario' ";
+        $resul = $db->Executa_Query_Single($query);
+    }
+//     $resp->addAlert(strtoupper($senha_ant).'-'.decode5t($resul['SENHA']).'-'.$query); return $resp;
+    if ($senha) {
+        if (sha1($senha_ant) == $resul['senha']) {
+            $senha_nova = sha1($senha);
+        } else {
+            $resp->alert('Senha anterior incorreta!');
+
+            return $resp;
+        }
+//        $resp->addAlert(strtoupper($senha_ant).'-'.decode5t($resul['SENHA'])); return $resp;
+    }
+    $query = " update adm_usuario set senha = '$senha_nova'  where usuario = '$usuario' ";
+//     $resp->addAlert($query); return $resp;
+    $e = $db->Executa_Query_SQL($query);
+    if ($e == 2) {
+        $resp->alert('Senha nao alterada! '.$query);
+    } else {
+        $resp->alert('Senha Alterada! Fazer novo Login.');
+        session_destroy();
+        $db->Executa_Query_SQL(" delete adm_sess_login where usuario = '$usuario' ");
+        $resp->script('chamar(document.forms[0])');
+    }
+
+    return $resp;
 }

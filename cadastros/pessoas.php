@@ -1,458 +1,329 @@
 <?php
-// cadastro e manutenção de Pessoas
-//error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT));
-error_reporting(E_ALL & ~(E_NOTICE));
-ini_set('log_errors', true);
+error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+//error_reporting(E_ALL);
 ini_set('date.timezone', 'America/Sao_Paulo');
+ini_set('memory_limit', -1);
 ini_set('default_charset', 'UTF-8');
-require_once '../inc/sessao.php';
-$sessao = new Session();
-// include("../inc/Classes_Dados.php");
-include 'ClassePessoa.php';
-$db = new ClassePessoa();
+ini_set('display_errors', true);
+define('TABELA', 'entidade');
+define('ROOT', dirname(__DIR__));
+define('DS', DIRECTORY_SEPARATOR);
+require ROOT.DS.'autoload.php';
+// Session;
+$sessao = new sessao();
+// Banco de dados
+$db = new classe_pessoa('MYSQL_gaucho');
+// XAJAX
 require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();
 // $xajax->configure('debug',true);
 $xajax->configure('errorHandler', true);
-$xajax->configure('logFile', 'xajax_error_log.log');
-$xajax->register(XAJAX_FUNCTION, 'Tela');
-$xajax->register(XAJAX_FUNCTION, 'Manut_Pessoa');
-$xajax->register(XAJAX_FUNCTION, 'Exclui_Pessoa');
-$xajax->register(XAJAX_FUNCTION, 'Manut_Endereco');
-$xajax->register(XAJAX_FUNCTION, 'Grava_Dados');
-$xajax->register(XAJAX_FUNCTION, 'Grava_Dados_Endereco');
-$xajax->register(XAJAX_FUNCTION, 'dados_cnpj_cpf');
-$xajax->register(XAJAX_FUNCTION, 'Carrega_Arquivo');
-$xajax->register(XAJAX_FUNCTION, 'Grava_Imagem');
-$xajax->register(XAJAX_FUNCTION, 'Grava_Telefones');
-$xajax->register(XAJAX_FUNCTION, 'Visualiza_Arquivo');
+$xajax->configure('logFile', 'xajax_error.log');
+$xajax->register(XAJAX_FUNCTION, 'Tela_Inicial');
+$xajax->register(XAJAX_FUNCTION, 'Manut_CRUD');
+$xajax->register(XAJAX_FUNCTION, 'valida_cpf');
+$xajax->register(XAJAX_FUNCTION, 'Excluir');
+$xajax->register(XAJAX_FUNCTION, 'Gravar');
 $xajax->register(XAJAX_FUNCTION, 'busca_cep');
-$xajax->register(XAJAX_FUNCTION, 'Retorna');
+$xajax->register(XAJAX_FUNCTION, 'Grava_Ender');
 $xajax->processRequest();
 $xajax->configure('javascript URI', '../xajax/');
-// <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/html4/loose.dtd">
-//    <script type="text/javaScript" src="../js/jquery-1.11.1.min.js" ></script>
-//    <script type="text/javascript" src="../js/jquery.magnifier.js"></script>
 ?>
 <!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-    <!-- Meta-Information -->
-    <title> Cadastro - Pessoas </title>
+<html>  
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="DEAL Software">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cadastro Pessoas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../css/Navigation-with-Search.css">
     <style>
-         .mostrar  { display: visible; } 
-         .esconder { display: none;  }
-    </style>
-    <!-- Our Website CSS Styles -->
-    <link rel="stylesheet" href="../css/main.css">
-   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script type="text/javaScript" src="../js/bootstrap.min.js" ></script> 
-    <script type="text/javaScript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
-    <script type="text/javaScript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js" ></script> 
-    <script type="text/javascript" src="../js/micoxUpload.js"></script>
-    <script type="text/javascript" src="../js/typeahead.js"></script>
-    <script type="text/javascript" src="../js/deal.js"></script>
-    <script type="text/javascript">
-      function tabela() {   
-       $('#clicli').dataTable();
-      }
-     </script>
-   <?php $xajax->printJavascript(); ?>
-</head>
+      .teste {
+         max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #bbb8c1;
+    padding: 20px;
+    border-radius: 12px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    }
+ </style>   
 
-<body style="padding-top: 10px;">
-    <div class="container-fluid   fundo" style="width: 99%;" >  
-          <div class="page-header">
-             <h3 class="text-muted centro">DEAL Software <small> Cadastro Pessoas </small></h3>
-          </div>
-         <div id="tela_manut" class="col-sm-12 mostrar" align="center"></div> 
-         <div id="tela_carga"></div> 
-         <did id="tela_alt"   class="esconder"></did>
+</head>    <?php $xajax->printJavascript('../xajax'); ?>
+ </head>
+ <body class="opaco">
+  <div class="container-fluid" style="width: 90%; padding-top: 10px;" >  
+      <div id="tela_pessoa" class="col-sm-12" style="padding: 5px 0;"></div> 
+  </div>
+  <div class="footer">
+        <span> <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>&#174; JGWeb
     </div>
-    <div class="footer">
-        <span class="glyphicon glyphicon-thumbs-up"></span>&#174; DealSw Web
-    </div>
-</body>
-   <script type="text/javaScript">xajax_Tela() </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
+   <script type="text/javaScript" src="../js/jquery.dataTables.min.js" ></script>
+   <script type="text/javaScript" src="../js/dataTables.bootstrap.js" ></script> 
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+   <script type="text/javaScript">xajax_Tela_Inicial() </script>
+ </body>
 </html>
-
 <?php
-function Tela()
-{
-    $resp = new xajaxResponse();
-    global $sessao;
-    global $db;
-    $usuario_id = $sessao->get('usuario_id');
-    $nome_resp = $sessao->get('usuario_nome');
-    $empres = $sessao->get('usuario_empresa');
-    $tela = $db->Monta_Lista_Pessoa($resp);
-    $resp->assign('tela_manut', 'className', 'mostrar');
-    $resp->assign('tela_manut', 'innerHTML', $tela);
-    $resp->script('tabela()');
-
-    return $resp;
-}
-
-function Manut_Pessoa($codigo)
+function Tela_Inicial()
 {
     $resp = new xajaxResponse();
     global $db;
-    if (!$codigo) {
-        $oper = 'I';
-    } else {
-        $oper = 'A';
+    $res = $db->Monta_lista($resp);
+    if (count($res) == 0) {
+        $resp->script('xajax_Manut_CRUD();');
+
+        return $resp;
     }
-    if ($oper === 'A') {
-        $dados_pessoa = $db->Leitura_Pessoa($codigo, $resp);
-//      $pessoa_41070   =  $db->Leitura_Endereco($codigo, $resp);
-        $tela = monta_form_pessoa($dados_pessoa, '', '', $oper, $resp);
-    } else {
-        $tela = prepara_inclui_pessoa($resp);
-    }
-    $resp->assign('tela_alt', 'className', 'mostrar');
-    $resp->assign('tela_manut', 'className', 'esconder');
-    $resp->assign('tela_alt', 'innerHTML', $tela);
-    $resp->script('pesquisa_pessoa()');
-
-    return $resp;
-}
-
-function Grava_Imagem($dados)
-{
-    $resp = new xajaxResponse();
-    global $db;
-    $arq = $dados['imagem_carga'];
-    $arqx = explode('.', $arq);
-    $tipo = $arqx[1];
-    $xcodigo = $dados['xcodigo'];
-    $xtabela = $dados['xtabela'];
-    $xcoluna = $dados['xcoluna'];
     /*
-       CREATE TABLE `pessoa_41050` (
-      `xcodigo` varchar(20) NOT NULL COMMENT 'Código',
-      `xtabela` varchar(20) NOT NULL COMMENT 'Tabela Origem',
-      `xcoluna` varchar(45) NOT NULL COMMENT 'Coluna Imagem',
-      `xseqimg` int(3) NOT NULL COMMENT 'Seq',
-      `tipoarquivo` varchar(4) DEFAULT NULL COMMENT 'Tipo Arquivo',
-      `arquivo` mediumblob DEFAULT NULL COMMENT 'Arquivo ',
-      */
-    //   $resp->alert(' Aqui! '.$tipo.' - '.print_r($dados, true));  return $resp;
-    $arquivo = __DIR__.'/tmp/'.$xcoluna;
-    //   $arquivo = 'tmp/'.$xcoluna;
-    $query = " select max(xseqimg) from pessoa_41050 where xcodigo = '$xcodigo' and xtabela = '$xtabela' and xcoluna = '$xcoluna' ;";
-    $index = $db->Proximo_Indice_Imagem($query, $resp);
-    ++$index;
-    $query = " insert into pessoa_41050 (xcodigo, xtabela, xcoluna, xseqimg, tipoarquivo , arquivo) values('$xcodigo', '$xtabela','$xcoluna', $index, '$tipo',  LOAD_FILE('$arquivo'));";
-    //   $resp->alert($query); return $resp;
-    $e = $db->Insere_Imagem($query, $resp);
-    if ($e == 2) {
-        $resp->alert('Erro na inclusão da imagem!');
+    `pessoa_id` `nome` `data_nascimento` `sexo` `entidade`
+    `docto_mtg` `validade_docto_mtg`  `cpf`  `email`  `id_altera` `data_altera`
+    */
 
-        return $resp;
-    }
-    $query = " update pessoa_41010 set $xcoluna = true where xcodigo = '$xcodigo' ";
-    $e = $db->Atualiza_Flag_Pessoa($query, $resp);
-    //   unlink($arquivo);
-    $resp->assign('tela_carga', 'className', 'esconder');
-    $resp->assign('tela_alt', 'className', 'mostrar');
-
-    return $resp;
-}
-
-function Grava_Telefones($dados)
-{
-    $resp = new xajaxResponse();
-    global $db;
-    $codigo = limpaCPF_CNPJ($dados['xcodigo']);
-    if (!$dados['xsequenciafone']) {
-        $seq = 1;
-    } else {
-        $seq = $dados['xsequenciafone'];
-    }
-    $dados_telefone = $db->Leitura_Telefones($codigo, $seq, $resp);
-    if (!empty($dados_telefone)) {
-        $query = monta_update($dados, $dados_telefone, 'pessoa_41090');
-    } else {
-        $query = monta_insert($dados, 'pessoa_41090');
-    }
-    $e = $db->Atualiza_Pessoa($query, $resp);
-    if ($e == 2) {
-        $resp->alert('Erro na atualização do telefone.'.$query);
-    } else {
-        $resp->alert('Telefone gravado!');
-    }
-
-    return $resp;
-}
-
-/**
- * Grava_Dados_endereco
- *
- * @param mixed dados
- *
- * @return void
- */
-function Grava_Dados_endereco($dados)
-{
-    $resp = new xajaxResponse();
-    global $db;
-    $codigo = limpaCPF_CNPJ($dados['xcodigo']);
-    if (!$dados['xsequenciaendereco']) {
-        $seq = 1;
-    } else {
-        $seq = $dados['xsequenciaendereco'];
-    }
-    $dados_endereco = $db->Leitura_Endereco($codigo, $xseq, $resp);
-    if (!empty($dados_endereco)) {
-        $query = monta_update($dados, $dados_endereco, 'pessoa_41070');
-    } else {
-        $query = monta_insert($dados, 'pessoa_41070');
-    }
-    $e = $db->Atualiza_Pessoa($query, $resp);
-    if ($e == 2) {
-        $resp->alert('Erro na atualização do endereço.'.$query);
-    } else {
-        $resp->alert('Endereço gravado!');
-    }
-
-    return $resp;
-}
-
-function Grava_Dados($dados, $oper)
-{
-    $resp = new xajaxResponse();
-    global $db;
-    //   array_shift($dados);
-    if ($dados['representante']) {
-        $xx = explode('-', $dados['representante']);
-        $dados['representante'] = $xx[0];
-    }
-    if ($dados['creditoresponsavelavaliacao']) {
-        $xx = explode('-', $dados['creditoresponsavelavaliacao']);
-        $dados['creditoresponsavelavaliacao'] = $xx[0];
-    }
-    if ($dados['creditoresponsavelvenda']) {
-        $xx = explode('-', $dados['creditoresponsavelvenda']);
-        $dados['creditoresponsavelvenda'] = $xx[0];
-    }
-    if ($dados['semvencimentoate']) {
-        if (($dados['semvencimentoate'] < 1) || ($dados['semvencimentoate'] > 31)) {
-            $resp->alert('Vencimento deve estar entre o primeiro e ultimo  dia do mes.');
-
-            return $resp;
-        }
-    }
-    if ($dados['semvencimentodesde']) {
-        if (($dados['semvencimentodesde'] < 1) || ($dados['semvencimentodesde'] > 31)) {
-            $resp->alert('Vencimento deve estar entre o primeiro e ultimo  dia do mes.');
-
-            return $resp;
-        }
-    }
-    //   $tabs           =  $db->Meta_Tabela('pessoa_41010', $resp);
-    if ($oper === 'A') {
-        $codigo = limpaCPF_CNPJ($dados['xcodigo']);
-        $dados_pessoa = $db->Leitura_Pessoa($codigo, $resp);
-        $query = monta_update($dados, $dados_pessoa, 'pessoa_41010');
-//      $resp->alert($query.'  aqui'); return $resp;
-        $e = $db->Atualiza_Pessoa($query, $resp);
-    } else {
-        $query = monta_insert($dados, 'pessoa_41010');
-        $e = $db->Atualiza_Pessoa($query, $resp);
-    }
-    if ($e == 2) {
-        $resp->alert('Verifique os dados! '.$e);
-
-        return $resp;
-    }
-    $resp->assign('tela_carga', 'className', 'esconder');
-    $resp->assign('tela_alt', 'className', 'esconder');
-    $resp->script('xajax_Tela()');
-
-    return $resp;
-}
-
-function monta_insert($dados, $tabela)
-{
-    $coluna = [];
-    $contem = [];
-    $dados['xcodigo'] = limpaCPF_CNPJ($dados['xcodigo']);
-    $query = ' insert into  '.$tabela.'  (';
-    foreach ($dados as $tit => $cont) {
-        if ($cont) {
-            $coluna[] .= $tit;
-            $contem[] .= $cont;
-        }
-    }
-    for ($a = 0; $a < count($coluna); ++$a) {
-        $query .= $coluna[$a].' , ';
-    }
-    $query = rtrim($query, ' , ');
-    $query .= ')  values(';
-
-    for ($a = 0; $a < count($coluna); ++$a) {
-        $query .= "'$contem[$a]' , ";
-    }
-    $query = rtrim($query, ' , ');
-    $query .= ');';
-
-    return $query;
-}
-
-function monta_update($dados, $dados_pessoa, $tabela)
-{
-    $dados['xcodigo'] = limpaCPF_CNPJ($dados['xcodigo']);
-    $dados_pessoa['xcodigo'] = limpaCPF_CNPJ($dados_pessoa['xcodigo']);
-    $query = ' update '.$tabela.'  set ';
-    $coluna = [];
-    $contem = [];
-    $colunax = [];
-    $contemx = [];
-    $xx = 0;
-    foreach ($dados as $tit => $cont) {
-        $coluna[] .= $tit;
-        $contem[] .= $cont;
-    }
-
-    foreach ($dados_pessoa as $tit => $cont) {
-        $colunax[] .= $tit;
-        $contemx[] .= $cont;
-    }
-    $queryw = ' where ';
-    for ($a = 0; $a < count($coluna); ++$a) {
-        if (substr($coluna[$a], 0, 1) == 'x') {
-            $queryw .= $coluna[$a].'  =  \''.$contem[$a].'\' and ';
-        }
-        if ((substr($coluna[$a], 0, 1) !== 'x') && ($contem[$a])) {
-            $z = array_search($coluna[$a], $colunax);
-            //        if ($coluna[$a] == $colunax[$a]) {
-            if ($z) {
-                if (trim($contem[$a]) !== trim($contemx[$z])) {
-                    $query .= $coluna[$a].'  =  \''.$contem[$a].'\' , ';
-                    ++$xx;
-                }
+    $tela = '<div class="container-fluid table-responsive teste">
+               <h3 class="text-muted centro"> Cadastro Pessoas </h3>
+               <table  class="table table-striped table-bordered table-sm">
+                    <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Nova Pessoa</button>
+                  <thead class="table-dark">  
+                     <tr>
+                        <th style="text-align: center;">Alt/Exc.</th> 
+                        <th style="text-align: center;">Nome Pessoa</th>
+                        <th style="text-align: center;">CPF</th>
+                        <th style="text-align: center;">Data Nascimento</th>
+                        <th style="text-align: center;">Entidade</th>
+                       </tr style="text-align: center;"></thead><tbody>';
+    if (is_array($res)) {
+        $tt = count($res);
+        for ($a = 0; $a < $tt; ++$a) {
+            $id = $res[$a]['pessoa_id'];
+            $nome = $res[$a]['nome'];
+            if ($res[$a]['cpf'] > 0) {
+                $cpf = mask($res[$a]['cpf'], '###.###.###-##');
+            } else {
+                $cpf = '';
             }
+            $dt_nasc = $res[$a]['data_nascimento'];
+            $ent = $res[$a]['entidade'];
+            $entidade = Combo_Entidade($ent, 'P', $resp);
+            $tela .= '<tr> 
+                     <td><input type="image" src="../img/edit-icon.png" border="0" width="24" height="24" data-toggle="tooltip" data-placement="bottom" title="Altera/Exclui registro da Entidade" onclick="xajax_Manut_CRUD('.$id.',\'A\'); return false;"> '.$id.'</td>
+                     <td>'.$nome.'</td>
+                     <td>'.$cpf.'</td>
+                     <td>'.date('d/m/Y', strtotime($dt_nasc)).'</td>
+                     <td>'.$entidade.'</td>
+                  </tr>';
         }
-        //    }
     }
-    $queryb .= rtrim($queryw, ' and ');
-    $queryx .= rtrim($query, ' , ');
-    $queryx .= $queryb;
-    if ($xx == 0) {
-        $queryx = '';
+    $tela .= '</tbody></table></div>';
+    $resp->assign('tela_pessoa', 'innerHTML', $tela);
+
+    return $resp;
+}
+function Manut_CRUD($id, $oper)
+{
+    $resp = new xajaxResponse();
+    global $db;
+    global $sessao;
+    $id_altera = $sessao->get('Gaucho_id');
+//    $resp->alert('Aqui :'.$login.' - '.$id_altera.' - '.$usuario);
+
+    if ($oper !== 'I') {
+        $res = $db->Ler_Registro($id, $resp);
+        $pessoa_id = $res['pessoa_id'];
+        $nome = $res['nome'];
+        $data_nascimento = $res['data_nascimento'];
+        $sexo = $res['sexo'];
+        $entidade = $res['entidade'];
+        $docto_mtg = $res['docto_mtg'];
+        $validade_docto_mtg = $res['validade_docto_mtg'];
+        $cpf = mask($res['cpf'], '###.###.###-##');
+        $email = $res['email'];
+        $sexo = $res['sexo'];
+        $checkM = '';
+        $checkF = '';
+        if ($sexo == 'F') {
+            $checkF = 'checked="true"';
+        }
+        if ($sexo == 'M') {
+            $checkM = 'checked="true"';
+        }
+    } else {
+        $pessoa_id = $db->Busca_Proximo_ID($resp);
+        $nome = '';
+        $data_nascimento = '';
+        $sexo = '';
+        $entidade = '';
+        $docto_mtg = '';
+        $validade_docto_mtg = '';
+        $cpf = '';
+        $email = '';
     }
 
-    return $queryx;
-}
-
-function prepara_inclui_pessoa($resp)
-{
-    global $db;
-    $tela = '<form id="prep_inclui" name="prep_inclui">
-              <div class="row">
-              <div class="col-sm-12">
-                <div class="form-group col-sm-2">
-                   <b>Tipo Id :</b>'.$db->combo_geral('pessoa_41010', 'tipoidentificacao', '', $resp).'
-               </div>
-               <div class="form-group col-sm-2"">
-                  <b>Código :</b><input type="text" class="form-control" name="xcodigo" id="xcodigo" value="" >
-               </div>
-               <div id="retorno"></div>
-            </div>
-             <div class="row">
-               <div class="form-group col-sm-12">
-                 <div class="form-group col-sm-4">
-                 <button type="submit" class="btn btn-primary" onclick="xajax_Retorna(); return false;">Desiste e Retorna</button>
-                 <button type="submit" class="btn btn-primary" onclick="xajax_dados_cnpj_cpf(xajax.getFormValues(\'prep_inclui\')); return false;">Valida e Continua</button></div>
-               </div>
-            </div></div></form>';
-
-    return $tela;
-}
-
-function monta_form_pessoa($dados_pessoa = '', $xcodigo = '', $tipo = '', $oper, $resp)
-{
-    global $db;
-    //   $resp->alert(print_r($dados_pessoa,true).' Aqui'); return $resp;
-    if ($oper === 'A') {
-        $label = 'Altera';
+    if ($oper == 'I') {
+        $opera = 'Incluir';
+        $label = 'Gravar';
         $rd = 'readonly';
     } else {
-        $label = 'Inclusão';
-//      $chars             = array(".","/","-");
-//      $xcodigo            = str_replace($chars,"",$dados_pessoa['cnpj']);
-        $dados_pessoa['xcodigo'] = $xcodigo;
-        $dados_pessoa['tipoidentificacao'] = $tipo;
-
-        $dados_pessoa['nomepessoa'] = $dados_pessoa['nome'];
-//        $dados_pessoa['fantasia']           =  $dados_pessoa['fantasia'];
-        $dados_pessoa['naturezajuridicapessoa'] = $dados_pessoa['natureza_juridica'];
-        $dados_pessoa['emailinstitucional'] = $dados_pessoa['email'];
-        $rd = '';
+        $opera = 'Alterar';
+        $label = 'Altera';
     }
-
-    // TODO:  Criar funções para as abas em function separadas
-//    enctype="multipart/form-data"
-    $tela .= '<div class="col-md-12">
-               <div class="panel with-nav-tabs panel-secondary">
-                 <div class="panel-heading">
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#aba1" data-toggle="tab">Dados Básicos</a></li>
-                            <li><a href="#aba2" data-toggle="tab">Dados CRM </a></li>
-                            <li><a href="#aba3" data-toggle="tab">Endereços </a></li>
-                            <li><a href="#aba4" data-toggle="tab">Telefones </a></li>
-                            <li><a href="#aba5" data-toggle="tab">Outros</a></li>
-                        </ul>
-                       <button type="submit" class="btn btn-primary" onclick="xajax_Grava_Dados(xajax.getFormValues(\'dados_tela_pessoa\'),\''.$oper.'\'); return false;">Gravar os Dados '.$label.'</button>
-                       <button type="submit" class="btn btn-warning" onclick="xajax_Retorna(); return false;">Desiste e Retorna</button>
-                 </div>
-                 <div class="panel-body" style="background-color: #7FDBFF;">
-                     <div class="tab-content">
-                        <div class="tab-pane fade in active"  id="aba1"><h4>Dados Básicos</h4>
-                        <form id="dados_tela_pessoa" name="dados_tela_pessoa"  role="form" method="post">';
-    // painel dados básicos
-    $tela .= $db->tela_dados_principal($dados_pessoa, $rd, $resp);
-    $tela .= '</div>
-                      <div class="tab-pane fade" id="aba2"><h4>Dados CRM</h4>';
-    $tela .= $db->tela_dados_CRM($dados_pessoa, $resp);
-    $tela .= '</form></div>
-                       <div class="tab-pane fade" id="aba3"><h4>Endereços</h4>
-                        <form id="dados_tela_endereco" name="dados_tela_endereco"  role="form" method="post">';
-    $xcodigo = $dados_pessoa['xcodigo'];
-    $pessoa_41070 = $db->Leitura_Endereco($xcodigo, '', $resp);
-//                        $resp->alert(print_r($pessoa_41070,true).'aqui'); return $resp;
-    $tela .= $db->tela_dados_endereco($pessoa_41070, $xcodigo, $resp);
-    $tela .= '</form></div>
-                      <div class="tab-pane fade" id="aba4"><h4>Telefones</h4>
-                        <form id="dados_tela_telefones" name="dados_tela_telefones"  role="form" method="post">';
-    $xcodigo = $dados_pessoa['xcodigo'];
-    $pessoa_41090 = $db->Leitura_Telefones($xcodigo, '', $resp);
-    $tela .= $db->tela_dados_telefones($pessoa_41090, $xcodigo, $resp);
-    $tela .= '</form></div>
-                      <div class="tab-pane fade" id="aba5"><h4>Dados Adicionais</h4></div>
+    /*
+    `pessoa_id` `nome` `data_nascimento` `sexo` `entidade`
+    `docto_mtg` `validade_docto_mtg`  `cpf`  `email`  `id_altera` `data_altera`
+    */
+    $tela = '<div class="col-md-12 teste">
+              <h3 style="align-top: 1px; text-align="center"> Cadastro Pessoas </h3>
+              <form name="tela_pessoa" method="POST">
+                   <input type="hidden" name="pessoa_id" value="'.$pessoa_id.'">
+                   <input type="hidden" name="id_altera" value="'.$id_altera.'">
+                   <input type="hidden" name="oper" value="'.$oper.'">
+                   <div class="row">
+                     <div class="col-sm-4">
+                        <label for="nome">Nome : </label>
+                        <input class="form-control" type="text" name="nome" id="nome" value="'.$nome.'" required="required">
+                     </div>   
+                     <div class="col-sm-3">
+                        <label for="nome">Data nascimento : </label>
+                        <input class="form-control" type="date" name="data_nascimento" id="data_nascimento" value="'.$data_nascimento.'" required="required">
+                     </div>   
+                     <div class="col-sm-3">
+                          <label for="sexo">Sexo:</label>
+                          <div class="custom-control custom-radio">
+                            <input type="radio" class="form-control-input" name="sexo" value="M" '.$checkM.'> Masc
+                            <input type="radio" class="form-control-input" name="sexo" value="F" '.$checkF.'> Fem.
+                          </div>  
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                     <div class="col-sm-3">
+                      <label for="entidade">Afiliação :  </label>
+                      '.Combo_Entidade($entidade, '', $resp).'
+                     </div>   
+                     <div class="col-sm-3">
+                       <label for="docto_mtg">Documento MTG : </label>
+                       <input class="form-control" type="text" name="docto_mtg" id="docto_mtg" value="'.$docto_mtg.'">
                      </div>
+                     <div class="col-sm-3">
+                       <label for="validade_docto_mtg">Val. Doc. MTG : </label>
+                       <input class="form-control" type="date" name="validade_docto_mtg" id="validade_docto_mtg" value="'.$validade_docto_mtg.'">
+                     </div>
+                   </div>
+                   <br>  
+                   <div class="row">
+                     <div class="col-sm-3">
+                        <label for="cpf">C.P.F. : </label>
+                        <input class="form-control" type="text" name="cpf" id="cpf" value="'.$cpf.'" placeholder="000.000.000-00" onchange="xajax_valida_cpf(xajax.getFormValues(\'tela_pessoa\')); return false;">
+                     </div>
+                     <div class="col-sm-3">
+                       <label for="email">Email : </label>
+                       <input class="form-control" type="email" name="email" id="email" value="'.$email.'">
+                     </div>
+                   </div>
+                   <br>
+                <br>';
+    $tela .= '<div class="row">
+                 <div class="col-sm-3">
+                   <button type="submit"  class="btn btn-lg btn-block btn-primary" onclick="xajax_Gravar(xajax.getFormValues(\'tela_pessoa\')); return false;">'.$label.'</button>
                  </div>
-               </div>
-            </div>';
+                 <div class="col-sm-3">  
+                   <button type="submit"  class="btn btn-lg btn-block btn-danger" onclick="xajax_Excluir(\''.$pessoa_id.'\'); return false;">Exclui</button>
+                 </div>
+                 <div class="col-sm-3">  
+                  <button type="submit"  class="btn btn-lg btn-block btn-success" onclick="xajax_Tela_Inicial(\''.$pessoa_id.'\'); return false;">Cancela</button>
+                </div>
+              </div>
+            </form></div>';
 
-    return $tela;
+    $script = "$(document).ready(function(){
+                $('#cpf').mask('000.000.000-00');
+              });";
+    $resp->script($script);
+    $resp->assign('tela_pessoa', 'innerHTML', $tela);
+
+    return $resp;
 }
+
+function Excluir($id)
+{
+    $resp = new xajaxResponse();
+    global $db;
+    $resp->confirmCommands(1, " Confirma exclusão do Registro ($id) ? ");
+    $db->Excluir_Registro($id, $resp);
+    $resp->script('xajax_Tela_inicial()');
+
+    return $resp;
+}
+
+function Gravar($dados)
+{
+    $resp = new xajaxResponse();
+    $oper = $dados['oper'];
+//    $resp->alert('Aqui - '.print_r($dados, true));
+    if (!$dados['nome']) {
+        $resp->alert('Nome da Pessoa!');
+
+        return $resp;
+    }
+    global $db;
+    if ($oper == 'A') {
+        $ret = $db->Alterar_Registro($dados, $resp);
+    } else {
+        $ret = $db->Incluir_Registro($dados, $resp);
+    }
+    $resp->script('xajax_Tela_Inicial();');
+
+    return $resp;
+}
+function limpaCPF($valor)
+{
+    $valor = trim($valor);
+    $valor = str_replace('.', '', $valor);
+    $valor = str_replace(',', '', $valor);
+    $valor = str_replace('-', '', $valor);
+    $valor = str_replace('/', '', $valor);
+
+    return $valor;
+}
+ function valida_cpf($dados)
+ {
+     $resp = new xajaxResponse();
+     $xcodigo = $dados['cpf'];
+     if (!$xcodigo) {
+         $resp->alert('Digite o código, por facor!');
+
+         return $resp;
+     }
+     if ($xcodigo > 0) {
+         $retorna = shell_exec('curl -X GET https://www.receitaws.com.br/v1/cpf/'.$xcodigo);
+         $saida = object_to_array(json_decode($retorna));
+         $status = $saida['status'];
+         $msg = $saida['message'];
+         if ($status == 'ERROR') {
+             $resp->alert($msg);
+
+             return $resp;
+         }
+     }
+
+     return $resp;
+ }
+ function object_to_array($object)
+ {
+     if (is_object($object)) {
+         return array_map(__FUNCTION__, get_object_vars($object));
+     } elseif (is_array($object)) {
+         return array_map(__FUNCTION__, $object);
+     } else {
+         return $object;
+     }
+ }
 
 function mask($val, $mask)
 {
@@ -477,250 +348,30 @@ function mask($val, $mask)
 
     return $maskared;
 }
-
-function Carrega_Arquivo($xcodigo, $xtabela, $xcoluna)
+function Combo_Entidade($entidade, $tipo, $resp)
 {
-    $resp = new xajaxResponse();
-    $arq_imagem = 'tmp/'.$xcoluna;
-    $tela = '<form id="carga_img" name="carga_img" enctype="multipart/form-data" role="form" method="post">
-              <fieldset style="border: 2px outset">
-             <input type="hidden" name="xcodigo" id="xcodigo" value="'.$xcodigo.'">
-             <input type="hidden" name="xtabela" id="xcoluna" value="'.$xtabela.'">
-             <input type="hidden" name="xcoluna" id="xcoluna" value="'.$xcoluna.'">
-             <div class="row">
-               <div class="col-sm-12">
-                 <div class="form-group col-sm-4">
-                   <label for="arquivo">Escolha o arquivo de imagem:<label><input type="file" class="form-control"  id="imagem_carga" name="imagem_carga" onchange="micoxUpload(this.form,\'carga_arq.php?name='.$arq_imagem.'\',\'recebe_up_3\',\'Carregando...\',\'Erro ao carregar\')" >
-                   <div id="recebe_up_3" class="recebe"></div>
-                 </div>  
-                 <div class="form-group col-sm-3">
-                   <button type="submit" class="btn btn-primary" onclick="xajax_GraFGrava_Imagem(xajax.getFormValues(\'carga_img\')); return false;">Carregar!</button>
-                   <button type="submit" class="btn btn-primary" onclick="xajax_Rotorna(); return false;">Desiste e  Retorna</button>
-                </div>   
-               </div>
-              </div>  
-           </fieldset>
-          </form>';
-
-    //   global $db;
-    $resp->assign('tela_alt', 'className', 'esconder');
-    $resp->assign('tela_carga', 'className', 'mostrar');
-    $resp->assign('tela_carga', 'innerHTML', $tela);
-    //   $resp->alert('Por enquanto, está em teste '.$xcodigo.' - '.$xcoluna);
-    return $resp;
-}
-/*
-CREATE TABLE `pessoa_41050` (
-  `xcodigo` varchar(20) NOT NULL COMMENT 'Código',
-  `xtabela` varchar(20) NOT NULL COMMENT 'Tabela Origem',
-  `xcoluna` varchar(45) NOT NULL COMMENT 'Coluna Imagem',
-  `xseqimg` int(3) NOT NULL COMMENT 'Seq',
-  `tipoarquivo` varchar(4) DEFAULT NULL COMMENT 'Tipo Arquivo',
-  `arquivo` mediumblob DEFAULT NULL COMMENT 'Arquivo ',
-  PRIMARY KEY (`xcodigo`,`xtabela`,`xcoluna`,`xseqimg`)
-*/
-function Visualiza_Arquivo($xcodigo, $xtabela, $xcoluna)
-{
-    $resp = new xajaxResponse();
-    //   if (is_file($temp)) { $resp->assign("div_$xcoluna", "innerHTML", ''); unlink($temp); return $resp; }
     global $db;
-    $query = " select max(xseqimg) ind, tipoarquivo from pessoa_41050  where xcodigo = '$xcodigo'  and xtabela = '$xtabela' and xcoluna = '$xcoluna' group by tipoarquivo ";
-    $dados_imagem = $db->Busca_Dados_Imagem($query, $resp);
-    $tipo = $dados_imagem['tipoarquivo'];
-    $temp = 'tmp/'.$xcoluna.'.'.$tipo;
-    $query = " select arquivo from pessoa_41050  where xcodigo = '$xcodigo' and xtabela = '$xtabela' and xcoluna = '$xcoluna' ";
-    //   $query = " select imagem, max(indice) ind, tipo from pessoa_41010_img  where xcodigo = '$xcodigo' and xcoluna = '$xcoluna' ";
-    $imagem = $db->Busca_Imagem($query, $resp);
-    //   $resp->alert('Aqui '.$query.'-'.print_r($img, true)); return $resp;
-    //   $tipo  = trim($img['tipo']);
-    if ($imagem) {
-        $fh = fopen($temp, 'w');
-        fwrite($fh, $imagem);
-        fclose($fh);
-//       $tipo  = shell_exec('sudo file '.$temp);
-//       $resp->alert($tipo);  return $resp;
-        list($larg, $alt) = getimagesize($temp);
-        if ($larg > 128) {
-            $larg = 128;
-        }
-        if ($alt > 128) {
-            $alt = 128;
-        }
-        switch ($tipo) {
-          case 'gif':
-          case 'jpg':
-          case 'jpeg':
-          case 'png':  $tela_imagem = '<img src="'.$temp.'" id="'.$xcoluna.'" class="magnify" width="'.$larg.'"  height="'.$alt.'">'; break;
-          default: $tela_imagem = '<a href="'.$temp.'" id="'.$xcoluna.'" >Abrir Arquivo</a>';
-       }
-    } else {
-        $tela_imagem = 'Deu pobrema';
+    if ($tipo == 'P') {
+        $nome_entidade = $db->Busca_Entidade($entidade, $resp);
+
+        return '<input type="text" class="form-control" name="entidade" value="'.$nome_entidade.'" readonly>';
     }
-    //   $resp->alert("Aqui ".$tela_imagem." div_$coluna");
-    $resp->assign("div_$xcoluna", 'innerHTML', $tela_imagem);
-    //   $resp->script("jQuery($xcoluna).imageMagnify({ magnifyby: 3 })");
-    return $resp;
-}
 
-function object_to_array($object)
-{
-    if (is_object($object)) {
-        return array_map(__FUNCTION__, get_object_vars($object));
-    } elseif (is_array($object)) {
-        return array_map(__FUNCTION__, $object);
-    } else {
-        return $object;
+    if (!$entidade) {
+        $entidade = 0;
     }
-}
+    $res = $db->Monta_lista_Entidades($entidade, $resp);
+    // $ret = print_r($res, true);    return $ret;
 
-function dados_cnpj_cpf($dados)
-{
-    $resp = new xajaxResponse();
-    $xcodigo = $dados['xcodigo'];
-    $tipo = $dados['tipoidentificacao'];
-    if (!$xcodigo) {
-        $resp->alert('Digite o código, por facor!');
-
-        return $resp;
+    $ret = '<select class="form-control" name="entidade" id="entidade">
+             <option value="0" class="form-control">Escolha a Entidade: </option>';
+    for ($i = 0; $i < count($res); ++$i) {
+        $id = $res[$i]['entidade_id'];
+        $nome_entidade = $res[$i]['nome_entidade'];
+        $sel = $res[$i]['sel'];
+        $ret .= '<option value="'.$id.'" '.$sel.' class="form-control"> '.$nome_entidade.' </option> ';
     }
-    if (!$tipo) {
-        $resp->alert('Escolha um tipo de Identificação.');
+    $ret .= '</select> ';
 
-        return $resp;
-    }
-    if ($tipo == 3) {
-        if ($xcodigo > 0) {
-            $retorna = shell_exec('curl -X GET https://www.receitaws.com.br/v1/cnpj/'.$xcodigo);
-            $saida = object_to_array(json_decode($retorna));
-            $status = $saida['status'];
-            $msg = $saida['message'];
-            if ($status == 'ERROR') {
-                $resp->alert($msg);
-
-                return $resp;
-            }
-        }
-    }
-    if ($tipo == 20) {
-        if ($xcodigo > 0) {
-            $teste = validaCPF($xcodigo);
-//          $saida   =  array(tipo => $tipo, codigo => $xcodigo);
-            if (!$teste) {
-                $resp->alert('Número de CPF inválido. Verifique!');
-
-                return $resp;
-            }
-        }
-    }
-    //   $resp->alert(print_r($saida, true)); return $resp;
-    $tela = monta_form_pessoa($saida, $xcodigo, $tipo, 'I', $resp);
-    $resp->assign('tela_alt', 'className', 'mostrar');
-    $resp->assign('tela_manut', 'className', 'esconder');
-    $resp->assign('tela_alt', 'innerHTML', $tela);
-    $resp->script('pesquisa_pessoa()');
-
-    return $resp;
-}
-
- function validaCPF($cpf = null)
- {
-     // Verifica se um número foi informado
-     if (empty($cpf)) {
-         return false;
-     }
-
-     // Elimina possivel mascara
-     $cpf = preg_replace('/[^0-9]/', '', $cpf);
-     $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT);
-
-     // Verifica se o numero de digitos informados é igual a 11
-     if (strlen($cpf) != 11) {
-         return false;
-     }
-     // Verifica se nenhuma das sequências invalidas abaixo
-     // foi digitada. Caso afirmativo, retorna falso
-     elseif ($cpf == '00000000000' ||
-    $cpf == '11111111111' ||
-    $cpf == '22222222222' ||
-    $cpf == '33333333333' ||
-    $cpf == '44444444444' ||
-    $cpf == '55555555555' ||
-    $cpf == '66666666666' ||
-    $cpf == '77777777777' ||
-    $cpf == '88888888888' ||
-    $cpf == '99999999999') {
-         return false;
-     // Calcula os digitos verificadores para verificar se o
-   // CPF é válido
-     } else {
-         for ($t = 9; $t < 11; ++$t) {
-             for ($d = 0, $c = 0; $c < $t; ++$c) {
-                 $d += $cpf[$c] * (($t + 1) - $c);
-             }
-             $d = ((10 * $d) % 11) % 10;
-             if ($cpf[$c] != $d) {
-                 return false;
-             }
-         }
-
-         return true;
-     }
- }
-
-function busca_cep($dados)
-{
-    $resp = new xajaxResponse();
-    $cep = $dados['cep'];
-    $resul = file_get_contents('http://republicavirtual.com.br/web_cep.php?cep='.urlencode($cep).'&formato=query_string');
-    if (!$resul) {
-        $resp->alert('Falha ao buscar o CEP');
-
-        return $resp;
-    }
-    $ret = utf8_decode(urldecode($resul));
-    parse_str($ret, $retx);
-//    $ret = explode('&', (urldecode($resul)));
-//    $cct = array();
-    if (substr($retx['resultado_txt'], 0, 7) == 'sucesso') {
-        $dados['uf'] = $retx['uf'];
-        $dados['bairro'] = $retx['bairro'];
-        $dados['logradouro'] = $retx['logradouro'];
-    } else {
-        $resp->alert('Cep inválido, verifique');
-    }
-    $resp->assign('uf', 'value', $retx['uf']);
-    $resp->assign('bairro', 'value', $retx['bairro']);
-    $resp->assign('logradouro', 'value', $retx['logradouro']);
-//     $resp->alert(print_r($dados, true).' aqui - ');
-    return $resp;
-}
-
-function limpaCPF_CNPJ($valor)
-{
-    $valor = trim($valor);
-    $valor = str_replace('.', '', $valor);
-    $valor = str_replace(',', '', $valor);
-    $valor = str_replace('-', '', $valor);
-    $valor = str_replace('/', '', $valor);
-
-    return $valor;
-}
-
-function Retorna()
-{
-    $resp = new xajaxResponse();
-    $resp->assign('tela_carga', 'className', 'esconder');
-    $resp->assign('tela_alt', 'className', 'esconder');
-    $resp->assign('tela_manut', 'className', 'mostrar');
-    $resp->script('tabela()');
-
-    return $resp;
-}
-function Exclui_Pessoa($codigo)
-{
-    $resp = new xajaxResponse();
-    //   global $db;
-    $resp->alert('Por enquanto, nao estaremos excluindo nenhum registro deste cadastro.');
-
-    return $resp;
+    return $ret;
 }
