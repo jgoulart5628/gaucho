@@ -48,6 +48,19 @@ $xajax->configure('javascript URI', '../xajax/');
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/main.css">
+    <style>
+      .nova_tela {
+         max-width: 90%;
+         width: 90%;
+         margin: 0 auto;
+         background-color: #bbb8c1;
+         padding: 20px;
+         border-radius: 12px;
+         color: #505e6c;
+         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+      }
+     </style>   
+
     <script type="text/javascript" src="../js/modernizr.js"></script>
     <script type="text/javaScript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javaScript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -59,17 +72,13 @@ $xajax->configure('javascript URI', '../xajax/');
 </head>
 <body class="opaco">
     <form name="tela" id="tela" method="post">
-    <div class="container-fluid   fundo" style="width: 80%;" >  
-          <div class="page-header">
-             <h3 class="text-muted centro"> Cadastro Rotinas <small>JGWeb Software </small></h3>
-          </div>
-          <div id="tela_dados" align="center"></div> 
-          <div id="consulta" ></div>
-        <div class="footer fundo">
-        <span class="glyphicon glyphicon-thumbs-up"></span>&#174; JGWeb
-        </div>
-    </div>
-    </form>    
+    <div class="container-fluid" style="width: 80%; padding-top: 10px;" >  
+          <div id="tela_dados"></div> 
+    </div>     
+    <div class="footer">
+       <span class="glyphicon glyphicon-thumbs-up"></span>&#174; JGWeb
+     </div>
+   </form>    
 </body>
    <script type="text/javaScript" src="../js/jquery-1.11.1.min.js" ></script>
    <script type="text/javaScript" src="../js/jquery.dataTables.min.js" ></script>
@@ -85,41 +94,33 @@ function Tela()
     $query = ' Select * From adm_rotinas order by 2 ';
     $id = 0;
     $rset = $db->Executa_Query_Array($query);
-    $tela = '<div class="row>
-                  <div class="col-lg-12">
-                       <button type="submit" class="btn btn-primary" onclick="xajax_Alterar('.$id.'); return false;">Incluir nova rotina</button>
-                       <h3>  Rotinas </h3>
-                  </div>';
-
-    $tela .= '<div class="form-group">
-                <table id="clicli" data-toggle="table" class="table table-striped table-bordered"  data-sort-name="empresa" data-sort-order="desc">
+    $tela = '<div class="container-fluid table-responsive nova_tela"
+                <h3 class="text-muted centro"> Cadastro Rotinas</h3>
+                <button type="submit" class="btn btn-primary" onclick="xajax_Alterar('.$id.'); return false;">Incluir nova rotina</button>
+                <h3>  Rotinas </h3>
+                <table id="tabclas" data-toggle="table" class="table table-striped table-bordered">
        	        <thead><tr>	
-                  <th data-field="rotina"   data-sortable="true"> Nome Rotina </th>
-                  <th data-field="func"     data-sortable="true"> Funcionalidade </th>
-                  <th data-field="caminho"  data-sortable="true"> Servidor Web </th>
+                  <th> Nome Rotina </th>
+                  <th> Funcionalidade </th>
+                  <th> Servidor Web </th>
                 </tr></thead><tbody>';
 //    $resp->alert('Aqui'.count($rset)); return $resp;
     if (count($rset) > 0) {
         $i = 0;
         foreach ($rset as $res):
-        if ($i == 0 || fmod($i, 2) == 0) {
-            $classe = 'class="t_line1"';
-        } else {
-            $classe = 'class="t_line2"';
-        }
-        $rotina = $res['rotina'];
-        $id = $res['id'];
-        $func = $res['funcionalidade'];
-        $caminho = $res['caminho_http'];
-        $tela .= '<tr '.$classe.'>
-                    <td data-field="rotina" align="center" data-sortable="true"><input type="submit" class="btn" value="'.$rotina.'" onclick="xajax_Alterar('.$id.'); return false;"></td>
-                    <td data-field="func"   align="left"   data-sortable="true">'.$func.'</td>
-                    <td data-field="caminho" align="left" data-sortable="true">'.$caminho.'</td>
+           $rotina = $res['rotina'];
+           $id = $res['id'];
+           $func = $res['funcionalidade'];
+          $caminho = $res['caminho_http'];
+          $tela .= '<tr>
+                    <td><input type="submit" class="btn" value="'.$rotina.'" onclick="xajax_Alterar('.$id.'); return false;"></td>
+                    <td>'.$func.'</td>
+                    <td>'.$caminho.'</td>
                  </tr>';
         ++$i;
         endforeach;
     }
-    $tela .= '</tbody></table>';
+    $tela .= '</tbody></table></div><div id="consulta" ></div>';
     $resp->assign('tela_dados', 'innerHTML', $tela);
     $resp->script('tabela()');
 
@@ -154,7 +155,8 @@ function monta_form($id, $resp)
         $rd = '';
         $oper = 'I';
     }
-    $tela = '<div class="row">
+    $tela = ' <div class="col-sm-12 nova_tela"
+                <div class="row">
                  <div class="col-sm-12">
                    <div class="form-group col-sm-2">
                      <label for="rotina">Nome Rotina</label>
@@ -173,11 +175,10 @@ function monta_form($id, $resp)
                 <div class="form-group col-sm-12">
                    <input type="hidden" name="oper" value="'.$oper.'">
                    <input type="hidden" name="id" value="'.$id.'">
-                   <button type="submit" class="btn btn-primary"  onclick="xajax_Gravar(xajax.getFormValues(\'tela\')); return false;">Gravar</button>
-                   <button type="submit" class="btn btn-primary"  onclick="xajax_Tela(); return false;">Desistir</button>
-                   <button type="submit" class="btn btn-primary"  onclick="xajax_Excluir('.$id.',\''.$rotina.'\');return false;">Excluir</button>
-                </div>';
-
+                   <button type="submit" class="btn btn-lg btn-primary"  onclick="xajax_Gravar(xajax.getFormValues(\'tela\')); return false;">Gravar</button>
+                   <button type="submit" class="btn btn-lg btn-primary"  onclick="xajax_Tela(); return false;">Desistir</button>
+                   <button type="submit" class="btn btn-lg btn-primary"  onclick="xajax_Excluir('.$id.',\''.$rotina.'\');return false;">Excluir</button>
+                </div></div>';
     return $tela;
 }
 

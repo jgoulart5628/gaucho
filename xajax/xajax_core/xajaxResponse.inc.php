@@ -79,10 +79,10 @@ class xajaxResponse
     
     // sorry but this config is static atm
     private $sContentType = 'application/json'; //'text/xml';
+    private  $sResponseType;
     
     /*
     Constructor: xajaxResponse
-        
     Create and initialize a xajaxResponse object.
     */
     public function __construct()

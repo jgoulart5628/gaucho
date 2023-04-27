@@ -50,7 +50,8 @@ final class xajaxResponseManager
     Array: aDebugMessages
     */
     private $aDebugMessages;
-    
+    private $aSettings = array();
+
     /*
     Function: xajaxResponseManager
         

@@ -1,7 +1,7 @@
 <?php
-// cadastro e manutenção de Menus
-error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
-//error_reporting(E_ALL);
+// Liberação de menus por Usuário
+// error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+error_reporting(E_ALL);
 ini_set('date.timezone', 'America/Sao_Paulo');
 ini_set('memory_limit', -1);
 ini_set('default_charset', 'UTF-8');
@@ -14,10 +14,10 @@ $sessao = new sessao();
 // Banco de dados
 $db = new acesso_db('MYSQL_gaucho');
 require_once '../xajax/xajax_core/xajax.inc.php';
-$xajax = new xajax();
-//$xajax->configure('debug',true);
+$xajax = new xajax();   
+//$xajax->configure('deb    ug',true);
 $xajax->configure('errorHandler', true);
-$xajax->configure('logFile', 'xajax_error_log.log');
+$xajax->configure('logFile', 'xajax_error.log');
 $xajax->register(XAJAX_FUNCTION, 'Tela');
 $xajax->register(XAJAX_FUNCTION, 'Monta_Menus_Usuario');
 $xajax->register(XAJAX_FUNCTION, 'Atualiza_Permissao');
@@ -37,7 +37,7 @@ $xajax->configure('javascript URI', '../xajax/');
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
     <!-- Meta-Information -->
-    <title> Cadastro - Menus </title>
+    <title> Liberação- Menus - Usuários </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="JGWeb Software">
@@ -52,6 +52,19 @@ $xajax->configure('javascript URI', '../xajax/');
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/main.css">
+    <style>
+      .nova_tela {
+         max-width: 90%;
+         width: 90%;
+         margin: 0 auto;
+         background-color: #bbb8c1;
+         padding: 20px;
+         border-radius: 12px;
+         color: #505e6c;
+         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+      }
+     </style>   
+
     <script type="text/javascript" src="../js/modernizr.js"></script>
     <script type="text/javaScript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javaScript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -83,8 +96,8 @@ $xajax->configure('javascript URI', '../xajax/');
 </head>
 <body class="opaco">
   <form name="tela" id="tela" method="post">
-       <div class="container-fluid fundo">
-         <h3 class="text-muted centro">Liberações Menus<small> JGWeb Software</small></h3>
+       <div class="container-fluid nova_tela">
+         <h3 class="text-muted centro">Liberações Menus</h3>
          <div class="col-sm-12"> 
            <div class="row">
              <div class="col-sm-6">
@@ -153,9 +166,11 @@ function Exclui_Menu_Usuario($usu, $prog)
 function Monta_Menus_Usuario($dados)
 {
     $resp = new xajaxResponse();
-    if (substr($dados, 0, 1) === 'X') {
-        $dad = explode('-', $dados);
-        $id_usu = $dad[1];
+    if (!is_array($dados)) {
+       if (substr($dados, 0, 1) === 'X') {
+          $dad = explode('-', $dados);
+          $id_usu = $dad[1];
+       }   
     } else {
         $id_usu = $dados['id_usu'];
     }

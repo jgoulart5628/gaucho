@@ -37,10 +37,22 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link href="../css/style4.css" rel="stylesheet" type="text/css" />
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nova_tela {
+         max-width: 90%;
+         width: 90%;
+         margin: 0 auto;
+         background-color: #bbb8c1;
+         padding: 20px;
+         border-radius: 12px;
+         color: #505e6c;
+         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+      }
+     </style>   
     <?php $xajax->printJavascript('../xajax'); ?>
 </head>
 <body class="opaco">
-  <div class="container-fluid">
+  <div class="container-fluid nova_tela">
      <form id="tela" name="tela" class="border border-success rounded-sm">
        <div class="col-sm-12"> 
            <div class="row">

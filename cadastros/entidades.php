@@ -331,6 +331,15 @@ function tela_endereco($entidade_id = 0, $nome_entidade = '', $oper, $resp)
 
         return $resp;
     }
+    $tipo_end = 0;
+    $logradouro = '';
+    $numero = '';
+    $complemento = '';
+    $bairro = '';
+    $distrito = '';
+    $cidade = '';
+    $cep = '';
+    $uf = '';
     $ends = $end->Monta_Lista($entidade_id, $resp);
     if ($oper == 'A') {
         for ($i = 0; $i < count($ends); ++$i) {
@@ -346,17 +355,7 @@ function tela_endereco($entidade_id = 0, $nome_entidade = '', $oper, $resp)
             $cep = $ends[$i]['cep'];
             $uf = $ends[$i]['uf'];
         }
-    } else {
-        $tipo_end = 0;
-        $logradouro = '';
-        $numero = '';
-        $complemento = '';
-        $bairro = '';
-        $distrito = '';
-        $cidade = '';
-        $cep = '';
-        $uf = '';
-}
+    }
     $tela = '<div class="tab-pane fade in" id="aba2"><h4>Endereços</h4>
                 <form id="tela_endereco" name="tela_endereco"  role="form" method="POST">
                    <input type="hidden" name="oper" value="'.$oper.'">
