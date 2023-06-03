@@ -1,0 +1,11 @@
+.tela_nova {
+    max-width: 99%;
+    width: 99%;
+    margin: 0 auto;
+    background-color: #bbb8c1;
+    padding: 10px;
+    border-radius: 12px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+} 
+#abas li a { border:solid 1px blue; }

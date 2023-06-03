@@ -13,8 +13,8 @@ require ROOT.DS.'autoload.php';
 // Session;
 $sessao = new sessao();
 // Banco de dados
-$db = new classe_entidade('MYSQL_gaucho');
-$end = new classe_endereço('MYSQL_gaucho');
+$db = new classe_entidade(DB);
+$end = new classe_endereço(DB);
 // XAJAX
 require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();
@@ -37,29 +37,19 @@ $xajax->configure('javascript URI', '../xajax/');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Cadastro Entidades</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bs5/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bs3/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" type="text/css" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/Navigation-with-Search.css">
     <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../css/tela_nova.css">
     <style>
         .mostrar  { display: visible; } 
         .esconder { display: none;  }
-        .teste {
-         max-width: 90%;
-         width: 90%;
-         margin: 0 auto;
-         background-color: #bbb8c1;
-         padding: 20px;
-         border-radius: 12px;
-         color: #505e6c;
-         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-      }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type="text/javascript">
     function tabela() {  
         $('#tabclas').dataTable( 
@@ -74,16 +64,16 @@ $xajax->configure('javascript URI', '../xajax/');
 </head>    <?php $xajax->printJavascript('../xajax'); ?>
  </head>
  <body class="opaco">
-    <div class="container-fluid" style="width: 90%; padding-top: 10px;" >  
-         <div id="tela_entidade" class="col-sm-12" style="padding: 5px 0;"></div> 
+    <div class="container-fluid" style="padding-top: 10px;" >  
+         <div id="tela_entidade" class="col-xs-12" style="padding: 5px 0;"></div> 
     </div>
     <div class="footer">
     <span> <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>&#174; JGWeb
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
-    <script type="text/javaScript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-    <script type="text/javaScript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" ></script>
+    <script type="text/javaScript" src="../js/jquery.min.js"></script>
+    <script type="text/javaScript" src="../js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javaScript" src="../js/jquery.dataTables.min.js"></script>
+    <script type="text/javaScript" src="../js/dataTables.bootstrap4.min.js" ></script>
    <script type="text/javaScript">xajax_Tela_Inicial() </script>
  </body>
 </html>
@@ -94,7 +84,7 @@ function Tela_Inicial()
     global $db;
     $res = $db->Monta_lista($resp);
 
-    $tela = '<div class="container-fluid table-responsive teste">
+    $tela = '<div class="container-fluid table-responsive tela_nova">
               <h3 class="text-muted centro"> Cadastro Entidades</h3>
                  <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Nova Entidade</button>
                  <table  id="tabclas" data-toggle="table" class="table table-striped table-bordered">
@@ -149,7 +139,7 @@ function Tela_Inicial()
 "resp2","varchar(100)","YES","","",""
 "email_resp2","varchar(50)","YES","","",""
 "telefone_resp2","varchar(50)","YES","","",""
-"data_fundação","date","YES","","",""
+"data_funda","date","YES","","",""
 "RT","varchar(3)","YES","","",""
 "matricula","int(5)","YES","","",""
 */
@@ -169,12 +159,12 @@ function Manut_CRUD($id, $oper)
         $resp2 = $res['resp2'];
         $email_resp2 = $res['email_resp2'];
         $telefone_resp2 = $res['telefone_resp2'];
-        $data_fundação = $res['data_fundação'];
+        $data_funda = $res['data_funda'];
         $RT = $res['RT'];
         $matricula = $res['matricula'];
         $invern = $db->Busca_Invernadas($entidade_id, $resp);
         $resul = $db->Tipo_Invernada($resp);
-        $inver = '<b>Invernadas: ';
+        $inver = '';
         $invernada = array();
         for ($i = 0; $i < count($invern); ++$i) {
 //            $invernada[] .= $invern[$i]['tipo_invernada'];
@@ -188,7 +178,8 @@ function Manut_CRUD($id, $oper)
             } else {
                 $check = '';
             }
-            $inver .= '&nbsp;&nbsp;&nbsp;<input type="checkbox"  name="invern'.$i.'" value="'.$tipo.'" '.$check.'>&nbsp;'.$descri;
+            $inver .= '<div class="col-sm-2 form-check"><input type="checkbox" class="form-check-input" name="invern'.$i.'" id="invern'.$i.'" value="'.$tipo.'" '.$check.'>
+            <label class="form-check-label" for="invern'.$i.'">'.$descri.'</label></div>';
         }
     } else {
         $entidade_id = $db->Busca_Proximo_ID($resp);
@@ -204,15 +195,16 @@ function Manut_CRUD($id, $oper)
         $resp2 = '';
         $email_resp2 = '';
         $telefone_resp2 = '';
-        $data_fundação = '';
+        $data_funda = '';
         $RT = '';
         $matricula = 0;
         $res = $db->Tipo_Invernada($resp);
-        $inver = '<b>Invernadas: ';
+        $inver = '';
         for ($i = 0; $i < count($res); ++$i) {
             $tipo = $res[$i]['tipo'];
             $descri = $res[$i]['titulo'];
-            $inver .= '&nbsp;&nbsp;&nbsp;<input type="checkbox"  name="invern'.$i.'" value="'.$tipo.'" >&nbsp;'.$descri;
+            $inver .= '<div class="col-sm-2 form-check"><input type="checkbox" class="form-check-input" name="invern'.$i.'" id="invern'.$i.'" value="'.$tipo.'" '.$check.'>
+            <label class="form-check-label" for="invern'.$i.'">'.$descri.'</label></div>';
         }
     }
 
@@ -226,15 +218,15 @@ function Manut_CRUD($id, $oper)
     }
 //    $resp->alert('Aqui...- '.print_r($invernada, true));    return $resp;
     // tela de abas                   <div class="panel-body" style="background-color: #7FDBFF;">
-    $tela = '<div class="col-md-12">
-                <div class="panel with-nav-tabs panel-secondary teste">
+    $tela = '<div class="col-xs-12">
+                <div class="panel with-nav-tabs panel-secondary  tela_nova">
                   <div class="panel-heading">
                      <ul class="nav nav-tabs">
                         <li class="active"><a href="#aba1" data-toggle="tab">Dados Básicos</a></li>
                         <li><a href="#aba2" data-toggle="tab">Endereços </a></li>
                      </ul>
                   </div>
-                  <div class="panel-body">                     
+                  <div class="panel-body">
                    <div class="tab-content">
                     <div class="tab-pane fade in active"  id="aba1"><h4>Dados Básicos</h4>
                      <form id="tela_entidade" name="tela_entidade"  role="form" method="POST">';
@@ -245,7 +237,7 @@ function Manut_CRUD($id, $oper)
                      <div class="col-sm-2">
                        <label for="sigla">Sigla: </label>
                        <input class="form-control" type="text" name="sigla" id="sigla" value="'.$sigla.'" required="required">
-                     </div>   
+                     </div>
                      <div class="col-sm-4">
                         <label for="nome_entidade">Nome da Entidade : </label>
                         <input class="form-control" type="text" name="nome_entidade" id="nome_entidade" value="'.$nome_entidade.'" required="required">
@@ -262,8 +254,8 @@ function Manut_CRUD($id, $oper)
                         <input class="form-control" type="text" name="RT" id="RT" value="'.$RT.'" >
                     </div>   
                     <div class="col-sm-4">
-                       <label for="data_fundação">Data de Fundação : </label>
-                       <input class="form-control" type="date" name="data_fundação" id="data_fundação" value="'.$data_fundação.'" required="required">
+                       <label for="data_funda">Data de Fundação : </label>
+                       <input class="form-control" type="date" name="data_funda" id="data_funda" value="'.$data_funda.'" required="required">
                     </div>   
                     <div class="col-sm-3">
                        <label for="matricula">Matricula MTG : </label>
@@ -276,12 +268,12 @@ function Manut_CRUD($id, $oper)
                        <label for="resp1">Nome Prim. Resp. (Patrão): </label>
                        <input class="form-control" type="text" name="resp1" id="resp1" value="'.$resp1.'">
                      </div>   
-                     <div class="col-sm-3">
-                       <label for="email_resp1">Email do Primeiro Responśavel : </label>
+                     <div class="col-sm-4">
+                       <label for="email_resp1">Email do Prim. Resp.: </label>
                        <input class="form-control" type="email" name="email_resp1" id="email_resp1" value="'.$email_resp1.'">
                      </div>
                      <div class="col-sm-3">
-                       <label for="telefone_resp1">Telefone do Primeiro Responśavel : </label>
+                       <label for="telefone_resp1">Fone Prim. Resp.: </label>
                        <input class="form-control" type="text" name="telefone_resp1" id="telefone_resp1" value="'.$telefone_resp1.'" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}"
                        <small>Formato: DDD-99999-9999</small>
                      </div>
@@ -292,28 +284,29 @@ function Manut_CRUD($id, $oper)
                      <input class="form-control" type="text" name="resp2" id="resp2" value="'.$resp2.'">
                     </div>   
                     <div class="col-sm-3">
-                      <label for="email_resp2">Email do Segundo Responśavel : </label>
+                      <label for="email_resp2">Email Segundo Resp.: </label>
                       <input class="form-control" type="email" name="email_resp2" id="email_resp2" value="'.$email_resp2.'">
                     </div>
                     <div class="col-sm-3">
-                      <label for="telefone_resp2">Telefone do Segundo Responśavel : </label>
+                      <label for="telefone_resp2">Fone Segundo Resp.: </label>
                       <input class="form-control" type="text" name="telefone_resp2" id="telefone_resp2" value="'.$telefone_resp2.'">
                     </div>
                    </div>
                    <br>
                 <div class="row">
-                   <div class="col-sm-8">'.$inver.'</div>
+                  <label for="invernadas">Invernadas: </label>
+                  <div class="col-sm-8">'.$inver.'</div>
                 </div>
                 <br>';
     $tela .= '<div class="row">
                  <div class="col-sm-3">
-                   <button type="submit"  class="btn btn-lg btn-primary" onclick="xajax_Gravar(xajax.getFormValues(\'tela_entidade\')); return false;">'.$label.'</button>
+                   <button type="submit"  class="btn btn-lg btn-block btn-primary" onclick="xajax_Gravar(xajax.getFormValues(\'tela_entidade\')); return false;">'.$label.'</button>
                  </div>
                  <div class="col-sm-3">  
-                   <button type="submit"  class="btn btn-lg btn-danger" onclick="xajax_Excluir(\''.$entidade_id.'\'); return false;">Exclui</button>
+                   <button type="submit"  class="btn btn-lg btn-block btn-danger" onclick="xajax_Excluir(\''.$entidade_id.'\'); return false;">Exclui</button>
                  </div>
                  <div class="col-sm-3">  
-                  <button type="submit"  class="btn btn-lg btn-success" onclick="xajax_Tela_Inicial(\''.$id.'\'); return false;">Cancela</button>
+                  <button type="submit"  class="btn btn-lg btn-block btn-success" onclick="xajax_Tela_Inicial(\''.$id.'\'); return false;">Cancela</button>
                 </div>
               </div></form></div>';
 //            $pessoa_41070 = $db->Leitura_Endereco($xcodigo, '', $resp);

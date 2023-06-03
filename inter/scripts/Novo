@@ -1,0 +1,60 @@
+define('ROOT', dirname(__DIR__));
+   define('DS', DIRECTORY_SEPARATOR);
+   include(ROOT.DS.'autoload.php');
+   // Banco de dados   Classe name = nome da tabela
+  $db = new acesso_db('MYSQL_curso');
+  $arq = '../lista_30257808973_plus.m3u';
+  $a = 0;
+  $b = 0;
+// if ($file = fopen($arq, "r")) {
+        while (!feof($file)) {
+            $line = fgets($file, 256);
+            $a++;
+            if ($a > 10) { exit; }
+            if ($a > 1) {
+                if (substr($line, 0, 1) == '#') {
+                    $grupo = busca_grupo($canal, $site);
+                   if ($b > 0) {
+                       if ($grupo !== 'Excluir') {
+                          $query = " insert into canais_alt values(null, '$grupo', '$canal', '$site', 0) ";
+//                          $e = $db->Executa_Query_SQL($query);
+                          echo $grupo.' - '.$canal.' - '.$site.'</br>';
+                       }
+                    }
+                    $xx = explode(',', $line);
+                    $canal  = addslashes(rtrim($xx[1], "\x0a"));
+                } else {
+                    $site = rtrim($line, "\x0a");
+                    $b = 1;
+                }
+            }
+        }
+        fclose($file);
+    }
+
+function busca_grupo($canal, $site)  {
+   // movie
+    if (substr($canal,0,1) == '[')  {
+       return 'Excluir';
+    }
+   if (strpos($site, 'movie') > 0 ) {
+       return 'Excluir';
+   }
+   if (strpos($site, 'series') > 0 ) {
+       return 'Excluir';
+   }
+
+   if (strpos($canal, ' HD') > 0 ) {
+       return 'HD';
+   }
+   if (strpos($canal, 'FHD') > 0 ) {
+       return 'FHD';
+   }
+   if (strpos($canal, ' SD') > 0 ) {
+       return 'SD';
+   }
+   if (strpos($canal, ' 4K') > 0 ) {
+       return '4K';
+   }
+   return 'Excluir';
+}

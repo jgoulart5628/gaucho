@@ -1,0 +1,17 @@
+** xajax Error Log - Apr 30 2023 09:58:12 PM **
+
+----
+[WARNING] Undefined variable $msg
+Error on line 149 of file /AUX/www/gaucho/templates/contato.php
+
+
+** xajax Error Log - May  3 2023 08:25:01 PM **
+
+----
+[WARNING] Undefined array key "asunto"
+Error on line 135 of file /AUX/www/gaucho/templates/contato.php
+----
+[UNKNOWN: 8192] mail(): Passing null to parameter #2 ($subject) of type string is deprecated
+Error on line 156 of file /AUX/www/gaucho/templates/contato.php
+
+

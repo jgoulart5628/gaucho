@@ -1,0 +1,40 @@
+include("../inc/Classes_Dados.php");
+$db = new getDados_model('MYSQL_deal');
+// $val = file('../Cria_Base/DeparaTabelas.XXX');
+$val = file('../Cria_Base/deparajson.jsv');
+$a =0;
+// print_r($val);
+
+foreach ($val as $linha)  {
+    $linha = strtolower($linha);
+    $vv = explode(';', $linha);
+    $json    = trim($vv[0]);
+    $tabela = trim($vv[1]);
+    $desc   = str_replace("\n", '', $vv[2]);
+//    echo $json.' - '.$tabela.' - '.$desc.'</p> ';
+    $query = "select  tabela, coluna, valida  from adm_valida where valida like '%Json%' ";
+    $resul = $db->Executa_Query_Array($query);
+    if (count($resul) > 0) {
+        for($a = 0; $a < count($resul); $a++) {
+            $tab =  $resul[$a]['tabela']; 
+            $col =  $resul[$a]['coluna']; 
+            $val =  $resul[$a]['valida']; 
+//            $nval  = str_replace($json, $tabela, $val);
+            $nval  = 'tabela '.$tabela; 
+            $existe = $db->Executa_Query_Unico("select count(*) conta from adm_valida  where tabela = '$tab' and coluna = '$col' ");
+            if ($existe > 0) { 
+                $query = "update adm_valida set valida = '$nval' where tabela = '$tab' and coluna = '$col' ;";
+            } else {
+               $qq  = " select ordinal_position  from information_schema.`COLUMNS` where TABLE_SCHEMA = 'deal' and table_name = '$tab' and COLUMN_NAME = '$col' ";
+               $ordem = $db->Executa_Query_Unico($qq);
+              $query = "insert into adm_valida values('$tab' , '$col', $ordem,  '$nval' ) ;";
+            }
+//           $db->Executa_Query_SQL($query);
+            echo $query.'</p> ';
+       }
+    } 
+//   $query = " ALTER TABLE $tabela COMMENT='$desc' " ;
+//   $db->Executa_Query_SQL($query);
+//   $query =  " update adm_valida set valida =  '$valida' where tabela = '$vv[0]' and coluna = '$col' ;";
+//   echo $query.'</p> ';
+}

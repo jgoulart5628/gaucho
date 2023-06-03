@@ -22,7 +22,7 @@
     */
    error_reporting(E_ALL);
 
-class classe_endereço extends acesso_db
+class classe_endereço extends banco_Dados
 {
     private $tabela = 'endereço';
     private $end_id;
@@ -39,7 +39,7 @@ class classe_endereço extends acesso_db
 
     public function __construct($nome)
     {
-        $this->db = new acesso_db($nome);
+        $this->db = new banco_Dados($nome);
     }
 
     public function Monta_lista($entidade_id, $resp = '')

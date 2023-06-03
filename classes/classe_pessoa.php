@@ -17,7 +17,7 @@ CREATE TABLE `pessoas` (
     */
    error_reporting(E_ALL);
 
-class classe_pessoa extends acesso_db
+class classe_pessoa extends banco_Dados
 {
     private $tabela = 'pessoas';
     private $key = 'pessoa_id';
@@ -36,7 +36,7 @@ class classe_pessoa extends acesso_db
 
     public function __construct($nome)
     {
-        $this->db = new acesso_db($nome);
+        $this->db = new banco_Dados($nome);
     }
 
     public function Monta_lista($resp = '')
@@ -103,9 +103,7 @@ class classe_pessoa extends acesso_db
         $entidade = $dados_tela['entidade'];
         $docto_mtg = $dados_tela['docto_mtg'];
         $validade_docto_mtg = $dados_tela['validade_docto_mtg'];
-        if (!$validade_docto_mtg) {
-            $validade_docto_mtg = '0000-00-00';
-        }
+//        if (!$validade_docto_mtg) { $validade_docto_mtg = '0000-00-00';  }
         $cpf = limpaCPF($dados_tela['cpf']);
         $email = $dados_tela['email'];
         $id_altera = $dados_tela['id_altera'];

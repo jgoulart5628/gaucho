@@ -1,0 +1,40 @@
+include("../inc/Classes_Dados.php");
+$db = new getDados_model('MYSQL_deal');
+// $sql = " select * from adm_anvisa  order by 1 ";
+//  $resul = $db->Executa_Query_Array($sql);
+echo count($resul).'  Oi </br>';	
+$id = 1;
+for ($a = 0; $a < count($resul); $a++) {
+   if ($resul[$a]['id']  == 0)   { 
+      $nome_comercial = $resul[$a]['nome_comercial'];
+      $numero_registro_cadastro = $resul[$a]['numero_registro_cadastro'];
+      $qq = " update adm_anvisa set id = $id where numero_registro_cadastro = $numero_registro_cadastro and nome_comercial = '$nome_comercial' ";   
+      $x  = $db->Executa_Query_SQL($qq);
+      $id++;
+   }
+     echo $x.' - '.$id.'</br>';	
+}
+
+/*
+$spswd = hash("md5",'Banagalore440');
+$sql = " SELECT 
+               pswd
+	      FROM sec_users 
+	      WHERE login = 'jscusia' ";
+//		AND pswd = '$spswd' ";
+//  echo $sql;
+$resul = $db->Executa_Query_Unico($sql);
+echo $resul.'</br>';	
+echo $spswd;	
+$val = file('../admin/validar.csv');
+$a =0;
+foreach ($val as $linha)  {
+  $linha = strtolower($linha);
+  $vv = explode(';', $linha);
+  $cod =  ltrim($vv[1], '0');
+  $tipo =  $vv[2];
+//  echo $vv[0].'-'.$cod.'-'.$tipo.'</p> ';
+  $query =  " update pessoa_41010 set tipopessoa = $tipo where xcodigo = '$cod' ;";
+  echo $query.'</p> ';
+} 
+*/

@@ -1,17 +1,13 @@
-<html>
-<header>
-    <title> Erro </title>
-</header>
-<body>
 <?php
-    error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+//    error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+    error_reporting(E_ALL);
     //parametros do erro
     $tipo   = urldecode($_GET['tipo']);
     $msg    = urldecode($_GET['msg']);
     $sql    = urldecode($_GET['sql']); 
     //usuario
-if (isset($_SESSION['Deal_usuario'])) {
-    $usu    = strtoupper($_SESSION['Deal_usuario']);
+if (isset($_SESSION['Gaucho_usuario'])) {
+    $usu    = strtoupper($_SESSION['Gaucho_usuario']);
 } else { $usu = 'Anônimo'; 
 }   
     //dados da sessao
@@ -23,8 +19,8 @@ if (isset($_SESSION['Deal_usuario'])) {
     $txt    = $sql;
 
     $from     = "Erro <joao_goulart@jgoulart.eti.br>";
-    $to       = "Erro <suporte@dealsw.biz";
-    $subj     = "Controle de Erros - DealSW";
+    $to       = "Erro <joao_goulart@jgoulart.eti.br";
+    $subj     = "Controle de Erros - JGWeb SW";
 
     $body     = '<html><head></head><body>
                    <p>O usuário: '.$usu.'
@@ -37,11 +33,16 @@ if (isset($_SESSION['Deal_usuario'])) {
       $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
       $headers .= "From: $from";
-       mail($to, $subj, $body, $headers);
+      mail($to, $subj, $body, $headers);
 ?>
+<html>
+<header>
+    <title> Erro </title>
+</header>
+<body>
 <div style="width:100%; height:50px; background:#FFFF99; vertical-align:top; line-height:60px;" >
     &nbsp;
-    <img src="/NewDeal/img/alerta_erro.gif" width="40px" height="40px"/>
+    <img src="/gaucho/img/alerta_erro.gif" width="40px" height="40px"/>
     &nbsp;
     Atenção! <?php echo($tipo);?>
 </div>

@@ -1,0 +1,8 @@
+20:59:31|http://localhost/gaucho/cadastros/eventos.php?|::1|SQLSTATE[42883]: Undefined function: 7 ERROR:  function nvl(integer, integer) does not exist
+LINE 1:  select nvl(max(evento_id + 1) ,1) as num  from evento 
+                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.| select nvl(max(evento_id + 1) ,1) as num  from evento 
+20:59:54|http://localhost/gaucho/cadastros/eventos.php?|::1|SQLSTATE[42883]: Undefined function: 7 ERROR:  function nvl(integer, integer) does not exist
+LINE 1:  select nvl(max(evento_id + 1) ,1) as num  from evento 
+                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.| select nvl(max(evento_id + 1) ,1) as num  from evento 

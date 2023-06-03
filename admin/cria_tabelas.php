@@ -187,11 +187,11 @@ function Gera_Insert($arqx)
         if (!$cnpj || $cnpj == 'NÃO TEM') {
             $cnpj = 0;
         }
-        $data_fundação = date('Y-m-d', strtotime($data[5]));
-        //       $resp->alert(print_r($data, true).' passei aqui'.$cnpj.'-'.$data_fundação.'-'.$email_resp1);       return $resp;
+        $data_funda = date('Y-m-d', strtotime($data[5]));
+        //       $resp->alert(print_r($data, true).' passei aqui'.$cnpj.'-'.$data_funda.'-'.$email_resp1);       return $resp;
 
-        $ins = "insert into $tabela  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values($data[0],$data[1],$data[2],$data[3],$cnpj, '$data_fundação',$data[10],$email_resp1,$data[12],$data[0]) ;".PHP_EOL;
+        $ins = "insert into $tabela  (entidade_id, sigla, nome_entidade, RT, cnpj, data_funda, telefone_resp1, email_resp1, resp1, matricula) 
+                 values($data[0],$data[1],$data[2],$data[3],$cnpj, '$data_funda',$data[10],$email_resp1,$data[12],$data[0]) ;".PHP_EOL;
         fwrite($fh, $ins);
     }
 
@@ -235,7 +235,7 @@ function Gera_Insert($arqx)
             $logradouro = '""';
         }
 
-        //       $resp->alert(print_r($data, true).' passei aqui'.$cnpj.'-'.$data_fundação.'-'.$email_resp1);       return $resp;
+        //       $resp->alert(print_r($data, true).' passei aqui'.$cnpj.'-'.$data_funda.'-'.$email_resp1);       return $resp;
 
         $ins = "insert into endereço (end_id, tipo_end, logradouro, cep, uf, cidade) 
                  values($end_id, $tipo_end, $logradouro, $data[7], $data[9], $data[8]) ;".PHP_EOL;

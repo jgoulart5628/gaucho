@@ -5,3 +5,7 @@ spl_autoload_register(
         include_once $_SERVER['DOCUMENT_ROOT'] . '/gaucho/classes/' . $className . '.php';
     }
 );
+$cc = $_SERVER['DOCUMENT_ROOT'] . '/gaucho/admin/config/banco.ini';
+$cfg = parse_ini_file($cc, true);
+$banco = $cfg['CONECTA']['banco'];
+define('DB', $banco);

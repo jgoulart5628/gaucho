@@ -1,0 +1,15 @@
+define('DS', DIRECTORY_SEPARATOR);
+define('D1', '://');
+$msgx = 'Teste';
+$sql = 'Select tudo from todo mundo'; 
+if ($_SERVER['SCRIPT_NAME'] == '/gaucho/inter/index.php') {
+ $arq = '/gaucho/admin/erro.php'; } else {
+ $arq = '../admin/erro.php'; }
+echo( '<script>
+               var myWin  = window.open("'.$arq.'?tipo=Erro de SQL.&msg='.$msgx.'&sql='.$sql.'", "Erro.", "status = 1, height = 400, width = 500, resizable = 0, scrollbars=1" );
+                 myWin.focus();
+                </script>');
+
+// $arq = $_SERVER['DOCUMENT_ROOT'] . DS;
+// echo ROOT_PATH;
+//echo $arq;

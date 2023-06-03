@@ -12,7 +12,7 @@ require ROOT.DS.'autoload.php';
 // Session;
 $sessao = new sessao();
 // Banco de dados
-$db = new classe_pessoa('MYSQL_gaucho');
+$db = new classe_pessoa(DB);
 // XAJAX
 require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();
@@ -39,25 +39,13 @@ $xajax->configure('javascript URI', '../xajax/');
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../css/tela_nova.css">
     <link rel="stylesheet" href="../css/Navigation-with-Search.css">
-    <style>
-      .teste {
-         max-width: 90%;
-    width: 90%;
-    margin: 0 auto;
-    background-color: #bbb8c1;
-    padding: 20px;
-    border-radius: 12px;
-    color: #505e6c;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-    }
- </style>   
-
 </head>    <?php $xajax->printJavascript('../xajax'); ?>
  </head>
  <body class="opaco">
-  <div class="container-fluid" style="width: 90%; padding-top: 10px;" >  
-      <div id="tela_pessoa" class="col-sm-12" style="padding: 5px 0;"></div> 
+  <div class="container-fluid" style="padding-top: 10px;" >  
+      <div id="tela_pessoa" class="col-xs-15" style="padding: 5px 0;"></div> 
   </div>
   <div class="footer">
         <span> <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>&#174; JGWeb
@@ -77,8 +65,7 @@ function Tela_Inicial()
     global $db;
     $res = $db->Monta_lista($resp);
     if (count($res) == 0) {
-        $resp->script('xajax_Manut_CRUD();');
-
+        $resp->script("xajax_Manut_CRUD(0,\'I\');");
         return $resp;
     }
     /*
@@ -86,7 +73,7 @@ function Tela_Inicial()
     `docto_mtg` `validade_docto_mtg`  `cpf`  `email`  `id_altera` `data_altera`
     */
 
-    $tela = '<div class="container-fluid table-responsive teste">
+    $tela = '<div class="container-fluid table-responsive tela_nova">
                <h3 class="text-muted centro"> Cadastro Pessoas </h3>
                <table  class="table table-striped table-bordered table-sm">
                     <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Nova Pessoa</button>
@@ -177,7 +164,7 @@ function Manut_CRUD($id, $oper)
     `pessoa_id` `nome` `data_nascimento` `sexo` `entidade`
     `docto_mtg` `validade_docto_mtg`  `cpf`  `email`  `id_altera` `data_altera`
     */
-    $tela = '<div class="col-md-12 teste">
+    $tela = '<div class="col-xs-15 tela_nova">
               <h3 style="align-top: 1px; text-align="center"> Cadastro Pessoas </h3>
               <form name="tela_pessoa" method="POST">
                    <input type="hidden" name="pessoa_id" value="'.$pessoa_id.'">

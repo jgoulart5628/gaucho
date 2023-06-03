@@ -12,7 +12,7 @@ define('DS', DIRECTORY_SEPARATOR);
 require ROOT.DS.'autoload.php';
 $sessao = new sessao();
 // Banco de dados
-$db = new acesso_db('MYSQL_gaucho');
+$db = new banco_Dados(DB);
 // require("../logar.php");
 $usuario = $_SESSION['Gaucho_usuario'];
 $id_usuario = $_SESSION['Gaucho_id'];

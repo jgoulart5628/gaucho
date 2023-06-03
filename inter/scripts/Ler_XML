@@ -1,0 +1,17 @@
+/*
+$reader = new XMLReader();
+if (!$reader->open("../xmltv.php")) {
+    die("Não abriu arquivo  'xmltv.php'");
+}
+
+while($reader->read()) {
+  if ($reader->nodeType == XMLReader::ELEMENT && $reader->name == 'channel') {
+    $nome = $reader->getAttribute('display-name');
+   echo $nome;
+}
+}
+$reader->close();
+*/
+
+$xml=simplexml_load_file("../xmltv.php") or die("Error: Cannot create object");
+print_r($xml);

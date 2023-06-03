@@ -1,0 +1,47 @@
+.familia-clean {
+  background: #98b6cf;  
+  padding: 20px 0;
+}
+
+.galeria {
+  background: #98b6cf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+@media (max-width:800px) {
+  .familia-clean {
+    padding: 20px 0;
+  }
+}
+.centro { text-align: center; }
+
+.familia-clean form {
+  max-width: 80%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .familia-clean form {
+    padding: 30px;
+  }
+}
+
+.familia-clean .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+

@@ -1,9 +1,9 @@
 nav.navbar.bootsnav{
     background-color: #4B4138;
     font-family: 'Nunito', sans-serif;
-    min-height: 30px;
+    min-height: 40px;
     padding: 5px 10px 0 10px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 5px;
 }
@@ -13,7 +13,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     background-color: transparent;
     font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase;  */
     text-align: left;
     letter-spacing: 1px;
     padding: 17px 7px 17px 7px;

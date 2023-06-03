@@ -13,7 +13,7 @@ define('DS', DIRECTORY_SEPARATOR);
 require ROOT.DS.'autoload.php';
 // Session;
 $sessao = new sessao();
-$db = new acesso_db('MYSQL_gaucho');
+$db = new banco_Dados('MYSQL_gaucho');
 $sessao->nova();
 $sessao->set('Gaucho_usuario', '');
 $sessao->set('Gaucho_id', '');

@@ -1,0 +1,24 @@
+include("../inc/Classes_Dados.php");
+$db = new getDados_model('MYSQL_deal');
+$val = file('../admin/novo.csv');
+$a =0;
+foreach ($val as $linha)  {
+  if ($a > 0) {
+    $linha = strtolower($linha);
+    $vv = explode(';', $linha);
+    $x = (count($vv) -1);
+   $tabela = $vv[0];
+   $col = ltrim($vv[3]);
+   $comment = trim($vv[4]);
+   $valida = trim(ltrim($vv[$x]));
+//    echo $vv[0].' - '. $vv[3].' - '. $vv[$x].'</p> ';
+   $query = " ALTER TABLE $tabela MODIFY COLUMN $col int(1) NULL COMMENT '$comment' ;";
+//   $query =  " update adm_valida set valida =  '$valida' where tabela = '$vv[0]' and coluna = '$col' ;";
+    echo $query.'</p> ';
+ }
+  $a++;
+} 
+//print_r($val);
+// $res = $db->Executa_Query_Array($query);   
+
+ 

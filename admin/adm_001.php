@@ -8,7 +8,7 @@ require '../autoload.php';
 // Session;
 $sessao = new sessao();
 // Banco de dados
-$db = new acesso_db('MYSQL_gaucho');
+$db = new banco_Dados(DB);
 // XAJAX
 require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();

@@ -1,0 +1,39 @@
+// $url = '../tabsjson/json_50230.json';
+// $data = json_decode(file_get_contents($url),true);
+// print_r($data);
+// $cnpj = '01.023.570/0001-60';
+// echo mask($cnpj, '##.###.###/####-##');
+
+
+$resultado_busca = busca_cep('95096151'); 
+print_r($resultado_busca);
+
+function busca_cep($cep){  
+    $resultado = @file_get_contents('http://republicavirtual.com.br/web_cep.php?cep='.urlencode($cep).'&formato=query_string');  
+    if(!$resultado){  
+        $resultado = "&resultado=0&resultado_txt=erro+ao+buscar+cep";  
+    }  
+    parse_str(utf8_decode($resultado), $retorno);   
+    return $retorno;  
+}  
+
+function mask($val, $mask) {
+//  echo mask($cnpj,'##.###.###/####-##');
+//  echo mask($cpf,'###.###.###-##');
+// echo mask($cep,'#####-###');
+// echo mask($data,'##/##/####');
+
+   $maskared = '';
+   $k = 0;
+   for($i = 0; $i<=strlen($mask)-1; $i++)  {
+       if($mask[$i] == '#')   {
+          if(isset($val[$k]))
+             $maskared .= $val[$k++];
+       }
+       else
+      {
+          if(isset($mask[$i])) { $maskared .= $mask[$i]; }
+      }
+   }
+   return $maskared;
+}

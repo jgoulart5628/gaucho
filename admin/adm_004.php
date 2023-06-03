@@ -12,7 +12,7 @@ define('DS', DIRECTORY_SEPARATOR);
 require ROOT.DS.'autoload.php';
 $sessao = new sessao();
 // Banco de dados
-$db = new acesso_db('MYSQL_gaucho');
+$db = new banco_Dados(DB);
 require_once '../xajax/xajax_core/xajax.inc.php';
 $xajax = new xajax();   
 //$xajax->configure('deb    ug',true);

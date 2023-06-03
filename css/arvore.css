@@ -1,0 +1,90 @@
+/*  CSS para árvore 
+    outline: 1px solid red;
+  }
+*/  
+a span  {  display: none;  }
+a { position: relative; text-decoration: none; }
+a:hover  { visibility: visible; }
+a:hover span { display: block; position: absolute; top: 48px; left: 30px; width: 120px;
+                padding: 5px; margin-left:2px; text-align:left; border:1px solid #000; }
+.Ponta        { border-top-style:solid; border-top-width: 4px; width: 8px; height: 2px; overflow: hidden; color: #FFF; display: inline-block;}
+.Linha        { border-left-style:solid; border-left-width: 4px; width: 1px;  overflow: hidden; color: #FFF;}
+.Linha_irmao  { border-left-style:solid; border-left-width: 4px; width: 1px;  overflow: hidden; color: #FFF;}
+.celula_indiv { position: absolute; padding: 1px; height: 50px; border: 2px outset; font-size: 13px; font-weight: bold; display: inline-block;  vertical-align: middle;}
+.celula_irmao { position: absolute; padding: 1px; height: 45px; border: 2px outset; font-size: 13px; font-weight: bold; display: inline-block;  vertical-align: middle;}
+/* .celula_indiv span  { margin-left: 2px; line-break: normal;  line-height: 50px; display: inline-block;  vertical-align: middle; } */
+.mostrar  { display: visible;} 
+.esconder { display: none; }
+
+#PP               { left: 28px; top: 315.5px; width: 188px; background-color: #049cdb; } 
+#PP_Ponta         { position: absolute; left: 219px; top: 342.5px; }
+#PP_Linha         { position: absolute; left: 225px; top: 227px; height: 237px; }
+#PP0_Linha        { position: absolute; left: 119px; top: 365px; height: 10px; }
+#PP0              { left: 28px; top: 375.5px; width: 188px; background-color: #049cdb; } 
+#PP1_Linha        { position: absolute; left: 119px; top: 420px; height: 10px; }
+#PP1              { left: 28px; top: 430.5px; width: 188px; background-color: #049cdb; } 
+#PP2_Linha        { position: absolute; left: 119px; top: 475px; height: 10px; }
+#PP2              { left: 28px; top: 485.5px; width: 188px; background-color: #049cdb; } 
+#PP3_Linha        { position: absolute; left: 119px; top: 530px; height: 10px; }
+#PP3              { left: 28px; top: 540.5px; width: 188px; background-color: #049cdb; } 
+#PP4_Linha        { position: absolute; left: 119px; top: 585px; height: 10px; }
+#PP4              { left: 28px; top: 595.5px; width: 188px; background-color: #049cdb; } 
+#PP5_Linha        { position: absolute; left: 119px; top: 645px; height: 10px; }
+#PP5              { left: 28px; top: 650.5px; width: 188px; background-color: #049cdb; } 
+#PP6_Linha        { position: absolute; left: 119px; top: 695px; height: 10px; }
+#PP6              { left: 28px; top: 705.5px; width: 188px; background-color: #049cdb; } 
+#PP7_Linha        { position: absolute; left: 119px; top: 750px; height: 10px; }
+#PP7              { left: 28px; top: 760.5px; width: 188px; background-color: #049cdb; } 
+#PP8_Linha        { position: absolute; left: 119px; top: 805px; height: 10px; }
+#PP8              { left: 28px; top: 815.5px; width: 188px; background-color: #049cdb; } 
+#PP9_Linha        { position: absolute; left: 119px; top: 860px; height: 10px; }
+#PP9              { left: 28px; top: 870.5px; width: 188px; background-color: #049cdb; } 
+#PP10_Linha        { position: absolute; left: 119px; top: 915px; height: 10px; }
+#PP10              { left: 28px; top: 925.5px; width: 188px; background-color: #049cdb; } 
+/*  Pai  */
+#P1P              { left: 235px; top: 197.55px; width: 188px; background-color: #75A3FF;}
+#P1P_Linha        { position: absolute; left: 432px; top: 172px; height: 122px;}
+#P1P_Ponta_left   { position: absolute; left: 225px; top: 224.55px;}
+#P1P_Ponta_right  { position: absolute; left: 424px; top: 224.55px;}
+/*  Mãe  */
+#P1M              { left: 235px; top: 433.8px; width: 188px; background-color: #75A3FF;}
+#P1M_Linha        { position: absolute; left: 432px; top: 407.25px; height: 122px;}
+#P1M_Ponta_left   { position: absolute; left: 225px; top: 460.8px; } 
+#P1M_Ponta_right  { position: absolute; left: 424px; top: 460.8px; }
+/*  Avós Paternos 2 */
+#G2PP             { left: 442px; top: 143.65px; width: 188px; background-color:	#85C2FF;}
+#G2PM             { left: 442px; top: 261.95px; width: 188px; background-color: #85C2FF;}
+#G2PP_Ponta_left  { position: absolute; left: 432px; top: 170px; }
+#G3PP_Ponta_right { position: absolute; left: 632px; top: 170px; }
+#G3PM_Ponta_right { position: absolute; left: 632px; top: 290px; }
+#G2PM_Ponta_left  { position: absolute; left: 432px; top: 290px; }
+/*  Avõs Matermos 2 */
+#G2MP             { left: 442px; top: 380.25px; width: 188px; background-color: #85C2FF;}
+#G2MM             { left: 442px; top: 498.55px; width: 188px; background-color: #85C2FF;}
+#G2MP_Ponta_left  { position: absolute; left: 432px; top: 407px; }
+#G3MP_Ponta_right { position: absolute; left: 632px; top: 407px; }
+#G2MM_Ponta_left  { position: absolute; left: 432px; top: 526px; }
+#G3MM_Ponta_right { position: absolute; left: 632px; top: 526px; }
+/*  Bisavós Paternos G3 (4 variações) */
+#G3PPP                   { left: 649px; top: 119.825px; width: 180px; background-color: #B6DAFF;}
+#G3PPM                   { left: 649px; top: 180px; width: 188px; background-color: #B6DAFF;}
+#G3PMP                   { left: 649px; top: 240px; width: 188px; background-color: #B6DAFF;}
+#G3PMM                   { left: 649px; top: 295px; width: 188px; background-color: #B6DAFF;}
+#G3PP_Linha              { position: absolute; left: 639px; top: 147px; height: 61px;}
+#G3PM_Linha              { position: absolute; left: 639px; top: 260px; height: 61px;}
+#G3PPP_Ponta_Left        { position: absolute; left: 639px; top: 145px; }
+#G3PPM_Ponta_Left        { position: absolute; left: 639px; top: 205px; }
+#G3PMP_Ponta_Left        { position: absolute; left: 639px; top: 260px; }
+#G3PMM_Ponta_Left        { position: absolute; left: 639px; top: 320px; }
+/*  Bisavós Maternos G3 (4 variações) */
+#G3MMM                   { left: 649px; top: 540px; width: 188px; background-color: #B6DAFF;}
+#G3MPM                   { left: 649px; top: 355px; width: 188px; background-color: #B6DAFF;}
+#G3MMP                   { left: 649px; top: 482px; width: 188px; background-color: #B6DAFF;}
+#G3MPP                   { left: 649px; top: 412px; width: 188px; background-color: #B6DAFF;}
+#G3MM_Linha              { position: absolute; left: 639px; top: 500px; height: 61px;}
+#G3MP_Linha              { position: absolute; left: 639px; top: 380px; height: 61px;}
+#G3MPP_Ponta_Left        { position: absolute; left: 639px; top: 380px; }
+#G3MPM_Ponta_Left        { position: absolute; left: 639px; top: 437px; }
+#G3MMP_Ponta_Left        { position: absolute; left: 639px; top: 500px; }
+#G3MMM_Ponta_Left        { position: absolute; left: 639px; top: 562px; }
+/*  Parametros Genéricos */

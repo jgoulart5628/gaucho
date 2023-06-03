@@ -1,0 +1,10 @@
+$tabela = 'CLIENTES';
+$tb = explode('|', $tabela);
+// print_r($tb);
+// $data = strtotime("Now");
+$dd = date("d-m-Y", strtotime('2019-12-06'));
+// echo $dd;
+$valor  = '2.818,00';
+$vv =  str_replace(",",".",str_replace(".","",$valor));
+echo $vv;
+

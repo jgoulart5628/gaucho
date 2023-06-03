@@ -14,7 +14,7 @@ CREATE TABLE `evento` (
    */
    error_reporting(E_ALL);
 
-class classe_evento extends acesso_db
+class classe_evento extends banco_Dados
 {
     private $tabela = 'evento';
     private $evento_id;
@@ -30,7 +30,7 @@ class classe_evento extends acesso_db
 
     public function __construct($nome)
     {
-        $this->db = new acesso_db($nome);
+        $this->db = new banco_Dados($nome);
     }
 
     public function Monta_lista($resp = '')
@@ -51,7 +51,7 @@ class classe_evento extends acesso_db
 
     public function Busca_Proximo_ID($tela = '')
     {
-        $query = " select nvl(max($this->key + 1) ,1) as num  from $this->tabela ";
+        $query = " select coalesce(max($this->key + 1) ,1) as num  from $this->tabela ";
         $res = $this->db->Executa_Query_Unico($query, $tela);
 
         return $res;
@@ -64,6 +64,33 @@ class classe_evento extends acesso_db
 
         return $res;
     }
+    public function Monta_lista_Modalidades_Evento($evento_id, $resp = '')
+    {
+        $query = " select me.evento_id, me.modal_id, me.limite_inscritos
+                   ,(select m.descri from modalidades m where m.mod_id = me.modal_id) as nome_modal
+                   from modal_evento me where me.evento_id = $evento_id order by nome_modal ";
+        $res = $this->db->Executa_Query_Array($query, $resp);
+        return $res;
+    }
+
+    public function Atualiza_modal_evento($evento_id, $dados, $resp) {
+       $query = " delete from modal_evento where evento_id = $evento_id ";
+       $e = $this->db->Executa_Query_SQL($query, $resp);
+       for ($a = 0; $a < count($dados['modal']); $a++) {
+         $modal_id = $dados['modal'][$a];
+         $query = " insert into modal_evento values($evento_id, $modal_id, 0 )";
+         $e = $this->db->Executa_Query_SQL($query, $resp);
+        }
+       return $e;
+    }
+    public function Lista_Modalidades($evento_id=0, $resp = '')
+    {
+        $query = " select m.mod_id, m.descri ,(select 'selected' from modal_evento me where me.evento_id = $evento_id and me.modal_id = m.mod_id) selected
+        from modalidades m     order by m.descri ";
+        $res = $this->db->Executa_Query_Array($query, $resp);
+        return $res;
+    }
+
 
     public function Excluir_Registro($id, $tela = '')
     {
@@ -137,13 +164,13 @@ class classe_evento extends acesso_db
         $titulo_evento = $dados['titulo_evento'];
         $info_complementar = $dados['info_complementar'];
         $data_evento = $dados['data_evento'];
-        if (!$data_evento) { $data_evento = '0000-00-00';};
+//        if (!$data_evento) { $data_evento = '0000-00-00';};
         $data_inicio_inscri = $dados['data_inicio_inscri'];
-        if (!$data_inicio_inscri) { $data_inicio_inscri = '0000-00-00';};
+//        if (!$data_inicio_inscri) { $data_inicio_inscri = '0000-00-00';};
         $data_final_inscri = $dados['data_final_inscri'];
-        if (!$data_final_inscri) { $data_final_inscri = '0000-00-00';};
+//        if (!$data_final_inscri) { $data_final_inscri = '0000-00-00';};
         $data_base_calculo_idade = $dados['data_base_calculo_idade'];
-        if (!$data_base_calculo_idade) { $data_base_calculo_idade = '0000-00-00';};
+//        if (!$data_base_calculo_idade) { $data_base_calculo_idade = '0000-00-00';};
         $query = " insert into $this->tabela values( 
                     $evento_id,
                     $entidade_id,
@@ -157,6 +184,69 @@ class classe_evento extends acesso_db
  
         return $e;
     }
+    public function Insere_Imagem($query, $tela='')  {
+        $e   = $this->db->Executa_Query_SQL($query, $tela);
+        return $e;       
+    }
+    public function BLOB_IMAGEM($query, $arquivo, $resp = '')
+    {
+        $column = ':imagem';
+        $resul = $this->db->Executa_Query_BLOB($query, $column, $arquivo, $resp);
+        return $resul;
+    }
 
+    public function Lista_Links($evento_id, $resp) {
+       $query = " select * from links_evento where evento_id = $evento_id ";
+       $links = $this->db->Executa_Query_Array($query, $resp);
+       return $links;
+    }
+    public function Leitura_Link($evento_id, $link_seq, $resp) {
+        $query = " select * from links_evento where evento_id = $evento_id and link_seq = $link_seq ";
+        $link = $this->db->Executa_Query_Single($query, $resp);
+        return $link;
+     }
+    public function Elimina_Link($evento_id, $link_seq, $resp)
+    {
+        $query = " delete from links_evento  where evento_id = $evento_id and link_seq = $link_seq  ";
+        $e  = $this->db->Executa_Query_SQL($query, $resp);
+        return $e;       
+    }
+    public function Atualiza_Link($dados, $resp) {
+        $evento_id   = $dados['evento_id'];
+        $link_seq    = $dados['link_seq'];
+        $link_titulo = $dados['link_titulo'];
+        $link_url    = $dados['link_url'];
+        $oper        = $dados['oper'];
+        if ($oper == "Incluir") {
+            $query = " insert into links_evento values($evento_id, $link_seq, '$link_titulo', '$link_url' )";
+        } else {
+          $query = " update links_evento set link_titulo = '$link_titulo', link_url = '$link_url' where evento_id = $evento_id and link_seq = $link_seq ";  
+        }         
+        $e = $this->db->Executa_Query_SQL($query, $resp);
+        return $e;
+    }
+     public function Busca_Imagem($evento_id, $tela='')  {
+        $query = " select * from img_evento  where evento_id = $evento_id  ";
+        $img  = $this->db->Executa_Query_Array($query, $tela);
+        return $img;       
+    }
+    public function Elimina_Imagem($evento_id, $img_seq, $resp)
+    {
+        $query = " delete from img_evento  where evento_id = $evento_id and img_seq = $img_seq  ";
+        $e  = $this->db->Executa_Query_SQL($query, $resp);
+        return $e;       
+    }
+
+    public function Proximo_Indice_Imagem($evento_id, $tela='')  {
+        $query   = " select coalesce(max(img_seq + 1),1) from img_evento where evento_id= $evento_id ";
+        $index   = $this->db->Executa_Query_Unico($query, $tela);
+        return $index;       
+    }
+
+    public function Proximo_Indice_Link($evento_id, $tela='')  {
+        $query   = " select coalesce(max(link_seq + 1),1) from links_evento where evento_id= $evento_id ";
+        $index   = $this->db->Executa_Query_Unico($query, $tela);
+        return $index;
+    }
 
 }

@@ -239,7 +239,7 @@ footer {
 .caixa_sombra { box-shadow: 5px 5px 3px #888888; width:140px; padding:3px; text-align:center; font-size:12px; background:#21759b; 
                        margin:0 auto; color:#ffffff; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
 
-.mostrar  { display: visible; } 
+q.mostrar  { display: visible; } 
 .esconder { display: none;  }
 
 	.modal-login {

@@ -1,40 +1,37 @@
 /*
     DEMO STYLE
-*/
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-    background-image: url("../img/gaucho1.jpeg");
-    font-family: 'Poppins', sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    font-family: 'Numans', sans-serif;
-    }
+background-image: url("../img/gaucho1.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.opaco {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    height: 100vh;
+    width: 100%;
+}
 
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    /* color: #999;  */
-}
-
-.form-group.required .control-label:after {
-    content:"*";
-    color:red;
-}
-
-th {
-    text-align: center;
- }
-
-  .opaco {
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(8px); // This be the blur
-    height: 100vh;
-    width: 100%;
+    color: #040000;
 }
 
 a,
@@ -71,24 +68,113 @@ i,
 span {
     display: inline-block;
 }
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
 .wrapper {
     display: flex;
     align-items: stretch;
 }
 
+#sidebar {
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 100vh;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -180px;
+    text-align: center;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+#sidebar.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
 
 a[data-toggle="collapse"] {
     position: relative;
 }
-/*
+
 .dropdown-toggle::after {
     display: block;
     position: absolute;
     top: 50%;
-    right: -2px;
+    right: 20px;
     transform: translateY(-50%);
 }
-*/
+
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
@@ -136,7 +222,7 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 2px;
+    padding: 0px;
     min-height: 100vh;
     transition: all 0.3s;
 }
@@ -149,9 +235,20 @@ a.article:hover {
     width: 100%;
     z-index: 999;
 }
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -180px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
 .modal-login {
     left: 0;
     width: 320px;
@@ -182,6 +279,9 @@ a.article:hover {
    font-size: 13px;
  }
 
+ .navbar-custom {
+    height: 50px;
+ }
  .contem
  {
  float: left;
@@ -207,22 +307,3 @@ a.article:hover {
  }
  .mostrar  { display: visible; } 
  .esconder { display: none;  }
- 
- .empresa-clean {
-    background: #98b6cf;
-    padding: 20px 0;
-  }
-  
-  .centro { text-align: center; }
-  
-  .empresa-clean form {
-    max-width: 90%;
-    width: 90%;
-    margin: 0 auto;
-    background-color: #bbb8c1;
-    padding: 20px;
-    border-radius: 12px;
-    color: #505e6c;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-  }
-  

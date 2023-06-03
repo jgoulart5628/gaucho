@@ -12,14 +12,14 @@
     `resp2` varchar(100) DEFAULT NULL COMMENT 'Nome Segundo Responsável',
     `email_resp2` varchar(50) DEFAULT NULL COMMENT 'Email do Segundo responsável',
     `telefone_resp2` varchar(50) DEFAULT NULL COMMENT 'Telefone do Segundo responsável',
-    `data_fundação` date DEFAULT NULL COMMENT 'Data de Fundação da Entidade',
+    `data_funda` date DEFAULT NULL COMMENT 'Data de Fundação da Entidade',
     `RT` varchar(3) DEFAULT NULL COMMENT 'Região Tradicionalista',
     `matricula` int(5) DEFAULT NULL COMMENT 'Matricula MTG',
     PRIMARY KEY (`entidade_id`);
     */
    error_reporting(E_ALL);
 
-class classe_entidade extends acesso_db
+class classe_entidade extends banco_Dados
 {
     private $tabela = 'entidade';
     private $entidade_id;
@@ -32,14 +32,14 @@ class classe_entidade extends acesso_db
     private $resp2;
     private $email_resp2;
     private $telefone_resp2;
-    private $data_fundação;
+    private $data_funda;
     private $RT;
     private $matricula;
     public $db;
 
     public function __construct($nome)
     {
-        $this->db = new acesso_db($nome);
+        $this->db = new banco_Dados($nome);
     }
 
     public function Monta_lista($resp = '')
@@ -88,7 +88,7 @@ class classe_entidade extends acesso_db
         $resp2 = $dados_tela['resp2'];
         $email_resp2 = $dados_tela['email_resp2'];
         $telefone_resp2 = $dados_tela['telefone_resp2'];
-        $data_fundação = $dados_tela['data_fundação'];
+        $data_funda = $dados_tela['data_funda'];
         $RT = $dados_tela['RT'];
         $matricula = $dados_tela['matricula'];
         $flag = 0;
@@ -128,8 +128,8 @@ class classe_entidade extends acesso_db
             $query .= " telefone_resp2 =  '$telefone_resp2' ,";
             ++$flag;
         }
-        if ($data_fundação !== $dados_tabela['data_fundação']) {
-            $query .= " data_fundação =  '$data_fundação' ,";
+        if ($data_funda !== $dados_tabela['data_funda']) {
+            $query .= " data_funda =  '$data_funda' ,";
             ++$flag;
         }
         if ($RT !== $dados_tabela['RT']) {
@@ -174,7 +174,7 @@ class classe_entidade extends acesso_db
         $email_resp2 = $dados['email_resp2'];
         $telefone_resp1 = $dados['telefone_resp1'];
         $telefone_resp2 = $dados['telefone_resp2'];
-        $data_fundação = $dados['data_fundação'];
+        $data_funda = $dados['data_funda'];
         $RT = $dados['RT'];
         $matricula = $dados['matricula'];
         $query = " insert into entidade values( 
@@ -188,7 +188,7 @@ class classe_entidade extends acesso_db
                    '$resp2', 
                    '$email_resp2', 
                    '$telefone_resp2',
-                   '$data_fundação',
+                   '$data_funda',
                    '$RT',
                    $matricula   )";
         $e = $this->db->Executa_Query_SQL($query, $tela);
@@ -206,7 +206,7 @@ class classe_entidade extends acesso_db
 
     public function Busca_Invernadas($id = 0, $resp = '')
     {
-        $query = " select entidade_id, tipo_invernada from invernadas where entidade_id = '.$id.' ";
+        $query = " select entidade_id, tipo_invernada from invernadas where entidade_id = $id ";
         $res = $this->db->Executa_Query_Array($query, $resp);
 
         return $res;

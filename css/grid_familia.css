@@ -1,0 +1,34 @@
+.familia-clean {
+  background: #98b6cf;
+  padding: 80px 0;
+}
+
+
+@media (max-width:1024px) {
+  .familia-clean {
+    padding: 20px 0;
+  }
+}
+
+.centro { text-align: center; }
+
+.familia-clean form {
+  max-width: 99%;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 95%) {
+  .familia-clean form {
+    padding: 20px;
+  }
+}
+
+.familia-clean .form-group:last-child {
+  margin-bottom: 5px;
+}

@@ -5,13 +5,24 @@
    ini_set('memory_limit', -1);
    ini_set('default_charset', 'UTF-8');
    ini_set('display_errors', true);
-// $header = Header("Pragma: no-cache");
-error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
-define('ROOT', dirname(__DIR__));
-define('DS', DIRECTORY_SEPARATOR);
-// require ROOT.DS.'autoload.php';
+//   error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
+   error_reporting(E_ALL);
+   define('ROOT', dirname(__DIR__));
+   define('DS', DIRECTORY_SEPARATOR);
+   require ROOT.DS.'autoload.php';
 // Session;
-// $sessao = new sessao();
+   $sessao = new sessao();
+   $usuario = $sessao->get('Gaucho_usuario');
+   $id = $sessao->get('Gaucho_id');
+   $entidade = $sessao->get('Gaucho_entidade');
+   require_once '../xajax/xajax_core/xajax.inc.php';
+   $xajax = new xajax();
+// $xajax->configure('debug',true);
+   $xajax->configure('errorHandler', true);
+   $xajax->configure('logFile', 'xajax_error.log');
+   $xajax->register(XAJAX_FUNCTION, 'Manda_Email');
+   $xajax->processRequest();
+   $xajax->configure('javascript URI', '../xajax/');
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,6 +42,7 @@ define('DS', DIRECTORY_SEPARATOR);
     <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
     <!--script type="text/javascript" src="js/deal.js"></script -->
     <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+    <?php $xajax->printJavascript('../xajax'); ?>
   </head>
 
   <body class="opaco">
@@ -53,28 +65,32 @@ define('DS', DIRECTORY_SEPARATOR);
         <div class="col-sm-8">
             <h3>Fale conosco!</h3>
 
-            <form role="form" method="POST" action="#">
+            <form role="form" name="contato" id="contato" method="POST" action="#">
                 <div class="row">
                     <div class="form-group col-lg-4">
                         <label for="input1">Nome</label>
-                        <input type="text" name="contact_name" class="form-control" id="input1">
+                        <input type="text" name="nome" class="form-control" id="input1" value="<?php echo $usuario; ?>">
                     </div>
                     <div class="form-group col-lg-4">
                         <label for="input2">Email</label>
-                        <input type="email" name="contact_email" class="form-control" id="input2">
+                        <input type="email" name="email" class="form-control" id="input2">
                     </div>
                     <div class="form-group col-lg-4">
                         <label for="input3">Telefone</label>
-                        <input type="phone" name="contact_phone" class="form-control" id="input3">
+                        <input type="phone" name="telefone" class="form-control" id="input3">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="input3">Assunto</label>
+                        <input type="phone" name="assunto" class="form-control" id="input3" value="<?php echo $entidade; ?>">
                     </div>
                     <div class="clearfix"></div>
                     <div class="form-group col-lg-12">
                         <label for="input4">Mensagem</label>
-                        <textarea name="contact_message" class="form-control" rows="6" id="input4"></textarea>
+                        <textarea name="mensagem" class="form-control" rows="6" id="input4"></textarea>
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="hidden" name="save" value="contact">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary" onclick="xajax_Manda_Email(xajax.getFormValues('contato')); return false;">Enviar</button>
                     </div>
                 </div>
             </form>
@@ -111,3 +127,43 @@ define('DS', DIRECTORY_SEPARATOR);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
  </body>
 </html>
+<?php
+  function Manda_Email($dados)  {
+    $resp = new xajaxResponse();
+    $sql    = $dados['mensagem']; 
+    $fone   = $dados['telefone'];
+    $assunto = $dados['assunto'];
+    //usuario
+    $usu    = $dados['nome'];
+    //dados da sessao
+    $ip    = $_SERVER["REMOTE_ADDR"];
+
+    // montando o texto
+
+    $from     = $dados['email'];
+    $to       = "joao_goulart@jgoulart.eti.br, jean.csoares@gmail.com";
+    $subj     = $assunto;
+    if (!$subj) { $subj = 'Teste de aplicativo'; }
+
+    $body     = '<html><head></head><body>
+                   <p>O usuário: '.$usu.'
+                   <p>Na Máquina: '.$ip.'
+                   <p>No telefone: '.$fone.'
+                   <p><b>'.$sql.'</b></body></hmtl>';
+
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+    $headers .= "From: $from ";
+    mail($to, $subj, $body, $headers);
+    /*
+     $from = "joao_goulart@jgoulart.eti.br";
+     $to = "goulart.joao@gmail.com";
+     $subject = "Checking PHP mail";
+     $message = "PHP mail works just fine";
+     $headers = "From:" . $from;
+     mail($to,$subject,$message, $headers);
+     echo "The email message was sent.";
+    */
+     $resp->alert('Mensagem para : '.$to.' Enviada !'); 
+     return $resp;   
+}     

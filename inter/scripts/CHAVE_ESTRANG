@@ -1,0 +1,30 @@
+include("../inc/Classes_Dados.php");
+$db = new getDados_model('MYSQL_deal');
+$query  = " SELECT a.tabela, a.coluna, a.ordem, a.valida FROM adm_valida a where a.valida like 'tabela%' and
+not exists ( select b.CONSTRAINT_NAME from information_schema.TABLE_CONSTRAINTS b where  b.TABLE_NAME = a.tabela  and b.CONSTRAINT_TYPE = 'FOREIGN KEY')
+order by a.tabela, a.ordem  ";
+$resul = $db->Executa_Query_Array($query);
+echo count($resul).'</p>';
+for ($a=0; $a <count($resul); $a++) {
+    $tabela  = $resul[$a]['tabela'];
+    $coluna = $resul[$a]['coluna'];
+    $ordem = $resul[$a]['ordem'];
+    $valida = $resul[$a]['valida'];
+    $tab = explode(' ', $valida);
+    $tab_ref = $tab[1];
+    $query = "select column_name from information_schema.columns where table_schema = 'deal' and table_name = '$tabela' and column_key = 'PRI' ";
+    $chave = $db->Executa_Query_Unico($query);
+    echo $tabela.' - '.$coluna.' - '.$ordem.' - '.$tab_ref.' - '.$chave.'</p>';
+     $const = $tabela.'_'.$coluna.'_FK';
+    $qq =  " alter table $tabela add constraint $const  foreign key  ($coluna) references $tab_ref ($chave) ";
+//    $e = $db->Executa_Query_SQL($qq);
+//    echo $e;
+    echo $qq.'</p>';
+}
+// print_r($resul);
+/*
+ALTER TABLE deal.adm_menus_usuario ADD CONSTRAINT adm_menus_usuario_FK FOREIGN KEY (id_usuario) REFERENCES deal.adm_usuario(id);
+select * from information_schema.TABLE_CONSTRAINTS where TABLE_SCHEMA = 'deal' and CONSTRAINT_TYPE = 'FOREIGN KEY'
+select * from information_schema.TABLE_CONSTRAINTS where TABLE_SCHEMA = 'deal' and TABLE_NAME =  'tributario_53110' and CONSTRAINT_TYPE = 'PRIMARY KEY'
+select * from information_schema.TABLE_CONSTRAINTS where TABLE_SCHEMA = 'deal' and CONSTRAINT_TYPE in ('PRIMARY KEY', 'FOREIGN KEY')
+*/
