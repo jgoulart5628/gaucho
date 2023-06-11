@@ -43,19 +43,7 @@ $xajax->configure('javascript URI', '../xajax/');
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/main.css">
-    <style>
-      .nova_tela {
-         max-width: 90%;
-         width: 90%;
-         margin: 0 auto;
-         background-color: #bbb8c1;
-         padding: 20px;
-         border-radius: 12px;
-         color: #505e6c;
-         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-      }
- </style>   
-
+    <link rel="stylesheet" href="../css/tela_nova.css">
     <script type="text/javascript" src="../js/modernizr.js"></script>
     <script type="text/javaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -66,9 +54,9 @@ $xajax->configure('javascript URI', '../xajax/');
 </head>
 
 <body class="opaco">
-   <form id="dados_tela" name="dados_tela" role="form" method="post">
-    <div class="container-fluid" style="width: 80%; padding-top: 10px;" >  
-         <div id="tela_manut" class="col-sm-12" style="padding: 5px 0;"></div> 
+   <form id="dados_tela" name="dados_tela" role="form" method="POST">
+    <div class="container-fluid" style="padding-top: 10px;" >  
+         <div id="tela_manut" class="col-xs-12" style="padding: 5px 0;"></div> 
     </div>
     <div class="footer">
         <span class="glyphicon glyphicon-thumbs-up"></span>&#174; JGWeb
@@ -96,7 +84,7 @@ function Manut_Usuario()
     //   $resp->alert('Estou Aqui '.print_r($res,true));   return $resp;
     //   $res = $db->Dados_Resp($unidade);
     //   $resp->alert('Estou Aqui '.$teste);   return $resp;
-    $tela = '<div class="container-fluid table-responsive nova_tela">
+    $tela = '<div class="container-fluid table-responsive tela_nova">
                 <h3 class="text-muted centro"> Cadastro Usuários</h3>
                 <button type="submit" class="btn btn-primary" onclick="xajax_Altera_Usuario(xajax.getFormValues(\'dados_tela\'),\''.'0'.'\'); return false;">Inclui Novo Usuário</button>
                             <h3>  Usuários Cadastrados</h3>           
@@ -261,7 +249,7 @@ function Altera_Usuario($dados, $id)
     }
 
     $tela = '<div class="row">
-               <div class="col-sm-12 nova_tela">
+               <div class="col-sm-12 tela_nova">
                   <h3>'.$titulo.'</h3>
                   <div class="row">
                     <div class="form-group col-sm-2">
@@ -302,8 +290,8 @@ function Altera_Usuario($dados, $id)
                     <div class="form-group col-sm-12">
                         <input type="hidden" name="oper" value='.$oper.'>
                         <input type="hidden" name="id" value='.$id.'>
-                        <button type="submit" class="btn btn-lg btn-primary" onclick="xajax_Gravar_Usuario(xajax.getFormValues(\'dados_tela\')); return false;">Gravar os Dados</button>
-                        <button type="submit" class="btn btn-lg btn-primary" onclick="xajax_Manut_Usuario(xajax.getFormValues(\'dados_tela\')); return false;">Desiste e Retorna</button>
+                        <button type="submit" class="btn btn-lg btn-block btn-primary" onclick="xajax_Gravar_Usuario(xajax.getFormValues(\'dados_tela\')); return false;">Gravar os Dados</button>
+                        <button type="submit" class="btn btn-lg btn-block btn-danger" onclick="xajax_Manut_Usuario(xajax.getFormValues(\'dados_tela\')); return false;">Cancela</button>
                     </div>
                   </div> ';
     // $resp->assign("tela_manut", "innerHTML", '');

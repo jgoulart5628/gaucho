@@ -55,18 +55,7 @@ $xajax->configure('javascript URI', '../xajax/');
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/main.css">
-    <style>
-      .nova_tela {
-         max-width: 90%;
-         width: 90%;
-         margin: 0 auto;
-         background-color: #bbb8c1;
-         padding: 20px;
-         border-radius: 12px;
-         color: #505e6c;
-         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-      }
-   </style>   
+    <link rel="stylesheet" href="../css/tela_nova.css">
     <script type="text/javascript" src="../js/main.js"></script>
     <script type="text/javascript" src="../js/modernizr.js"></script>
     <script type="text/javaScript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -88,7 +77,7 @@ $xajax->configure('javascript URI', '../xajax/');
 </head>
 <body class="opaco">
     <form name="tela" id="tela" class="form" method="post">
-     <div class="container-fluid" style="width: 80%; padding-top: 10px;" >  
+     <div class="container-fluid" style="padding-top: 10px;" >  
           <div id="tela_carga"></div> 
      </div>     
      <div class="footer">
@@ -110,7 +99,7 @@ function Tela($dados = '', $id_rotina = '', $nome_menu = '')
     if (!$id_rotina) {
         $id_rotina = 1;
     }
-    $form = '<div class="col-sm-12 nova_tela">
+    $form = '<div class="col-sm-12 tela_nova">
                 <h3 class="text-muted centro"> Cadastro de Menus do Usuário</h3>
                 <div class="col-sm-3">
                      <label for="id_rotina" name="id_rotina">Rotina : </label>
@@ -160,7 +149,7 @@ function Lista($dados)
 //    } }
 //            . '<b>Total de Programas Selecionados : '.$reg.' (utilizando '.$prog.' arquivos).</b>';
     $oper = "'A'";
-    $tela = '<div class="container-fluid table-responsive nova_tela">
+    $tela = '<div class="container-fluid table-responsive tela_nova">
               <table id="tabclas" data-toggle="table" class="table table-striped table-bordered">
        	        <thead>
                 <tr align="center">
@@ -260,7 +249,7 @@ function monta_form($id_menu, $oper, $resp)
     }
     //  $resp->alert('Opaaa  '.$funciona.' - '.$nome_menu.'-'.$oper);
 
-    $tela = '<div class="col-sm-12 nova_tela">
+    $tela = '<div class="col-sm-12 tela_nova">
                <div class="row">
                 <div class="form-group col-lg-4">
                     <label for="nome_menu">Programa</label>
@@ -296,9 +285,9 @@ function monta_form($id_menu, $oper, $resp)
                  <div class="form-group col-lg-4">
                    <input type="hidden" name="oper" value="'.$oper.'">
                    <input type="hidden" name="id_menu" value="'.$id_menu.'">
-                   <button type="submit"  class="btn btn-lg btn-primary"  onclick="xajax_Gravar(xajax.getFormValues(\'tela\')); return false;"> Gravar</button>
-                   <button type="submit"  class="btn btn-lg btn-primary"  onclick="xajax_Limpar(); return false;">Desistir</button>
-                   <button type="submit"  class="btn btn-lg btn-primary"  onclick="xajax_Excluir(\''.$id_menu.'\');return false;">Excluir</button>
+                   <button type="submit"  class="btn btn-lg btn-block btn-primary"  onclick="xajax_Gravar(xajax.getFormValues(\'tela\')); return false;"> Gravar</button>
+                   <button type="submit"  class="btn btn-lg btn-block btn-success"  onclick="xajax_Limpar(); return false;">Desistir</button>
+                   <button type="submit"  class="btn btn-lg btn-block btn-danger"  onclick="xajax_Excluir(\''.$id_menu.'\');return false;">Excluir</button>
                 </div> 
               </div></div>';
 

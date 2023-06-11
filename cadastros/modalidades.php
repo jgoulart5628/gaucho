@@ -52,7 +52,7 @@ $xajax->configure('javascript URI', '../xajax/');
  </head>
  <body class="opaco">
     <div class="container-fluid" style="padding-top: 10px;" >  
-         <div id="tela_modal" class="col-xs-12" style="padding: 5px 0;"></div> 
+         <div id="tela_modal" class="col-xs-12 col-sm-8" style="padding: 5px 0;"></div> 
     </div>
     <div class="footer">
         <span class="glyphicon glyphicon-thumbs-up"></span>&#174; JGWeb

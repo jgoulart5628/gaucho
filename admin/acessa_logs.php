@@ -36,40 +36,29 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link href="../css/style4.css" rel="stylesheet" type="text/css" />
+    <link href="../css/tela_nova.css" rel="stylesheet" type="text/css" />
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
-    <style>
-      .nova_tela {
-         max-width: 90%;
-         width: 90%;
-         margin: 0 auto;
-         background-color: #bbb8c1;
-         padding: 20px;
-         border-radius: 12px;
-         color: #505e6c;
-         box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-      }
-     </style>   
     <?php $xajax->printJavascript('../xajax'); ?>
 </head>
 <body class="opaco">
-  <div class="container-fluid nova_tela">
+  <div class="container-fluid tela_nova">
      <form id="tela" name="tela" class="border border-success rounded-sm">
-       <div class="col-sm-12"> 
+       <div class="col-xs-12 col-sm-12"> 
            <div class="row">
-             <div class="col-sm-6">
+             <div class="col-xs-12 col-sm-6">
                <div id="tela_erro" class="fundo"></div>
              </div>
-             <div class="col-sm-6">
+             <div class="col-xs-12 col-sm-6">
                <div id="tela_trans" class="fundox"></div> 
              </div> 
            </div>
        </div>  
-       <div class="col-sm-12"> 
+       <div class="col-xs-12 col-sn-12"> 
           <div class="row">
-             <div class="col-sm-6">
+             <div class="col-xs-6 col-sm-6">
                <div id="log_erro" class="fundo"></div>
              </div>
-             <div class="col-sm-6">
+             <div class="col-xs-6 col-sm-6">
                <div id="log_trans" style="border: 2px inset;" class="fundox"></div> 
              </div> 
           </div>
