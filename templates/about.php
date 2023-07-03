@@ -105,6 +105,7 @@ function Visualiza_Fotos($evento_id, $resp)  {
   global $db;
   $query   = " select * from img_evento  where evento_id = $evento_id  ";
   $imagem  = $db->Executa_Query_Array($query, $resp);
+  $url = '../cadastros/eventos.php?evento_id='.$evento_id;
   if (count($imagem) == 0)  { return 'X'; }
   $tela_imagem = '<div class="col-sm-12">';
   if (is_array($imagem))  { 
@@ -128,7 +129,7 @@ function Visualiza_Fotos($evento_id, $resp)  {
               if ($larg > $largx) { $larg = $largx; }
               if ($alt > 320)  {  $alt = 320; }
           }
-          $tela_imagem .= '<a href="'.$temp.'" id="foto" target="_blank"><img src="'.$temp.'" id="foto" class="magnify" width="'.$larg.'"  height="'.$alt.'"></a></div>';
+          $tela_imagem .= '<a href="'.$url.'" id="foto"><img src="'.$temp.'" id="foto" width="'.$larg.'"  height="'.$alt.'"></a></div>';
       }       
   } else { $tela_imagem = 'Deu pobrema'; }  
   $tela_imagem .= '</div>';

@@ -35,26 +35,39 @@ $xajax->configure('javascript URI', '../xajax/');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Cadastro Pessoas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bs5/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bs3/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../css/Navigation-with-Search.css">
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/tela_nova.css">
-    <link rel="stylesheet" href="../css/Navigation-with-Search.css">
-</head>    <?php $xajax->printJavascript('../xajax'); ?>
+    <script type="text/javascript">
+    function tabela() {  
+        $('#tabclas').dataTable( 
+           { "lengthMenu": [[10, 20, 30, -1], [10, 20, 30, 'Todos']], 
+             "language":  {"url": "//cdn.datatables.net/plug-ins/1.10.20/i18n/Portuguese-Brasil.json" },
+             "order": [[ 2, 'asc' ]]
+           }
+         );
+    }
+    </script>
+     <?php $xajax->printJavascript('../xajax'); ?>
  </head>
  <body class="opaco">
   <div class="container-fluid" style="padding-top: 10px;" >  
-      <div id="tela_pessoa" class="col-xs-15" style="padding: 5px 0;"></div> 
+      <div id="tela_pessoa" class="col-xs-12" style="padding: 5px 0;"></div> 
   </div>
   <div class="footer">
         <span> <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>&#174; JGWeb
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
-   <script type="text/javaScript" src="../js/jquery.dataTables.min.js" ></script>
-   <script type="text/javaScript" src="../js/dataTables.bootstrap.js" ></script> 
-   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script type="text/javaScript" src="../js/jquery.min.js"></script>
+    <script type="text/javaScript" src="../js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javaScript" src="../js/jquery.dataTables.min.js"></script>
+    <script type="text/javaScript" src="../js/dataTables.bootstrap4.min.js" ></script>
+    <script type="text/javascript" src="../js/jquery.mask.min.js"></script>
    <script type="text/javaScript">xajax_Tela_Inicial() </script>
  </body>
 </html>
@@ -75,16 +88,17 @@ function Tela_Inicial()
 
     $tela = '<div class="container-fluid table-responsive tela_nova">
                <h3 class="text-muted centro"> Cadastro Pessoas </h3>
-               <table  class="table table-striped table-bordered table-sm">
-                    <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Nova Pessoa</button>
-                  <thead class="table-dark">  
+               <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Nova Pessoa</button>
+               <table id="tabclas" class="table table-striped table-bordered">
+                  <thead>  
                      <tr>
                         <th style="text-align: center;">Alt/Exc.</th> 
                         <th style="text-align: center;">Nome Pessoa</th>
                         <th style="text-align: center;">CPF</th>
                         <th style="text-align: center;">Data Nascimento</th>
                         <th style="text-align: center;">Entidade</th>
-                       </tr style="text-align: center;"></thead><tbody>';
+                       </tr>
+                    </thead><tbody>';
     if (is_array($res)) {
         $tt = count($res);
         for ($a = 0; $a < $tt; ++$a) {
@@ -109,7 +123,7 @@ function Tela_Inicial()
     }
     $tela .= '</tbody></table></div>';
     $resp->assign('tela_pessoa', 'innerHTML', $tela);
-
+    $resp->script('tabela();');
     return $resp;
 }
 function Manut_CRUD($id, $oper)

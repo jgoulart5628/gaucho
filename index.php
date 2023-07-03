@@ -8,7 +8,8 @@
 // $header = Header("Pragma: no-cache");
 error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
 // error_reporting(E_ALL);
-$amb = $_SERVER['HTTP_USER_AGENT'];
+$amb = filter_input(INPUT_SERVER, 'HTTP_USER_AGENT');
+// $amb = $_SERVER['HTTP_USER_AGENT'];
 $and = strpos($amb, 'Android');
 if($and > 0) { $an = 'Android';} else { $an = ''; }
 define('AN', $an);
@@ -151,11 +152,11 @@ function monta_cabec($id_usuario, $usuario, $resp)
 //    mb-2 mb-lg-0
 // <a class="nav-link" href="#" onclick="Saida('.$contato.'); return false;">
 $tela_nav = '<div id="content" style="margin-left: 1px;">
-                  <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+                <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
                    <div class="container-fluid">
-                     <a href="templates/about.php" target="conteudo" class="col-sm-2">
-                     <img src="img/bandeira_rs.gif" class="img-fluid flex-left" style="max-width: 50%;">
-                     <span style="font-size: 0.8em; color: rgba(255,255,255,.5);">&copy;2023 JGWeb '.AN.'</span></a>
+                     <a href="templates/about.php" target="conteudo" class="navbar-brand">
+                        <img src="img/bandeira_rs.gif" height="30" loading="lazy" alt="Bandeira">
+                     </a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <span class="navbar-toggler-icon"></span>
                      </button>             
@@ -172,12 +173,11 @@ $tela_nav = '<div id="content" style="margin-left: 1px;">
                               <i class="fa fa-address-card"></i></i>&nbsp;Contato</a>
                          </li>
                          <li class="nav-item">
-                             <a class="nav-link" href="#" onclick="xajax_Logout(); return false;">
-                                <i class="fas fa-door-open"></i>&nbsp;Sair</a>
+                             <button class="btn btn-primary me-3" onclick="xajax_Logout(); return false;">Sair</button>
                          </li>
                         </ul>
                      </div>   
-                    </div>
+                   </div>
                 </nav>
                 <iframe  name="conteudo" id="conteudo" src="templates/about.php" frameborder="0" border="0" cellspacing="0">
                   <p>iframes are not supported by your browser.</p>

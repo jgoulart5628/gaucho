@@ -48,13 +48,14 @@ $xajax->configure('javascript URI', '../xajax/');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Cadastro Eventos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bs5/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bs3/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-select.css">
+    <link rel="stylesheet" href="../css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/tela_nova.css">
-    <link rel="stylesheet" href="../css/Navigation-with-Search.css">
     <style>
     .lista_mod {
       border: 2px solid grey;
@@ -78,12 +79,19 @@ $xajax->configure('javascript URI', '../xajax/');
     <div class="footer">
         <span class="glyphicon glyphicon-thumbs-up"></span>&#174; JGWeb
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+   <script src="../js/jquery-3.3.1.min.js"></script>
+   <script src="../js/bootstrap.bundle.min.js"></script>  
+   <!--script src="../js/bootstrap-select.min.js"></script -->
    <script type="text/javaScript" src="../js/jquery.dataTables.min.js" ></script>
    <script type="text/javaScript" src="../js/dataTables.bootstrap.js" ></script>
-   <script type="text/javaScript">xajax_Tela_Inicial() </script>
+   <?php 
+      if (isset($_GET["evento_id"]))  {
+         $evento_id =  $_GET['evento_id'];
+         echo '<script type="text/javaScript">xajax_Manut_CRUD('.$evento_id,',\'A\');</script>';
+      } else { 
+         echo '<script type="text/javaScript">xajax_Tela_Inicial();</script>';
+      }
+   ?>
  </body>
 </html>
 <?php
@@ -96,10 +104,10 @@ function Tela_Inicial()
         $resp->script('xajax_Manut_CRUD();');
         return $resp;
     }
- //   $resp->alert('Aqui - '.print_r($res,true));
+ //   $resp->alert('Aqui - '.print_r($res,true)); 
     $tela = '<div class="container-fluid table-responsive tela_nova">
                <h3 class="text-muted centro">Cadastro Eventos</h3>
-               <table  class="table table-striped table-bordered table-sm">
+               <table  class="table table-striped table-bordered">
                    <button type="submit"  class="btn btn-primary" onclick="xajax_Manut_CRUD(0,\'I\'); return false;">Inclui Novo Evento</button>
                     <thead class="table-dark">  
                        <tr>
@@ -207,11 +215,11 @@ function Manut_CRUD($id=0, $oper='I')
                      </div>   
                      <div class="col-sm-3">
                        <label for="data_inicio_inscri">Data Inícial Inscrições: </label>
-                       <input class="form-control" type="date" name="data_inicio_inscri" id="data_inicio_inscri" value="'.$data_inicio_inscri.'" required="true">
+                       <input class="form-control" type="datetime-local" name="data_inicio_inscri" id="data_inicio_inscri" value="'.$data_inicio_inscri.'" required="true">
                      </div>
                      <div class="col-sm-3">
                        <label for="data_final_inscri">Data Final Inscrições: </label>
-                       <input class="form-control" type="date" name="data_final_inscri" id="data_final_inscri" value="'.$data_final_inscri.'" required="true">
+                       <input class="form-control" type="datetime-local" name="data_final_inscri" id="data_final_inscri" value="'.$data_final_inscri.'" required="true">
                      </div>
                      <div class="col-sm-3">
                        <label for="data_base_calculo_idade">Data para cálculo idade: </label>

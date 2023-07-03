@@ -274,8 +274,7 @@ class banco_Dados
                var myWin  = window.open("'.$arq.'?tipo=Erro de SQL.&msg='.$msgx.'&sql='.$sql.'", "Erro.", "status = 1, height = 400, width = 500, resizable = 0, scrollbars=1" );
                 </script>';
         }
-//        return  $info;
-        exit;
+        return 'Erro';
     }
 
     public function Grava_Erro_SQL($msg, $sql)

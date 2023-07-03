@@ -1,337 +1,1822 @@
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2735,"PL","20 DE SETEMBRO",25,20898092000186, '1969-12-31',"(54) 996055148","","Jorge Valderez dos Passos"
-,2735) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1476,"CTG","ACONCHEGO GAÚCHO",25,92861491000183, '1988-12-01',"(54) 999722696","maxgabrielli@hotmail.com","Maxuel Lodi Gabrielli"
-,1476) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1569,"CTG","ALDEIA FARROUPILHA",25,92865732000162, '1969-12-31',"(54) 99659-4804","atamaris2010@hotmail.com","Ataide Tadeu Flores Pereira"
-,1569) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1789,"CTG","ALMA SERRANA",25,01309652000175, '1969-12-31',"(54) 981374105","","Luis Deoclecio Teles Ferreira"
-,1789) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2110,"CTG","AMIGOS DA TRADIÇÃO",25,05108318000104, '2002-05-01',"(54) 999885124","manoelbaraunanana@gmail.com","Manoel Luiz Almeida dos Santos"
-,2110) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1685,"CTG","AMIGOS DO LAÇO",25,23392307000180, '2006-06-10',"(54) 991223812","maanrepresentacoes@hotmail.com","Maicon Zuanazzi"
-,1685) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1583,"CTG","ANDANÇA SERRANA ",25,92892084000171, '1969-12-31',"(54) 997097407"," godinho.rovaldino@gmail.com","Rovaldino de Assis Godinho"
-,1583) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1713,"CTG","ANGELO FRANCISCO GUERRA",25,92870542000133, '1995-01-07',"(54) 981131934"," leandrotsouza0@gmail.com","Leandro Teles de Souza"
-,1713) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2010,"CTG","ARUÁ",25,22368999000169, '1969-12-31',"(54) 991733914","joseenorao@hotmail.com","Jose Enor Andrade de Oliveira"
-,2010) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1532,"CTG","CABANHA BELIZÁRIO NUNES",25,92869460000179, '1969-12-31',"(54) 99100-2759","jardelpereirajardel@gmail.com","Jardel de Souza Pereira"
-,1532) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1059,"CTG","CAMPO DOS BUGRES ",25,91106484000103, '1986-10-09',"(54) 99137-4666"," vmfranco@terra.com.br ","Vanderlei Muller Franco"
-,1059) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1990,"CTG","CAPÃO DO VENTO",25,03430396000103 , '1969-12-31',"(54) 999792876"," alisonfriso@hotmail.com","Alison de Medeiros Friso"
-,1990) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(696,"CTG","CARRO DE BOI",25,26662771000138, '1981-04-12',"(54) 991422041","edsondutradasilva209@gmail.com","Edson Dutra da Silva"
-,696) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(685,"PL","CHALEIRA PRETA",25,08390275000190, '1969-12-31',"(54) 999082435","antonio_castilhos@hotmail.com","Jose Mario Schmitt Machado"
-,685) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2693,"PQT","CHEGANDO NA QUERÊNCIA",25,10607673000168, '1969-12-31',"(54) 98400-8297","claudiomarandrade01@gmail.com","Claudiomar Ribeiro de Andrade"
-,2693) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1684,"CTG","CHEGANDO NO RANCHO ",25,00135920000117, '1969-12-31',"(54) 99631-8334","manoeladaob@gmail.com","Manoel  Adão Siqueira Borges"
-,1684) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(674,"CTG","CHILENAS DE PRATA",25,07970805000107, '2005-12-02',"(54) 98428-9099","","Simara de Souza Barbosa"
-,674) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(656,"CTG","CHIMARRÃO ",25,90770256000170, '1969-12-31',"(54) 996748645","edilainers90@gmail.com","Nestor Juarez dos Passos"
-,656) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1936,"CTG","CORAÇÃO SERRANO",25,03249811000119 , '1999-04-06',"(54) 99989-4245","","Neimar de Campos"
-,1936) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2567,"PL","COXILHA SERRANA",25,11807440000171, '1969-12-31',"(54) 999702558"," joeldoesplanada@hotmail.com","Joel Gomes Santos"
-,2567) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(625,"CTG","DOM MANUEL SANMARTIN",25,08595205000179, '2006-12-12',"(54) 999415833","idival.machado@grupo-sanmartin.com","Idival Castilhos Machado"
-,625) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1467,"CTG","ELO DO RIO GRANDE ",25,92867308000157, '1990-09-08',"(54) 99909-3908","marcelo.juiz@hotmail.com","Marcelo Alencar de Oliveira"
-,1467) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2644,"PL","ENCONTRO DE AMIGOS",25,17321322000135, '1969-12-31',"(54) 999349515","eduaradadaros@gmail.com","Antonio Fermiano Alves"
-,2644) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1800,"CTG","ENTREVERO DE AMIGOS",25,09088438000148, '1969-12-31',"(54) 996056501","","Luis Carlos da Silva"
-,1800) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1664,"CTG","ESPORA PRATEADA",25,86733961000120, '1992-12-09',"(54) 984066044","clebercosta850@gmail.com","Manoel dos Passos de Souza"
-,1664) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1788,"CTG","ESTÂNCIA ALEGRIA",25,01553355000170, '1996-06-01',"(54) 999712824"," jbjin@terra.com.br","Jurandi Baldasso"
-,1788) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2453,"PL","ESTÂNCIA DA AMIZADE",25,10524277000177, '2008-02-07',"(54) 991956301","kriativa.transportes@yahoo.com.br","Luiz Carlos Carneiro de Melo"
-,2453) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2056,"CTG","ESTANCIEIROS DO LAÇO",25,04741970000107, '1969-12-31',"(54) 996811834","eloimattos03@gmail.com","Eloi de Fatima Lima Mattos"
-,2056) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(688,"CTG","GALPÃO  PRAZER  DE GAÚCHO",25,00808945000134, '1969-12-31',"(54) 991868017","lcfabiani@ucs.br","Lilian Catarina Fabiane da Silva"
-,688) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2833,"CTG","GALPÃO CRIOULO",25,35111085000160, '1999-12-10',"(54) 999735782","deniseferreira625@gmail.com","Valmor Pesini"
-,2833) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1273,"CTG","GALPÃO SERRANO",25,91110007000111, '1969-12-31',"(54) 991143362","allanconz@gmail.com","Allan Conz"
-,1273) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2707,"PL","GARRÃO DE POTRO",25,20538411000142, '1969-12-31',"(54) 999487702","max.fernandez777@gmail.com","Max Leandro dos Santos Fernandes"
-,2707) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2692,"PL","GAÚCHOS DA SERRA",25,19231436000110, '2013-10-09',"(54) 996194615","nani19boeira@hotmail.com","Igor Moreira Santos"
-,2692) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1111,"CTG","GINETES DA TRADIÇÃO ",25,88708508000190, '1982-10-09',"(54) 991832608"," barretodag@yahoo.com.br","Alvaro Giacomet Barreto"
-,1111) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2622,"PL","HERANÇA DO MEU AVÔ",25,15274428000108 , '1969-12-31',"(54)  996887712"," douglas07dias@gmail.com","Dinolva Almeida Dias"
-,2622) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1992,"CTG","HERANÇA GAUDÉRIA",25,08715747000138, '1999-03-12',"","","",1992) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1457,"CTG ","HERDEIROS DA TRADIÇÃO",25,92866813000187, '1990-05-10',"(54) 996029188","andersonlima88@bol.com.br","Anderson Theodoro de Lima"
-,1457) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2341,"PL","HERDEIROS DO PAMPA",25,09083042000108, '1969-12-31',"(54) 999867121"," assisfinger2@gmail.com","Assis Finger"
-,2341) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1409,"CTG","HEROIS FARROUPILHAS",25,92863117000117, '1989-01-07',"(54)  99774692","secretariaherois@gmail.com","Waldemar da Silva"
-,1409) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2090,"CTG","HONEYDE BERTUSSI ",25,0, '2000-06-12',"54-99735784","","FRANCISCO VILMAR RODRIGUES"
-,2090) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2238,"CTG","ILHAPA DO RIO GRANDE",25,08275585000164, '1969-12-31',"(54) 984036320","pauloferreira339@gmail.com","Paulo Renato Ferreira"
-,2238) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(867,"CTG","IMIGRANTES E TRADIÇÃO",25,88708409000108 , '1969-12-31',"(54) 9 9923-3769","jjacomelli@uol.com.br","Jorge Jacomelli"
-,867) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(673,"PL","LAÇADORES DA QUERÊNCIA",25,0, '1969-12-31',"(54) 991779313","diego-marques16@hotmail.com","Diego Palmeira Marques"
-,673) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(668,"CTG","LAÇO DA AMIZADE",25,10511909000168, '1969-12-31',"(54) 999322358","gustavoperochin@yahoo.com.br","Juares Perochin"
-,668) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2705,"CTG","LAÇO EM FAMILIA",25,19757670000185, '2014-12-02',"(54) 991136716/999422491","aldoirzorrinho@hotmail.com","Aldoir Lira de Barros",2705) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(664,"PL","LAÇO FORTE",25,0, '1969-12-31',"(54) 999149979","maiconjfortes@gmail.com","Maicon Joenir Fortes"
-,664) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1184,"CTG","LAÇO ITALIANO",25,0, '1969-12-31',"(54) 999190354","","Gustavo luiz Moterle"
-,1184) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2091,"CTG","MANGRULHOS DA SERRA",25,05179407000141, '2002-05-07',"(54) 996355244","jose-saul.radataz@gmail.com","Jose Saul Radatz"
-,2091) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1954,"CTG","MARCA DA SERRA",25,03513917000188, '1969-12-31',"(54) 996749953","","Leandro Alves Borba"
-,1954) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1791,"CTG","MARCA DA TERRA",25,07748263000122 , '1969-12-31',"(54) 99978-1603","oficinamecanicabuffon@hotmail.com","Ilso Buffon"
-,1791) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2576,"PL","MARCA GAÚCHA",25,19468000000149, '2011-10-05',"(54) 999782639","flaviogil@gilecarneiro.com.br","Flavio Lauri Becher Gil"
-,2576) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1057,"CTG","MARCO DA TRADIÇÃO ",25,91109421000100, '1969-12-31',"(54) 981220332","","Gilberto Corsso"
-,1057) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(813,"PL","MINUANO DA CASCATA",25,0, '1964-08-03',"(54)999241640","fonseca.raul@terra.com.br","Raul Bento Gomes da Fonseca"
-,813) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(623,"CTG","NEGRINHO DO PASTOREIO ",25,89822712000108, '1972-01-05',"(54) 991614770","bgvisual@bgvisual.com.br","André Luis dos Santos Vieira"
-,623) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2000,"CTG","OS AMIGOS DO RIO GRANDE",25,08618842000113, '1969-12-31',"(54) 999235401","","Antonio dos Santos Paulino"
-,2000) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1531,"CTG","OS CARRETEIROS",25,87505442000178, '1969-12-31',"(54) 991226446"," fer.bonoto@gmail.com","Fernando Bonotto"
-,1531) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2006,"PL","OS TAURAS DA QUERÊNCIA",25,03726407000199, '1969-12-31',"(54) 999726496","ajnrepresentacoes@gmail.com","Valdir Teles de Vargas "
-,2006) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(102,"CTG","PAIXÃO CORTES ",25,89280549000190, '1956-07-04',"(54) 991946394","carbeal@terra.com.br","Deloir Franciso Rodrigues Pereira"
-,102) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1458,"CTG","PAMPA DO RIO GRANDE",25,92866763000138, '1990-08-07',"(54)  984284855","moreira.cassiano@hotmail.com","Cassiano Ramos Moreira"
-,1458) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1401,"CTG","PAMPAS DO IMIGRANTE",25,0, '1969-12-31',"(54) 99923-6264"," construtoraorence@hotmail.com","Leonel Machado da Silva"
-,1401) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1790,"CTG","PARQUE DE RODEIOS VILA OLIVA",25,01309658000142, '1995-07-10',"(54)  996993499","adilsonemarques@hotmail.com","Adilson Emerich Marques"
-,1790) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1837,"CTG","PONCHO SERRANO",25,01676715000121, '1996-03-03',"(54) 999981467","nereu.silva11@gmail.com","Jose Nereu da Silva"
-,1837) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(667,"CTG","PORTEIRA DA AMIZADE",25,10690521000171, '1969-12-31',"(54) 999748534","vanuzafochezatto@gmail.com","Elairton Zampieri Fochezatto"
-,667) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(626,"CTG","PORTEIRA DA SERRA  ",25,92864156000139, '1969-12-31',"(54)999953880","roberta_castilhos@hotmail.com","Roque Jocenir Castilhos"
-,626) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1293,"CTG","PORTEIRA DO IMIGRANTE ",25,92860584000193, '1969-12-31',"(54) 984480717","roberdanescobar@hotmail.com","Roberdan Escobar Saraiva"
-,1293) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(675,"PL","POTREIRO DA SERRA",25,90775693000187, '1977-06-07',"(54)  999652620","","Airton Zacarias dos Santos"
-,675) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(111,"CTG","POUSADA DOS TROPEIROS ",25,92861871000118 , '1969-12-31',"(54) 999660608","juvacchi@yahoo.com.br","Fernando Antonio Giordani"
-,111) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2572,"PL","PRESILHA DA AMIZADE",25,12340715000172, '1969-12-31',"(54) 99652-3424","evaldoblauth@yahoo.com.br","Evaldo Blauth"
-,2572) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(661,"PL","PRESILHA DO RINCÃO",25,00604987000153, '1969-12-31',"(54) 999489172","varelarepresent@hotmail.com","Claudio Adenir Varela dos Santos"
-,661) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2065," ","QUERÊNCIA DA POESIA XUCRA",25,0, '1969-12-31',"(54)999123237","tchemoscato@hotmail.com","Arno Moscato dos Santos"
-,2065) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1935,"CTG","QUERÊNCIA DA SERRA",25,03369517000140, '1999-03-07',"(54)991216274","clovisdasilva@metalurgicoscaxias.com.br","Clovis Danei Alves da Silva"
-,1935) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1899,"CTG","QUERÊNCIA DE SÃO PEDRO",25,02611456000113, '1969-12-31',"(54) 99188-5539","alisson.schmidt01@gmail.com","Alisson Fernandes Schmidt"
-,1899) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2339,"PL","QUERÊNCIA FARROUPILHA",25,0, '1969-12-31',"54-99712700","","ADILSO JOÃO MOLON"
-,2339) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1103,"CTG","QUERÊNCIA XUCRA ",25,91107854000127 , '1969-12-31',"(54) 99932046"," paulorsp13@gmail.com","Paulo Roberto Souza Pereira"
-,1103) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1711,"CTG","RAÍZES DO RIO GRANDE",25,00473146000154, '1969-12-31',"(54)996034618","andreiacganzer@yahoo.com.br","Marcos Antonio Ganzer"
-,1711) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2747,"CTG","RANCHO DE ESPERANÇA",25,22033750000100, '2015-07-02',"(54) 99997-3576","paulodossdandrade@gmail.com","Paulo dos Santos de Andrade"
-,2747) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1030,"CTG","RANCHO DE GAUDÉRIOS ",25,92861319000120, '1969-12-31',"(54) 99613-9493","alexandede@outlook.com","Alexandre de Moura Destefani"
-,1030) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1553,"CTG","RANCHO VELHO",25,92871086000146, '1992-08-02',"(54) 99945-9772","rudi.cacique@hotmail.com","Rodinei Forlin"
-,1553) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(624,"CTG","RAPOSO TAVARES",25,19056858000104, '1969-12-31',"(54) 95098650","makellyfernanda@gmail.com","Oscar Almeida Vieira"
-,624) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2340,"CTG","RECANTO GAÚCHO",25,09129136000170, '1969-12-31',"(54) 98109-4767","marcossonda@hotmail.com","Marcos Sonda"
-,2340) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1570,"CTG","RELIQUIAS DE GAÚCHO ",25,0, '1992-10-05',"(54) 991643323"," shomem@camaracaxias.rs.gov.br","Santo de Castilhos Homem"
-,1570) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(119,"CTG","RINCÃO DA LEALDADE",25,15562117000136, '1969-12-31',"(54) 991025157","valdemarsoares130@gmail.com","Valdemar Soares da Luz"
-,119) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2564,"PL","RINCÃO DOS LIRAS",25,11849863000154 , '1969-12-31',"(54) 99243-6541","lopesadri50@gmail.com","Sergio Adriano Lopes Dias"
-,2564) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1743,"CTG","RINCÃO SERRANO",25,10537079000148, '1995-05-10',"(54) 999964782","lbraconstrucoes@gmail.com","Alcir dos Santos"
-,1743) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(802,"PL","RODEIO LAGEADO",25,88373196000100, '1983-01-08',"(54) 997114122","elton.capelani@gmail.com","Elton Antonio Capelani dos Santos"
-,802) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(256,"CTG","RODEIO MINUANO ",25,90732641000175, '1959-06-08',"(54) 981337649","adaoaraujojr@outlook.com","Adão Gomes de Araújo Junior"
-,256) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(660,"PL","RODEIO TEATINO",25,21009580000158, '1966-08-01',"(54) 996795315","agrodrago@brsulnetrs.com.br","Lucas Vanaz"
-,660) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(663,"PL","RODEIO VELHO",25,0, '1963-08-11',"(54) 98425-6559"," ggcastilhos@yahoo.com.br","Darlan Adão Camelo de Araujo"
-,663) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2589,"CTG","RONCO DO BUGIO",25,14039284000134, '2011-12-07',"(54) 99933-2907","","Claudeci Leite da Silva"
-,2589) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(465,"CTG","RONDA CHARRUA ",25,89664551000163, '1969-12-31',"(54) 999765155","chasque2009@hotmail.com","Rogerio Carlos Abreu da Silva"
-,465) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1508,"CTG","SANGUE CRIOULO",25,92868280000172, '1991-12-01',"(54)  999177241","","Itagir Jose Baggio"
-,1508) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(662,"PL","SESTIADA DE GAÚCHO",25,09359554000154, '1969-12-31',"(54)999960318","mariogilberto.goncalves@hotmail.com","Mario Gilberto Gonçalves"
-,662) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2111,"CTG","SINUELO",25,89281323000295, '1969-12-31',"(54) 99156-4140","edilsonhoff2214@gmail.com","Edilson Paulo Hoff"
-,2111) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(430,"CTG","SINUELO DO PAMPA ",25,0, '1969-12-31',"(54) 999844176"," qeqconstrutora@hotmail.com","Carlos Dalnei Rosa de Quadros"
-,430) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(671,"PL","SINUELO DOS PAMPAS",25,0, '1969-12-31',"(54) 981150485"," sonia.bachic@hotmail.com","Carlos Cervelin"
-,671) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1080,"CTG","TAPERA VELHA ",25,90481169000101 , '1984-10-11',"(54)  99679-9802","bertoni@bertonibecker.com.br","Enio Roberto Schmitt Becker"
-,1080) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1880,"CTG","TAURAS DO LAÇO",25,02105545000198, '1969-12-31',"(54) 999712419","neuzoautomoveis@bol.com.br","Crineu Lopes Pereira"
-,1880) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1665,"CTG","TIO CARLO",25,00188668000104, '1994-06-04',"(54)981213882","hwluisf@gmail.com","Luiz Vanderlei Ferreira dos Reis"
-,1665) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2057,"CTG","TIO DANILO",25,04636679000160, '1969-12-31',"(54)  98447-7522","esquadriasadani@gmail.com","Carlos Alberto da Silva"
-,2057) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1125,"PIQ","TRONQUEIRA DE BUGRE",25,91108076000190, '1969-12-31',"(54) 992168603"," lucianotomiello@gmail.com","Luciano Tomiello"
-,1125) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2758,"PL","TROPEIROS DO PAMPA",25,23524693000117, '1969-12-31',"(54) 996504328","","Paulo Cesar da Silva"
-,2758) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2694,"PL","TROPILHA DA AMIZADE",25,19330974000161, '1969-12-31',"(54) 999773403","","João Rodrigues Francisco dos Passos"
-,2694) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1978,"PL","UNIDOS PELA TRADIÇÃO ",25,04147209000133, '1969-12-31',"(54) 996277650","","Jose Amilcar Wollmann"
-,1978) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1050,"CTG","VELHA CARRETA ",25,87505442000178, '1969-12-31',"(54) 98446-0883"," c.adriano.tche@gmail.com","Cicero Adriano Perez Garcia"
-,1050) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1999,"CTG","VELHO MATEUS",25,04413327000146, '1969-12-31',"(54) 999711786","","João Trindade"
-,1999) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2646,"CTG","VELHO TROPEIRO SERRANO",25,17139935000156, '2012-05-05',"(54) 9 9947-3410","luana-dartora@hotmail.com","Vanderlei Bresolin"
-,2646) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(670,"PL","VETERANOS",25,0, '1969-01-01',"(54) 999177381","gilsonboff@hotmail.com","Gilson Boff"
-,670) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2711,"PL","VOVÔ AGOSTINHO TONELLA",25,20814945000154, '1969-12-31',"(54) 999941290","tatikieling@hotmail.com","Arnos Jose Tonella"
-,2711) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1533,"CTG","VOVÔ FLORIAN ",25,92870666000119 , '1969-12-31',"(54) 99968-4279","hotelariamoreira@gmail.com","Luciano da Silva Moreira"
-,1533) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(1934,"CTG","VOVÔ JOÃO SCAIN",25,03384662000109, '1969-12-31',"(54) 99657-3603","gabrielmachado.rodrigues@hotmail.com","Gabriel Machado Rodrigues"
-,1934) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2085,"CTG","VOVÔ LISBOA",25,05137129000160, '1969-12-31',"(54) 999733499","kamilagl@terra.com.br","Ernesto Antonio de Almeida Lisboa"
-,2085) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(2744,"PL","VOVÔ NATALÍCIO",25,20265395000161, '1969-12-31',"(54) 999686847","","Antonio Ferreira de Andrade"
-,2744) ;
-insert into entidade  (entidade_id, sigla, nome_entidade, RT, cnpj, data_fundação, telefone_resp1, email_resp1, resp1, matricula) 
-                 values(665,"PL","VOVÔ SILVANO DANELUZ",25,0, '1977-11-05',"(54) 99113-2425","volneipistore@gmail.com","Volnei Pistore"
-,665) ;
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (18,' ','CTG SENTINELA DAS MISSÕES',0,'JOÃO BATISTA SILVEIRA PEREIRA',' ','',NULL,NULL,NULL,'1967-03-30','10'),
+	 (19,' ','CTG CAIBOATÉ',0,'AGAPITO CHAVES JUNIOR',' ','',NULL,NULL,NULL,'1953-10-31','18'),
+	 (21,' ','CTG JOAQUIM PAULO DE FREITAS',0,'ELIESER MARTINS DE ROSA',' ','5399900-5700',NULL,NULL,NULL,'1959-07-26','21'),
+	 (22,' ','CTG RODEIOS DOS PALMARES',0,'EDUARDO CANTINHO RODRIGUES',' ','53 9936-8700',NULL,NULL,NULL,'1961-12-19','06'),
+	 (23,' ','CTG LILA ALVES',0,'RENAN ROSA',' ','53 99920-8944',NULL,NULL,NULL,'1953-07-31','21'),
+	 (24,' ','CTG VINTE DE SETEMBRO',0,'ANDRE SILVEIRA FUNARI',' ','53 99977-7010 - 99941-3731',NULL,NULL,NULL,'1953-04-11','21'),
+	 (25,' ','CTG UNIÃO GAÚCHA JOÃO SIMÕES LOPES NETO',0,'ROMUALDO LOPES CUNHA JÚNIOR',' ','53 99141-6970',NULL,NULL,NULL,'1969-12-31','26'),
+	 (26,' ','CTG SINUELO',0,'FERNANDA JARDIM BARBOSA DA FONSECA',' ','53 999710017',NULL,NULL,NULL,'1964-09-20','21'),
+	 (27,' ','CTG MATE AMARGO',0,'MILTON CADAVAL',' ','53 - 999426944',NULL,NULL,NULL,'1953-09-11','06'),
+	 (31,' ','CTG CARRETEIROS DO SUL',0,'TATIANA UGOSKI RODRIGUES',' ','53 98133-6235',NULL,NULL,NULL,'1966-04-02','26');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (32,' ','CTG PORTEIRA DAS MISSÕES',0,'',' ','',NULL,NULL,NULL,'1964-07-08','03'),
+	 (33,' ','CTG 20 DE SETEMBRO',0,'FÁBIO LEANDRO DEZENGRINI',' ','55 996979939',NULL,NULL,NULL,'1969-12-31','03'),
+	 (34,' ','CTG VAQUEANOS DA CULTURA',29275771000173,'JEFERSON LUCIANO NOVACZYK DE SOUZA',' ','51 99696367',NULL,NULL,NULL,'1957-10-06','01'),
+	 (38,' ','CTG SEPÉ TIARAJU',0,'JANAÍNA DA SILVA MENEZES',' ','53 98466-5430',NULL,NULL,NULL,'1953-04-09','16'),
+	 (40,' ','CTG TROPEIROS DO BURICA',0,'LEANDRO CLÁUDIO SCHMITT',' ','3535-1038 ',NULL,NULL,NULL,'1958-06-13','20'),
+	 (41,' ','CTG OS LEGALISTAS',0,'',' ','',NULL,NULL,NULL,'1961-09-24','03'),
+	 (42,' ','CTG LENÇO BRANCO',0,'',' ','',NULL,NULL,NULL,'1968-04-07','18'),
+	 (44,' ','CTG RODEIO DAS MISSÕES',0,'',' ',' ',NULL,NULL,NULL,'1969-12-31','03'),
+	 (45,' ','CTG QUERÊNCIA DO GENERAL ABREU',0,'EMILIO GALIANO',' ','',NULL,NULL,NULL,'1968-06-16','18'),
+	 (47,' ','CTG SINUELO DO PAGO',0,'IVONÉ EMÍLIO COLPO',' ','55 9949-7968',NULL,NULL,NULL,'1955-10-22','04');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (48,' ','CTG TROPEIROS DAS MISSÕES',0,'MOACIR LANÇANOVA GRIPA',' ','',NULL,NULL,NULL,'1967-07-29','10'),
+	 (49,' ','CTG PATRULHA DO OESTE',0,'PATRÍCIO SALGUEIRO MADEIRA',' ','55 3412-5794',NULL,NULL,NULL,'1954-01-15','04'),
+	 (51,' ','CTG MARCIANO DE BRUM',0,'RODRIGO MIOTTO FRANÇA',' ','54 996013160',NULL,NULL,NULL,'1953-04-16','14'),
+	 (52,' ','CTG FILASTRO BRUM',0,'MOACIR ORTIZ',' ','',NULL,NULL,NULL,'1959-09-29','14'),
+	 (53,' ','CTG QUERO QUERO',0,'ENIO PEREIRA RODRIGUES',' ','55 9978-2672',NULL,NULL,NULL,'1965-05-15','04'),
+	 (59,' ','CTG ESTÂNCIA DO MONTENEGRO',0,'Teófilo José da Silva de Azeredo',' ','51 99676-9411',NULL,NULL,NULL,'1961-08-28','15'),
+	 (60,' ','CTG TIARACY',0,'Alcimar Tatsch Toledo',' ','51 99550-7884',NULL,NULL,NULL,'1965-07-11','15'),
+	 (66,' ','CTG COXILHA DE RONDA',0,'NILDO SOARES MACHADO',' ','55 99623-2256 / 55 99956-1295',NULL,NULL,NULL,'1957-09-20','10'),
+	 (67,' ','CTG DOMADORES DO RINCÃO',0,'AMARANTE GOULART',' ','',NULL,NULL,NULL,'1960-06-29','12'),
+	 (68,' ','CTG DAVID CANABARRO',0,'',' ','',NULL,NULL,NULL,'1961-12-18','02');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (74,' ','ESTÂNCIA DA POESIA CRIOULA',93022127000192,'MAXSOEL BASTOS DE FRETIAS',' ','51 98028-6161',NULL,NULL,NULL,'1957-06-29','01'),
+	 (77,' ','CFTG FARROUPILHA',0,'',' ','',NULL,NULL,NULL,'1954-06-06','04'),
+	 (79,' ','CTG GAUDÉRIO SERRANO',0,'Flávio dos Santos  RibeirO',' ','54 99831291 / 54 99320122 ',NULL,NULL,NULL,'1965-08-24','11'),
+	 (80,' ','CTG GENERAL OSÓRIO',0,'FELIPE ARAÚJO PEDRON',' ','55 991777501',NULL,NULL,NULL,'1970-01-08','10'),
+	 (83,' ','CTG HONÓRIO LEMES',0,'MÁRCIO RICARDO DA SILVA',' ','55 999010727',NULL,NULL,NULL,'1967-09-09','04'),
+	 (84,' ','CTG INVERNADA DO CHAPADÃO',0,'ALEXANDRE KLOSE NADALON',' ','55 99955-7003',NULL,NULL,NULL,'1969-12-31','10'),
+	 (85,'CTG','JÚLIO DE CASTILHOS',0,'Pedro Moacir Messerchimidt',' ',' ',NULL,NULL,NULL,'1952-01-04','09'),
+	 (88,' ','CTG LAÇO VELHO',0,'SERGIO DE TONI',' ','54 3452-3586',NULL,NULL,NULL,'1957-08-29','11'),
+	 (90,' ','CTG NEGRINHO DO PASTOREIO',0,'ILCA MARIA LANÇANOVA',' ','55 99604-9952',NULL,NULL,NULL,'1953-11-01','10'),
+	 (91,' ','CTG O FOGÃO GAÚCHO',0,'AURO PAULO SANDER',' ','51 3542-2446',NULL,NULL,NULL,'1948-08-07','22');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (93,' ','CTG PAIXÃO CORTÊS',0,'',' ','',NULL,NULL,NULL,'1966-02-13','24'),
+	 (97,' ','CTG PORTEIRA DO RIO GRANDE',0,'ELVIO GIANETO GUAGNINI ROSSI',' ','54 99972-0292',NULL,NULL,NULL,'1955-07-23','08'),
+	 (98,' ','PL RODEIO CRIOULO',0,'ERALDO ASSIS SANTANA',' ','',NULL,NULL,NULL,'1961-01-20','27'),
+	 (99,' ','CTG PEDRO SERRANO',0,'JADIR PEIXOTO GOULARTE',' ','',NULL,NULL,NULL,'1952-06-24','30'),
+	 (100,' ','CTG PEALO DA ESTÂNCIA',88731781000135,'ADRIANO PEREIRA PIBER',' ','51 993250804',NULL,NULL,NULL,'1983-06-29','01'),
+	 (102,'CTG','PAIXÃO CORTES ',89280549000190,'Deloir Franciso Rodrigues Pereira','carbeal@terra.com.br','(54) 991946394',NULL,NULL,NULL,'1956-07-04','25'),
+	 (104,' ','PL TRÊS ESTÂNCIAS',0,'CARLOS ROBERTO DOS REIS SANTOS',' ','51 996 573 084',NULL,NULL,NULL,'1967-08-13','22'),
+	 (107,' ','CTG QUERÊNCIA',0,'Jeferson Eliás Trein Lodéa',' ','54 981238375                                      ',NULL,NULL,NULL,'1954-07-22','27'),
+	 (108,' ','CTG QUERENCIA FARROUPILHA',0,'Daniel Teixeira de Souza',' ','51 99781-4324',NULL,NULL,NULL,'1957-02-01','15'),
+	 (109,' ','CTG QUERÊNCIA DO PRATA',0,'WAGNER ANTONIO ZOTTIS',' ','',NULL,NULL,NULL,'1962-09-20','11');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (110,'CTG','QUERÊNCIA DA SERRA',0,'FERNANDO DANIEL SCHNEIDER',' ',' ',NULL,NULL,NULL,'1955-05-01','09'),
+	 (111,'CTG','POUSADA DOS TROPEIROS ',92861871000118,'Fernando Antonio Giordani','juvacchi@yahoo.com.br','(54) 999660608',NULL,NULL,NULL,'1969-12-31','25'),
+	 (113,' ','CTG RODEIO DA SAUDADE',0,'RODRIGO NIEBAUER DE ALMEIDA',' ','51 998399998',NULL,NULL,NULL,'1963-05-01','05'),
+	 (114,' ','CTG RAMIRO BARCELOS',0,'ADELIO DA SILVA GOMES',' ',' 51 91077649
+',NULL,NULL,NULL,'1959-09-07','02'),
+	 (116,'CTG','RANCHO DOS TROPEIROS',0,'CRISTIANO EICKSTEDT',' ',' ',NULL,NULL,NULL,'1956-09-20','09'),
+	 (117,' ','CTG RODEIO SERRANO',0,'CANDEROI PINTO DE QUADROS',' ','54 996122125',NULL,NULL,NULL,'1955-05-07','27'),
+	 (118,' ','CTG RINCÃO DA CRUZ',0,'CLÁUDIO LUZINI LEIVAS QUEIRÓZ',' ','55 9 9699 3558',NULL,NULL,NULL,'1959-08-20','03'),
+	 (119,'CTG','RINCÃO DA LEALDADE',15562117000136,'Valdemar Soares da Luz','valdemarsoares130@gmail.com','(54) 991025157',NULL,NULL,NULL,'1969-12-31','25'),
+	 (120,' ','CTG RODEIO DA FRONTEIRA',0,'',' ','',NULL,NULL,NULL,'1953-10-17','18'),
+	 (121,' ','CTG GRUPO NATIVISTA OS TROPEIROS',0,'LUIS AIRTON RIBEIRO DE SOUZA',' ','55 3251-4461',NULL,NULL,NULL,'1954-09-20','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (123,' ','CTG SEPÉ TIARAJU',0,'FABIO GUSTAVO BACK',' ','55 996873836',NULL,NULL,NULL,'1953-10-09','03'),
+	 (124,' ','CTG SAUDADES DO PAGO',0,'',' ','',NULL,NULL,NULL,'1960-01-02','02'),
+	 (126,' ','CTG SENTINELAS DO CAARÓ',0,'CLÁUDIA DAIANA GRUNWALD VELOZO',' ','55 999173799',NULL,NULL,NULL,'1967-08-06','03'),
+	 (127,' ','CTG RANCHO GRANDE',0,'',' ','',NULL,NULL,NULL,'1967-06-12','26'),
+	 (130,' ','CTG TARUMÃ',0,'CARLOS ALBERTO GERZSON DE SOUZA',' ','',NULL,NULL,NULL,'1963-10-16','18'),
+	 (132,' ','35 CTG',92968312000101,'Antonio Carlos da Conceição Dias',' ','51 99944-3758',NULL,NULL,NULL,'1948-04-24','01'),
+	 (133,' ','CTG TROPILHA CRIOULA',0,'VALMOR MORGENTAL',' ','55 99967-2866',NULL,NULL,NULL,'1962-02-05','03'),
+	 (134,' ','CTG TROPILHA CRIOULA',0,'JOSÉ ROBERTO RODRIGUES CIFUENTES',' ','51 85364437
+ ',NULL,NULL,NULL,'1956-06-24','02'),
+	 (135,' ','CTG TROPEIROS DA LEALDADE',0,'PAULO GILBERTO DA TRINDADE',' ','51 989012390 / 51 35307764',NULL,NULL,NULL,'1956-08-11','05'),
+	 (136,'CTG','TURIBIO VERISSIMO',0,'PAULO RICARDO MARTINS',' ',' ',NULL,NULL,NULL,'1962-06-16','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (138,' ','CTG VAQUEANOS DA QUERENCIA',0,'',' ',' ',NULL,NULL,NULL,'1964-07-04','02'),
+	 (140,' ','CTG TROPILHA CRIOULA',89660609000109,'ROSEMERI FROIS',' ','54 99997 5763',NULL,NULL,NULL,'1957-04-25','19'),
+	 (141,' ','CTG ZECA NETO',0,'UBIRAJARA PINTO FERRAZ',' ','51  98582894
+',NULL,NULL,NULL,'1967-02-05','02'),
+	 (143,' ','CTG QUERO-QUERO CTG',0,'JOÃO ADÃO VALÉRIO KOCHHANN',' ',' 51 987945234
+',NULL,NULL,NULL,'1954-07-14','02'),
+	 (145,' ','CTG SINUELO DO BOM SUCESSO',0,'VILSON ANTÔNIO SILVEIRA MASSENA',' ','51 997913312
+',NULL,NULL,NULL,'1957-06-29','02'),
+	 (146,' ','CTG FRONTEIRA DO RIO GRANDE',0,'CÉSAR FRASSÃO',' ','55 909254962',NULL,NULL,NULL,'1970-07-20','28'),
+	 (148,' ','CTG A VOZ DOS PAMPAS',0,'',' ','',NULL,NULL,NULL,'1968-07-29','03'),
+	 (149,' ','CTG SENTINELAS DAS COXILHAS',0,'JOSÉ  DORNELLES DE  VARGAS',' ','55 999779652',NULL,NULL,NULL,'1969-12-31','20'),
+	 (150,' ','CTG RODEIO DE CAMPO NOVO',0,'',' ',' ',NULL,NULL,NULL,'1969-12-31','03'),
+	 (154,' ','CTG  QUERÊNCIA CRIOULA',0,'GABRIEL CZEGELSKI DE ALMEIDA',' ','55 3361-1961',NULL,NULL,NULL,'1962-06-14','03');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (156,' ','CTG ESTÂNCIA DA SAUDADE',0,'Celso Elói Schilling',' ','55  9 9159-3169',NULL,NULL,NULL,'1966-04-24','20'),
+	 (160,' ','CTG GALPÃO DE ESTÂNCIA',0,'Luis Carlos Moraes',' ','55 999858543',NULL,NULL,NULL,'1954-06-24','03'),
+	 (164,' ','CTG CARRETEIROS DE HORIZONTE',0,'FELIPE JOHANN',' ','55 999675354',NULL,NULL,NULL,'1965-06-20','20'),
+	 (168,' ','CTG PORTEIRA DAS MISSÕES',0,'',' ','',NULL,NULL,NULL,'1964-07-08','03'),
+	 (169,' ','CTG POMPILHO SILVA',0,'RENATO FERREIRA ALVES',' ','55 9998-6618 / 55 99919-8012',NULL,NULL,NULL,'1960-09-20','20'),
+	 (170,' ','CTG MONJOLO VELHO',0,'ADELAR RIBEIRO',' ','',NULL,NULL,NULL,'1961-03-18','20'),
+	 (171,' ','CTG SENTINELA DA CASCATA',0,'',' ',' ',NULL,NULL,NULL,'1969-12-31','03'),
+	 (172,' ','CTG SENTINELA DA FRONTEIRA',0,'VILMARINO DA ROSA',' ','',NULL,NULL,NULL,'1959-07-04','20'),
+	 (174,' ','CTG SINUELO DAS MISSÕES',0,'JAIR VELOSO',' ','55 3561235',NULL,NULL,NULL,'1964-09-20','03'),
+	 (178,' ','CTG AMIZADE DE VASCO ALVES',0,'DELMAR GONÇALVES',' ','',NULL,NULL,NULL,'1963-09-22','04');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (179,' ','CTG JOSÉ BONIFÁCIO GOMES',0,'',' ','',NULL,NULL,NULL,'1957-07-06','05'),
+	 (180,' ','CTG LANCEIROS DO SUL',0,'PAULO RICARDO VIEIRA DA CUNHA MACHADO',' ','51 996589182',NULL,NULL,NULL,'1960-06-24','05'),
+	 (181,' ','CTG OS GAUDÉRIOS',0,'CARLOS DANIEL DE OLIVEIRA',' ','51 995203751',NULL,NULL,NULL,'1962-06-30','05'),
+	 (184,' ','CTG RINCÃO DA ALEGRIA',0,'',' ','',NULL,NULL,NULL,'1961-03-05','05'),
+	 (186,' ','CTG SENTINELA DOS CERROS',0,'OSVALDO ARTUR CHAVES',' ','',NULL,NULL,NULL,'1966-04-15','18'),
+	 (188,' ','CTG MOACYR DA MOTTA FORTES',0,'Eleandro Colussi',' ','54 9608-0881',NULL,NULL,NULL,'1978-06-29','07'),
+	 (189,' ','CTG FELIPE PROTINO',0,'Ana Ruth da Silva Cataneo',' ','54 996-2240  54 3342-5993',NULL,NULL,NULL,'1958-02-08','07'),
+	 (190,' ','CTG PRESILHA DO RIO GRANDE',0,'CLÓVIS RAMOS PEREIRA',' ','54 996246472',NULL,NULL,NULL,'1956-02-25','08'),
+	 (191,'CTG','CLUBE FARROUPILHA',0,'Paulo Roberto Somavilla',' ',' ',NULL,NULL,NULL,'1943-10-19','09'),
+	 (192,'CTG','RODEIO DA SAUDADE',0,'LUIS SCHMITT',' ',' ',NULL,NULL,NULL,'1963-03-20','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (193,'CTG','TAPERA VELHA',0,'OLMERI VIANA PEREIRA',' ',' ',NULL,NULL,NULL,'1954-05-17','09'),
+	 (194,' ','CTG RINCÃO DA ROÇA REÚNA',0,'LUIZ PAULO GREGOL',' ','54 991219269',NULL,NULL,NULL,'1957-09-17','11'),
+	 (197,' ','CTG PROVÍNCIA DE SÃO PEDRO',0,'LUIZ LEAL PRESTES PERES',' ',' 51 998553636',NULL,NULL,NULL,'1956-08-26','16'),
+	 (199,' ','CTG MINUANO',0,'EDGAR DE QUADROS',' ','',NULL,NULL,NULL,'1949-03-14','28'),
+	 (200,' ','CTG PIQUETE DA QUERÊNCIA',0,'AUGUSTO ROBERTO REBESCHINI',' ','54 99909 5354',NULL,NULL,NULL,'1961-04-21','29'),
+	 (201,' ','CTG FRONTEIRA ABERTA',0,'ELOIR RODRIGUES LINHARES',' ','',NULL,NULL,NULL,'1955-05-11','18'),
+	 (202,' ','CTG POTREIRO GRANDE',0,'PEDRO MATEUS DE PAULA',' ','',NULL,NULL,NULL,'1957-08-23','23'),
+	 (207,' ','CTG CEL. CHICO BORGES',0,'EDUYDES SINHORELLI NETTO',' ','51 995959078',NULL,NULL,NULL,'1958-05-20','23'),
+	 (210,' ','CTG PORTEIRA DO LITORAL',0,'Nelson Trespach Ferreira',' ','51 981817538',NULL,NULL,NULL,'1964-08-20','23'),
+	 (213,'CTG','QUERÊNCIA DA SERRA',87685210000149,'ADILSON BRAGA DA SILVA',' ',' ',NULL,NULL,NULL,'1969-09-20','17');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (214,' ','CTG GIUSEPE GARIBALDI',0,'JOSÉ CALVI',' ','',NULL,NULL,NULL,'1961-09-27','24'),
+	 (215,' ','CTG BENTO GONÇALVES',0,'DEOLI GRAFF',' ','',NULL,NULL,NULL,'1954-07-12','24'),
+	 (217,' ','CTG QUERÊNCIA DA AMIZADE',0,'OTOMAR FILHO MOROSO',' ','',NULL,NULL,NULL,'1958-09-12','24'),
+	 (220,' ','CTG CAMPEIROS DO SUL',90468778000112,'JEAN PIERRE SOARES RAMOS',' ',' 51 99954-7641',NULL,NULL,NULL,'1960-12-18','01'),
+	 (222,' ','CTG OSVALDO ARANHA',0,'JOSÉ BONASSA DA SILVA',' ','',NULL,NULL,NULL,'1968-09-14','04'),
+	 (223,' ','CTG CRIOULOS DO CAVERA',0,'',' ','',NULL,NULL,NULL,'1956-05-19','18'),
+	 (224,' ','CTG SENTINELA DA QUERÊNCIA',0,'DIEGO DE SOUZA',' ','54 999734998',NULL,NULL,NULL,'1964-12-19','08'),
+	 (225,' ','CTG PIONEIROS DO LAÇO',0,'BEATRIZ NECKEL BATALHA',' ','54 9938-3435',NULL,NULL,NULL,'1966-11-16','08'),
+	 (227,' ','CTG MARAGATOS',88916432000198,'MARIANA ROXO MATUSIAK',' ','51 999754894',NULL,NULL,NULL,'1957-10-23','01'),
+	 (229,' ','PL  ILHAPA DE SÃO CHICO',0,'FABIANO DA SILVA RODRIGUES',' ','54 99910-6002',NULL,NULL,NULL,'1962-12-09','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (232,' ','CTG BARREIRA DO NORTE',0,'JULIANO ARAÚJO PAGANO',' ','',NULL,NULL,NULL,'1964-07-16','06'),
+	 (233,' ','CTG COXILHA VERDE',0,'',' ','',NULL,NULL,NULL,'1968-06-20','05'),
+	 (235,' ','CTG SENTINELA DO IBICUI',0,'',' ','',NULL,NULL,NULL,'1968-04-21','04'),
+	 (241,' ','CTG FAGUNDES DOS REIS',0,'Darci Jorge da Silva',' ','54 9974-9326',NULL,NULL,NULL,'1962-12-22','07'),
+	 (242,' ','CTG LALAU MIRANDA',0,'Odalino Bonamigo',' ','54 9977-4702  54 3313-1436',NULL,NULL,NULL,'1952-03-24','07'),
+	 (243,' ','CTG OSÓRIO PORTO',0,'Clair Gay Freitas',' ','54 99208-2051',NULL,NULL,NULL,'1968-11-09','07'),
+	 (245,' ','CTG União Campeira',0,'André Ricardo Acco',' ','54 99984-7307',NULL,NULL,NULL,'1905-05-18','07'),
+	 (246,' ','CTG ALEXANDRE PATO',0,'ALESSANDRO CAPRI MULITERNO',' ','54 99947-0950',NULL,NULL,NULL,'1953-09-30','08'),
+	 (247,' ','CTG TROPEIRO LAGOENSE',0,'OLAVO JACQUES DA FONSECA',' ','54 999295166',NULL,NULL,NULL,'1961-06-04','08'),
+	 (249,' ','CTG ALVORADA DOS PAMPAS',0,'JOSE CLAUDENIR ANTUNES',' ','54 99634 8830',NULL,NULL,NULL,'1990-07-27','29');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (254,' ','CTG CAMPO VERDE',0,'NESTOR JOSÉ LUDWIG',' ','',NULL,NULL,NULL,'1969-04-13','30'),
+	 (256,'CTG','RODEIO MINUANO ',90732641000175,'Adão Gomes de Araújo Junior','adaoaraujojr@outlook.com','(54) 981337649',NULL,NULL,NULL,'1959-06-08','25'),
+	 (260,' ','CTG TAPERA VELHA',0,'CLÁUDIA SILVANE DA SILVA RIBEIRO',' ','51 991977827',NULL,NULL,NULL,'1962-06-11','12'),
+	 (264,' ','CTG QUERO QUERO',0,'LEANDRO DA SILVA',' ','',NULL,NULL,NULL,'1953-10-04','12'),
+	 (282,' ','PQT GALPÃO DO SOUZA',33054670000140,'MARCIO FONSECA DE SOUZA',' ','51 996520664',NULL,NULL,NULL,'2018-10-20','01'),
+	 (285,' ','CTG RINCÃO DOS BROCHIER',0,'PAULO CLEOMAR DAHMER',' ','51 998143989',NULL,NULL,NULL,'1968-11-30','15'),
+	 (287,' ','CTG LAURO RODRIGUES',0,'Leandro Antônio Peters',' ','51 98037-2111',NULL,NULL,NULL,'1957-06-20','15'),
+	 (295,' ','CTG SENTINELA DA FRONTEIRA',0,'MOACIR COSTA MORAES',' ','',NULL,NULL,NULL,'1970-09-07','18'),
+	 (296,' ','CTG GALPÃO CAMPEIRO',88205125000107,'NERILDE BERNARDETE ZUCCHI MENOSSO',' ','54 99965 2172',NULL,NULL,NULL,'1952-12-06','19'),
+	 (300,' ','CTG MINUANO',0,'GILNEI SAIS',' ','53 98458-8487 / 99943-1921',NULL,NULL,NULL,'1969-04-21','21');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (301,' ','CTG TROPEIROS DA QUERÊNCIA',0,'MARIA AMÉLIA ALMEIDA BOTELHO',' ','53 3262-1799 / 98439-4195',NULL,NULL,NULL,'1965-08-21','21'),
+	 (304,' ','CTG MANOTAÇO',0,'VOLMIR ANDRÉ PORT',' ','54 9908-2266',NULL,NULL,NULL,'1955-03-15','27'),
+	 (310,' ','PL PRESILHA DA QUERÊNCIA',0,'JONEI OSÓRIO DA SILVA',' ','',NULL,NULL,NULL,'1985-07-04','27'),
+	 (317,' ','PL PEÃO DE ESTÂNCIA',0,'DALMEI CARVALHO DE LIMA',' ','51 3251-1478 ',NULL,NULL,NULL,'1962-12-25','27'),
+	 (327,' ','CTG PRENDA MINHA',0,'MILTON DOMINGUES BRASIL',' ','',NULL,NULL,NULL,'1970-02-07','18'),
+	 (330,' ','CTG BRIGADEIRO RAPHAEL PINTO BANDEIRA',0,'JOSÉ FRANCISCO ROSADO',' ','53 - 999437090',NULL,NULL,NULL,'1968-09-14','06'),
+	 (331,' ','CTG A VOLTA DOS FARRAPOS',0,'',' ',' ',NULL,NULL,NULL,'1970-01-17','03'),
+	 (335,' ','CTG CRISTOVÃO PEREIRA DE ABREU',0,'JALVA VICHARA SILVA',' ','55 3433-2152',NULL,NULL,NULL,'1970-10-03','03'),
+	 (339,' ','CTG PEDRO VARGAS',0,'João Luiz Vieira',' ','54 9988-4511',NULL,NULL,NULL,'1954-09-19','07'),
+	 (340,' ','CTG RINCÃO SERRANO',0,'Luiz Bandeira',' ','54 99156-0833',NULL,NULL,NULL,'1958-05-03','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (343,'CTG','GALPÃO DA BOA VONTADE',89749030000109,'MARIA HELENA MARTINS MAGALHÃES',' ',' ',NULL,NULL,NULL,'1958-02-15','17'),
+	 (344,'CTG','SINUELO DA QUERÊNCIA',89748735000101,'TIAGO KOCHEMBORGER',' ',' ',NULL,NULL,NULL,'1963-07-09','17'),
+	 (345,'CTG','TRINTA E CINCO CTG',88689377000140,'NICANOR MARTINS',' ',' ',NULL,NULL,NULL,'1950-01-12','17'),
+	 (346,' ','CTG CAMAQUA',0,'VANTUIL MORAES MORAIS',' ','',NULL,NULL,NULL,'1963-10-29','16'),
+	 (347,' ','CTG PONTEIROS DO RIO GRANDE',2278410000124,'HAMILTON CORREA BONIFACIO',' ','51 3322-4007      51 99559-2836',NULL,NULL,NULL,'1960-09-23','01'),
+	 (350,' ','CTG CEL. THOMAZ LUIZ OSÓRIO',0,'',' ','',NULL,NULL,NULL,'1968-05-02','26'),
+	 (351,' ','CTG GAL. ANTONIO DE SOUZA NETO',0,'JOÃO ANTONIO GARCIA',' ','',NULL,NULL,NULL,'1966-02-11','06'),
+	 (353,' ','CTG ESTÂNCIA DA SERRA',0,'Rodrigo Ibañez da Silva',' ','51 99521-1800',NULL,NULL,NULL,'1968-04-02','23'),
+	 (354,' ','CTG QUERÊNCIA DA PÁTRIA',0,'',' ',' ',NULL,NULL,NULL,'1969-12-31','03'),
+	 (360,' ','CTG  FOGO DE CHÃO',0,'MILTON VAGUETH PEDRO OSÓRIO',' ','53 98123-7424',NULL,NULL,NULL,'1960-11-09','21');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (364,'CTG','MATE AMARGO',8916222000160,'EDER WINCK',' ',' ',NULL,NULL,NULL,'1968-10-27','17'),
+	 (366,' ','CTG SINUELO DO SUL',0,'',' ','',NULL,NULL,NULL,'1970-09-08','26'),
+	 (369,' ','CTG VAQUEANOS DA TRADIÇÃO ',87884060000100,'JOSÉ ARNILDO GOMES DE MELLO',' ','51 993217726',NULL,NULL,NULL,'1961-01-01','01'),
+	 (371,' ','CTG MISSIONEIRO DOS PAMPAS',0,'LAERTE VOLINO',' ','55 996265777',NULL,NULL,NULL,'1958-08-11','20'),
+	 (373,' ','CTG ALMA CRIOULA',0,'VALDIR VAZ MACHADO',' ','',NULL,NULL,NULL,'1963-04-13','12'),
+	 (375,' ','CTG ARMADA GRANDE',89885487000140,'MARIA APARECIDA MACHADO DA SILVA',' ','51 98497-6505',NULL,NULL,NULL,'1972-08-05','01'),
+	 (376,' ','CTG CANCELA DA QUERÊNCIA',0,'EDIMILSON MARTINS DA ROSA',' ',' ',NULL,NULL,NULL,'1970-05-19','21'),
+	 (377,' ','CTG SENTINELA DA ARMADA',0,'JORGEOVANE MOREIRA BORGES - DAGOBERTO DA SILVA PIRES',' ','53  98437-0969 - 99937-7080',NULL,NULL,NULL,'1970-03-15','21'),
+	 (380,' ','CTG RODEIO DA AMIZADE',0,'PAULO GOBBI',' ','',NULL,NULL,NULL,'1971-09-20','20'),
+	 (381,' ','CTG PRAZER DE GAÚCHO',0,'MARIO BORGUETTO',' ','',NULL,NULL,NULL,'1905-06-05','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (383,' ','CN  BOITATÁ',0,'',' ','',NULL,NULL,NULL,'1974-04-19','03'),
+	 (388,' ','CTG DOM LUIZ FELIPE DE NADAL',0,'Juliano Cornelius Salles',' ','54 9185-5832',NULL,NULL,NULL,'1971-02-07','07'),
+	 (389,' ','CTG CANCELA DA TRADIÇÃO',0,'OSMAR CANABARRO DA SILVA',' ','55 99626-2471',NULL,NULL,NULL,'1981-05-18','10'),
+	 (390,' ','CTG RANCHO VELHO',0,'',' ',' ',NULL,NULL,NULL,'1973-10-17','02'),
+	 (395,'CTG','GASPAR DA SILVEIRA MARTINS',0,'MARLO ALENCAR JOHANN',' ',' ',NULL,NULL,NULL,'1964-08-16','09'),
+	 (396,' ','CTG TROPERIOS DE CAMPO SANTO',0,'DARCI INÁCIO LEIDEMER',' ','55 99940 5758',NULL,NULL,NULL,'1972-12-15','20'),
+	 (399,' ','CTG RODEIO DOS PAMPAS',0,'RAUL OTAVIO VIEIRA SILVEIRA',' ','',NULL,NULL,NULL,'1975-01-01','08'),
+	 (400,' ','PL LAÇADORES DO TOMÉ',0,'GILBERTO DA LUZ',' ','',NULL,NULL,NULL,'1962-04-14','27'),
+	 (402,' ','PL  SINUELO DE SÃO CHICO',0,'ALENCAR FÁBIO FOGAÇA DOS REIS',' ','54- 35049327',NULL,NULL,NULL,'1968-06-13','27'),
+	 (403,' ','PL ESTÂNCIA DA AMIZADE',0,'FELIPE MONACO LOPES',' ','',NULL,NULL,NULL,'1963-11-21','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (404,' ','PL PRESILHA DE SÃO FCO. DE PAULA',0,'JOSE EDSON DE A. CASTILHOS',' ','',NULL,NULL,NULL,'1961-04-01','27'),
+	 (405,' ','CTG ALDEIA DOS  ANJOS',89352165000136,'JOELSO SILVA',' ','51 997155432',NULL,NULL,NULL,'1956-01-22','01'),
+	 (406,' ','PL SINUELO DO CERRITO',0,'RIOGRANDINO L. REIS',' ',' 54 9956-3179',NULL,NULL,NULL,'1962-07-10','27'),
+	 (407,' ','CTG RODEIO DE ENCRUZILHADA',0,'LUCIANO ATAIDES DE FREITAS',' ','51 99784 3242',NULL,NULL,NULL,'1975-05-06','05'),
+	 (408,' ','PL JUCA DA RATA',0,'CLEBER FOGAÇA',' ','',NULL,NULL,NULL,'1962-04-15','27'),
+	 (409,' ','CTG FRONTEIRA DA AMIZADE',0,'',' ',' ',NULL,NULL,NULL,'1972-09-10','03'),
+	 (413,'CTG','TROPEIRO VELHO',0,'VALDIR MALHEIROS DIAS',' ',' ',NULL,NULL,NULL,'1973-08-16','09'),
+	 (420,' ','CTG ERVA MATE',0,'ANDRÉ KROTH',' ','',NULL,NULL,NULL,'1968-05-13','24'),
+	 (421,' ','PL PORTEIRA CRIOULA',0,'Evaldo Lopes dos Reis',' ','54 999592890/ 54 3244 2344',NULL,NULL,NULL,'1964-12-15','27'),
+	 (423,' ','PL GENERAL OSÓRIO',0,'DOMINGOS CLAUDIOMAR BRUM DE BRUM',' ','',NULL,NULL,NULL,'1970-02-22','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (425,' ','PL PRESILHA DA AMIZADE',0,'WILMAR SILVA FERREIRA',' ','',NULL,NULL,NULL,'1969-10-03','23'),
+	 (426,' ','PL MATHIAS VELHO PACHECO',0,'JORGE ANDRÉ JARDIM DOS REIS',' ','',NULL,NULL,NULL,'1963-09-20','23'),
+	 (429,' ','CTG GALPÃO AMIGO',0,'Jorge Celito Zuffo',' ','54 99981-2083',NULL,NULL,NULL,'1973-03-15','07'),
+	 (430,'CTG','SINUELO DO PAMPA ',0,'Carlos Dalnei Rosa de Quadros',' qeqconstrutora@hotmail.com','(54) 999844176',NULL,NULL,NULL,'1969-12-31','25'),
+	 (431,' ','CTG TROPEIROS DA TRADIÇÃO',87751129000110,'MÁRCIA CISTINA DA SILVA BORGES',' ','51 98476-0249',NULL,NULL,NULL,'1975-09-06','01'),
+	 (433,' ','CTG TORQUATO DA ROCHA JACQUES',0,'ALESSANDRO ADAMS',' ','',NULL,NULL,NULL,'1973-06-20','24'),
+	 (434,' ','CTG GENERAL ZECA NETTO',0,'DIORGES FERREIRA',' ','51 99538105',NULL,NULL,NULL,'1975-01-19','16'),
+	 (445,' ','CTG ACONCHEGO DOS CARANCHOS',0,'NEURI TITO QUIRINO',' ','55 3422-5533/ 55 96292583',NULL,NULL,NULL,'1974-09-16','04'),
+	 (446,' ','CTG RANCHO FELIZ',0,'Moisés Raaber',' ','51 99967-8454',NULL,NULL,NULL,'1976-01-24','15'),
+	 (449,' ','CTG GAUDÉRIOS DA SAUDADE',0,'ELTON COSTA',' ','',NULL,NULL,NULL,'1970-07-18','30');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (452,' ','CTG JOÃO SOBRINHO',0,'LUCIANO VELASCO ALVES',' ','',NULL,NULL,NULL,'1965-04-09','23'),
+	 (455,' ','CTG TROPEIRO VELHO',0,'GILDOMAR PEREIRA TEIXEIRA',' ','',NULL,NULL,NULL,'1975-07-26','18'),
+	 (457,' ','CTG NEGRINHO DO PASTOREIO',0,'VECI PETIZ RIBEIRO',' ','53 98438-0450',NULL,NULL,NULL,'1967-06-29','26'),
+	 (459,' ','CTG PORTEIRA VELHA',0,'JURANDIR DE OLIVEIRA',' ','',NULL,NULL,NULL,'1967-03-09','30'),
+	 (461,' ','CTG CLAREIRA DA MATA',0,'JEANE DORNELES MEIRELES',' ','',NULL,NULL,NULL,'1974-03-19','18'),
+	 (462,' ','CTG NICO DORNELLES',0,'ISABEL CRISTINA A. SANTOS',' ','55 34225577',NULL,NULL,NULL,'1977-04-21','04'),
+	 (463,' ','CTG RODEIO DA QUERÊNCIA',91565341000160,'DARCI BERDIAN JUNIOR',' ','54 99933 1612',NULL,NULL,NULL,'1964-01-25','19'),
+	 (464,' ','CTG QUERÊNCIA DA SAUDADE',0,'NELSON SADI BARROS',' ','',NULL,NULL,NULL,'1969-05-14','20'),
+	 (465,'CTG','RONDA CHARRUA ',89664551000163,'Rogerio Carlos Abreu da Silva','chasque2009@hotmail.com','(54) 999765155',NULL,NULL,NULL,'1969-12-31','25'),
+	 (466,' ','CTG QUERO QUERO',0,'',' ','',NULL,NULL,NULL,'1970-07-12','20');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (469,' ','CTG ESPORA DE PRATA',89808760000133,'ANTONIO ZECA GOMES SAMUEL',' ','54 99181 9889 ',NULL,NULL,NULL,'1977-09-20','19'),
+	 (472,' ','CTG SINUELO DAS COXILHAS',0,'PAULO IVAN DRUNN KLEIN',' ','54 991368700',NULL,NULL,NULL,'1962-03-07','14'),
+	 (473,' ','CTG SERRANO',90169665000116,'DARLEI VANINI',' ','54 3339-1207 ',NULL,NULL,NULL,'1977-03-02','19'),
+	 (474,' ','PL LANCEIROS DA AMIZADE',0,'',' ','',NULL,NULL,NULL,'1977-05-07','26'),
+	 (475,' ','CTG VAQUEANOS DO LITORAL',0,'ELISMAR SOARES COELHO MARTINS',' ','995864654',NULL,NULL,NULL,'1977-07-07','23'),
+	 (476,' ','CTG GOMES JARDIM',89637557000141,'ADRIANO MEDEIROS DA SILVEIRA',' ','51 999927417',NULL,NULL,NULL,'1977-01-12','01'),
+	 (478,' ','CTG SINUELO DOS PAGOS',0,'GILMAR DA COSTA',' ','',NULL,NULL,NULL,'1961-10-29','14'),
+	 (479,' ','CTG SENTINELA DO RIO GRANDE ',94310513000142,'JOSÉ LOURENÇO DOS SANTOS',' ','51 99731-9651',NULL,NULL,NULL,'1988-08-13','01'),
+	 (481,' ','CTG GEN. BENTO GONÇALVES DA SILVA',0,'ARLEI SPIERIG',' ','51 99970854',NULL,NULL,NULL,'1977-08-28','16'),
+	 (482,' ','CTG  RODEIO DA TRADIÇÃO',0,'GETULIO',' ','51 98675313',NULL,NULL,NULL,'1971-05-30','16');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (483,' ','CTG GALPÃO DO XIRU',0,'MOACIR SILVEIRA',' ','',NULL,NULL,NULL,'1971-05-09','06'),
+	 (484,' ','CTG TROPEIRO DOS CAMPOS NEUTRAIS',0,'ANA GISELE SILVEIRA SANTOS',' ','',NULL,NULL,NULL,'1977-05-27','06'),
+	 (486,' ','CTG SENTINELA DO RIO GRANDE',0,'MARTA MANN BAIOTTO',' ','',NULL,NULL,NULL,'1971-09-20','20'),
+	 (487,' ','CTG GALPÃO HOSPITALEIRO',0,'LIVALDO  ILSON DOEBBER',' ','',NULL,NULL,NULL,'1978-01-20','14'),
+	 (489,' ','PIQ CAPITÃO RODRIGO',0,'ELI AMARAL',' ','',NULL,NULL,NULL,'1972-07-29','15'),
+	 (490,' ','CTG CAPÃO DA PORTEIRA',89885974000103,'CLENIO FRANCISCO PEREIRA DA PERCIÚNCULA',' ','51 97538553',NULL,NULL,NULL,'1977-04-23','01'),
+	 (494,' ','CTG QUERÊNCIA DE SÃO PEDRO',0,'KLEBER FIORI',' ','54 3272-1122',NULL,NULL,NULL,'1971-01-24','11'),
+	 (495,' ','CTG LAÇO DA AMIZADE',0,'Rafael Conteratto',' ','54 9173-7725',NULL,NULL,NULL,'1970-02-03','07'),
+	 (496,' ','GF TAPIRAPE',0,'RUI CESAR DE AZEVEDO',' ','51 99666-2978',NULL,NULL,NULL,'1975-08-16','15'),
+	 (498,' ','CTG QUERÊNCIA DE QUATRO IRMÃOS',89121834000169,'ROMÁRIO DE ALBUQUERQUE',' ','54 99154 3408',NULL,NULL,NULL,'1966-04-01','19');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (499,' ','PL RINCÃO DAS HORTÊNCIAS',0,'SIRINEI DA SILVA SANTOS',' ','',NULL,NULL,NULL,'2006-03-08','27'),
+	 (501,' ','CTG ÚLTIMA TROPEADA',0,'VERNO JERÔNIMO FRITZEN',' ','54 981288234 - 999174824',NULL,NULL,NULL,'1964-02-29','11'),
+	 (502,' ','CTG GALPÃO DA SAUDADE',0,'NELSON PEDRO MEZZOMO',' ','',NULL,NULL,NULL,'1966-08-15','11'),
+	 (510,' ','PL PRESILHA CAZUZENSE',0,'DANTE BOSSLE LAHM',' ','',NULL,NULL,NULL,'1970-11-10','27'),
+	 (511,' ','CTG FAMÍLIA NATIVISTA',0,'JORIS AUGUSTO GONÇALVES MENEZES',' ','',NULL,NULL,NULL,'1978-05-28','18'),
+	 (514,' ','PL PRESILHA DA AMIZADE',0,'RENAN LUIZ FURTADO',' ','54 9992-0451',NULL,NULL,NULL,'1961-04-01','27'),
+	 (515,' ','CTG GUIDO MOMBELLI',0,'BIBIANO DE MATTOS NETO',' ','1900-02-22 00:00:00',NULL,NULL,NULL,'1978-08-12','14'),
+	 (517,' ','PL BICO FINO',0,'ROQUE OSCAR MAZIERO',' ','',NULL,NULL,NULL,'1978-01-15','14'),
+	 (518,'PL','QUATRO VENTOS',0,'OLMIRO C. H. DE CAMPOS',' ',' ',NULL,NULL,NULL,'1978-01-01','09'),
+	 (519,' ','PL CAPITÃO JANUÁRIO',0,'ROBERTO DIEGO OLIVEIRA',' ','',NULL,NULL,NULL,'1978-05-22','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (520,' ','PL  NEGRINHO DO PASTOREIO',0,'',' ','54 996104302',NULL,NULL,NULL,'1979-02-23','14'),
+	 (521,' ','PL RANCHO DA AMIZADE',0,'VILSON LOTAR NIEDERAUER',' ','',NULL,NULL,NULL,'1979-03-07','14'),
+	 (525,' ','CTG  RONDA DO RIO GRANDE',0,'',' ',' ',NULL,NULL,NULL,'1975-09-20','03'),
+	 (527,' ','GF OS PIAZITOS DE TORRES',0,'JOSÉ OSÓRIO SIMÃO',' ','',NULL,NULL,NULL,'1979-03-31','23'),
+	 (530,' ','PL OS GAUDÉRIOS DE SÃO DOMINGOS',0,'FABRICIO BORBA',' ','',NULL,NULL,NULL,'1979-04-14','14'),
+	 (533,'CTG','RECANTO DO PAGO',0,'IGLENIO BERNARDI',' ',' ',NULL,NULL,NULL,'1976-08-14','09'),
+	 (535,' ','CTG LANCEIROS DE SANTA CRUZ',0,'',' ','',NULL,NULL,NULL,'1961-08-05','05'),
+	 (536,' ','CTG HERMAGORAS ROLIM',0,'Cristóvão Euzébio da Silva',' ','55  996464861',NULL,NULL,NULL,'1969-12-31','20'),
+	 (537,'CTG','LAUREANO MEDEIROS',0,'Iara Von Groll',' ',' ',NULL,NULL,NULL,'1974-10-13','09'),
+	 (538,' ','CTG VAQUEANOS DA PRAIA DO PINHAL',0,'MAURO FERREIRA DA ROSA',' ','',NULL,NULL,NULL,'1976-09-09','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (539,' ','CTG CANCELA DA FRONTEIRA',0,'ZUNER FABIANO FRAGOSO JUST',' ','55 999158263',NULL,NULL,NULL,'1975-09-13','10'),
+	 (540,' ','CTG LUIZ CHIRIVINO',0,'',' ','',NULL,NULL,NULL,'1966-09-01','18'),
+	 (543,' ','PTG CAMPEIROS DO SUL',0,'',' ','',NULL,NULL,NULL,'1979-02-08','05'),
+	 (550,' ','PL GEN. BENTO GONÇALVES DA SILVA',0,'SANTIAGO FONSECA MACEDO',' ','',NULL,NULL,NULL,'1976-05-31','06'),
+	 (552,' ','PL SINUELO DA AMIZADE',0,'ERNANDES MATOS FERNANDES',' ','',NULL,NULL,NULL,'1969-12-31','27'),
+	 (553,' ','CTG GALPÃO CRIOULO',0,'Paulo Rudinei Schnur',' ','54 99608-0457',NULL,NULL,NULL,'1977-12-02','07'),
+	 (555,' ','CTG PLÁCIDO DE CASTRO',0,'ITALMAR MALDONADO CHAVES',' ','',NULL,NULL,NULL,'1976-07-04','18'),
+	 (556,' ','CTN SINOS DE SÃO MIGUEL',0,'',' ','55 3811380',NULL,NULL,NULL,'1977-12-04','03'),
+	 (557,' ','CTG PORTEIRA DA AMIZADE',0,'MILTON MOURA',' ','',NULL,NULL,NULL,'1965-10-10','14'),
+	 (559,' ','CTG QUERENCIA CHARRUA',0,'JOSÉ FERNANDO FREITAS',' ','55 9601-9592',NULL,NULL,NULL,'1968-06-22','04');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (561,' ','CTG TROPEIROS DA AMIZADE',0,'JOSIANE PATRÍCIA DOS SANTOS',' ','51 997599017',NULL,NULL,NULL,'1956-09-26','05'),
+	 (563,' ','CTG  JANGO BORGES',0,'VITORINO FACHINETTO',' ','51 996353792',NULL,NULL,NULL,'1971-05-09','14'),
+	 (564,' ','CTG OSORIO DE ASSIS',0,'ANTONINHO DE GOES',' ','54 3389-1263 ',NULL,NULL,NULL,'1979-10-25','14'),
+	 (565,' ','CN SERIEMA',0,'AIRTON FERREIRA',' ','',NULL,NULL,NULL,'1979-12-25','23'),
+	 (566,' ','CTG ESTEIO DA TRADIÇÃO',0,'CELMAR SOARES BRUM',' ','',NULL,NULL,NULL,'1979-01-24','12'),
+	 (568,'PL','PRESILHA CRUZALTENSE',0,'PAULO AFONSO RIBAS DOS REIS',' ',' ',NULL,NULL,NULL,'1979-10-07','09'),
+	 (570,' ','CTG SENTINELA DA TRADIÇÃO',0,'MÁRCIA GORETI DA SILVA',' ','51 99886-5154',NULL,NULL,NULL,'1979-09-26','22'),
+	 (571,'CTG','MANGUEIRA DE PEDRA',0,'Marcio Oliveira',' ',' ',NULL,NULL,NULL,'1977-12-31','09'),
+	 (572,' ','PL TIMBAÚVA',0,'Ernani Nunes',' ','51 99570 9343 51 99958 4904 Ernani',NULL,NULL,NULL,'1979-06-29','15'),
+	 (573,' ','CTG ESTRELA DO PAGO',0,'DOUGLAS PASA SCHAEFER',' ','',NULL,NULL,NULL,'1964-07-18','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (576,' ','PL PORTEIRA ABERTA',0,'CARLOS ODIL ORGUIM',' ','',NULL,NULL,NULL,'1980-03-13','14'),
+	 (579,'CTG','x- TIO ANASTACIO - BLOQUEADA',0,'JOÃO HORACIO AQUINO',' ',' ',NULL,NULL,NULL,'1977-09-29','09'),
+	 (585,'CTG','ESTÂNCIA DO UMBU',0,'Adinan Librelotto Rubin',' ',' ',NULL,NULL,NULL,'1979-10-10','09'),
+	 (587,' ','CTG ALFREDO DAMORE',0,'Reinaldo Pizzamiglio da Silva',' ','54 999463138',NULL,NULL,NULL,'1979-05-31','07'),
+	 (588,' ','GF OS GUAPOS DE CAMAQUÃ',0,'ELIZANDRO DORNELLES BARBOSA',' ','51 985384130',NULL,NULL,NULL,'1979-06-06','16'),
+	 (589,' ','GA Gaúchas Piazitos do Sul',0,'JORGE FERREIA PEIXOTO',' ','51 999753316',NULL,NULL,NULL,'1978-08-01','12'),
+	 (592,' ','CTG HERANÇA PATERNAL',0,'IVO MARTINS EGUILHOR',' ','',NULL,NULL,NULL,'1980-07-06','18'),
+	 (596,' ','CTG POTREIRO GRANDE',0,'Luci Rovena Kremer Bisognin',' ','55 996743145',NULL,NULL,NULL,'1965-11-15','14'),
+	 (597,' ','CTG QUERÊNCIA DO MATE',0,'PAULO COMPER',' ','',NULL,NULL,NULL,'1979-04-25','14'),
+	 (599,'GF','PIAZITO CARRETEIRO',0,'Teresa Fatima de oliveira',' ',' ',NULL,NULL,NULL,'1977-09-17','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (600,'CTG','ESTÂNCIA DO IMIGRANTE',0,'ROBERTO GUARESCHI',' ',' ',NULL,NULL,NULL,'1980-05-18','09'),
+	 (601,' ','CTG GALPÃO DOS CARRETEIROS',0,'JOSÉ MELIBIO COSTA MACHADO',' ','',NULL,NULL,NULL,'1970-08-25','23'),
+	 (607,' ','PL LENÇO BRANCO',0,'CLAUDIO DUTRA',' ','',NULL,NULL,NULL,'1980-05-25','27'),
+	 (608,' ','CTG LANCEIROS DA ZONA SUL',87381448000180,'JOÃO BATISTA PAIVA CARDIAS',' ','51 985449281',NULL,NULL,NULL,'1979-09-01','01'),
+	 (609,' ','PL OS CHARRUAS',0,'LUIZ LAIR SIGNOR',' ','',NULL,NULL,NULL,'1980-12-12','14'),
+	 (611,' ','PL QUERÊNCIA DE AZULEGA',0,'ANTÔNIO SIDNEI DA SILVA',' ','',NULL,NULL,NULL,'1978-12-30','27'),
+	 (613,' ','PL RINCÃO CAMPEIRO',0,'Argeu Antonio dos Santos',' ','54 99974-4106',NULL,NULL,NULL,'1959-01-25','07'),
+	 (615,' ','CTG PORTEIRA DA QUERÊNCIA',0,'Saul João Rovadoscki',' ','54 9969-5244',NULL,NULL,NULL,'1972-07-14','07'),
+	 (616,' ','GF HERANÇA FARROUPILHA',0,'VALDEMIR FEPE',' ','',NULL,NULL,NULL,'1980-03-25','12'),
+	 (618,' ','CTG GAUDÉRIOS DA QUERÊNCIA',0,'',' ','',NULL,NULL,NULL,'1979-04-21','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (619,' ','CTG SOMBRA DA SERRA',0,'BRENO TADEU MESQUITA DA FONSECA',' ','',NULL,NULL,NULL,'1979-02-18','11'),
+	 (623,'CTG','NEGRINHO DO PASTOREIO ',89822712000108,'André Luis dos Santos Vieira','bgvisual@bgvisual.com.br','(54) 991614770',NULL,NULL,NULL,'1972-01-05','25'),
+	 (624,'CTG','RAPOSO TAVARES',19056858000104,'Oscar Almeida Vieira','makellyfernanda@gmail.com','(54) 95098650',NULL,NULL,NULL,'1969-12-31','25'),
+	 (625,'CTG','DOM MANUEL SANMARTIN',8595205000179,'Idival Castilhos Machado','idival.machado@grupo-sanmartin.com','(54) 999415833',NULL,NULL,NULL,'2006-12-12','25'),
+	 (626,'CTG','PORTEIRA DA SERRA  ',92864156000139,'Roque Jocenir Castilhos','roberta_castilhos@hotmail.com','(54)999953880',NULL,NULL,NULL,'1969-12-31','25'),
+	 (627,'E.N.','TAQUAREMBO',0,'José Francisco Pereira Salles',' ',' ',NULL,NULL,NULL,'1980-03-10','09'),
+	 (629,' ','CTG RODEIO DA QUERÊNCIA',0,'CLEMIR PESOTTO',' ','',NULL,NULL,NULL,'1973-06-29','28'),
+	 (632,' ','CTG LAÇO DA AMIZADE',88143946000158,'SIDNEI ROCHA COELHO',' ','51 99984-6803 ',NULL,NULL,NULL,'1976-04-17','01'),
+	 (635,' ','CTG RONDA DA SAUDADE   ',0,'Sandro Trombetta',' ','54 99608-4849',NULL,NULL,NULL,'1963-03-24','07'),
+	 (636,' ','GF BOMBACHA PRETA',0,'SIDEMAR ANTÔNIO DOS PASSOS',' ',' ',NULL,NULL,NULL,'1981-01-13','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (642,' ','CTG ADÃO CASTILHOS',0,'ONEIDE TERRES',' ','',NULL,NULL,NULL,'1979-10-06','27'),
+	 (644,' ','CTG QUERÊNCIA DO MUNDO NOVO',0,'ALEXANDRE BERTIN',' ','51 99533-6462',NULL,NULL,NULL,'1980-01-28','22'),
+	 (647,' ','PL NESTOR SAMPAIO DE QUADROS',0,'Nessandra Marcondes de  Quadros',' ','54 99932-3336  54 3329-1686',NULL,NULL,NULL,'1979-08-19','07'),
+	 (651,' ','CTG GALPÃO DA ESTÂNCIA',0,'ARLEI SCOTTA',' ','51 3742-1452 ',NULL,NULL,NULL,'1954-04-12','14'),
+	 (652,' ','CTG SENTINELA DA SERRA',0,'PAULO ROBERTO BOTA',' ','54  3462-5444',NULL,NULL,NULL,'1981-05-09','11'),
+	 (653,' ','CTG POUSADA DOS CARRETEIROS',0,'ANDRÉ FRANCISCO TRES',' ','',NULL,NULL,NULL,'1981-04-10','11'),
+	 (656,'CTG','CHIMARRÃO ',90770256000170,'Nestor Juarez dos Passos','edilainers90@gmail.com','(54) 996748645',NULL,NULL,NULL,'1969-12-31','25'),
+	 (657,' ','GN IBIRAPUITA',0,'LUIZ CARLOS PEREIRA ALABI',' ','55 34221660',NULL,NULL,NULL,'1981-09-15','04'),
+	 (658,' ','CTG ESTÂNCIA PEDRO BROLL SOBRINHO',0,'GILNEI PEDROSO DE PEDROSO',' ','55 991733980',NULL,NULL,NULL,'1981-02-20','10'),
+	 (659,' ','QL SENTINELA DOS PAMPAS',0,'Elvis Pedro Silveira',' ','54 98113-4126',NULL,NULL,NULL,'1981-09-12','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (660,'PL','RODEIO TEATINO',21009580000158,'Lucas Vanaz','agrodrago@brsulnetrs.com.br','(54) 996795315',NULL,NULL,NULL,'1966-08-01','25'),
+	 (661,'PL','PRESILHA DO RINCÃO',604987000153,'Claudio Adenir Varela dos Santos','varelarepresent@hotmail.com','(54) 999489172',NULL,NULL,NULL,'1969-12-31','25'),
+	 (662,'PL','SESTIADA DE GAÚCHO',9359554000154,'Mario Gilberto Gonçalves','mariogilberto.goncalves@hotmail.com','(54)999960318',NULL,NULL,NULL,'1969-12-31','25'),
+	 (663,'PL','RODEIO VELHO',0,'Darlan Adão Camelo de Araujo',' ggcastilhos@yahoo.com.br','(54) 98425-6559',NULL,NULL,NULL,'1963-08-11','25'),
+	 (664,'PL','LAÇO FORTE',0,'Maicon Joenir Fortes','maiconjfortes@gmail.com','(54) 999149979',NULL,NULL,NULL,'1969-12-31','25'),
+	 (665,'PL','VOVÔ SILVANO DANELUZ',0,'Volnei Pistore','volneipistore@gmail.com','(54) 99113-2425',NULL,NULL,NULL,'1977-11-05','25'),
+	 (667,'CTG','PORTEIRA DA AMIZADE',10690521000171,'Elairton Zampieri Fochezatto','vanuzafochezatto@gmail.com','(54) 999748534',NULL,NULL,NULL,'1969-12-31','25'),
+	 (668,'CTG','LAÇO DA AMIZADE',10511909000168,'Juares Perochin','gustavoperochin@yahoo.com.br','(54) 999322358',NULL,NULL,NULL,'1969-12-31','25'),
+	 (670,'PL','VETERANOS',0,'Gilson Boff','gilsonboff@hotmail.com','(54) 999177381',NULL,NULL,NULL,'1969-01-01','25'),
+	 (671,'PL','SINUELO DOS PAMPAS',0,'Carlos Cervelin',' sonia.bachic@hotmail.com','(54) 981150485',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (673,'PL','LAÇADORES DA QUERÊNCIA',0,'Diego Palmeira Marques','diego-marques16@hotmail.com','(54) 991779313',NULL,NULL,NULL,'1969-12-31','25'),
+	 (674,'CTG','CHILENAS DE PRATA',7970805000107,'Simara de Souza Barbosa','','(54) 98428-9099',NULL,NULL,NULL,'2005-12-02','25'),
+	 (675,'PL','POTREIRO DA SERRA',90775693000187,'Airton Zacarias dos Santos','','(54)  999652620',NULL,NULL,NULL,'1977-06-07','25'),
+	 (678,' ','CTG NECO GOULART',0,'Jose Antunes de Mello',' ','54 9925-1238',NULL,NULL,NULL,'1968-04-22','07'),
+	 (679,' ','PL RODEIO BRANCO',0,'',' ','',NULL,NULL,NULL,'1981-01-25','14'),
+	 (685,'PL','CHALEIRA PRETA',8390275000190,'Jose Mario Schmitt Machado','antonio_castilhos@hotmail.com','(54) 999082435',NULL,NULL,NULL,'1969-12-31','25'),
+	 (687,' ','CTG RODEIO DA AMIZADE',0,'GLBERTO BRESOLIN',' ','54 996874320',NULL,NULL,NULL,'1970-09-20','11'),
+	 (688,'CTG','GALPÃO  PRAZER  DE GAÚCHO',808945000134,'Lilian Catarina Fabiane da Silva','lcfabiani@ucs.br','(54) 991868017',NULL,NULL,NULL,'1969-12-31','25'),
+	 (689,' ','CCT RANCHO CRIOULO',0,'LORI CARLOS DA SILVA',' ','',NULL,NULL,NULL,'1955-06-06','12'),
+	 (690,' ','CTG LAÇO VELHO',0,'PEDRO OLI DA LUZ',' ','51 3902-1481 / 51 99739-1236/ 51 98024-9927',NULL,NULL,NULL,'1981-09-13','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (693,' ','GN COMITIVA DO TEMPO',0,'',' ','54 99964 1528',NULL,NULL,NULL,'1982-01-12','14'),
+	 (694,' ','PL TROPILHA SERRANA',0,'',' ','',NULL,NULL,NULL,'1975-11-15','14'),
+	 (696,'CTG','CARRO DE BOI',26662771000138,'Edson Dutra da Silva','edsondutradasilva209@gmail.com','(54) 991422041',NULL,NULL,NULL,'1981-04-12','25'),
+	 (701,' ','CTG SENTINELAS DO PAGO',0,'Alcindo Buffon',' ','54 99214-2461',NULL,NULL,NULL,'1965-06-27','07'),
+	 (703,' ','CTG ESTÂNCIA DE SAPUCAIA',0,'MARIA ELISABETE NUNES DA SILVEIRA',' ','',NULL,NULL,NULL,'1978-07-08','12'),
+	 (705,' ','CTG TROPEIROS DO SUL',0,'',' ','',NULL,NULL,NULL,'1981-10-01','26'),
+	 (706,' ','CTG RINCÃO AMIGO',90982836000121,'CARLOS JÚNIOR PALAVICINI',' ','54 99714 6628',NULL,NULL,NULL,'1977-10-22','19'),
+	 (707,' ','PL SENTINELA DA FRONTEIRA',0,'ÉLVIO GIRIBONI',' ','55 99950-1669',NULL,NULL,NULL,'1980-09-20','10'),
+	 (709,' ','CTG CHAPÉU DE PALHA',0,'LEOMAR FERNANDES',' ','',NULL,NULL,NULL,'1981-09-06','14'),
+	 (710,'GF','FOGO DE CHÃO',0,'Fabiano Nicoloso De Souza',' ',' ',NULL,NULL,NULL,'1981-07-12','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (711,' ','CTG RODEIO VELHO',0,'MARIANO C. PETERSEN',' ','',NULL,NULL,NULL,'1966-04-21','27'),
+	 (713,' ','CTG Pedro Telles Tourem',0,'IldOir Padilha Rodrigues',' ','55 99699-8722',NULL,NULL,NULL,'1981-11-14','10'),
+	 (714,' ','PL TEATINOS DE JAQUIRANA',0,'DILMAR CASTILHOS',' ','',NULL,NULL,NULL,'1980-02-06','27'),
+	 (715,' ','CTG SETEMBRINA DOS FARRAPOS',89885859000139,'ANA PINHEIRO MACHADO',' ','51 99826-6726',NULL,NULL,NULL,'1982-05-04','01'),
+	 (718,' ','CTG PASSO DOS TROPEIROS',0,'ANTONIO ADEMIR KUHN',' ','51 98057-0553',NULL,NULL,NULL,'1982-02-26','22'),
+	 (719,' ','CTG CANDEEIRO DO PAGO',0,'JOÃO HAMILTON VEDOTO',' ','',NULL,NULL,NULL,'1976-10-18','18'),
+	 (721,' ','CTG TRÊS QUERÊNCIAS',0,'ALCIBÍADES DE SOUZA LEANDRO',' ','',NULL,NULL,NULL,'1981-03-29','18'),
+	 (723,' ','CTG TROPEIROS DA TRADIÇÃO',0,'CESAR HECK',' ',' ',NULL,NULL,NULL,'1975-09-06','20'),
+	 (728,' ','PQT GARRÃO DE POTRO',16668036000188,'LAURO LUIZ OLIVEIRA CANNEZ',' ','51 998847358',NULL,NULL,NULL,'1982-04-20','01'),
+	 (731,' ','PTQ FAZENDA BRANCA',0,'MAURO MARTINS',' ','',NULL,NULL,NULL,'1982-05-01','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (733,' ','CTG PORTEIRA VELHA',0,'Mara Fatima Vidal',' ','55 99179-8378',NULL,NULL,NULL,'1981-09-07','07'),
+	 (734,' ','CTG DAVID CANABARRO',0,'ALBERI MIGUEL WEIS',' ','',NULL,NULL,NULL,'1976-04-01','10'),
+	 (738,' ','QL TROPILHA SERRANA',0,'Dagir Piffer',' ','54 99967-0089',NULL,NULL,NULL,'1980-11-22','07'),
+	 (744,' ','PL GUARDA VELHA',0,'WILMAR BRAS',' ','',NULL,NULL,NULL,'1978-08-30','18'),
+	 (745,' ','CTG TROPILHA FARRAPA',0,'CLARICE BATISTA BORGES',' ','51 99705-9212',NULL,NULL,NULL,'1979-10-12','24'),
+	 (751,' ','QL RONDA DA SAUDADE',0,'Telmo de Morais',' ','54 99981-9853',NULL,NULL,NULL,'1979-12-12','07'),
+	 (752,' ','CTG TROPEIROS DO RIO BRANCO',0,'ANTÔNIO ENI BENETTI',' ',' ',NULL,NULL,NULL,'1981-05-09','03'),
+	 (753,' ','CTG SENTINELA FARROUPILHA',0,'NORDI PINHEIRO GARCIA',' ','51 999581854',NULL,NULL,NULL,'1982-12-29','16'),
+	 (754,' ','PIQ QUINZE DE NOVEMBRO',0,'ARTHUR DA SILVA',' ','51 998783626',NULL,NULL,NULL,'1991-11-15','15'),
+	 (755,' ','CTG ESTÂNCIA DE RIO PARDO',0,'',' ','',NULL,NULL,NULL,'1982-10-01','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (756,' ','CTG TRADIÇÃO DO RIO GRANDE',0,'',' ','',NULL,NULL,NULL,'1982-08-28','04'),
+	 (758,' ','CTG RODEIO DA SAUDADE',0,'RUI BECKER',' ','',NULL,NULL,NULL,'1979-03-10','08'),
+	 (759,' ','CTG ZECA FREITAS',0,'',' ','',NULL,NULL,NULL,'1982-07-31','02'),
+	 (761,' ','CTG OS MARAGATOS',0,'DIRCEU ANOTNIO PAGNONCELLI',' ','54 999022160',NULL,NULL,NULL,'1981-07-22','11'),
+	 (762,' ','PIQ UNIÃO DE AMIGOS',0,'LUIS FERNANDES DALL AGNOL',' ','',NULL,NULL,NULL,'1981-05-10','11'),
+	 (766,' ','CTG CHALEIRA PRETA',89120612000121,'DIRCEU LORENZETTI',' ','54 991641708',NULL,NULL,NULL,'1982-11-20','19'),
+	 (768,'CTG','VELHA CARRETA',0,'EDENILSON JOÃO STAFORTI',' ',' ',NULL,NULL,NULL,'1982-11-09','09'),
+	 (770,' ','CTG SEVERO SAMPAIO DE QUADROS',0,'Valdir Aloisio R. A. Xavier',' ','54 99149-6246',NULL,NULL,NULL,'2012-10-13','07'),
+	 (771,' ','QL GALPÃO DA AMIZADE',0,'Iedo Fuga Junior',' ','49 99963-1412',NULL,NULL,NULL,'1905-06-04','07'),
+	 (772,' ','CTG Taquaruçu',0,'Cleonice Riva Potrich',' ','54 98418-8039',NULL,NULL,NULL,'1981-06-24','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (773,' ','CTG ESTRELA DO RIO GRANDE',0,'PAULO ANTONIO WERLE',' ','',NULL,NULL,NULL,'1973-12-01','24'),
+	 (776,'CTG','AVÔ MARAGATO',0,'Leandro kappke Barato.',' ',' ',NULL,NULL,NULL,'1979-11-19','09'),
+	 (778,' ','CTG O GRITO DE SEPE',0,'JULIANO JOEL CAMPANARO',' ','55 996314903',NULL,NULL,NULL,'1981-12-15','03'),
+	 (779,' ','CTG CORREDOR MISSIONEIRO',0,'',' ','',NULL,NULL,NULL,'1981-05-01','03'),
+	 (782,' ','CTG FARROUPILHA',89120133000105,'JACSON ANDRÉ SEZNE',' ','54 999878850',NULL,NULL,NULL,'1982-03-28','19'),
+	 (786,' ','CTG TROPILHAS DA SERRA',0,'',' ','',NULL,NULL,NULL,'1979-09-20','24'),
+	 (787,' ','CTG SENTINELA DOS PAMPAS',0,'',' ','',NULL,NULL,NULL,'1956-06-08','05'),
+	 (788,' ','SOCIEDADE GAÚCHA LOMBA GRANDE',0,'SIDINEI GONCHOROSKI',' ','',NULL,NULL,NULL,'1938-01-31','30'),
+	 (790,' ','CTG RANCHO AMIGO',89120034000123,'FERNANDO PAULO BALBINOT',' ','54 999872519',NULL,NULL,NULL,'1981-10-12','19'),
+	 (792,' ','GF RODEIO DA ESPERANÇA',0,'',' ','',NULL,NULL,NULL,'1980-08-08','26');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (799,' ','CTG SINUELO DA LIBERDADE',0,'',' ','',NULL,NULL,NULL,'1983-07-23','05'),
+	 (801,' ','CTG ESTÂNCIA ALEGRE',0,'',' ','',NULL,NULL,NULL,'1966-05-11','05'),
+	 (802,'PL','RODEIO LAGEADO',88373196000100,'Elton Antonio Capelani dos Santos','elton.capelani@gmail.com','(54) 997114122',NULL,NULL,NULL,'1983-01-08','25'),
+	 (805,' ','PL TIMBAÚVA',0,'',' ','',NULL,NULL,NULL,'1983-05-11','10'),
+	 (808,' ','CTG QUERÊNCIA XUCRA',0,'GILBERTO MENEZES DE OLIVEIRA',' ','',NULL,NULL,NULL,'1974-05-25','18'),
+	 (811,' ','CTG CAVALO BRANCO',0,'JOSIMAR ZORZO',' ','54 996071018',NULL,NULL,NULL,'1987-08-28','11'),
+	 (813,'PL','MINUANO DA CASCATA',0,'Raul Bento Gomes da Fonseca','fonseca.raul@terra.com.br','(54)999241640',NULL,NULL,NULL,'1964-08-03','25'),
+	 (814,' ','CTG GILDO DE FREITAS',94595824000103,'LUIS CARLOS CHOMIENIUK',' ','51 99112-6252',NULL,NULL,NULL,'1983-03-26','01'),
+	 (816,' ','CEF MARTIN FIERRO',0,'DANIEL HENRIQUE GREGÓRIO',' ','55 999439500/ 55 991294194',NULL,NULL,NULL,'1999-06-09','04'),
+	 (818,' ','QL PEDRO JOÃO DA SILVA',0,'Sandro Mokfa da Silva',' ','54 9633-5032',NULL,NULL,NULL,'1982-06-09','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (820,' ','QL TEATINOS',0,'',' ','',NULL,NULL,NULL,'1983-01-15','07'),
+	 (821,' ','GAN VAQUEANOS DA CULTURA',0,'DANIEL TELÓ DO PRADO',' ','54 999217261',NULL,NULL,NULL,'1979-04-30','14'),
+	 (822,' ','CTG DEVOTOS DA TRADIÇÃO',0,'Fábio Mansan',' ','999598021',NULL,NULL,NULL,'1965-05-12','23'),
+	 (828,' ','PL GUILHERME SCHULTZ FILHO',0,'JOSÉ ELÓI SILVA SOUZA',' ','999968770
+',NULL,NULL,NULL,'1977-11-15','02'),
+	 (829,' ','CTG SINUELO DA CULTURA',0,'',' ','',NULL,NULL,NULL,'1974-06-29','16'),
+	 (830,' ','CTG SENTINELA DOS PAMPAS',89948855000152,'MARCOS OLIVEIRA',' ','51 99608-0527',NULL,NULL,NULL,'1982-03-13','01'),
+	 (834,' ','GF SEPE TIARAJU',0,'Paulo André K. de Salles',' ','54 99617-1523',NULL,NULL,NULL,'2002-05-27','07'),
+	 (835,' ','CTG GALDINO MARQUES',0,'Angela L. Shneider',' ','54 99112-6363',NULL,NULL,NULL,'1985-10-21','07'),
+	 (836,' ','CTG RANCHO DA AMIZADE',0,'VOLNEI JOSÉ ENGEL',' ','55 996475757',NULL,NULL,NULL,'1968-04-22','03'),
+	 (837,' ','GAN LAGOA VERMELHA',0,'ROGÉRIO FURLAN LIMA',' ','54 996991620',NULL,NULL,NULL,'1983-05-23','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (838,' ','CTG CRISTOVÃO PEREIRA',0,'JORGE LUIS EVANGELHO DA SILVA',' ','',NULL,NULL,NULL,'1982-07-12','23'),
+	 (844,' ','CTG  ESPORA DE PRATA',0,'JOÃO CARLOS OSÓRIO ROSA DA SILVA',' ','',NULL,NULL,NULL,'1963-09-20','16'),
+	 (848,' ','CTG RANCHO DA AMIZADE',0,'Cristiane Casagrande',' ','54 98407-6960',NULL,NULL,NULL,'1983-07-01','07'),
+	 (850,' ','CTG CAPELA QUEIMADA',0,'',' ','',NULL,NULL,NULL,'1983-07-01','04'),
+	 (853,' ','CTG FAMÍLIA COSTA',0,'CILON ANTÔNIO DA COSTA',' ','54 984265480',NULL,NULL,NULL,'1979-10-20','08'),
+	 (855,' ','CTG QUERÊNCIA DA SERRA',0,'V ERNEI',' ',' ',NULL,NULL,NULL,'1983-08-13','03'),
+	 (858,' ','DTG COLEGIO EST. JULIO DE CASTILHOS',11398593000102,'VAGNER CARDOSO GERHARDT',' ','51 3223-3411',NULL,NULL,NULL,'1947-08-01','01'),
+	 (862,' ','PL CAMPO ABERTO',90027681000174,'FRONTELMO MACHADO',' ','51 99127-8803',NULL,NULL,NULL,'1977-04-27','01'),
+	 (863,' ','CTG PALANQUES DA TRADIÇÃO',0,'ANDRÉ CIOCCARI',' ','',NULL,NULL,NULL,'1982-02-26','30'),
+	 (864,' ','CTG POTREIRO DE GUACHOS',0,'EVALDO KUZE',' ','',NULL,NULL,NULL,'1978-11-27','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (867,'CTG','IMIGRANTES E TRADIÇÃO',88708409000108,'Jorge Jacomelli','jjacomelli@uol.com.br','(54) 9 9923-3769',NULL,NULL,NULL,'1969-12-31','25'),
+	 (868,' ','PL JOÃO ALVES DA CUNHA',0,'JULIO CESAR RIBAS',' ','',NULL,NULL,NULL,'1984-07-10','23'),
+	 (869,' ','CTG GUERREIRO DAS MISSÕES',0,'Leandro Nast Kiss/Carla Maria Zalewski Kiss',' ',' ',NULL,NULL,NULL,'1983-05-21','03'),
+	 (871,' ','CTG FARROUPILHA',0,'ROBERTO NUNES',' ','53 3233-6500',NULL,NULL,NULL,'1983-09-20','06'),
+	 (872,' ','CTG VETERANOS DA TRADIÇÃO',0,'GILDO MARTENS-GELSON THIEL',' ','',NULL,NULL,NULL,'1982-08-26','20'),
+	 (874,' ','CTG RONDA CRIOULA',0,'JOSÉ DENI RODRIGUES SILVEIRA',' ','',NULL,NULL,NULL,'1984-01-28','18'),
+	 (876,' ','CTG VAQUEANOS DO ITU',0,'',' ','',NULL,NULL,NULL,'1984-07-14','10'),
+	 (878,' ','PTG ESTÂNCIA VELHA',0,'JOSÉ LAURO DA ROSA DOS SANTOS',' ','51 995103499',NULL,NULL,NULL,'1984-10-10','05'),
+	 (879,' ','CTG QUERÊNCIA DA SERRA',0,'Francisco dos Santos',' ','51 99846-5826',NULL,NULL,NULL,'1984-09-21','15'),
+	 (881,' ','CTG PAMPA E QUERÊNCIA',0,'JOEL DE JESUS MENEZES DA SILVA',' ','',NULL,NULL,NULL,'1984-06-20','18');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (884,' ','CTG ESTÂNCIA REAL DE BOJURU',0,'JAIRO GRABOSKI DA ROSA',' ','',NULL,NULL,NULL,'1983-05-29','06'),
+	 (886,' ','CTG ALMA CRIOULA',90298795000159,'ARTIDONIO SILVEIRA DOS SANTOS',' ','51 985606907',NULL,NULL,NULL,'1984-05-01','01'),
+	 (888,' ','CTG TRANÇA CRIOULA',0,'DAVI PAULO PRATES',' ','',NULL,NULL,NULL,'1985-10-28','14'),
+	 (889,' ','CTG  FOGO DE CHÃO',0,'',' ',' ',NULL,NULL,NULL,'1982-05-08','03'),
+	 (891,' ','CTG CARRETEIROS DA SAUDADE',0,'MARCIO BARCELOS DE SOUZA',' ','51 996551095',NULL,NULL,NULL,'1984-04-19','05'),
+	 (893,' ','PL OS PEÕES DO RIO GRANDE',0,'Ailton Paulo Formighieri',' ','54 9637-6538',NULL,NULL,NULL,'1984-11-12','07'),
+	 (894,' ','CTG TROPEIRO VELHO',0,'Felipe Goedel Becker',' ','54 99109-5076',NULL,NULL,NULL,'1998-09-15','07'),
+	 (895,' ','QL FAUSTINO BERTOLDI',0,'Thiago André Suppitz',' ','54 9168-5161',NULL,NULL,NULL,'1984-09-20','07'),
+	 (896,' ','CTG MANOEL TEIXEIRA',0,'Hugo Dalposso',' ','54 9991-6683',NULL,NULL,NULL,'1958-09-16','07'),
+	 (899,' ','PL PRESILHA DE DOZE BRAÇAS',0,'PAULO LUCIANO SCHMIDT',' ','',NULL,NULL,NULL,'1981-11-15','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (900,' ','CTG QUERÊNCIA XUCRA',0,'AILTO A. ZONTA',' ','54 3777-1114 ',NULL,NULL,NULL,'1967-09-20','14'),
+	 (901,' ','CTG OS SINUELOS',0,'GÉRCIO JOSÉ SCHMITZ PENZ',' ','',NULL,NULL,NULL,'1982-12-01','28'),
+	 (904,' ','CTG MARCA DOS TEMPOS',0,'IVANICE MARIA CERETTA DE FIGUEIREDO',' ','53 99708-57,03',NULL,NULL,NULL,'1987-08-20','18'),
+	 (905,' ','CTG QUERÊNCIA DO ARROIO DO MEIO',0,'CLÉCIO SCHWARZER',' ','51 997186199',NULL,NULL,NULL,'1984-12-06','24'),
+	 (907,' ','CTG TRÊS COQUEIROS',0,'PAULO RICARDO CECCON',' ','',NULL,NULL,NULL,'1984-09-01','14'),
+	 (908,' ','PL CHILENAS DE PRATA',0,'JESUS DANIEL FÉLIX FLORES',' ','55 99604-8746',NULL,NULL,NULL,'1984-09-01','10'),
+	 (909,' ','CTG RODEIO DE CIMA DA SERRA',0,'Lieser Mattana',' ','54 99640-7851',NULL,NULL,NULL,'1987-10-12','07'),
+	 (911,' ','CTG OS SERRANOS',0,'',' ','',NULL,NULL,NULL,'1983-11-03','02'),
+	 (912,' ','CTG TROPEIRO DA SERRA',0,'ADRIANO CARNIEL',' ','51 996621251',NULL,NULL,NULL,'1984-09-16','15'),
+	 (913,' ','PL SINUELO DA QUERÊNCIA',0,'PAULO FERNANDO VAZ MARQUES',' ',' 51 36524192
+',NULL,NULL,NULL,'1985-02-03','02');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (916,' ','CTG VINTE DE SETEMBRO',0,'GILMAR PILONETO DUARTE',' ','54 99611 3399',NULL,NULL,NULL,'1983-09-20','29'),
+	 (917,' ','PL CUCHO DAUDT',0,'Gustavo Henrique Daudt',' ','',NULL,NULL,NULL,'1984-03-15','30'),
+	 (921,' ','CTG RAUL SILVEIRA',0,'ADÃO MIGUEL DA SILVA BARBOSA',' ','53 98406-1206',NULL,NULL,NULL,'1985-05-25','21'),
+	 (922,' ','CTG LANÇA CRIOULA',0,'Carlos Eduardo Viecilli',' ','51 995165172',NULL,NULL,NULL,'1983-09-25','14'),
+	 (923,' ','PTQ QUERÊNCIA ABERTA',0,'',' ',' ',NULL,NULL,NULL,'1985-05-12','03'),
+	 (925,' ','GC PIAZITO GAUDÉRIO',0,'LÉSLEI MAIQUEL LOTTERMANN',' ','54 999624907',NULL,NULL,NULL,'1985-06-01','14'),
+	 (926,' ','PTG PASSO DO PANGARÉ',0,'SANDRO BUENO',' ','51 3328-1587 ',NULL,NULL,NULL,'1984-04-05','23'),
+	 (927,' ','PIQ RONDA TRADIC. BOM SUCESSO',0,'',' ','',NULL,NULL,NULL,'1984-09-10','10'),
+	 (928,' ','PN CAUDILHOS VIANENSE',0,'JOSÉ ANTONIO VEZZOSI',' ','',NULL,NULL,NULL,'1984-07-01','10'),
+	 (931,' ','PL DELFINO CARVALHO',0,'',' ','',NULL,NULL,NULL,'1985-03-25','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (932,' ','PL CINCO IRMÃOS',0,'JOSÉ SILMAR R. DE OLIVEIRA',' ','',NULL,NULL,NULL,'1984-06-29','27'),
+	 (933,' ','CTG GETÚLIO VARGAS',90169848000131,'MARCIA BELADELLI',' ','54 984047511',NULL,NULL,NULL,'1985-05-14','19'),
+	 (934,' ','CTG CHIMANGOS',91900969000174,'NAIRIOLI ANTUNES CALLEGARO',' ',' 51 99982 3498',NULL,NULL,NULL,'1984-10-03','01'),
+	 (938,' ','PL SANTO ONOFRE',0,'Onero Luiz da Silva',' ','54 99996-7414',NULL,NULL,NULL,'1983-04-16','07'),
+	 (939,' ','PL CAVALO BAIO',0,'Ademir Pancotte',' ','54 9112-5728',NULL,NULL,NULL,'1974-02-06','07'),
+	 (940,' ','CTG DARCY FAGUNDES',0,'JOSÉ LUIZ ASSIS SILVA',' ','',NULL,NULL,NULL,'1984-09-20','20'),
+	 (941,' ','CTG PORTEIRA ABERTA',0,'Sadi Spengler',' ','51 99972-0588',NULL,NULL,NULL,'1984-11-28','15'),
+	 (945,' ','PT FAZENDA SANTO ANTÔNIO',0,'VASCO HENRIQUE CARVALHO',' ','',NULL,NULL,NULL,'1985-07-01','10'),
+	 (946,' ','PT RANCHO ALEGRE',0,'LUIZ V. BRUM PINTO',' ','',NULL,NULL,NULL,'1976-09-18','10'),
+	 (947,' ','PT FAZENDA DO CEDRO',0,'LUIZ HENRIQUE MACHADO LIMA',' ','',NULL,NULL,NULL,'1985-08-11','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (948,' ','PL DINARTE COSTA',0,'OSMAR BORBA FAGUNDES JUNIOR',' ','',NULL,NULL,NULL,'1985-05-01','10'),
+	 (949,' ','PT GARRÃO DE POTRO',0,'ONEI PAZ PEREIRA',' ','',NULL,NULL,NULL,'1985-10-15','10'),
+	 (950,' ','PL CAPÃO DO LEÃO',0,'OCRIDIO CRUZ DE ALMEIDA',' ','',NULL,NULL,NULL,'1985-04-21','15'),
+	 (952,' ','GTC 20 DE SETEMBRO',0,'TIARLIN LIMA ABLING',' ','51 99125 3403',NULL,NULL,NULL,'1985-04-18','23'),
+	 (954,' ','CTG LENÇO COLORADO',0,'LINDONES BORGES DE OLIVEIRA',' ','54 984222607',NULL,NULL,NULL,'1963-12-27','08'),
+	 (955,' ','CTG PORTEIRA DA AMIZADE',0,'PAULO CESAR PIANA',' ','54 99979 0133',NULL,NULL,NULL,'1978-05-06','29'),
+	 (956,' ','CTG RANCHO CRIOULO',0,'ADELAR ANTONIO MENENTIER',' ','54 99913 0281',NULL,NULL,NULL,'1983-03-25','29'),
+	 (958,' ','CTG SENTINELA DAS COXILHAS',0,'DAGOBERTO DA SILVA PIRES',' ','53 99937-7080',NULL,NULL,NULL,'1984-02-05','21'),
+	 (960,' ','CTG POTREIRO DA VARZEA',9603878000196,'RICARDO DA SILVEIRA RIOS',' ','51 99177-0577',NULL,NULL,NULL,'1985-04-29','01'),
+	 (961,' ','CTG GLAUCUS SARAIVA',92937473000138,'PAULO GILBERTO NEMITZ DOS SANTOS',' ','51 98581-1008',NULL,NULL,NULL,'1983-10-20','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (965,' ','CTG ALVORADA GAÚCHA',0,'JOAQUIM BERTOCO',' ','',NULL,NULL,NULL,'1982-04-17','11'),
+	 (966,' ','CTG PORTEIRA GAÚCHA',0,'ALDO JOÃO PERETO',' ','',NULL,NULL,NULL,'1982-04-09','23'),
+	 (967,' ','CTG DOZE BRAÇAS',0,'JONES JOSE BALANCIN',' ','54 99958 4085',NULL,NULL,NULL,'1984-07-21','29'),
+	 (968,' ','CTG RINCÃO DA CAROLINA',0,'JOSÉ ANTONIO NUNES MACHADO',' ','',NULL,NULL,NULL,'1984-05-22','18'),
+	 (971,' ','QL PÉ NO CHÃO',0,'Paulo Volmir da Rocha',' ','54 9954-4657',NULL,NULL,NULL,'1979-12-01','07'),
+	 (972,' ','QL TOURO BRASINO',0,'Valdecir Casagrande',' ','54 99946-4109',NULL,NULL,NULL,'1990-09-04','07'),
+	 (974,' ','PL RINCÃO DOS MENDES',0,'FERNANDO ALCIDES MENDES DE ARAUJO',' ','54 99633 3312',NULL,NULL,NULL,'1985-10-29','29'),
+	 (975,' ','CTG RODA DE CHIMARRÃO',3006947000106,'JOSOÉ PAULO CACENOT',' ','51 999559044',NULL,NULL,NULL,'1985-06-19','01'),
+	 (976,' ','PT FIDELIS GINDRI',0,'JOSÉ HERTON RODRIGUES ALMEIDA',' ','55 99993-7101',NULL,NULL,NULL,'2008-06-21','10'),
+	 (978,' ','CTG HENRIQUE BOHRER',0,'',' ','',NULL,NULL,NULL,'1960-01-05','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (979,' ','CTG DAVID CANABARRO',0,'Sidinei Risson',' ','54 9960-0264',NULL,NULL,NULL,'1970-11-29','07'),
+	 (980,' ','CTG POUSADA DA SERRA',0,'NORBERTO SHUMANN',' ','54 99971 6694',NULL,NULL,NULL,'1983-06-01','27'),
+	 (981,' ','CTG CHALEIRA PRETA',91339382000138,'JOELCI ALPE GUIMARÃES',' ','   51 98018-4307',NULL,NULL,NULL,'1984-04-29','01'),
+	 (982,' ','QL RODEIO DOS PAMPAS',0,'Rogerio Griesler Rodrigues',' ','54 99979-0604',NULL,NULL,NULL,'1983-09-20','07'),
+	 (983,'GF','CHALEIRA PRETA',0,'CRISTIANO MUNIR ROSSI',' ',' ',NULL,NULL,NULL,'1984-03-03','09'),
+	 (984,'CTG','PIALO DA AMIZADE',0,'Jacinto Villani Netto',' ',' ',NULL,NULL,NULL,'1967-09-20','09'),
+	 (985,'CTG','PORTEIRA ABERTA',0,'PAULO RICARDO FLORENCIO',' ',' ',NULL,NULL,NULL,'1982-09-20','09'),
+	 (988,' ','PIQ VICTORINO DA ROSA',0,'ROQUE CELEDOI DA MOTA',' ','54 3384-1157 ',NULL,NULL,NULL,'1985-10-16','14'),
+	 (989,' ','CTG CEZIMBRA JACQUES',0,'ADOIR NICHELE DOS SANTOS',' ','',NULL,NULL,NULL,'1979-03-25','20'),
+	 (990,' ','CTG EPOPÉIA FARROUPILHA',0,'EUGÊNIO GERALDO BATISTA',' ','55 997266329',NULL,NULL,NULL,'1985-09-05','20');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (993,' ','CTG JOÃO DE BARRO',0,'CARLOS AMARAL CABREIRA',' ','',NULL,NULL,NULL,'1985-07-28','06'),
+	 (994,' ','GNF POSTEIROS DO VALE',0,'GERSON PESSETI DRI',' ','',NULL,NULL,NULL,'1984-03-16','10'),
+	 (997,' ','PL MARCA DE CASCO',0,'JOSÉ VICENTE M. PILLAR',' ','',NULL,NULL,NULL,'1985-05-10','10'),
+	 (998,' ','CTG TROPILHA DA SERRA',90170077000100,'ALCIONE CASTELLI',' ','54 999154450',NULL,NULL,NULL,'1984-03-15','19'),
+	 (999,' ','QL TRONCO VELHO',0,'Getúlio Irene Teixeira Queiroz',' ','54 99976-7204',NULL,NULL,NULL,'1985-10-18','07'),
+	 (1001,' ','CTG GUAPOS DA AMIZADE',90264805000135,'EVANIR ANTONIO SCHERNER',' ','    51 98467-4204',NULL,NULL,NULL,'1984-05-30','01'),
+	 (1003,' ','CTG CHILENA DE PRATA',91122911000147,'REOVANE RIBEIRO',' ','51 99755-4269',NULL,NULL,NULL,'1985-03-01','01'),
+	 (1004,' ','GF SINUELO DO RIO GRANDE',0,'GUILHERME MAYNARDI DOS REIS',' ',' ',NULL,NULL,NULL,'1983-10-05','03'),
+	 (1006,' ','CTG RANCHO DA AMIZADE',0,'VOLNEI JOSÉ ENGEL',' ','55 996475757',NULL,NULL,NULL,'1968-04-22','03'),
+	 (1008,' ','CTG SENTINELAS DO COMANDAI',0,'MOACIR CARLOS NEIS',' ','55 999566376',NULL,NULL,NULL,'1969-12-31','03');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1009,' ','CTG SOMBRA DE CARRETEIRO',0,'',' ',' ',NULL,NULL,NULL,'1985-08-04','03'),
+	 (1010,'GN','PEDRO QUEBRA',0,'Paulo Silveira',' ',' ',NULL,NULL,NULL,'1979-09-02','09'),
+	 (1016,' ','CTG PELEGO BRANCO',0,'Jaime Matias Palagi',' ','51 99707-8240',NULL,NULL,NULL,'1956-06-06','15'),
+	 (1020,' ','CTG PORTEIRA DA RESTINGA',92397041000181,'CARLOS ROBERTO DA SILVA',' ','51 997087420',NULL,NULL,NULL,'1972-03-07','01'),
+	 (1022,' ','CTG QUERÊNCIA DAS TORRES',0,'',' ','',NULL,NULL,NULL,'1985-03-22','23'),
+	 (1027,' ','CTG RINCÃO DAS COXILHAS',0,'LEODI LUIZ PAVI',' ','',NULL,NULL,NULL,'1984-09-21','24'),
+	 (1029,' ','CTG LENÇO DA AMIZADE',0,'JOSIR RODRIGUES WALENDORFF',' ','',NULL,NULL,NULL,'1985-12-01','14'),
+	 (1030,'CTG','RANCHO DE GAUDÉRIOS ',92861319000120,'Alexandre de Moura Destefani','alexandede@outlook.com','(54) 99613-9493',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1033,' ','CTG SENTINELA DO PAMPA',90161944000133,'MARIO CHAGAS',' ','54 99608 7358',NULL,NULL,NULL,'1982-08-04','19'),
+	 (1034,' ','CTG RECANTO DOS TROPEIROS',91695601000111,'GIOVANILDO GAZOLA',' ','54 99917 9076',NULL,NULL,NULL,'1988-02-01','19');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1035,' ','CTG CARRETEIROS DA SAUDADE ',88145958000111,'Rodrigo dos Santos Ricardo ',' ',' 51 984523675',NULL,NULL,NULL,'1972-10-07','01'),
+	 (1036,' ','CTG RAIZES PAMPEANAS',0,'SÉRGIO LUNELLI',' ','54 3358-1444 ',NULL,NULL,NULL,'1985-04-20','08'),
+	 (1037,' ','PQT BATENDO CASCO',0,'RONI MORAES RAMIRES',' ','',NULL,NULL,NULL,'1963-10-31','03'),
+	 (1038,' ','PN GIRUÁ',0,'',' ',' ',NULL,NULL,NULL,'1982-10-12','03'),
+	 (1039,' ','GAN CAP. JOÃO LA MAISON',0,'Josir La Maison',' ','54 9981-9099  ',NULL,NULL,NULL,'1986-04-20','07'),
+	 (1040,' ','CTG ESTÂNCIA DA AZENHA ',93019297000118,'CLÓVIS ANTÔNIO CARUS',' ','51 991448652',NULL,NULL,NULL,'1983-12-01','01'),
+	 (1045,' ','CTG GARRÃO DE POTRO',0,'',' ','',NULL,NULL,NULL,'1983-10-26','05'),
+	 (1046,' ','CTG ESTÂNCIA DA LIBERDADE',0,'FABIO ANDRE FONTANA SAUL',' ','',NULL,NULL,NULL,'1986-06-18','30'),
+	 (1047,' ','CTG M´BORORE',0,'KAREM FERREIRA',' ','',NULL,NULL,NULL,'1992-06-11','30'),
+	 (1050,'GTCN','VELHA CARRETA ',87505442000178,'Cicero Adriano Perez Garcia',' c.adriano.tche@gmail.com','(54) 98446-0883',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1052,' ','CTG CARRETEIROS DOS PAMPAS',0,'HERARLIDES H. DA SILVA',' ','',NULL,NULL,NULL,'1973-05-30','20'),
+	 (1053,' ','GAN SEPE TIARAJU',0,'LEONI KOCH',' ','54 996054266',NULL,NULL,NULL,'1986-05-18','14'),
+	 (1055,' ','PL VIVALDINO BATISTA',0,'',' ','',NULL,NULL,NULL,'1984-09-20','14'),
+	 (1057,'CTG','MARCO DA TRADIÇÃO ',91109421000100,'Gilberto Corsso','','(54) 981220332',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1059,'CTG','CAMPO DOS BUGRES ',91106484000103,'Vanderlei Muller Franco',' vmfranco@terra.com.br ','(54) 99137-4666',NULL,NULL,NULL,'1986-10-09','25'),
+	 (1065,' ','CTG RECANTO VERDE',0,'ANTONIO FELISBERTO PINTO',' ','',NULL,NULL,NULL,'1979-12-04','20'),
+	 (1066,' ','CTG QUERÊNCIA ALEGRE',0,'LUIZ VETORATO',' ','',NULL,NULL,NULL,'1984-09-15','20'),
+	 (1071,' ','CTG BAIO RUANO',0,'RUBENS TRINDADE',' ','3251-1128 ',NULL,NULL,NULL,'1981-10-31','27'),
+	 (1075,' ','QL MIGUEL PINHEIRO',0,'Vilmar dos Santos Portes',' ','54 9905-1932',NULL,NULL,NULL,'1966-06-29','07'),
+	 (1076,' ','CTG CHAMA CRIOULA',0,'',' ','',NULL,NULL,NULL,'1986-09-20','03');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1077,' ','PQT FARROUPILHA DE SANTA ROSA',0,'',' ','',NULL,NULL,NULL,'1986-03-01','03'),
+	 (1080,'CTG','TAPERA VELHA ',90481169000101,'Enio Roberto Schmitt Becker','bertoni@bertonibecker.com.br','(54)  99679-9802',NULL,NULL,NULL,'1984-10-11','25'),
+	 (1083,' ','GNF COURO CRU',0,'MILTON ROGÉRIO COGO',' ','55 981173534',NULL,NULL,NULL,'1986-09-03','10'),
+	 (1084,' ','CTG TROPEIROS DO LITORAL',0,'MARCIO CAMARGO',' ','',NULL,NULL,NULL,'1985-09-24','23'),
+	 (1085,' ','CTG SANGUE NATIVO DE PAROBÉ',0,'JONES LUIZ BORTOLAMEDI',' ','51 3523-3076 ',NULL,NULL,NULL,'1985-10-12','22'),
+	 (1086,' ','CTG  FOGO DE CHÃO',90170275000160,'ALVADIR BEBER',' ','54 999815888',NULL,NULL,NULL,'1984-04-27','19'),
+	 (1088,' ','PT IRMÃOS SAGRILO',0,'DULCINÉIA DAL MOLIM',' ','55 991089608',NULL,NULL,NULL,'1986-09-10','10'),
+	 (1090,' ','CTG ESPORA DE PRATA',0,'JOSÉ DOMINGOS KLEINPAUL',' ','55 3744-1120 ',NULL,NULL,NULL,'1983-10-19','14'),
+	 (1091,' ','CTG SINUELO DO CAVERÁ',0,'ILAERCI FABIANO VIEIRA GONÇALVES',' ','',NULL,NULL,NULL,'1984-10-04','18'),
+	 (1093,' ','CTG TERRA NATIVA',0,'PABLO SCHOER',' ','',NULL,NULL,NULL,'1987-04-24','30');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1096,' ','DTG CAMBOATÁ',0,'LUCIANO PEREIRA DA ROSA',' ','',NULL,NULL,NULL,'1996-10-02','30'),
+	 (1098,' ','CTG RETORNO  À QUERÊNCIA',0,'EDSON PERETTI',' ','54 99978-1123 / 54 99916-5034',NULL,NULL,NULL,'1985-09-22','11'),
+	 (1100,' ','PTG  FLETE DE GUERRA',0,'CARLOS ALBERTO MOREIRA MORAES',' ','',NULL,NULL,NULL,'1983-08-01','18'),
+	 (1102,' ','CTG DESGARRADOS',0,'LUCIMAR BORGES MATIAS',' ','53 99965-1103',NULL,NULL,NULL,'1985-03-24','21'),
+	 (1103,'CTG','QUERÊNCIA XUCRA ',91107854000127,'Paulo Roberto Souza Pereira',' paulorsp13@gmail.com','(54) 99932046',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1104,'CTG','TROPEIRO DA LIBERDADE',90164591000125,'ELIZER NOGUEIRA',' ',' ',NULL,NULL,NULL,'1988-08-06','17'),
+	 (1107,' ','CTG DESCENDENCIA FARRAPA',91696146000179,'LAUDIR SILVEIRA',' ','986443747',NULL,NULL,NULL,'1985-06-26','01'),
+	 (1108,' ','CTG ESTÂNCIA DA FIGUEIRA',91696807000166,'JORGE FERREIRA LOPES',' ','51 3245-2891',NULL,NULL,NULL,'1986-03-31','01'),
+	 (1110,' ','PL ESTAMPA CRIOULA',0,'VALDEMIR LUIS SCHNEIDER',' ','',NULL,NULL,NULL,'1987-04-04','14'),
+	 (1111,'CTG','GINETES DA TRADIÇÃO ',88708508000190,'Alvaro Giacomet Barreto',' barretodag@yahoo.com.br','(54) 991832608',NULL,NULL,NULL,'1982-10-09','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1112,'CTG','QUERÊNCIA DO SUL',0,'EVANDRO',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1116,' ','CTG QUERENCIA DO TOROPI',0,'EMIR WAGNER',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (1120,' ','PL LENÇO BRANCO',0,'Vitor Mateus Burgel',' ','54 3616-1256   54 9903-9333',NULL,NULL,NULL,'1986-02-08','07'),
+	 (1121,' ','PT TRINTA E CINCO',0,'André Felipe Luvison',' ','54 99653-4705',NULL,NULL,NULL,'1983-09-10','07'),
+	 (1123,' ','CTG PRESILHA DO PAGO DA VIGIA',0,'ANDRÉA BERENICE C. RODRIGUES',' ','',NULL,NULL,NULL,'1986-08-26','18'),
+	 (1124,' ','GAN CAMPO ABERTO',0,'JOÃO ADÃO FIGUEREDO DO PRADO',' ','',NULL,NULL,NULL,'1987-05-24','18'),
+	 (1125,'PIQ','TRONQUEIRA DE BUGRE',91108076000190,'Luciano Tomiello',' lucianotomiello@gmail.com','(54) 992168603',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1127,' ','PQT LENÇO COLORADO',0,'ALCIDES CASTRONOVO DA ROSA',' ','55 991130720',NULL,NULL,NULL,'1986-09-19','10'),
+	 (1128,' ','PT BELA UNIÃO',0,'ADROALDO BELTRÃO  NASCIMENTO',' ','',NULL,NULL,NULL,'1986-01-04','10'),
+	 (1130,' ','CTG SEPE TIARAJU PROG. PIQUIRI',0,'',' ','',NULL,NULL,NULL,'1987-06-07','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1131,' ','PL CAPITÃO RODRIGO',0,'CARLOS MANZONI',' ','',NULL,NULL,NULL,'1985-10-15','10'),
+	 (1132,' ','PTQ CHARRUA',0,'HÉLIO PEREIRA DA SILVA',' ','55 99917-6345',NULL,NULL,NULL,'1986-07-07','10'),
+	 (1135,' ','CTG SENTINELA DA COXILHA',0,'',' ',' ',NULL,NULL,NULL,'1984-07-01','03'),
+	 (1137,' ','DN CARLOS BASTOS DO PRADO',0,'',' ','',NULL,NULL,NULL,'1984-09-30','03'),
+	 (1138,' ','CTG QUERÊNCIA COSTEIRA',0,'',' ','',NULL,NULL,NULL,'1965-05-01','03'),
+	 (1142,' ','PL OS VETERANOS',0,'VALMOR LOURENÇO CAVALINI',' ','',NULL,NULL,NULL,'1987-11-05','14'),
+	 (1144,' ','CTG TREMPE DE AÇO',0,'JOÃO BRASIL RODRIGUES DE GÓIS',' ','',NULL,NULL,NULL,'1984-09-22','14'),
+	 (1145,' ','PL OS ORELHANOS',0,'DANIEL ASSIS',' ','',NULL,NULL,NULL,'1986-09-03','14'),
+	 (1146,' ','PL OS IMIGRANTES',0,'VOLNEI LODI',' ','',NULL,NULL,NULL,'1985-05-06','14'),
+	 (1150,' ','CTG CHIMARRÃO GAÚCHO',0,'JOSÉ LUIZ RODRIGUES',' ','',NULL,NULL,NULL,'1987-08-01','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1153,' ','CTG ALMA NATIVA',0,'TIAGO RIGO',' ','(54)996923629',NULL,NULL,NULL,'1987-07-27','11'),
+	 (1156,' ','PL TRONCO DA TRADIÇÃO',0,'CARLITO COSTA',' ','',NULL,NULL,NULL,'1987-11-15','14'),
+	 (1157,' ','CTG  CRIOULOS DA FRONTEIRA',0,'ADEMIR RODRIGUES',' ','',NULL,NULL,NULL,'1969-12-31','18'),
+	 (1158,' ','CTG SENTINELA DA QUERÊNCIA',90868514000156,'ALEXANDRE BACKES BATTISTI',' ','54 991645810',NULL,NULL,NULL,'1986-04-20','19'),
+	 (1159,' ','PL SINUELO DA QUERÊNCIA',0,'MARIO MESQUITA CARDOSO',' ','54- 99439847 ',NULL,NULL,NULL,'1983-01-05','27'),
+	 (1161,' ','CTG EDUARDO MULLER',0,'Vilson Dornelles da Silva',' ','54 9166-3515',NULL,NULL,NULL,'1982-01-17','07'),
+	 (1162,' ','QL UNIÃO DE AMIGOS',0,'Elipidio Gonçalves',' ','54 99954-1648',NULL,NULL,NULL,'1983-10-02','07'),
+	 (1163,' ','CTG TROPEL DE CAUDILHOS',0,'Jocenai Pereira da Silva',' ','54 99927-4140',NULL,NULL,NULL,'1987-04-26','07'),
+	 (1164,' ','QL TROPEIRO DOS PAMPAS',0,'Francisco Longo',' ','54 99115-3671',NULL,NULL,NULL,'1982-05-25','07'),
+	 (1168,' ','PL JOÃO MILA',0,'João Giuilherme de Lima Lamaison',' ','54 3357-1034 54 9178-7636',NULL,NULL,NULL,'1986-01-23','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1169,' ','PL SINUELO DO RIO GRANDE',0,'',' ','',NULL,NULL,NULL,'1987-11-05','14'),
+	 (1170,' ','CTG QUERÊNCIA DA BELA VISTA',0,'',' ','',NULL,NULL,NULL,'1987-12-01','14'),
+	 (1171,' ','CCN SENTINELA DO RIO GRANDE',0,'MILTON DÁVILA DAMASCENO',' ','',NULL,NULL,NULL,'1987-12-01','06'),
+	 (1172,' ','CTG CAMPO GRANDE',91566281000108,'ÊNIO MEREGALLI',' ','54 99661 0873',NULL,NULL,NULL,'1959-06-27','19'),
+	 (1173,' ','CTG SINUELO DOS ERVAIS',90982992000192,'ALECIR JOAO VENDRUSCOLO',' ','54 999361235',NULL,NULL,NULL,'1980-03-08','19'),
+	 (1174,' ','CTG RELEMBRANDO O TIO LAUTÉRIO',0,'CLOVIS ANTONIO DA SILVA',' ','',NULL,NULL,NULL,'1985-08-11','20'),
+	 (1177,' ','PT PRIMEIRA ESTÂNCIA DE SÃO PEDRO',0,'ALVINO GOMES DE BITENCOURT',' ','',NULL,NULL,NULL,'1987-03-08','10'),
+	 (1178,' ','PT PÉ NO ESTRIBO',0,'IVO PENTEADO',' ','',NULL,NULL,NULL,'1987-12-08','10'),
+	 (1182,'CTG','JOÃO SAMPAIO AMADO',92006246000199,'FABRICIO ALMEIDA',' ',' ',NULL,NULL,NULL,'1978-08-11','17'),
+	 (1183,' ','CTG PIAZITO DO LITORAL',0,'RENATO DE OLIVEIRA OURIQUES',' ','',NULL,NULL,NULL,'1987-10-31','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1184,'CTG','LAÇO ITALIANO',0,'Gustavo luiz Moterle','','(54) 999190354',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1185,' ','CTG OTAVIO LOPES DOS REIS',0,'ODENAIR PACHECO DOS REIS',' ','',NULL,NULL,NULL,'1984-11-15','27'),
+	 (1188,' ','CTG VELHA QUERÊNCIA',0,'VALDIR PEREZ',' ','',NULL,NULL,NULL,'1985-05-17','30'),
+	 (1190,' ','GT SINUELO DO BOQUEIRÃO',0,'JORGE LUIZ VIELMO',' ','',NULL,NULL,NULL,'1986-06-26','10'),
+	 (1191,' ','PT OS LEGENDÁRIOS',0,'JOSE CARLOS DOS SANTOS MAIJO',' ','',NULL,NULL,NULL,'1987-01-19','10'),
+	 (1192,' ','PT LAÇADORES DO ITACURUBI',0,'GUILHERME MARTINS PERUFO',' ','55 99622-3294',NULL,NULL,NULL,'1987-01-19','10'),
+	 (1194,' ','PL PORTEIRA PICCADILLY',0,'Matusalém da Silva',' ','51 995550040',NULL,NULL,NULL,'1987-06-01','22'),
+	 (1195,' ','CTG PORTEIRA DOS PAMPAS',0,'TIAGO GAZZONI SOLDÁ',' ','',NULL,NULL,NULL,'1987-08-20','24'),
+	 (1200,' ','CTG QUERÊNCIA XUCRA',0,'',' ',' ',NULL,NULL,NULL,'1974-08-08','03'),
+	 (1201,' ','CTG RINCÃO DA AMIZADE',0,'VALDEMAR SOARES DA LUZ',' ','54 99102-5157',NULL,NULL,NULL,'1966-04-22','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1205,' ','CTG SENTINELA DO RIO GRANDE',0,'JAIME SOARES',' ','',NULL,NULL,NULL,'1980-05-13','12'),
+	 (1209,' ','CTG GENTIL BOEIRA',0,'Gildo José Fortunatto',' ','54 99170-3709',NULL,NULL,NULL,'1987-11-14','07'),
+	 (1213,' ','GR GINETES TROPILHA GAVIONA',0,'',' ','',NULL,NULL,NULL,'1986-12-18','10'),
+	 (1215,' ','PT JOÃO DE BARRO',0,'SANTO PAULO SAGRILO PAVANELO',' ','',NULL,NULL,NULL,'1988-03-24','10'),
+	 (1216,' ','PT MARCA E TARCA',0,'JÚLIO CÉSAR GOMES DA COSTA',' ','55 99997-6899',NULL,NULL,NULL,'1988-04-04','10'),
+	 (1220,' ','PTG NOVO GRITO',0,'EDGAR GULARTE GONÇALVES',' ','',NULL,NULL,NULL,'1987-10-04','18'),
+	 (1222,' ','CTG SAUDADES DO PAGO',0,'',' ','',NULL,NULL,NULL,'1985-08-15','06'),
+	 (1224,' ','CTG QUATRO TENTOS',92454107000128,'IZELSON DALCHIAVON',' ','54 99678 3375',NULL,NULL,NULL,'1985-01-20','19'),
+	 (1225,' ','GN ARAGANOS',92454081000118,'PAULO CESAR DA ROSA',' ','54 99963 1377',NULL,NULL,NULL,'1988-01-09','19'),
+	 (1226,' ','CTG PATRULHA DO RIO GRANDE',0,'DEJALMO SELISTRE BOEIRA',' ','51 3662-2633',NULL,NULL,NULL,'1987-06-02','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1227,' ','CTG OS LANCEIROS',0,'Almir ferreira da Silva',' ','(51) 99780-2759',NULL,NULL,NULL,'1987-11-12','15'),
+	 (1228,' ','CTG BENTO GONÇALVES',0,'PAULO ROBERTO M. DA SILVA',' ','',NULL,NULL,NULL,'1969-12-31','15'),
+	 (1230,' ','CTG  QUERÊNCIA DO CERRO BRANCO',0,'',' ','',NULL,NULL,NULL,'1985-11-08','14'),
+	 (1231,' ','CTG ESTÂNCIA DOS CARRETEIROS',0,'',' ','',NULL,NULL,NULL,'1985-06-06','28'),
+	 (1234,' ','PL LAJEADO BONITO',0,'GILDO LUIS SANTOS FERREIRA FILHO',' ','',NULL,NULL,NULL,'1987-05-02','27'),
+	 (1235,' ','CTG GALPÃO DE CAMPANHA',0,'MILTON MASSENA',' ','',NULL,NULL,NULL,'1987-11-13','15'),
+	 (1236,' ','PT SENTINELA DO PAREDÃO',0,'',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (1237,' ','CTG PORTEIRA DA AMIZADE',0,'SELITO LUIZ TONIOLLO',' ','',NULL,NULL,NULL,'1986-04-24','24'),
+	 (1244,' ','GN OS VAQUEANOS',7667307000190,'LUIZ MANOEL DIAS',' ','55 996530203',NULL,NULL,NULL,'1987-03-20','19'),
+	 (1245,' ','CTG ESTRIBO DA AMIZADE',91565572000173,'OSMAR FANTIN',' ','54 99208 3962',NULL,NULL,NULL,'1985-07-26','19');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1246,' ','CTG LAJEANO DAS COXILHAS',0,'Loeci Gomes da Silva',' ','54 9670-0291',NULL,NULL,NULL,'1987-09-20','07'),
+	 (1247,' ','PL SENTINELAS DA TRADIÇÃO',0,'AGNALDO TIMOTEO RODRIGUES CARDOSO',' ','',NULL,NULL,NULL,'1987-12-06','27'),
+	 (1248,' ','CTG CENTRAL DOS VANZ',0,'JORGE VANZ',' ','54 3352 1248',NULL,NULL,NULL,'1986-01-20','29'),
+	 (1251,' ','CTG TRILHA SERRANA',0,'GENTIL CANAL',' ','54 991638144',NULL,NULL,NULL,'1988-07-26','11'),
+	 (1256,' ','CTG QUERÊNCIA ',93018067000134,'VANTUIR PEREIRA BASTOS',' ','984509636',NULL,NULL,NULL,'1984-03-25','01'),
+	 (1258,' ','CTG LENÇO BRANCO',0,'ERNESTO SERGIO STAHL',' ','',NULL,NULL,NULL,'1988-01-21','24'),
+	 (1259,' ','PL ZEZE CARDOSO',0,'SERGIO TADEU DA SILVA CARDOSO',' ','54 3031-0253 ',NULL,NULL,NULL,'1988-05-02','27'),
+	 (1263,' ','GN OS VETERANOS',0,'PEDRO RODINEI F. BARRETO',' ','',NULL,NULL,NULL,'1987-07-29','12'),
+	 (1264,' ','CTG GAUDÉRIOS DO RODEIO',0,'',' ','',NULL,NULL,NULL,'1969-12-31','28'),
+	 (1265,' ','CTG GALPÃO CRIOULO',90868480000108,'SUSETE TERESINHA ARANHOLD',' ','54 991734368',NULL,NULL,NULL,'1983-10-23','19');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1267,' ','CTG UNIÃO CAMPEIRA',0,'RAFAEL AUGUSTO BERGAMO',' ','54 99909 0560',NULL,NULL,NULL,'1988-05-12','29'),
+	 (1269,' ','CTG RECANTO NATIVO',0,'Kati Luciana Albarello',' ','51 980481830',NULL,NULL,NULL,'1988-09-18','15'),
+	 (1270,' ','GT FAZENDA SÃO LUIZ',0,'GIOVANE RODRIGES DA SILVEIRA',' ','',NULL,NULL,NULL,'1988-01-01','10'),
+	 (1272,' ','CTG PAGOS DE SÃO RAFAEL',0,'',' ','',NULL,NULL,NULL,'1987-10-22','24'),
+	 (1273,'CTG','GALPÃO SERRANO',91110007000111,'Allan Conz','allanconz@gmail.com','(54) 991143362',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1274,' ','CTG RINCÃO DE ESTÂNCIA',0,'CELSO DA SILVA NUNES',' ','',NULL,NULL,NULL,'1987-07-29','23'),
+	 (1275,' ','CTG PORTEIRA DA TRADIÇÃO ',2871574000160,'MARTA TEREZINHA DA COSTA SHULTZ',' ','51 995223698',NULL,NULL,NULL,'1988-05-22','01'),
+	 (1277,' ','GADF ALMA NATIVA',0,'Jorge Pereira',' ','54 9900-2856',NULL,NULL,NULL,'1987-04-17','07'),
+	 (1278,' ','CTG POUSADA DOS TROPEIROS',0,'NAMIR LINEMANN',' ','',NULL,NULL,NULL,'1985-10-26','24'),
+	 (1279,' ','CTG COXILHA ABERTA',91587428000138,'ÚRICO ORESTES AFONSO MARTINES',' ','51 992689524',NULL,NULL,NULL,'1985-05-05','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1280,' ','CTG RANCHO DA SAUDADE',91691055000140,'TAUNER MACHADO DE SOUZA',' ','51 3470-3509    51 99896-7432',NULL,NULL,NULL,'1986-10-28','01'),
+	 (1282,' ','CTG ESTÂNCIA DO SIQUEIRA',0,'CÉLIO ELI DA SILVA',' ','',NULL,NULL,NULL,'1969-12-31','24'),
+	 (1284,' ','CN ESTÂNCIA DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'1986-05-07','05'),
+	 (1285,' ','PTG TERRA NATIVA',0,'SAUL DA SILVA BARBOSA',' ','',NULL,NULL,NULL,'1988-10-16','23'),
+	 (1286,' ','CTG OS SERRANOS',0,'RICARDO MONACO LOPES',' ','51 99196-9128',NULL,NULL,NULL,'1986-07-10','22'),
+	 (1287,' ','CTG PIALO DA SAUDADE',91338012000186,'ALMERINDO BORGES DOS SANTOS',' ','51 99338-4832',NULL,NULL,NULL,'1987-11-05','01'),
+	 (1288,' ','PQT OS CAUDILHOS',30308750000196,'ADÃO GONÇALVES CHARÁ',' ',' 51 99979-5428',NULL,NULL,NULL,'1973-05-01','01'),
+	 (1289,' ','CTG ESTÂNCIA DOS RAMBOR',0,'Fábio Cézar da Silva Rambor',' ','51 98425-0713',NULL,NULL,NULL,'1984-12-09','15'),
+	 (1290,' ','PIQ. QUERÊNCIA DO SUL',0,'',' ','',NULL,NULL,NULL,'1987-08-05','24'),
+	 (1292,' ','CTG FOGO DE CHÃO',0,'JALDO POLLETTO',' ','54 99968-0685',NULL,NULL,NULL,'1987-08-22','08');
+  INSERT IGNORE  INTO entidade (entidade_id, sigla, nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1293,'CTG','PORTEIRA DO IMIGRANTE ',92860584000193,'Roberdan Escobar Saraiva','roberdanescobar@hotmail.com','(54) 984480717',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1295,' ','PTG OS VAQUEANOS',0,'',' ','',NULL,NULL,NULL,'1986-08-08','18'),
+	 (1296,' ','PQT TININDO ESPORAS',0,'LIVIA RODRIGUES MENDONÇA',' ','55 9965 2106',NULL,NULL,NULL,'1988-05-23','03'),
+	 (1299,' ','CTG DEZOITO DE SETEMBRO',0,'Sérgio Adão Almeida/Silvana da Costa Almeida',' ','55 999482455/ 5599370746',NULL,NULL,NULL,'1993-12-11','10'),
+	 (1304,' ','CTG PONCHO CRIOULO',0,'ROBERTO CARLOS DA SILVA',' ','',NULL,NULL,NULL,'1988-10-28','14'),
+	 (1306,' ','PL TROPEIROS DA LEALDADE',0,'',' ',' ',NULL,NULL,NULL,'1988-07-20','02'),
+	 (1309,' ','CABANHA TRÊS NOGUEIRAS',0,'',' ','',NULL,NULL,NULL,'1969-12-31','24'),
+	 (1310,' ','CTG PORTEIRA ABERTA',0,'ELINO FICAGNA',' ','',NULL,NULL,NULL,'1969-12-31','28'),
+	 (1311,' ','CTG OS DESGARRADOS',0,'GENECI FÁTIMA BOMBANA BASTIAN',' ','54 999622440',NULL,NULL,NULL,'1988-07-17','11'),
+	 (1313,' ','CTG SEIVA PAMPEANA',0,'CARLOS DE MATTOS',' ','',NULL,NULL,NULL,'1989-01-14','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1316,' ','PTG TIGRE',0,'ZELIO CONSUL DA ROSA',' ','',NULL,NULL,NULL,'1985-12-29','18'),
+	 (1318,' ','CTG VAQUEANOS DA TRADIÇÃO',0,'LEANDRO WEIH',' ','51 980568998',NULL,NULL,NULL,'1987-01-07','15'),
+	 (1320,' ','CTG RANCHO CRIOULO DE TARUMÃ',0,'',' ',' ',NULL,NULL,NULL,'1988-09-01','03'),
+	 (1321,'PL','GALPÃO CRIOULO',0,'Pedro Paulo Fernandes da Silva',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1322,'PL','x -UNIÃO DE QUEBRA - BLOQUEADA',0,'EDUARDO MARTINS',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1323,' ','GN PRESILHA DA QUERÊNCIA',0,'PEDRO ALEXANDRE FREITAS DE JESUS',' ','',NULL,NULL,NULL,'1987-02-25','10'),
+	 (1324,' ','CTG CAPIVARENSE',0,'ROMUALDO INÁCIO DE OLIVEIRA',' ','',NULL,NULL,NULL,'1988-04-02','30'),
+	 (1325,' ','CTG CHEIRO DA TERRA',0,'ANTÔNIO CARLOS N. ALMEIDA',' ','',NULL,NULL,NULL,'1989-05-17','12'),
+	 (1328,' ','CTG OS FARRAPOS',0,'ANTÔNIO CARLOS PAULSEN DORO',' ','53 98115-5260',NULL,NULL,NULL,'1986-08-20','26'),
+	 (1331,' ','PL QUERÊNCIA DO CHAPÉU',0,'CLAUDOMAR PACHECO DA SILVA',' ','',NULL,NULL,NULL,'1986-04-16','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1334,' ','DT INDUSTRIAL',0,'Andreia Xavier Dias',' ','54 99627-0510',NULL,NULL,NULL,'1985-09-25','07'),
+	 (1335,' ','CTG VINTE DE SETEMBRO',0,'ANTÔNIO NILTON DE OLIVEIRA CAMPOS',' ','51 998467517',NULL,NULL,NULL,'1987-09-15','15'),
+	 (1338,' ','CTG SENTINELA DO PALANQUE',0,'TIAGO BRITTO',' ','51 96713702',NULL,NULL,NULL,'1986-03-20','16'),
+	 (1339,' ','CTG ILHAPA DO RIO GRANDE',0,'LUCIELI LOURENÇO DA ROCHA',' ','55 996351554',NULL,NULL,NULL,'1986-08-16','10'),
+	 (1346,' ','CTG FRANCISCO VITOR MARONI',0,'Juarez Tibola',' ','54 98111-4207',NULL,NULL,NULL,'1988-11-30','07'),
+	 (1347,' ','CTG POUSADA DOS TROPEIROS',0,'Jonara F. F. Michielin',' ','54 9612-1328',NULL,NULL,NULL,'1987-04-08','07'),
+	 (1349,'GCN','OS ANDARENGOS',0,'MAURICIO PRESTES',' ',' ',NULL,NULL,NULL,'1988-11-19','09'),
+	 (1350,'PL','x -UNIÃO CAMPEIRA - BLOQEADA',0,'RONALDO CARVALHO',' ',' ',NULL,NULL,NULL,'1988-05-25','09'),
+	 (1351,' ','CTG FRONTEIRA DO HORIZONTE',0,'JÚLIO CESAR BERNARDI',' ',' 55 3534-1385',NULL,NULL,NULL,'1977-06-30','20'),
+	 (1353,' ','GAN CARRETEIROS DA LIBERDADE',0,'EVELINE SALDANHA REMUS',' ','54 996118898',NULL,NULL,NULL,'1989-06-27','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1355,' ','CTG RINCÃO DO SALADEIRO',0,'',' ','',NULL,NULL,NULL,'1982-05-04','04'),
+	 (1357,' ','CTG DARCI FAGUNDES',91655324000113,'ELCIO LUDUVINO DE FREITAS BATISTA',' ','51 98465-4425',NULL,NULL,NULL,'1985-07-24','01'),
+	 (1361,' ','CTG TRONCO DO IPÊ',0,'MÁRCIO DALBOSCO',' ','54 999094036',NULL,NULL,NULL,'1989-07-11','08'),
+	 (1364,' ','GT ESTÂNCIA DO PIÁ',0,'RODRIGO GUTERRES RAMOS',' ','',NULL,NULL,NULL,'1998-03-11','10'),
+	 (1366,' ','CTG SEIVA NATIVA DO CSU 5',0,'EDEMAR COSTA OLIVEIRA',' ','',NULL,NULL,NULL,'1988-11-18','12'),
+	 (1367,' ','CTG SERIGOTE',0,'ANDRÉA BACKES KOCH',' ','',NULL,NULL,NULL,'1960-09-08','30'),
+	 (1368,' ','CTG VELHA CAMBONA',0,'Mago da Silva Pollo',' ','51 99919-6133',NULL,NULL,NULL,'1989-07-08','15'),
+	 (1369,' ','CTG QUERÊNCIA DO IMBÈ',0,'Dilceu Edson Espindula Bernardes',' ','986492980',NULL,NULL,NULL,'1989-06-15','23'),
+	 (1370,' ','CTG SINUELO DA SERRA',0,'ALEXANDRE ANTÔNIO TREMEA',' ','54 996960178',NULL,NULL,NULL,'1985-04-27','11'),
+	 (1372,' ','CTG BOMBA DE PRATA',0,'MARCOS  NONNEMACHER',' ','',NULL,NULL,NULL,'1988-06-15','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1374,' ','GN FAZENDA VELHA',0,'NILTON CARLOS MACHADO BRUM',' ','55  9695 7333',NULL,NULL,NULL,'1989-10-20','10'),
+	 (1380,' ','GNC VACARIA DOS PINHAIS',0,'LUIZ EDGAR RODRIGUES BRANCO',' ','54 981198079',NULL,NULL,NULL,'1989-08-22','08'),
+	 (1382,'CTG','ESTÂNCIA DA BOA VISTA',0,'EDUARDO CIOTTI',' ',' ',NULL,NULL,NULL,'1988-09-23','09'),
+	 (1387,' ','CTG TROPEIRO DA SERRA',93537751000122,'FLORI ANTONIO FORTUNA',' ','54 999123799',NULL,NULL,NULL,'1985-09-12','19'),
+	 (1389,' ','PCN FARROUPILHA',0,'PAULO GUERREIRO',' ','',NULL,NULL,NULL,'1982-08-21','15'),
+	 (1390,' ','CTG SENTINELA DO RIO GRANDE',0,'ARGILEU NUNES DE CARVALHO',' ','',NULL,NULL,NULL,'1986-09-30','18'),
+	 (1391,' ','CTG CAMINHOS DO PAMPA',93507515000163,'EDSON FRANCISCO TAVARES DEBOM',' ','51 99691-1919',NULL,NULL,NULL,'1988-09-17','01'),
+	 (1392,' ','CTG VALENTES DA TRADIÇÃO',90170564000165,'ALEX ANTUNES MENEZES',' ','51 99742-4290',NULL,NULL,NULL,'1965-09-20','01'),
+	 (1395,' ','PTG SOBRA DE GUERRA',0,'FLORISBELO ROSA DE FARIAS',' ','',NULL,NULL,NULL,'1984-09-18','18'),
+	 (1396,'CTG','QUERÊNCIA DA PALMEIRA',92005800000113,'SEM ATIVIDADES',' ',' ',NULL,NULL,NULL,'1988-11-08','17');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1397,'CTG','CARIJO DAS MISSÕES',92005982000122,'MARCOS DESCOV',' ',' ',NULL,NULL,NULL,'1985-10-26','17'),
+	 (1398,' ','CTG ESTÂNCIA DE SÃO PEDRO',0,'',' ','',NULL,NULL,NULL,'1988-08-23','03'),
+	 (1399,' ','CTG TRONQUEIRA DA AMIZADE',0,'VOLNI CARVALHO',' ',' ',NULL,NULL,NULL,'1989-08-11','03'),
+	 (1400,' ','GDF OS FARROUPILHA',0,'',' ',' ',NULL,NULL,NULL,'1988-03-07','03'),
+	 (1401,'CTG','PAMPAS DO IMIGRANTE',0,'Leonel Machado da Silva',' construtoraorence@hotmail.com','(54) 99923-6264',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1402,' ','CTG QUERÊNCIA DO CRISTAL',0,'ACHILES P. DE VARGAS',' ','',NULL,NULL,NULL,'1981-05-28','28'),
+	 (1403,' ','CTG PÁTRIA E QUERÊNCIA',0,'SEVERINO DA SILVA',' ','',NULL,NULL,NULL,'1989-10-14','28'),
+	 (1404,' ','CTG POUSADA DOS TROPEIROS',0,'Odair Dalacort',' ','54 99102-3003',NULL,NULL,NULL,'1987-04-08','07'),
+	 (1406,' ','DTG DA ESTANCIA PROV. DE SÃO PEDRO',93018844000140,'DARIO PIRES DE MEDEIROS',' ','51 3488-3987',NULL,NULL,NULL,'1959-07-31','01'),
+	 (1407,' ','CTG CHAMA NATIVA',0,'JOÃO CARLOS FELIPETTO',' ','51 981787039',NULL,NULL,NULL,'1989-03-18','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1408,' ','CTG DOM FELICIANO',0,'ALEX',' ','51 97090189',NULL,NULL,NULL,'1987-04-18','16'),
+	 (1409,'CTG','HEROIS FARROUPILHAS',92863117000117,'Waldemar da Silva','secretariaherois@gmail.com','(54)  99774692',NULL,NULL,NULL,'1989-01-07','25'),
+	 (1411,' ','DTG CENTAURO DOS PAMPAS',0,'MARCOS ADRIANO SCHEID',' ','',NULL,NULL,NULL,'1989-03-31','15'),
+	 (1412,' ','CTG PALANQUE DA TRADIÇÃO',0,'Humberto Mathias de Souza Albuquerque',' ','5199615-0595',NULL,NULL,NULL,'1984-11-25','15'),
+	 (1413,' ','CTG ESTÂNCIA ALEGRE',0,'',' ','',NULL,NULL,NULL,'1989-07-02','28'),
+	 (1417,' ','GT OS MARAGATOS',0,'ROQUE M. F. BENITES',' ','',NULL,NULL,NULL,'1988-10-27','10'),
+	 (1418,' ','GT SINUELO DO PAMPA',0,'ELIZEU ALMEIDA DE JESUS',' ','',NULL,NULL,NULL,'1988-09-20','10'),
+	 (1419,' ','GT ALVORADA GAÚCHA',0,'JOSÉ JOAQUIM CADAVAL SILVA',' ','',NULL,NULL,NULL,'1988-12-18','10'),
+	 (1421,' ','GT ESTÂNCIA DE SÃO JORGE',0,'RAMÃO ÁVILA CARDINAL',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (1423,' ','CTG HERANÇA FARROUPILHA',0,'',' ','',NULL,NULL,NULL,'1973-10-07','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1425,' ','CTG UNIDOS PELA TRADIÇÃO',0,'Dilvana Aninha Muller',' ','54 99648-3328',NULL,NULL,NULL,'1987-04-02','07'),
+	 (1426,' ','PL SADY SAMPAIO DE QUADROS',0,'JOSÉ CARLOS GIUNGO',' ','54 3504-3104 54 3331-2787',NULL,NULL,NULL,'1986-07-01','07'),
+	 (1428,' ','CTG LAÇOS DA AMIZADE',0,'ALBINO AGUIAR DE OLIVEIRA',' ','54 3454-2891',NULL,NULL,NULL,'1990-10-15','11'),
+	 (1429,' ','PL  INVERNADA DO PRATA',0,'Robledo da Silva',' ','',NULL,NULL,NULL,'1988-08-28','11'),
+	 (1434,' ','CTF CAPÃO DA BATALHA',0,'NILDO SOARES MACHADO',' ','',NULL,NULL,NULL,'1990-01-25','10'),
+	 (1435,' ','PL BARRA DO PIRAJU',0,'',' ','',NULL,NULL,NULL,'1987-05-15','10'),
+	 (1437,' ','CTG CANDEEIRO DA AMIZADE',0,'PAULO VALDIR MANS',' ','51 99904-5004',NULL,NULL,NULL,'1990-02-01','05'),
+	 (1438,' ','CTG INDEPENDÊNCIA GAÚCHA',0,'PAULO RICARDO DA SILVA LANZ',' ','',NULL,NULL,NULL,'1988-09-12','12'),
+	 (1443,' ','CTG CAMINHOS DA SERRA',0,'AIRTON LUIZ DE SOUZA',' ','',NULL,NULL,NULL,'1989-04-11','24'),
+	 (1444,' ','CTG RAÇA GAUDÉRIA',0,'JAIR PAULO DIEHL HEMMING',' ','',NULL,NULL,NULL,'1990-03-10','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1447,' ','CTG GALPÃO DA AMIZADE',1419637000180,'ANTÔNIO CARLOS FERREIRA SOARES',' ','',NULL,NULL,NULL,'1989-10-18','01'),
+	 (1448,' ','DTG EST. CRIOULA DO CL. FARRAPOS',92989003000118,'ERIVANI LOPES HAYGERT',' ','51 996771117',NULL,NULL,NULL,'1991-04-05','01'),
+	 (1449,' ','CTG LAÇO DA QUERÊNCIA ',87019006000199,'DIEGO PEREIRA DOS SANTOS',' ','51 982863072',NULL,NULL,NULL,'1985-10-05','01'),
+	 (1450,' ','CTG POUSADA DA FIGUEIRA',94067683000148,'VILI ZANELA',' ','51 993723061',NULL,NULL,NULL,'1988-06-29','01'),
+	 (1452,' ','CTG CAUDILHO GUAIBENSE',93204758000122,'',' ','51 99948-9380',NULL,NULL,NULL,'1990-07-18','01'),
+	 (1457,'CTG','HERDEIROS DA TRADIÇÃO',92866813000187,'Anderson Theodoro de Lima','andersonlima88@bol.com.br','(54) 996029188',NULL,NULL,NULL,'1990-05-10','25'),
+	 (1458,'CTG','PAMPA DO RIO GRANDE',92866763000138,'Cassiano Ramos Moreira','moreira.cassiano@hotmail.com','(54)  984284855',NULL,NULL,NULL,'1990-08-07','25'),
+	 (1459,' ','CTG RAÍZES DO SUL',94053956000103,'JOÃO CARLOS DE ALMEIDA',' ','51 99157-7873',NULL,NULL,NULL,'1986-07-20','01'),
+	 (1460,' ','CTG GUAPOS DA QUERÊNCIA',0,'ROBERTO DOS SANTOS FERREIRA',' ','',NULL,NULL,NULL,'1989-09-15','06'),
+	 (1461,' ','CTG 22 DE NOVEMBRO',0,'FABRICIO VIVIAN BAGATINI',' ','',NULL,NULL,NULL,'1990-11-26','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1465,' ','CTG LANCEIROS DA QUERÊNCIA',0,'ROBERTO PINTO',' ',' ',NULL,NULL,NULL,'1990-05-18','21'),
+	 (1466,' ','CTG VALDOMIRO RECH',0,'VOLNEI RECH',' ',' ',NULL,NULL,NULL,'1969-12-31','27'),
+	 (1467,'CTG','ELO DO RIO GRANDE ',92867308000157,'Marcelo Alencar de Oliveira','marcelo.juiz@hotmail.com','(54) 99909-3908',NULL,NULL,NULL,'1990-09-08','25'),
+	 (1472,' ','IAC ORIGEM PAMPEANA',0,'CARLOS GOMES DA ROSA',' ','51 999417286',NULL,NULL,NULL,'1990-09-22','05'),
+	 (1476,'CTG','ACONCHEGO GAÚCHO',92861491000183,'Maxuel Lodi Gabrielli','maxgabrielli@hotmail.com','(54) 999722696',NULL,NULL,NULL,'1988-12-01','25'),
+	 (1477,' ','CTG QUERÊNCIA DE NOVA HARTZ',0,'LUÍS HENRIQUE FROHLICH',' ','',NULL,NULL,NULL,'1989-08-04','30'),
+	 (1486,' ','AT LUIZ MULLER',0,'LORECI FLORES',' ','',NULL,NULL,NULL,'1989-02-17','12'),
+	 (1488,' ','CTG QUERÊNCIA DO GAÚCHO',0,'ARY HERMANN',' ','',NULL,NULL,NULL,'1991-03-27','24'),
+	 (1491,' ','CTG RAÍZES DA TRADIÇÃO',0,'',' ','  ',NULL,NULL,NULL,'1991-04-08','02'),
+	 (1492,' ','GF MADRUGADA DO RIO GRANDE',0,'FERNANDO BRUM SCHOPAN',' ',' ',NULL,NULL,NULL,'1991-08-02','03');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1493,' ','GTF CORONEL APARICIO BORGES',0,'César de Jesus Lombarde de Moura/Analci Abreu de Moura',' ','55 99982-3169/ 55 9 9982-3169',NULL,NULL,NULL,'1991-07-18','03'),
+	 (1496,'CTG','ESTÂNCIA DO SOBRADO',0,'CRISTIANO FACCO',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1497,' ','CTG QUERÊNCIA DO SOCORRO',0,'VILMAR DA SILVA BOEIRA',' ','',NULL,NULL,NULL,'1977-11-22','08'),
+	 (1500,' ','PTG QUERENCIA DO PAI QUATI',0,'MARCO ANTONIO F. MUNHOZ',' ','',NULL,NULL,NULL,'1990-08-08','18'),
+	 (1503,' ','GT QUERÊNCIA CHUCRA',0,'JULIO ANDERSON SOUZA AFFONSO',' ','55 3251-5243 ',NULL,NULL,NULL,'1989-03-04','10'),
+	 (1505,' ','CTG QUERÊNCIA DO IMIGRANTE',0,'MARCELO BOFF',' ','',NULL,NULL,NULL,'1989-07-05','11'),
+	 (1508,'CTG','SANGUE CRIOULO',92868280000172,'Itagir Jose Baggio','','(54)  999177241',NULL,NULL,NULL,'1991-12-01','25'),
+	 (1509,' ','CTG REPUBLICA RIO GRANDENSE',93204741000175,'ALEX MACHADO DE QUADROS',' ','51 3402-0331   51 99315-1594',NULL,NULL,NULL,'1990-10-15','01'),
+	 (1512,' ','GT FAZENDA UNIÃO',0,'JOSÉ FERREIRA',' ','',NULL,NULL,NULL,'1991-10-21','10'),
+	 (1514,' ','CTG CURRAL VELHO',0,'JOSÉ GERALDINO DA SILVA',' ','',NULL,NULL,NULL,'1985-02-09','06');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1516,' ','CTG ESTÂNCIA DO PINHEIRO',92247311000178,'VOLNI CABRERA',' ','',NULL,NULL,NULL,'1987-07-17','01'),
+	 (1518,' ','CTG RAÍZES DA TRADIÇÃO',0,'LUIZ FRANCISCO ROSA SCHEREN',' ','51 999181238',NULL,NULL,NULL,'1990-11-01','12'),
+	 (1519,' ','CTG QUERÊNCIA DO HERVAL',0,'MARILDO CHIESA',' ','',NULL,NULL,NULL,'1982-01-02','14'),
+	 (1521,' ','CTG TAIPA FRONTEIRIÇA',93538502000151,'VALDIR AUGUSTO FACCIO',' ','54 996711583',NULL,NULL,NULL,'1990-06-23','19'),
+	 (1523,' ','PL RANCHO XUCRO',0,'LEOPOLDINO C. VIEIRA',' ','',NULL,NULL,NULL,'1981-05-28','28'),
+	 (1525,' ','PTQ CHAMA E QUERÊNCIA',0,'ORLANDO LÚCIO SOUZA FLORES',' ','',NULL,NULL,NULL,'1984-08-31','10'),
+	 (1529,' ','CTG RANCHO ALEGRE',0,'VICENTE TOMAZONI',' ','(54 999593029 ',NULL,NULL,NULL,'1992-02-26','11'),
+	 (1531,'CTG','OS CARRETEIROS',87505442000178,'Fernando Bonotto',' fer.bonoto@gmail.com','(54) 991226446',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1532,'CTG','CABANHA BELIZÁRIO NUNES',92869460000179,'Jardel de Souza Pereira','jardelpereirajardel@gmail.com','(54) 99100-2759',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1533,'CTG','VOVÔ FLORIAN ',92870666000119,'Luciano da Silva Moreira','hotelariamoreira@gmail.com','(54) 99968-4279',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1535,' ','PL ALMA SERRANA',0,'',' ',' ',NULL,NULL,NULL,'1988-10-15','02'),
+	 (1536,' ','CTG PAULO SERRANO',0,'CARLOS ALBERTO E. VARGAS',' ','',NULL,NULL,NULL,'1990-07-25','12'),
+	 (1539,' ','CTG VINTE DE SETEMBRO',0,'DARCI NAGEL',' ','',NULL,NULL,NULL,'1988-07-22','24'),
+	 (1540,' ','CTG CANCELA GRANDE',0,'',' ','',NULL,NULL,NULL,'1975-06-22','26'),
+	 (1541,' ','CTG CANDEEIRO SERRANO',0,'',' ','',NULL,NULL,NULL,'1991-09-13','14'),
+	 (1543,'CTG','TAURAS DE 35',0,'Regis Luiz Cerutti',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1544,'GAN','CABO TOCO',0,'JOAO ANDRE CASSOL LIZOT',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1549,' ','CTG TROPEIROS DO VALE',0,'',' ','',NULL,NULL,NULL,'1991-07-31','05'),
+	 (1550,'CTG','PEDRO PORTO',0,'HOMERON CARDOSO DA SILVEIRA',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1551,' ','CTG OSORIO TATIM',0,'OSVALDO FERREIRA DOS SANTOS',' ','',NULL,NULL,NULL,'1991-09-10','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1552,' ','CTG LENÇO PRETO',93853547000110,'FABIO MARCOS ROCHA',' ','999854951',NULL,NULL,NULL,'1988-07-25','19'),
+	 (1553,'CTG','RANCHO VELHO',92871086000146,'Rodinei Forlin','rudi.cacique@hotmail.com','(54) 99945-9772',NULL,NULL,NULL,'1992-08-02','25'),
+	 (1554,' ','CTG LAÇO VELHO',0,'JOÃO RAUL S. REIS',' ','',NULL,NULL,NULL,'1962-12-13','27'),
+	 (1559,' ','CTG ACACIA NEGRA',0,'João Marcos Duarte da Silveira',' ','51 9 8125-2683',NULL,NULL,NULL,'2020-10-16','15'),
+	 (1560,' ','CTG POTRO SEM DONO',0,'TIAGO DALMONTE',' ','54 99995-3172 ',NULL,NULL,NULL,'1991-07-22','11'),
+	 (1561,' ','PL RANCHO DA AMIZADE',0,'CLEOMAR JORGE SOMERA',' ','(54)999913548',NULL,NULL,NULL,'1991-09-02','11'),
+	 (1564,' ','CTG OS ANDARILHOS',0,'LUIZ FELIPE RODRIGUES BORGES',' ',' 51  99847261
+',NULL,NULL,NULL,'1988-11-11','02'),
+	 (1565,' ','CTG AMANHECER NA QUERENCIA',92397496000105,'SHIRLEY ISABEL CAMBEIRO TECHERA',' ','51 99138-7443',NULL,NULL,NULL,'1988-11-19','01'),
+	 (1567,' ','CTG CAMBOATÁ',0,'',' ','',NULL,NULL,NULL,'1992-01-20','05'),
+	 (1568,' ','CTG RECANTO NATIVO',0,'',' ','',NULL,NULL,NULL,'1992-09-01','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1569,'CTG','ALDEIA FARROUPILHA',92865732000162,'Ataide Tadeu Flores Pereira','atamaris2010@hotmail.com','(54) 99659-4804',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1570,'CTG','RELIQUIAS DE GAÚCHO ',0,'Santo de Castilhos Homem',' shomem@camaracaxias.rs.gov.br','(54) 991643323',NULL,NULL,NULL,'1992-10-05','25'),
+	 (1571,' ','PL CABANHA PARAISO',0,'VOLMIR ROSSA PINTO',' ','',NULL,NULL,NULL,'1969-12-31','27'),
+	 (1574,' ','CTG PASSO DO IJUI',0,'IARA VANICE ROTT',' ',' ',NULL,NULL,NULL,'1991-11-18','03'),
+	 (1576,' ','CTG COXILHA DAS PALMEIRAS',0,'Jerônimo Schimanski',' ','54 9946-7797',NULL,NULL,NULL,'1988-11-23','07'),
+	 (1577,' ','CTG SENTINELA DA SERRA',0,'Gesse de Quadros',' ','54 99952-4373',NULL,NULL,NULL,'1986-05-10','07'),
+	 (1578,' ','CTG AMIGOS DA TRADIÇÃO',0,'Neri Pedro Molssato',' ','54 9931-0568',NULL,NULL,NULL,'1990-11-05','07'),
+	 (1583,'CTG','ANDANÇA SERRANA ',92892084000171,'Rovaldino de Assis Godinho',' godinho.rovaldino@gmail.com','(54) 997097407',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1587,' ','PTG RONDA DO PAMPA',0,'',' ','',NULL,NULL,NULL,'1990-03-04','05'),
+	 (1588,' ','DTG GAUDERIOS DO PAGO',91338392000159,'VANDERLEI ALVES DE VARGAS',' ','51 997524395',NULL,NULL,NULL,'1982-04-24','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1590,' ','PTG QUERÊNCIA DO XONOTA',0,'CLAUDIO PACHECO',' ','',NULL,NULL,NULL,'1981-09-25','18'),
+	 (1594,' ','CTG PELEGO PRETO',0,'JOSÉ ADONES BREHM',' ','54 99926 0744',NULL,NULL,NULL,'1958-01-10','08'),
+	 (1598,' ','PL ANFILÓQUIO DIAS MARQUES',0,'GUILHERME DA SILCA SILVA',' ','51 999811577',NULL,NULL,NULL,'1990-10-17','23'),
+	 (1601,' ','CTG RECORDANDO A TRADIÇÃO',0,'LEANDRO',' ','54 99937 9613',NULL,NULL,NULL,'1993-07-19','29'),
+	 (1603,' ','CTG  TIO BILIA',0,'LUÍS ADÃO MARQUES',' ','55999618257',NULL,NULL,NULL,'1992-11-02','03'),
+	 (1604,' ','PL PEALO DA AMIZADE',0,'José Vinicius dos Santos Denicoló',' ','54 9994-2278',NULL,NULL,NULL,'1992-10-27','07'),
+	 (1605,' ','PL  JÚLIO DOS SANTOS',0,'Ricardo Carboni',' ','54 9917-7492',NULL,NULL,NULL,'1993-01-05','07'),
+	 (1606,' ','QL ALBINO NOVELLO',0,'João Gilmar Novello',' ','54 9981-4782',NULL,NULL,NULL,'1992-08-05','07'),
+	 (1607,'CTG','GALPÃO DE ESTÂNCIA',0,'JOÃO SOLDERA',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1608,' ','GT RANCHO DO MAIA',0,'JOÃO CARLOS LANÇANOVA GRIPA',' ','',NULL,NULL,NULL,'1990-08-11','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1609,' ','CTG ESTIRPE GAÚCHA',0,'Albina Finatto Olmi',' ','54 9 9989-3870',NULL,NULL,NULL,'1992-06-02','11'),
+	 (1610,' ','CTG PORTEIRA DO VALE',0,'',' ','',NULL,NULL,NULL,'1993-07-23','15'),
+	 (1612,'CTG','FILIGÊNCIO MARTINS DE MELO',92410612000170,'VALDEMIRA MARTINS DE MELLO',' ',' ',NULL,NULL,NULL,'1993-01-05','17'),
+	 (1614,' ','CTG CHALEIRA PRETA',0,'LUIS CARLOS SILVA',' ','',NULL,NULL,NULL,'1990-11-11','24'),
+	 (1615,' ','CTG SENTINELA DA TRADIÇÃO',0,'LUIZ IVANIR DOS SANTOS',' ','',NULL,NULL,NULL,'1962-09-11','24'),
+	 (1616,' ','CN GARRÃO DE POTRO',0,'Luiz Fernando Drechsler',' ','54 999592890',NULL,NULL,NULL,'1990-12-14','27'),
+	 (1620,' ','CTG RAÍZES PAMPEANAS',0,'SÉRGIO LUNELLI',' ','54 999732596',NULL,NULL,NULL,'1992-04-17','14'),
+	 (1622,' ','CTG CLUBE DE LAÇO',0,'MAURO ANTONIO BRUNETTO',' ','',NULL,NULL,NULL,'1992-04-08','24'),
+	 (1623,' ','CTG PIQUETE DO CAMBARÁ',0,'SÉLIO HOFFMANN',' ','54 984334134',NULL,NULL,NULL,'1990-09-10','29'),
+	 (1626,' ','CTG RECANTO DOS PINHEIRAIS',0,'',' ','',NULL,NULL,NULL,'1993-10-03','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1628,' ','PIQ FAZENDA SANTO ANTÔNIO',0,'VASCO HENRIQUE CARVALHO',' ','',NULL,NULL,NULL,'1992-12-27','10'),
+	 (1629,' ','PNTF VENTO XUCRO',0,'DARCI DA ROSA',' ','55 997300547',NULL,NULL,NULL,'1992-06-26','10'),
+	 (1631,' ','GTF REPONTE',0,'CLAUDIO DO CANTO',' ','',NULL,NULL,NULL,'1993-03-01','10'),
+	 (1633,' ','CCN MENOTI GARIBALDI',0,'',' ','',NULL,NULL,NULL,'1993-03-10','23'),
+	 (1634,' ','CTG POTROS SEM DONO',0,'',' ','',NULL,NULL,NULL,'1969-12-31','23'),
+	 (1637,' ','PQT COXILHA DO CARIJÓ',0,'ODIR EDUARDO PIRES DEANTONI NETO',' ','51-9992166727',NULL,NULL,NULL,'1993-05-06','16'),
+	 (1639,' ','DTG MORADA DE GUAPOS',0,'MARCO AURÉLIO SILVA DA SILVEIRA',' ','51 993138460',NULL,NULL,NULL,'1993-01-13','12'),
+	 (1640,' ','DCG MESCLA DE GUAPOS',92913607000180,'EDUARDO DA COSTA DE OLIVEIRA',' ','51 99286-7679',NULL,NULL,NULL,'1985-09-20','01'),
+	 (1642,' ','CTG CRUZEIRO DO SUL',0,'',' ','',NULL,NULL,NULL,'1994-04-05','08'),
+	 (1643,' ','DTG FIGUEIRA VELHA',0,'ÉVERTON ALVES CARDOSO',' ','51 99367-5205 ',NULL,NULL,NULL,'1994-03-19','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1646,' ','CTG VINTE E NOVE DE SETEMBRO',0,'GECIO CANDIDO DA LUZ',' ',' ',NULL,NULL,NULL,'2004-01-14','27'),
+	 (1648,' ','CTG GUARDIÕES DO RIO GRANDE',5816300125,'CLÁUDIA REGINA RIBEIRO',' ','51 992950156',NULL,NULL,NULL,'1992-07-18','01'),
+	 (1649,' ','CTG BENTO GONÇALVES',97130728000170,'ROBISMAR DE SOUZA VON GRAFEN ',' ','51  98605-6698',NULL,NULL,NULL,'1992-11-21','01'),
+	 (1651,' ','PL PAI JOÃO',0,'Cléber Barboza',' ','54 99160-4142',NULL,NULL,NULL,'1994-10-01','07'),
+	 (1652,' ','CTG CORDEIRO DO PAGO',0,'Adilio Jacó Pastorio',' ','55 9612-9518',NULL,NULL,NULL,'1982-12-22','07'),
+	 (1653,' ','CTG PORTEIRA DO PLANALTO',0,'Alfredo Juliano',' ','54 99945-1739',NULL,NULL,NULL,'1994-03-30','07'),
+	 (1654,' ','CTG TRONCO DO ARAÇA',0,'JOSÉ LUIZ VIECILLI',' ','54 3275-1534 ',NULL,NULL,NULL,'1994-05-20','11'),
+	 (1656,' ','CTG MATA NATIVA',0,'LUCIMAR RODRIGUES DOS SANTOS',' ','51 91074062',NULL,NULL,NULL,'1992-07-08','12'),
+	 (1657,' ','CTG TEÓFILO SCHROEDER',0,'ELEANDRO MUSSKOPF',' ','54 999452186',NULL,NULL,NULL,'1994-02-25','14'),
+	 (1662,' ','PL RANCHO DO TIO NICO',0,'ANTONIO OLIVEIRA BARBOSA',' ','',NULL,NULL,NULL,'1992-04-25','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1663,' ','GAN ANITA GARIBALDI',0,'JERI ADRIANO HAMMES',' ','',NULL,NULL,NULL,'1994-02-14','24'),
+	 (1664,'CTG','ESPORA PRATEADA',86733961000120,'Manoel dos Passos de Souza','clebercosta850@gmail.com','(54) 984066044',NULL,NULL,NULL,'1992-12-09','25'),
+	 (1665,'CTG','TIO CARLO',188668000104,'Luiz Vanderlei Ferreira dos Reis','hwluisf@gmail.com','(54)981213882',NULL,NULL,NULL,'1994-06-04','25'),
+	 (1667,' ','CTG ERON DA RATA',0,'PERY DOS SANTOS FOGAÇA',' ','',NULL,NULL,NULL,'1991-06-15','27'),
+	 (1668,' ','CTG TROPEIRO DOS PAMPAS',91338939000116,'JULIANO ROCHA DOS SANTOS',' ','51  998977176',NULL,NULL,NULL,'1987-10-17','01'),
+	 (1670,' ','CTG PRESILHA SERRANA',0,'Carlos Perin',' ','54 99982-0614',NULL,NULL,NULL,'1992-01-02','07'),
+	 (1671,' ','CTG RANCHO DA INTEGRAÇÃO',0,'BELMIR DAL MOLIN',' ','54 98441-8869',NULL,NULL,NULL,'1993-07-30','08'),
+	 (1672,' ','DCT TIO GOES',0,'',' ','',NULL,NULL,NULL,'1993-05-14','08'),
+	 (1673,' ','PL TRÊS TAPERAS',0,'DOELTO FRANCO MACHADO',' ','55 999646866',NULL,NULL,NULL,'1992-10-30','10'),
+	 (1675,' ','PL RECANTO DO PAGO',0,'FLORIVAL S. MENEZES',' ','',NULL,NULL,NULL,'1993-03-14','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1676,' ','CTG DESGARRADOS DA QUERÊNCIA',0,'LEANDRO SCHERER BASTOS',' ','',NULL,NULL,NULL,'1990-01-14','30'),
+	 (1677,' ','CTG GAÚCHO LITORÂNEO',0,'GERALDO BATTISTI',' ','999836594',NULL,NULL,NULL,'1993-10-27','23'),
+	 (1678,' ','CTG POUSADA DOS TROPEIROS',0,'Idilio Bottesini',' ','54 9905-5932',NULL,NULL,NULL,'1987-04-08','07'),
+	 (1679,' ','CTG HERDEIROS DE BOMBACHA',0,'ZÉLIDE DE VARGAS PELEGRINI',' ','54 3452-5029 ',NULL,NULL,NULL,'1991-04-27','11'),
+	 (1684,'CTG','CHEGANDO NO RANCHO ',135920000117,'Manoel  Adão Siqueira Borges','manoeladaob@gmail.com','(54) 99631-8334',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1685,'CTG','AMIGOS DO LAÇO',23392307000180,'Maicon Zuanazzi','maanrepresentacoes@hotmail.com','(54) 991223812',NULL,NULL,NULL,'2006-06-10','25'),
+	 (1689,' ','CTG ESTÂNCIA DO MANGUEIRÃO',0,'PAULO CARDOSO',' ','',NULL,NULL,NULL,'1994-11-24','15'),
+	 (1690,' ','PQT  ALMA CAMPEIRA',0,'CARLOS FERNANDO BROCKER',' ','51 99892-4797',NULL,NULL,NULL,'1994-01-20','22'),
+	 (1691,' ','CTG MARCA DA FERRADURA',0,'',' ','',NULL,NULL,NULL,'1993-10-16','28'),
+	 (1700,' ','CTG SOVEU DE OURO',0,'MARIA IZABEL SOUZA FERREIRA',' ','',NULL,NULL,NULL,'1993-06-13','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1702,' ','CTG PAISANOS DA TRADIÇÃO',0,'MARCELO MARTINS',' ','',NULL,NULL,NULL,'1993-12-02','11'),
+	 (1705,' ','PTG PRESILHA DO RIO GRANDE',0,'DERLI OLIVEIRA DE MELO',' ','',NULL,NULL,NULL,'1988-08-30','18'),
+	 (1708,' ','CTG GARRÃO DA SERRA',0,'SILMAR  PETRY',' ','',NULL,NULL,NULL,'1993-05-19','30'),
+	 (1709,' ','QL MATE AMARGO',0,'Gilberto Pechek',' ','54 9925-5632',NULL,NULL,NULL,'1989-01-13','07'),
+	 (1711,'CTG','RAÍZES DO RIO GRANDE',473146000154,'Marcos Antonio Ganzer','andreiacganzer@yahoo.com.br','(54)996034618',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1713,'CTG','ANGELO FRANCISCO GUERRA',92870542000133,'Leandro Teles de Souza',' leandrotsouza0@gmail.com','(54) 981131934',NULL,NULL,NULL,'1995-01-07','25'),
+	 (1716,'CTG','CANCELA DA PALMEIRA',917213000182,'ANA MARIA SCHREINER',' ',' ',NULL,NULL,NULL,'1987-08-19','17'),
+	 (1717,' ','CTG RINCÃO DOS BERGAMOS',0,'CLEBER AUGUSTO BÉRGAMO',' ','54 99778080',NULL,NULL,NULL,'1993-08-22','29'),
+	 (1719,'CTG','PORTEIRA DO CADEADO',0,'JAIME SCHER',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1720,' ','PQT TROPEIRO SERRANO',0,'Alex Piano',' ','54 99909-4678',NULL,NULL,NULL,'1995-08-21','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1721,' ','CTG VENTO MINUANO',0,'Adroaldo Grande',' ','54 99951-2567',NULL,NULL,NULL,'1994-07-16','07'),
+	 (1722,' ','CTG ESTÂNCIA NOVA',0,'Antônio Loesi Morais',' ','54 9167-5205  54 3581-0030',NULL,NULL,NULL,'1994-04-09','07'),
+	 (1723,' ','CTG HERDEIROS DA TRADIÇÃO',0,'EVANDRO ALOIS WENDEL',' ','',NULL,NULL,NULL,'1993-11-24','14'),
+	 (1724,' ','CTG QUERÊNCIA DO VALE',92413640000141,'RUBENS CARLOS ROMANI',' ','54 99925 2420',NULL,NULL,NULL,'1993-09-10','19'),
+	 (1728,' ','DTG 12 DE OUTUBRO',91891220000164,'PAULO MATUKAIT',' ','51 985908373',NULL,NULL,NULL,'1995-08-12','01'),
+	 (1730,' ','CTG PLANALTO CAPOENSE',0,'ÉDIPO RENATO CAMPOS PEREIRA',' ','54 996601854',NULL,NULL,NULL,'1995-07-09','08'),
+	 (1731,' ','CTG NARCISO MUNHON',0,'LUIS ALCIDES ROBERTO',' ','54 99641 8030',NULL,NULL,NULL,'1969-12-31','08'),
+	 (1734,' ','CTG PRESILHA DE ITAPUÃ',0,'TAÍS ABREU GONÇALVES',' ','51 99358-4177',NULL,NULL,NULL,'1995-03-20','01'),
+	 (1736,' ','GP TEBANOS DO IGAI',0,'Ileda Ferreira Soares',' ','54 99623-0281',NULL,NULL,NULL,'1995-01-16','07'),
+	 (1737,' ','CTG TROPEIRO DAS COXILHAS',0,'Regis Stumpf Blessmann',' ','51 981728302',NULL,NULL,NULL,'1989-02-22','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1738,' ','CTG QUERÊNCIA DO BOTUCARAI',0,'Joel Corrêa de Chaves',' ','54 999462430',NULL,NULL,NULL,'1995-08-21','14'),
+	 (1740,' ','CTG ESTÂNCIA GAÚCHA',0,'DALTI PROSZEK',' ','51 991181806',NULL,NULL,NULL,'1995-07-14','12'),
+	 (1741,' ','CTG OSCAR RODOLFO',0,'OSCAR RODOLFO MACHADO MAGGI',' ','',NULL,NULL,NULL,'1986-09-20','23'),
+	 (1742,' ','PL RINCÃO DO NORDESTE',0,'JOÃO ALVES PEREIRA',' ','',NULL,NULL,NULL,'1992-11-15','23'),
+	 (1743,'CTG','RINCÃO SERRANO',10537079000148,'Alcir dos Santos','lbraconstrucoes@gmail.com','(54) 999964782',NULL,NULL,NULL,'1995-05-10','25'),
+	 (1745,' ','CTG SENTINELA DA COXILHA',0,'GENTIL SANTO ANDREOLA',' ','',NULL,NULL,NULL,'1989-10-04','28'),
+	 (1747,' ','PTQ TROPEIRO DO RIO GRANDE',0,'RICARDO DA SILVA GONÇALVES',' ','53 9957 9182',NULL,NULL,NULL,'1994-10-24','06'),
+	 (1748,' ','CTG AMIGOS DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'1994-11-01','27'),
+	 (1749,' ','CTG CRIOULOS DO CAMBOATÁ',1146317000101,'CELSO ARPINI',' ','54 99982 2665',NULL,NULL,NULL,'1995-09-02','19'),
+	 (1750,' ','CTG CAMPESTRE DE GUACHOS',0,'VALMOR BREZOLIN',' ',' ',NULL,NULL,NULL,'1993-09-01','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1752,'CTG','PRESILHA GAÚCHA',0,'ADALEO LUFT',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1755,' ','PL ESTRELA DO PAGO',0,'ALCIDES LUIZ RODRIGUES DA SILVA',' ','',NULL,NULL,NULL,'1995-09-12','23'),
+	 (1759,' ','CTG ALEGRIA DOS PAMPAS',91691592000190,'MANOEL F. RODRIGUES',' ','51 99526553',NULL,NULL,NULL,'1984-03-03','01'),
+	 (1760,' ','CTG ESTÂNCIA DO GRAVATÁ',1053052000199,'JULIO DIHL CLOSS',' ','',NULL,NULL,NULL,'1992-09-15','01'),
+	 (1761,' ','CFTG FARROUPILHA',0,'',' ','',NULL,NULL,NULL,'1995-04-09','03'),
+	 (1763,' ','DTG QUERÊNCIA AZALÉIA',0,'MENOLI OCHOA',' ','51 99642-6003',NULL,NULL,NULL,'1995-08-05','22'),
+	 (1764,' ','DTG POLIVALENTE',0,'',' ','',NULL,NULL,NULL,'1989-04-22','02'),
+	 (1765,' ','DT CLUBE RECREATIVO JUVENIL',0,'Silvio Vieira Thomé',' ','54 9623-8967',NULL,NULL,NULL,'1993-03-20','07'),
+	 (1769,' ','CTG FOGO DE CHÃO',0,'NEVAL ALVES TEIXEIRA',' ','',NULL,NULL,NULL,'1991-10-05','18'),
+	 (1771,' ','AT PEDRO RIBEIRO DA LUZ',0,'Roque Peruzzolo',' ','54 9959-6083',NULL,NULL,NULL,'1994-05-13','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1772,' ','CTG RINCÃO DO PICA PAU',0,'JOAREZ DOS SANTOS',' ','55 999390045',NULL,NULL,NULL,'1998-06-16','10'),
+	 (1779,' ','CTG CENTELHA CRIOULA',0,'',' ','',NULL,NULL,NULL,'1996-04-15','04'),
+	 (1780,' ','PL TRANÇA CRIOULA',0,'Leonardo Roesler Filho',' ','55 99129-6379',NULL,NULL,NULL,'1989-05-20','07'),
+	 (1782,' ','CF OS RIO-GRANDENSES',0,'GABRIELA HAAS BIGATON',' ','54 3383-3011 ',NULL,NULL,NULL,'1996-07-07','14'),
+	 (1787,' ','CTG ALVORADA DO RIO GRANDE',0,'GASTON LUIS MELLO',' ','',NULL,NULL,NULL,'1996-10-28','23'),
+	 (1788,'CTG','ESTÂNCIA ALEGRIA',1553355000170,'Jurandi Baldasso',' jbjin@terra.com.br','(54) 999712824',NULL,NULL,NULL,'1996-06-01','25'),
+	 (1789,'CTG','ALMA SERRANA',1309652000175,'Luis Deoclecio Teles Ferreira','','(54) 981374105',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1790,'CTG','PARQUE DE RODEIOS VILA OLIVA',1309658000142,'Adilson Emerich Marques','adilsonemarques@hotmail.com','(54)  996993499',NULL,NULL,NULL,'1995-07-10','25'),
+	 (1791,'CTG','MARCA DA TERRA',7748263000122,'Ilso Buffon','oficinamecanicabuffon@hotmail.com','(54) 99978-1603',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1792,' ','CTG ENCOSTA DA SERRA',0,'MARILENE LISBOA KNORST',' ','54 9147-1046',NULL,NULL,NULL,'1996-04-02','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1793,' ','CTG GALPÃO SENTINELA DO PAGO',0,'CELI  DA LUZ',' ','',NULL,NULL,NULL,'1996-12-30','30'),
+	 (1795,' ','CTG SINUELO DE ITAPUCA',0,'MARCOS PANCOTTE CASTRO',' ','',NULL,NULL,NULL,'1993-11-20','14'),
+	 (1796,' ','CTG PORTEIRA DO FAXINAL',0,'SELORI ROSA',' ','',NULL,NULL,NULL,'1996-05-31','14'),
+	 (1797,' ','CTG HERANÇA CRIOULA',0,'ALCERI MORAES',' ','',NULL,NULL,NULL,'1996-10-04','14'),
+	 (1798,' ','CTG QUERÊNCIA',0,'wiliam campos Kuhn',' ','51 995341193',NULL,NULL,NULL,'1995-04-21','15'),
+	 (1799,'CTG','MIGUEL ROCHA SAMPAIO',1628380000176,'EMERSON SANTOS',' ',' ',NULL,NULL,NULL,'1982-03-03','17'),
+	 (1800,'CTG','ENTREVERO DE AMIGOS',9088438000148,'Luis Carlos da Silva','','(54) 996056501',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1802,' ','CTG BATALHADOR DA QUERÊNCIA',0,'ANTONIO ROBERTO MARIANO TERRA',' ','',NULL,NULL,NULL,'1995-01-21','06'),
+	 (1803,' ','DT QUERO QUERO',0,'LUIZ CLAUDIO DOS SANTOS LACERDA',' ','5599634-5541',NULL,NULL,NULL,'1986-10-12','10'),
+	 (1804,' ','PT COXILHA DO RINCÃO ALEGRE',0,'SILVIO T. SANCHOTONE',' ','',NULL,NULL,NULL,'1195-10-03','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1805,' ','PTG CHIMARRÃO CRIOULO',0,'JULIANO FREITAS DA ROSA',' ','',NULL,NULL,NULL,'1983-09-20','18'),
+	 (1806,' ','CTG CAMPEIROS DO RIO GRANDE',0,'JOSÉ ALFREDO MESQUITA CARDOSO',' ','',NULL,NULL,NULL,'1994-10-29','27'),
+	 (1807,' ','CTG PORTEIRA SERRANA',0,'JOSE LUIS CORDOVA HUFF',' ','',NULL,NULL,NULL,'1988-09-07','27'),
+	 (1808,' ','CTG TAIPA VELHA',0,'MARCELO SOUZA DE CARVALHO',' ','',NULL,NULL,NULL,'1994-11-15','27'),
+	 (1809,' ','CTG PORTEIRA DA LAGEANA',0,'DANIEL DOS REIS',' ','3282-2517 ',NULL,NULL,NULL,'1996-12-18','27'),
+	 (1813,' ','PTQ PORTEIRA DO RIO GRANDE',0,'ANA HELENA MATINEZ',' ',' 5596060796
+',NULL,NULL,NULL,'1993-04-19','04'),
+	 (1814,' ','CTG QUERÊNCIA DAS FLORES',0,'THOMAS ANTONIO CARNEVALI',' ',' 54 991573066',NULL,NULL,NULL,'1995-09-09','11'),
+	 (1815,' ','CTG RONDA CRIOULA',93538973000160,'EDILBERTO SONZA',' ','54 99974-0283',NULL,NULL,NULL,'1990-09-10','19'),
+	 (1817,' ','PTG FERNANDO FERREIRA MARQUES',0,'HELTON SOUZA MARQUES',' ','',NULL,NULL,NULL,'1996-06-06','23'),
+	 (1818,' ','CN JOÃO SILVANO',0,'BRUNO RENATO KINGESKI',' ','',NULL,NULL,NULL,'1996-07-06','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1819,' ','PL TROPILHA GAVIONA',0,'ALDO MENEGHETI FERREIRA',' ','',NULL,NULL,NULL,'1994-03-01','23'),
+	 (1820,' ','PTG GUARDIÕES DO PAMPA',0,'ADAIR DA SILVA GARCIA',' ','',NULL,NULL,NULL,'1995-05-22','23'),
+	 (1821,' ','PL ESTÂNCIA DO QUILOMBO',0,'PAULO ROBERTO BOURA',' ','',NULL,NULL,NULL,'1995-01-03','23'),
+	 (1826,' ','PTG LAÇADORES DO CAPIVARI',0,'JOSÉ PAULO DA SILVA NUNES',' ','',NULL,NULL,NULL,'1996-04-26','23'),
+	 (1827,' ','CTG ESPERANÇA DA COXILHA',0,'JULIO DOS S. ROSA',' ','',NULL,NULL,NULL,'1993-05-02','24'),
+	 (1829,' ','CTG CRUZEIRO DO SUL',94067964000109,'LUIZ CARLOS',' ','51 99959-5600',NULL,NULL,NULL,'1991-07-26','01'),
+	 (1831,'CTG','FRANCISCO CASALINI',0,'RODRIGO FABRIN',' ',' ',NULL,NULL,NULL,'1994-06-22','09'),
+	 (1832,' ','CTG ENTREVERO CHARRUA',0,'ALEXANDRE MARCHESE',' ','',NULL,NULL,NULL,'1996-10-02','24'),
+	 (1835,' ','CTG CAPITULINO VIEIRA',0,'MOACIR DELMAR SCHNEIDER',' ','',NULL,NULL,NULL,'1997-01-18','14'),
+	 (1836,' ','CTG NESTOR SILVEIRA',0,'',' ','',NULL,NULL,NULL,'1989-08-12','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1837,'CTG','PONCHO SERRANO',1676715000121,'Jose Nereu da Silva','nereu.silva11@gmail.com','(54) 999981467',NULL,NULL,NULL,'1996-03-03','25'),
+	 (1843,' ','PL RODOLFO JOÃO  FERNANDES',0,'DIEGO SOUZA DOS SANTOS',' ','51 997297666',NULL,NULL,NULL,'1990-12-28','23'),
+	 (1844,' ','CTG PALA VELHO',0,'CLAUDOMIR OLIVEIRA SANTOS',' ','',NULL,NULL,NULL,'2008-04-18','23'),
+	 (1845,' ','CTG AMIGOS DO PAGO',0,'GILMAR DA SILVA BRUM',' ','55 99117-9140 ',NULL,NULL,NULL,'1995-05-06','05'),
+	 (1846,' ','GTF GUAPOS DA AGRONOMIA',0,'Amilton Alexandre do Amaral',' ','54 99113-0445',NULL,NULL,NULL,'1997-05-03','07'),
+	 (1847,' ','GCT CAVALEIROS DO MERCOSUL',0,'Davis de Souza',' ','54 9114-0325',NULL,NULL,NULL,'1995-11-15','07'),
+	 (1851,' ','CTG CAMPEIROS DA TRADIÇÃO',0,'ZOELA GINDRI BERGUERMAIER',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (1852,' ','CTG CHICO PEDRO TELLES TOUREM',0,'FELIPE PINHEIRO',' ','',NULL,NULL,NULL,'1997-01-07','10'),
+	 (1854,' ','GN CRIOULOS DO ROSÁRIO',0,'JOSÉ ELIAS MARCON BERTAZZO',' ','',NULL,NULL,NULL,'1993-08-22','10'),
+	 (1855,' ','CTG HERANÇA GAÚCHA',0,'Elias Diehl',' ','54 99145-3886',NULL,NULL,NULL,'1969-12-31','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1857,' ','DTG LENÇO VERDE DA QUERÊNCIA ',89270649000136,'INATIVO',' ','51 99915-1656',NULL,NULL,NULL,'1998-08-23','01'),
+	 (1859,' ','CTG QUERÊNCIA DO CHUI',0,'SANDRO GIOVANE PRATES',' ','',NULL,NULL,NULL,'1996-08-20','06'),
+	 (1860,' ','CTG CIDADE VIDA',0,'IRINEU JOSE CARBONERA',' ','',NULL,NULL,NULL,'1998-09-20','11'),
+	 (1861,'CTG','CHALEIRA PRETA',90223256000150,'CLAUDIOMIRO PELISARI',' ',' ',NULL,NULL,NULL,'1984-07-02','17'),
+	 (1871,' ','CTG HERANÇA GAÚCHA',0,'JARBAS AMAURI CASTILHOS MENDES',' ','',NULL,NULL,NULL,'1994-03-21','27'),
+	 (1873,' ','CTG AMARANTO PEREIRA',758793000102,'ADAIR ROCHA',' ','51 99999-0294 ',NULL,NULL,NULL,'1993-11-04','01'),
+	 (1874,' ','CTN RONDA CRIOULA',0,'PEDRO PAULO BITENCOURT DE MATOS',' ','55 33591757',NULL,NULL,NULL,'1988-02-04','03'),
+	 (1877,' ','CTG PRESILHA DA SERRA',0,'ENIO BREVIA',' ','54 3451-3342',NULL,NULL,NULL,'1996-08-06','11'),
+	 (1878,' ','CTG QUERÊNCIA PAMPEANA',0,'LUIS CARLOS SOARES ARAUJO',' ','',NULL,NULL,NULL,'1997-01-01','12'),
+	 (1879,' ','CTG ADAGA VELHA',0,'GLAUBER SANTOS',' ','',NULL,NULL,NULL,'1965-04-21','18');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1880,'CTG','TAURAS DO LAÇO',2105545000198,'Crineu Lopes Pereira','neuzoautomoveis@bol.com.br','(54) 999712419',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1884,' ','CTG RINCÃO DA AMIZADE',94955127000108,'JORGE L. G. DOS SANTOS',' ','    51 98570-4962',NULL,NULL,NULL,'1992-01-15','01'),
+	 (1885,' ','DTG DO CLUBE JUVENTUDE DE ALEGRETE',0,'ALCEU AIRTON GONÇALVES DE SOUZA',' ','55 99719218',NULL,NULL,NULL,'1998-09-05','04'),
+	 (1886,' ','CTG RAIAR DO PAMPA',0,'Alex Catelani',' ','54 99908-2325',NULL,NULL,NULL,'1994-10-04','07'),
+	 (1887,' ','CTG  QUERÊNCIA DO MONTE ALEGRE',0,'',' ','',NULL,NULL,NULL,'1997-09-21','08'),
+	 (1889,'CTG','CRIOULOS DA QUERÊNCIA',5325070000145,'RUDINEI POST',' ',' ',NULL,NULL,NULL,'1995-05-07','17'),
+	 (1891,' ','DC ALMA GAÚCHA',0,'ALAN PERALTA DUTRA',' ','',NULL,NULL,NULL,'1969-12-31','18'),
+	 (1892,' ','PL CAIO SANTOS',0,'EDSON BATISTA OSÓRIO',' ','',NULL,NULL,NULL,'1998-09-12','23'),
+	 (1893,' ','CTG SENTINELA DO VALE',0,'IEDA SADRÉ LEAL',' ','',NULL,NULL,NULL,'1997-10-22','11'),
+	 (1894,' ','GAN IVI MARAE',0,'',' ','',NULL,NULL,NULL,'1998-09-01','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1897,'CTG','IVO ALVES SIQUEIRA FORTES',2862096000122,'SEM ATIVIDADES',' ',' ',NULL,NULL,NULL,'1997-04-20','17'),
+	 (1899,'CTG','QUERÊNCIA DE SÃO PEDRO',2611456000113,'Alisson Fernandes Schmidt','alisson.schmidt01@gmail.com','(54) 99188-5539',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1901,' ','CTG ESTÂNCIA DO CAMPO GRANDE',0,'ADEMIR KESSLER',' ','',NULL,NULL,NULL,'1996-06-06','30'),
+	 (1902,' ','ACTG PORTAL DA SERRA',0,'DIEGO SCHUH',' ','',NULL,NULL,NULL,'1997-06-17','30'),
+	 (1903,' ','DTG SINUELO DA QUERÊNCIA DO LOMBA',0,'JOEL DOS SANTOS GOMES',' ','',NULL,NULL,NULL,'1998-09-20','30'),
+	 (1905,' ','PTQ LANCEIROS DO SUL',0,'SERGIO RENI DA ROSA FURTADO',' ','53 99921-6756',NULL,NULL,NULL,'1985-04-15','21'),
+	 (1906,' ','CTG BOMBACHA BRANCA',0,'JOÃO CARLOS FERRI',' ','54 99973 8950',NULL,NULL,NULL,'1997-09-20','08'),
+	 (1909,' ','CTG RÉSTIAS DO PASSADO',0,'EVERALDO JOSÉ GELAIN',' ','54 98428 6263',NULL,NULL,NULL,'1982-10-21','29'),
+	 (1912,' ','CTG TROPEIROS DA AMIZADE',0,'RENATO ZANETTI DA SILVA',' ','53 99976-6275 ',NULL,NULL,NULL,'1998-03-29','21'),
+	 (1913,' ','CTG GUAPOS DO ITAPUI',0,'FABIO SCHIMMELPFENIG',' ','',NULL,NULL,NULL,'1998-11-03','30');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1915,'CTG','RINCÃO DA SAUDADE',3127755000140,'FABIANO FIGUEIRA ORTIZ',' ',' ',NULL,NULL,NULL,'1989-03-15','17'),
+	 (1917,' ','CPF TERRA DE UM POVO',0,'JOELSI DA ROSA FERREIRA',' ','',NULL,NULL,NULL,'1999-01-09','24'),
+	 (1918,' ','PT FAZENDA HARMONIA',0,'NENI EDINEI MACHADO ALVES',' ','',NULL,NULL,NULL,'1994-04-30','10'),
+	 (1921,' ','CTG  RECANTO DOS TROPEIROS',0,'José Ires Bonato',' ','54 99664-4310',NULL,NULL,NULL,'1994-07-31','07'),
+	 (1922,' ','CTG TROPILHA CRIOULA',0,'',' ','',NULL,NULL,NULL,'1988-08-08','05'),
+	 (1924,' ','CTG HERDEIROS DA TRADIÇÃO',92323641000103,'LUIZ VALDEVINO RAMALHO',' ','51 99968-7099',NULL,NULL,NULL,'1998-12-13','01'),
+	 (1925,' ','CTG QUERÊNCIA DAS MISSÕES',0,'ARCÊNIO BIRCK',' ',' ',NULL,NULL,NULL,'1997-08-10','03'),
+	 (1927,' ','CTG SOPRO DO MINUANO',0,'FELIPE BENATTI PIOVESANA',' ','',NULL,NULL,NULL,'1998-04-20','11'),
+	 (1928,' ','CTG CAMPO VELHO',0,'FLÁVIO DE TONI',' ','54 984297826',NULL,NULL,NULL,'1998-11-16','11'),
+	 (1931,' ','DTG EMILIO ZUNEDA',0,'',' ','',NULL,NULL,NULL,'1998-05-30','04');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1933,' ','PT ACONCHEGO DOS ÍNDIOS',0,'ANTONIO GILMOR BATAGLIN',' ','55 99967-3757',NULL,NULL,NULL,'1984-08-27','10'),
+	 (1934,'CTG','VOVÔ JOÃO SCAIN',3384662000109,'Gabriel Machado Rodrigues','gabrielmachado.rodrigues@hotmail.com','(54) 99657-3603',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1935,'CTG','QUERÊNCIA DA SERRA',3369517000140,'Clovis Danei Alves da Silva','clovisdasilva@metalurgicoscaxias.com.br','(54)991216274',NULL,NULL,NULL,'1999-03-07','25'),
+	 (1936,'CTG','CORAÇÃO SERRANO',3249811000119,'Neimar de Campos','','(54) 99989-4245',NULL,NULL,NULL,'1999-04-06','25'),
+	 (1938,' ','CTG SERRANOS DO LAÇO',0,'MELZI LUÍS VISENTIN',' ','54 3293-1284 / 54 99156-1422',NULL,NULL,NULL,'1999-08-12','08'),
+	 (1939,' ','CTG HERANÇA CHARRUA',0,'JOSE BATISTA BELOLLI',' ','',NULL,NULL,NULL,'1999-08-27','23'),
+	 (1940,' ','CTG COXILHA DO RIO GRANDE',0,'ELISEU RANGEL DE MATTOS',' ','51 99938-1217',NULL,NULL,NULL,'1999-05-02','22'),
+	 (1941,' ','CTG CABANHA PIMENTEL',3005271000128,'CLAUDIO PIMENTEL',' ','51 3485-8821   ',NULL,NULL,NULL,'1997-08-11','01'),
+	 (1942,' ','CTG POR-DO-SOL GAÚCHO',0,'JAIRO LUIS DO CANTO ALVES',' ','',NULL,NULL,NULL,'1996-11-19','01'),
+	 (1943,' ','CTG SINUELO DA AMIZADE',3600930000174,'CLEDSON',' ','51 98271-3936',NULL,NULL,NULL,'1997-06-04','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1945,'PL','ANDARILHOS DO PAMPA',0,'OSMAR INACIO DE FREITAS',' ',' ',NULL,NULL,NULL,'1999-07-21','09'),
+	 (1947,'CTG','TROPEIRO SERRANO',0,'NELSON OLIVEIRA',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1948,'CTG','TIMBA',0,'DOMINGOS EHLERES',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (1949,' ','DTG QUERÊNCIA DA COXILHA',90794181000168,'LEANDRO DE SOUZA GONÇALVES',' ','51 98464-0886',NULL,NULL,NULL,'1989-08-10','01'),
+	 (1952,' ','CTG ESTÂNCIA DA VENDINHA',0,'Sueli Teresinha Gonçalves dos Passos',' ','51 99957-9001',NULL,NULL,NULL,'1995-07-14','15'),
+	 (1953,' ','CTG SESMARIA DOS FARRAPOS',3672357000104,'JOÃO MARIA MILLER ',' ','51 99590-7643',NULL,NULL,NULL,'1989-08-20','01'),
+	 (1954,'CTG','MARCA DA SERRA',3513917000188,'Leandro Alves Borba','','(54) 996749953',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1959,' ','CTG SENTINELA DO FORTE',0,'FRANCISCO LÚCIO UMPIERRE MIRANDA',' ','',NULL,NULL,NULL,'1996-04-25','18'),
+	 (1960,'CTG','TROPEIRO DAS MISSÕES',105428000107,'JOÃO DE BEM',' ',' ',NULL,NULL,NULL,'1998-11-20','17'),
+	 (1961,' ','CTG POUSADA DAS CARRETAS',0,'JOÃO CARLOS MAINHARD',' ','',NULL,NULL,NULL,'1992-08-01','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1962,' ','PL CABANHA TRÊS PASTORES',0,'JOÃO SILVIO DOS SANTOS',' ','54 3616-7216',NULL,NULL,NULL,'2000-03-01','14'),
+	 (1966,' ','CTG TAPERA VELHA',0,'JOSÉ CLAUCIR GONÇALVES',' ','',NULL,NULL,NULL,'2000-06-01','14'),
+	 (1967,' ','CTG TRICOLOR DOS PAMPAS',92797901000174,'ENEDIR PIMENTEL',' ','51 99305-2465',NULL,NULL,NULL,'1999-12-29','01'),
+	 (1968,' ','PL SENTINELA DAS COXILHAS',0,'',' ','',NULL,NULL,NULL,'1969-12-31','14'),
+	 (1975,' ','CTG OS TEATINOS',0,'ARIANY GOMES MULLER',' ','53 3232-0309 ',NULL,NULL,NULL,'1999-11-17','06'),
+	 (1978,'PL','UNIDOS PELA TRADIÇÃO ',4147209000133,'Jose Amilcar Wollmann','','(54) 996277650',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1979,' ','CTG PIQUETE DA AMIZADE',4006696000114,'ANTONIO MAIDANA SILVA',' ','51 3261-8712',NULL,NULL,NULL,'1975-07-24','01'),
+	 (1980,' ','PTQ BARÃO DO BATOVI',0,'LUIS FERNANDO BIASI PASINI',' ','55. 3251-2201 ',NULL,NULL,NULL,'1998-09-15','10'),
+	 (1981,' ','DTG QUERRÊNCIA DO VALE',88143953000150,'MARILU ROSA ESPINDOLA',' ','51 3496-5462    51 98461-8795',NULL,NULL,NULL,'2000-11-22','01'),
+	 (1983,' ','CTG GUERREIROS DA TRADIÇÃO',0,'ARQUIMEDES PAZ DA CONCEIÇÃO',' ','54 99136-0185',NULL,NULL,NULL,'2000-02-22','11');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (1985,' ','CTG SINUELO DA FEITORIA',0,'MARIA DE VARGAS',' ','',NULL,NULL,NULL,'1992-01-13','12'),
+	 (1986,' ','CTG TIO ÍTIA',0,'CLAUDIO VOLMIR THEISEN',' ','51 999930258',NULL,NULL,NULL,'1996-12-21','05'),
+	 (1989,' ','CTG OS TAURAS DA COLINA',0,'LUCIANO SILVA DA ROSA',' ','51 995825202',NULL,NULL,NULL,'1992-01-31','22'),
+	 (1990,'CTG','CAPÃO DO VENTO',3430396000103,'Alison de Medeiros Friso',' alisonfriso@hotmail.com','(54) 999792876',NULL,NULL,NULL,'1969-12-31','25'),
+	 (1992,'CTG','HERANÇA GAUDÉRIA',8715747000138,'','','',NULL,NULL,NULL,'1999-03-12','25'),
+	 (1994,' ','CTG HERANÇA NATIVA',0,'ADÃO DA COSTA',' ','',NULL,NULL,NULL,'2001-03-09','24'),
+	 (1996,' ','CTG TRIPLICE ALIANÇA',0,'',' ','',NULL,NULL,NULL,'2001-03-19','04'),
+	 (1999,'CTG','VELHO MATEUS',4413327000146,'João Trindade','','(54) 999711786',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2000,'CTG','OS AMIGOS DO RIO GRANDE',8618842000113,'Antonio dos Santos Paulino','','(54) 999235401',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2002,' ','CTG ARGEMIRO MARTINS PINTO',0,'ERNESTO JOÃO GERHARDT',' ','',NULL,NULL,NULL,'1999-06-10','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2003,' ','DTG  MARCO DAS AGUAS',0,'',' ','',NULL,NULL,NULL,'2001-05-16','23'),
+	 (2004,' ','CTG VÔ JOÃO CARLOS ONGARATTO',0,'NILSON DOS SANTOS',' ','',NULL,NULL,NULL,'2001-05-09','24'),
+	 (2006,'PL','OS TAURAS DA QUERÊNCIA',3726407000199,'Valdir Teles de Vargas ','ajnrepresentacoes@gmail.com','(54) 999726496',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2009,' ','CTG TROPEIROS DA FÉ',0,'TACIANO TIEPO',' ','54 99959 8054 ',NULL,NULL,NULL,'2000-04-18','29'),
+	 (2010,'CTG','ARUÁ',22368999000169,'Jose Enor Andrade de Oliveira','joseenorao@hotmail.com','(54) 991733914',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2012,' ','PL PORTEIRA ABERTA',0,'LÚCIO PATIAS SANTOS',' ','',NULL,NULL,NULL,'2008-07-27','10'),
+	 (2013,' ','CTG RINCÃO DOS COROADOS',0,'MARA REJANE SOARES BELTRAME',' ','54 99623 3663',NULL,NULL,NULL,'1984-10-18','29'),
+	 (2014,' ','CTG SINUELO DA SERRA',0,'GELSON LUIS PAPPEN',' ','',NULL,NULL,NULL,'2001-09-17','24'),
+	 (2018,' ','CTG ESPORA NATIVA',0,'IGOMAR KRÜGER',' ','',NULL,NULL,NULL,'2001-07-30','24'),
+	 (2021,' ','CTG LANCEIROS DO CERRO',0,'PAULO VICTOR SCHWANTZ DA SILVEIRA',' ','53 98469-9535',NULL,NULL,NULL,'1998-06-30','21');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2023,' ','CTG GAÚCHO SERRANO',0,'RENATO RUBERT',' ','',NULL,NULL,NULL,'1999-05-01','14'),
+	 (2027,' ','CTG TROPEIROS DA AMIZADE',0,'JOÃO FLORES',' ','51  991875160',NULL,NULL,NULL,'1996-05-13','12'),
+	 (2028,' ','PQT MEMÓRIAS DO PASSADO',0,'ALVANIR MANOEL DA MOTTA ROSA',' ','51 999739879',NULL,NULL,NULL,'1997-04-16','12'),
+	 (2031,' ','PQT GARRÃO DO RIO GRANDE',0,'TIAGO ARTUR TRINDADE',' ','55 999111867',NULL,NULL,NULL,'1992-11-21','03'),
+	 (2032,' ','DTG CAIBOATÉ',4801482000130,'DENISETE SOUZA LUZ',' ','51 995412669',NULL,NULL,NULL,'2001-03-03','01'),
+	 (2033,' ','DTG CANCELA DA LIBERDADE',92906437000107,'CÉLIO CARVALHO BAHLIS',' ','51 3396-4855',NULL,NULL,NULL,'1998-04-24','01'),
+	 (2034,' ','CTG ESTÂNCIA DOS PICADAS',0,'PAULO RENATO FRANCISCO',' ','',NULL,NULL,NULL,'2000-09-23','15'),
+	 (2036,' ','COORD. MUN. TRADICIONALISTA',0,'AIRTON DORNELES',' ','',NULL,NULL,NULL,'2001-11-05','18'),
+	 (2037,' ','CTG SENTINELA DO INHANDAVA',0,'LAURI SGANZERLA',' ','54 99938 1836',NULL,NULL,NULL,'1967-12-05','29'),
+	 (2039,' ','COORD. M. DE TRADICIONALISMO',0,'NELSON OLIVA',' ','',NULL,NULL,NULL,'1998-08-13','18');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2040,' ','CTG RAIZES DE SÃO VALÉRIO',0,'ALCEU  JOSÉ FERNANDES',' ','',NULL,NULL,NULL,'1995-08-11','20'),
+	 (2041,' ','DTG TANGARÁ',0,'CARLOS ALBERTO DA SILVA',' ','',NULL,NULL,NULL,'2000-09-26','06'),
+	 (2042,' ','CTG SINUELO DA AMIZADE',0,'DEOCLÉCIO JOSÉ ZANATTA',' ','',NULL,NULL,NULL,'1959-01-01','24'),
+	 (2043,' ','CTG QUERÊNCIA DA MATA',0,'RENATO JOSÉ DAMEDA',' ','51 996696299',NULL,NULL,NULL,'2000-01-04','24'),
+	 (2044,' ','CTG AMIGOS DO RIO GRANDE',3974491000116,'ADAIR GOLLO',' ','54 991429400',NULL,NULL,NULL,'1998-11-19','19'),
+	 (2045,' ','DTG LAÇOS DA AMIZADE',20615247000120,'ANDRÉ LUIZ DINIZ BIESEKI',' ','54 99655 9755',NULL,NULL,NULL,'1969-12-31','19'),
+	 (2048,' ','CTG OS CAMPÊRO',4870322000142,'EVANDRO LAMAISON CORREA',' ','54 991948800',NULL,NULL,NULL,'2001-03-25','19'),
+	 (2049,' ','CTG POTRO XUCRO',4859407000120,'RAFAEL FORCHESATTO',' ','54 99611 6580',NULL,NULL,NULL,'2001-07-23','19'),
+	 (2051,'GAN','CINCO "S"',0,'JUAREZ',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (2053,' ','CTG OS CENTAUROS',0,'LUIZ PAULO MARTINS',' ','',NULL,NULL,NULL,'2001-10-21','06');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2054,' ','CTG UNIDOS PELA TRADIÇÃO RIO GRANDENSE',0,'Tarso Cadore',' ','54 98103-9299',NULL,NULL,NULL,'2001-11-30','07'),
+	 (2055,' ','CTG ESTÂNCIA DO RUBEM BERTA',4928166000123,'VILSON PINHEIRO NUNES',' ','51 99140-7053',NULL,NULL,NULL,'2000-09-27','01'),
+	 (2056,'CTG','ESTANCIEIROS DO LAÇO',4741970000107,'Eloi de Fatima Lima Mattos','eloimattos03@gmail.com','(54) 996811834',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2057,'CTG','TIO DANILO',4636679000160,'Carlos Alberto da Silva','esquadriasadani@gmail.com','(54)  98447-7522',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2059,' ','CTG ITO BIRIVA',0,'JOSÉ SILVANO DA LUZ LEMOS',' ',' 54 3251-1834 54 9977-0222',NULL,NULL,NULL,'2001-06-06','27'),
+	 (2060,' ','PL DO SAIQUI',0,'PAULO CILON RODRIGUES',' ','54 991764469',NULL,NULL,NULL,'1992-04-10','27'),
+	 (2063,' ','UNIÃO TRADICIONALISTA',4983009000110,'ANA PINHEIRO MACHADO',' ','51 99826-6726',NULL,NULL,NULL,'1987-12-29','01'),
+	 (2064,'CTG','RANCHO GRANDE',0,'Marilda Barbosa Antonello',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (2065,' ','QUERÊNCIA DA POESIA XUCRA',0,'Arno Moscato dos Santos','tchemoscato@hotmail.com','(54)999123237',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2066,' ','DTG LENÇO COLORADO',92894500000132,'ANDRÉ LUIZ  PRUSH NAIBERT',' ','51 985449281',NULL,NULL,NULL,'2012-04-22','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2072,' ','CTG RECANTO DOS XIRÚS',3848117000118,'NEURI CASTILHOS',' ','54 99603 8638',NULL,NULL,NULL,'1989-08-11','19'),
+	 (2073,' ','PL SÃO GERALDO',0,'GERALDO SUSSENBACH JÚNIOR',' ','',NULL,NULL,NULL,'2000-11-04','23'),
+	 (2074,' ','PTG MATE AMARGO',0,'',' ','',NULL,NULL,NULL,'2001-12-22','02'),
+	 (2075,' ','DTG SINUELO DE CHARQUEADAS',0,'CLAUDIOMIRO DE SOUZA VIEIRA',' ','51 92231783',NULL,NULL,NULL,'2001-12-15','02'),
+	 (2077,' ','CPCG GERCILIANO A. DE OLIVEIRA',0,'SILVIO LUIS DELAVEQUIA DOS SANTOS',' ','',NULL,NULL,NULL,'2001-09-18','12'),
+	 (2078,' ','CTG QUERENCIA DO BUTIÁ',0,'SILVANA O BECKEL',' ','54 3383-3154',NULL,NULL,NULL,'2002-02-01','14'),
+	 (2080,' ','ASSOCIAÇÃO TRAD. MONTENEGRINA',0,'',' ','',NULL,NULL,NULL,'1969-12-31','15'),
+	 (2083,' ','PL VÔ CHICO',0,'GILBERTO RIBEIRO DA SILVA',' ','',NULL,NULL,NULL,'2001-01-30','23'),
+	 (2084,' ','CTG JOÃO DORNELLES',0,'GILNEI MEYER',' ','',NULL,NULL,NULL,'2001-11-02','24'),
+	 (2085,'CTG','VOVÔ LISBOA',5137129000160,'Ernesto Antonio de Almeida Lisboa','kamilagl@terra.com.br','(54) 999733499',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2086,' ','PL GAUDÉRIOS DA QUERÊNCIA',0,'FELIPE PEREIRA LAHN',' ','54 99605-4501',NULL,NULL,NULL,'2002-07-08','27'),
+	 (2087,' ','PQT ORELHANO CTG',0,'ALEXANDRE MENEZES',' ','55 3423-5126',NULL,NULL,NULL,'1984-09-12','04'),
+	 (2088,' ','GC HERANÇA FARRAPA',0,'Carlos Roberto Motta',' ','51 99845-8258',NULL,NULL,NULL,'2002-10-02','15'),
+	 (2090,'CTG','HONEYDE BERTUSSI ',0,'FRANCISCO VILMAR RODRIGUES','','54-99735784',NULL,NULL,NULL,'2000-06-12','25'),
+	 (2091,'CTG','MANGRULHOS DA SERRA',5179407000141,'Jose Saul Radatz','jose-saul.radataz@gmail.com','(54) 996355244',NULL,NULL,NULL,'2002-05-07','25'),
+	 (2092,' ','CTG LAÇADORES E TROVADORES',0,'',' ','',NULL,NULL,NULL,'2002-07-19','02'),
+	 (2093,' ','GAN CHIMANGO',0,'JAÚNA APARECIDA FONSECA RIBEIRO',' ','51 998702914',NULL,NULL,NULL,'2003-01-28','05'),
+	 (2095,' ','PL CRISTIANO TEIXEIRA',0,'',' ','',NULL,NULL,NULL,'2002-02-21','15'),
+	 (2097,'DT','x -CONTINENTE DE SÃO PEDRO - BLOQUEADA',0,'ILTON LUIZ DE MOURA ARNOLDI',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (2099,' ','PQT LAÇADORES DA AMIZADE',0,'FELIPE VALÉRIO DE AMORIM',' ','',NULL,NULL,NULL,'2003-03-29','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2100,' ','CTG SENTINELA DA FORTALEZA',0,'BRUNO JOSÉ STERTZ',' ','51-99814.6574 ',NULL,NULL,NULL,'1989-08-29','16'),
+	 (2101,' ','CTG ENCOSTA DA SERRA',0,'JOSÉ LINDOLFO GARCIA',' ','51 99915-9057',NULL,NULL,NULL,'2001-11-03','22'),
+	 (2102,' ','AT MARGARIDENSE',0,'BENTO NILDO PEREIRA GOULART',' ','',NULL,NULL,NULL,'2002-05-09','18'),
+	 (2103,' ','PQT VAQUEANOS DA TRADIÇÃO',0,'LUIZ MIGUEL MARTINS DA ROSA',' ','51 995170608',NULL,NULL,NULL,'2002-10-01','22'),
+	 (2104,' ','PL PEDRO VELHO',0,'ADAIR PEREIRA DOS SANTOS',' ','(51) 9982-5914',NULL,NULL,NULL,'2002-02-03','23'),
+	 (2105,' ','PL TROPEIRO VELHO',0,'JOÃO SEBASTIÃO DA ROSA RODRIGUES',' ','54 3244-1040',NULL,NULL,NULL,'2000-10-25','27'),
+	 (2106,' ','PTG JOÃO MANOEL',0,'',' ',' ',NULL,NULL,NULL,'1987-09-09','03'),
+	 (2107,' ','CTG GUAPOS DA CABANHA LIBERDADE',0,'EVALDO FRANCISCO DA ROSA',' ','51 999 679 948',NULL,NULL,NULL,'2003-05-07','22'),
+	 (2109,' ','CN VÔ POMPÍLIO',0,'NELSON EDGAR CAMARGO DOS SANTOS',' ','',NULL,NULL,NULL,'2000-05-05','23'),
+	 (2110,'CTG','AMIGOS DA TRADIÇÃO',5108318000104,'Manoel Luiz Almeida dos Santos','manoelbaraunanana@gmail.com','(54) 999885124',NULL,NULL,NULL,'2002-05-01','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2111,'CTG','SINUELO',89281323000295,'Edilson Paulo Hoff','edilsonhoff2214@gmail.com','(54) 99156-4140',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2112,' ','CTG HERANÇA DO TIO CANDINHO',0,'FERNANDO SCHWANCK DOS REIS',' ','',NULL,NULL,NULL,'2001-09-07','27'),
+	 (2113,' ','PL PONCHO SERRANO',0,'DIEGO DA SILVA NOEL',' ','54 9148-8817',NULL,NULL,NULL,'2002-05-18','27'),
+	 (2114,' ','CTG TROPEIRO SERRANO',0,'ARIEL BOEIRA DE OLIVEIRA',' ','54 3278-1547     54 3282-4047    54 8402-9145',NULL,NULL,NULL,'2002-04-10','27'),
+	 (2115,' ','CTG ESTRELA SERRANA',0,'MANOEL ARCHIMIMO LICKS',' ','54 3282 2614  ',NULL,NULL,NULL,'2003-07-18','27'),
+	 (2116,' ','PL JOÃO DE BARROS',0,'RUDIMAR DUTRA',' ','',NULL,NULL,NULL,'2003-06-21','27'),
+	 (2117,'PQT','TRÊS PALMEIRAS',5457101000143,'JOSÉ ONOFRE DA SILVA',' ',' ',NULL,NULL,NULL,'2002-09-24','17'),
+	 (2118,' ','CTG QUERÊNCIA DA AMIZADE',0,'José P. Moraes Junior',' ','54 98407-7472',NULL,NULL,NULL,'1998-11-20','07'),
+	 (2119,' ','PL CLAUDIO BUGRE',0,'',' ','',NULL,NULL,NULL,'1994-05-03','14'),
+	 (2120,' ','PL GAUCHÃO',0,'',' ','',NULL,NULL,NULL,'2003-05-15','14');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2121,' ','GAN HERANÇA NATIVA',0,'TEREZINHA JAIR L. DA SILVA',' ','',NULL,NULL,NULL,'1998-06-12','14'),
+	 (2122,' ','CTG CHARLA GALPONEIRA',0,'IZABEL DIOVANI DA SILVEIRA',' ','51 997253554',NULL,NULL,NULL,'1999-01-26','15'),
+	 (2123,' ','CTG PELEADORES DO SUL',0,'Valdir Sirineu Koch',' ','51 99859-0229',NULL,NULL,NULL,'2001-01-31','15'),
+	 (2124,' ','PL TROPEIRO VELHO',0,'ROGÉRIO C. GRABOSKI',' ','',NULL,NULL,NULL,'2000-09-09','23'),
+	 (2125,' ','CTG ESSÊNCIA DA TRADIÇÃO',0,'CLAUDINEI MENDES',' ','',NULL,NULL,NULL,'1996-10-18','30'),
+	 (2128,' ','GT HERÓIS FARROUPILHA',0,'CLACIR FRANCISCO BONATTO',' ','',NULL,NULL,NULL,'2002-07-15','08'),
+	 (2129,'CTG','NOVA QUERÊNCIA',0,'VALDIR PADILHA',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (2132,' ','CTG ALMA ESTRADEIRA',0,'Marcos Geovane Arce Rodrigues',' ','51 99949-6976',NULL,NULL,NULL,'2003-11-25','15'),
+	 (2133,' ','CTG SENTINELA DO PORTÃO',0,'Kiaria Lígia Franco Braga',' ','51 99508-3504',NULL,NULL,NULL,'1980-11-15','15'),
+	 (2136,' ','PL ESTÂNCIA CASA DE PEDRA',0,'FABIANO LUIS SCHMITT',' ','51 99763-2868',NULL,NULL,NULL,'2002-02-04','22');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2137,' ','PQT CABANHA DA FÉ',0,'ADROALDO DE FRANCESCHI',' ','',NULL,NULL,NULL,'2002-01-11','24'),
+	 (2138,' ','CTG RINCÃO DOS XUCROS',0,'',' ','',NULL,NULL,NULL,'2003-03-21','26'),
+	 (2139,' ','DTG GAÚCHOS DE SÃO JOSÉ',89972533000149,'SILVIO LUIS DE DEUS SANTOS',' ','51 99916-3090',NULL,NULL,NULL,'2003-07-01','01'),
+	 (2140,' ','DTG RINCÃO DO GRAVATÁ',4656602000152,'ANDRÉ RICARDO HOLAND',' ','51 3430-1537',NULL,NULL,NULL,'2004-05-28','01'),
+	 (2141,' ','CTG RODA DE CARRETA ',3579357000164,'CRISTIANO DOS SANTOS ',' ','51 998405-2131 / 998961-1800',NULL,NULL,NULL,'1999-09-11','01'),
+	 (2142,' ','CTG SENTINELA DO PAGO',91588210000196,'ALEXSANDRO OLIVEIRA SANTANA',' ','51 984357113',NULL,NULL,NULL,'1996-06-19','01'),
+	 (2144,' ','PL RECANTO VERDE',0,'OSMAR DE ANSELMO ALMEIDA',' ',' ',NULL,NULL,NULL,'2002-08-24','02'),
+	 (2145,' ','DTG ESTÂNCIA DE SÃO PEDRO',0,'ROSA MARIA CASANOVA',' ','53. 3232-7528',NULL,NULL,NULL,'1999-06-27','06'),
+	 (2146,' ','DTG OS CAMPEIROS',0,'PAULO ROBERTO MACHADO DOS SANTOS',' ','',NULL,NULL,NULL,'2003-11-29','06'),
+	 (2148,' ','GC GAÚCHOS DE 35',0,'JOÃO HÉLIO CORREA',' ','54 98129 6464',NULL,NULL,NULL,'2003-02-11','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2150,'DT','HERDEIROS DA TRADIÇÃO',0,'DILVIO FUMAGALLI',' ',' ',NULL,NULL,NULL,'2007-05-23','09'),
+	 (2152,' ','CTG RAÍZES DO SUL',0,'MARCOS ROGÉRIO ANTUNES',' ','',NULL,NULL,NULL,'2002-11-08','24'),
+	 (2153,' ','CTG ESTÂNCIA DO COTIPORÃ',0,'Edson Giovani Dillenburg',' ','',NULL,NULL,NULL,'1996-05-10','30'),
+	 (2154,' ','DTG GUARDIÕES DO RIO GRANDE',0,'MAURO ANTÔNIO DA ROSA',' ','',NULL,NULL,NULL,'2004-05-27','24'),
+	 (2155,' ','DTG MALA DE GARUPA',92991660000108,'AGUINALDO FERREIRA',' ','51 99919-8118',NULL,NULL,NULL,'2004-07-08','01'),
+	 (2157,' ','PQT ESTEIO DO RIO GRANDE',0,'',' ','',NULL,NULL,NULL,'2001-06-07','03'),
+	 (2159,' ','CTG QUERO QUERO',0,'EVERALDO LUIZ REGINATTO',' ','',NULL,NULL,NULL,'2002-06-16','24'),
+	 (2160,' ','PC PÔR DO SOL',0,'LEONARDO PEREIRA DIAS',' ','54 3286-2586',NULL,NULL,NULL,'2004-08-20','27'),
+	 (2162,' ','CTG CAMINHO DOS PAMPAS',0,'Luiz André Baumgardt',' ','54 9973-4970',NULL,NULL,NULL,'2001-12-28','07'),
+	 (2163,' ','PL OS GAÚCHOS DE PASSO FUNDO',0,'Jossemar Sgorla',' ','54 99987-7850',NULL,NULL,NULL,'2004-09-17','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2167,' ','PL RINCÃO DO CAVALO',0,'GILBERTO JESUS DOS SANTOS CARVALHO',' ','51 3661-3619',NULL,NULL,NULL,'2004-05-20','23'),
+	 (2168,' ','DTG SANGUE NATIVO',89376837000136,'JESUS MINOR CONTREIRAS',' ','51 98449-5513',NULL,NULL,NULL,'1995-12-15','01'),
+	 (2169,' ','CTG ESTÂNCIA DOS PETROQUIMICOS',0,'ALDAIR OSSIP NELLER',' ','',NULL,NULL,NULL,'2004-11-15','15'),
+	 (2170,' ','DTG MANGRULHO',0,'SERGIO KOCH',' ','51 3457-6298',NULL,NULL,NULL,'1984-09-20','15'),
+	 (2173,' ','PL LAGOA NEGRA',0,'MARIO CELSO MOREIRA DE OLIVEIRA',' ','',NULL,NULL,NULL,'2004-06-23','23'),
+	 (2174,' ','PTG INTREVERADOS DO PAMPA',0,'',' ',' ',NULL,NULL,NULL,'1992-03-04','02'),
+	 (2176,' ','DTG BERÇO FARROUPILHA',90829771000189,'ROSIMERI DE LEMES GUTERRES',' ','51 99508-0120',NULL,NULL,NULL,'2003-04-17','01'),
+	 (2177,' ','DTG MARCA GAÚCHA',7265969000133,'JOÃO CARLOS URBANETTO',' ','51 3215-2707   51 99541-6242',NULL,NULL,NULL,'2004-04-25','01'),
+	 (2179,' ','PL AMIGOS DO RIO GRANDE',0,'Alécio da Silva Luz',' ','54 9156 5533',NULL,NULL,NULL,'2004-05-16','07'),
+	 (2180,'PL','FARRAPO',0,'Toni Mass',' ',' ',NULL,NULL,NULL,'2003-05-08','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2181,' ','CTG ESTÂNCIA DO IMIGRANTE',0,'PAULO FRANCISCO ERTEL',' ','51 99988-5651',NULL,NULL,NULL,'2002-11-14','15'),
+	 (2183,' ','CTG NENÊ LIMA',0,'ARTHUR FERNANDO RIETH',' ','54 99636 8374',NULL,NULL,NULL,'2005-03-25','08'),
+	 (2184,' ','PL 4 S',0,'AURIO MORAES RODRIGUES',' ','55 3327-2461 ',NULL,NULL,NULL,'2005-05-07','14'),
+	 (2185,' ','CTG RANCHO DO CHIMARRÃO',0,'GILBERTO TEOBALDO SCHMITT',' ','51 995559853',NULL,NULL,NULL,'1998-06-01','22'),
+	 (2186,' ','CTG CAPITÃO RIBEIRO',0,'CÉSAR LUIS BENEDUZZI',' ','',NULL,NULL,NULL,'2004-12-20','24'),
+	 (2187,' ','PTG PARCERIA CAMPEIRA',0,'GUILHERME KNIES',' ','',NULL,NULL,NULL,'2000-03-08','24'),
+	 (2188,' ','DTG ALDEIA DOS FARRAPOS',3042215000163,'ANA BEATRIZ SALABERRY',' ','51 3485-7755',NULL,NULL,NULL,'2001-04-17','01'),
+	 (2189,' ','PQT OSVALDO MACHADO',7411272000123,'EMERSON DE SOUZA MACHADO',' ','51 3245-2595',NULL,NULL,NULL,'2004-07-20','01'),
+	 (2190,' ','CTG RECANTO NATIVO ',9495812100194,'MARNE VAZ VIEIRA',' ','51 98907-3737',NULL,NULL,NULL,'1992-08-22','01'),
+	 (2191,' ','PL ESTÂNCIA DA CAPOROROCA',0,'MARCOS ROSA',' ','51 992264126',NULL,NULL,NULL,'2005-05-17','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2192,' ','DTG RAIZ DA FRATERNIDADE',0,'RANIELE SURIZ',' ','51 99841567',NULL,NULL,NULL,'2005-04-21','16'),
+	 (2194,' ','PQT CAVALEIROS DA ESTRADA',0,'',' ','',NULL,NULL,NULL,'1994-07-14','24'),
+	 (2195,' ','PQT ALMA MISSIONEIRA',0,'',' ','',NULL,NULL,NULL,'1999-07-29','03'),
+	 (2196,' ','DT SIMPASSO',0,'José Antonio Rodrigues da Silva',' ','54 99159-6770',NULL,NULL,NULL,'1999-05-06','07'),
+	 (2197,'PQT','POTREIRO VELHO',7529223000190,'RODRIGO AMORIM',' ',' ',NULL,NULL,NULL,'1998-12-26','17'),
+	 (2198,' ','PL ALMIRO RODRIGUES',0,'JAIRO RODRIGUES',' ','',NULL,NULL,NULL,'2004-05-27','23'),
+	 (2201,' ','CTG ENCOSTA DA SERRA',0,'PATRICK GUSTAVO GETEMS',' ','51 995416577',NULL,NULL,NULL,'2003-02-23','11'),
+	 (2211,' ','PTG ESTÂNCIA DO SOBRADO',0,'LEONARDO MELO',' ','',NULL,NULL,NULL,'2001-06-15','18'),
+	 (2212,' ','PQT VIGIA DO ITAPEVI',0,'VICENTE SOUZA',' ','',NULL,NULL,NULL,'1991-07-27','18'),
+	 (2214,' ','PL CABANHA BANANEIRA',0,'JOSE LUIZ KELERMAN NUNES',' ','51. 3663-3839',NULL,NULL,NULL,'2005-08-10','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2216,' ','CTG POUSADA DO CAPÃO',0,'ADÃO S. AZEVEDO VARGAS',' ','',NULL,NULL,NULL,'1995-05-08','24'),
+	 (2217,' ','CTG CRIOULO EXPEDITENSE',0,'ADRIANO DRUM DA SILVA',' ','54 99706 2550',NULL,NULL,NULL,'2002-08-16','29'),
+	 (2220,' ','PL RODEIO DO RINCÃO',0,'RICARDO MARKOWSKI',' ','51. 3663-3839 ',NULL,NULL,NULL,'1964-06-27','23'),
+	 (2222,' ','PN PIONEIROS DO BURICÁ',0,'',' ','',NULL,NULL,NULL,'2000-03-20','20'),
+	 (2223,' ','CTG POUSADA DO IMIGRANTE',0,'ANDREANA MARIA DEFENDI',' ','54 99939-5751',NULL,NULL,NULL,'2005-11-01','11'),
+	 (2224,' ','CTG GENERAL GUMERCINDO SARAIVA',0,'JOAO MIGUEL VIERO',' ','55 3611-1004',NULL,NULL,NULL,'2005-08-31','10'),
+	 (2225,' ','GCT CAVALEIROS DO PLANALTO MÉDIO',0,'Gilberto Zanin de Souza',' ','54 9185-8485',NULL,NULL,NULL,'2005-02-12','07'),
+	 (2226,' ','ATM VENANCIO AIRENSE',0,'',' ','',NULL,NULL,NULL,'2003-09-20','24'),
+	 (2230,' ','PTG SENTINELA DA CULTURA',0,'SERGIO ROBERTO DA ROSA',' ','',NULL,NULL,NULL,'2004-03-03','23'),
+	 (2231,' ','DTG LEÃO DA SERRA',0,'RUIMAR NUNES SOARES',' ','',NULL,NULL,NULL,'2004-03-24','12');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2232,' ','GR CANDEEIRO FOLC. ARTE NATIVA',0,'CIRENEU PIEREZAN',' ','',NULL,NULL,NULL,'1980-08-31','12'),
+	 (2233,' ','DTG HERANÇA MARAGATA',0,'ISIDORO HEISLER',' ','',NULL,NULL,NULL,'2006-03-08','24'),
+	 (2234,' ','PL VERDE DOS PAMPAS',0,'JULIANO RODRIGO RELLERMANN VACCARI',' ',' ',NULL,NULL,NULL,'1989-07-01','27'),
+	 (2238,'CTG','ILHAPA DO RIO GRANDE',8275585000164,'Paulo Renato Ferreira','pauloferreira339@gmail.com','(54) 984036320',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2239,' ','PQT AMORIM',0,'VITOR VIEGAS DE AMORIM',' ','51 999960391',NULL,NULL,NULL,'2001-02-18','12'),
+	 (2240,' ','CTG MOURÃO DA ESTÂNCIA',0,'Eugenio Venicius da Silva',' ','',NULL,NULL,NULL,'2005-08-15','30'),
+	 (2241,' ','CTG  FIORAVANTE CEOLIN',0,'LUIS FERNANDO CEOLIN',' ','51 3616-7133 ',NULL,NULL,NULL,'2005-09-14','14'),
+	 (2242,' ','CTG  ESTÂNCIA DE SANTA CRISTINA',0,'GILMAR CECONI',' ','51 98183-3027',NULL,NULL,NULL,'1962-08-05','22'),
+	 (2245,'PL','OITO BRAÇAS',0,'PAULO CLAUDIO DOLOVITSCH',' ',' ',NULL,NULL,NULL,'1994-03-03','09'),
+	 (2246,'PL','RONDA DE TROPA',0,'JOÃO DE MATTOS',' ',' ',NULL,NULL,NULL,'2005-10-08','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2247,'CTG','SENTINELA DA RAMADA',0,'Odemar Ritterbusch',' ',' ',NULL,NULL,NULL,'1987-07-08','09'),
+	 (2249,' ','PQT ROMÁRIO MALLMANN',0,'EDMILSON LUIS MALLMANN',' ','',NULL,NULL,NULL,'2006-04-20','24'),
+	 (2250,' ','CTG CANDEEIRO CRIOULO',0,'',' ','',NULL,NULL,NULL,'1998-05-13','26'),
+	 (2251,' ','CTG UNIDOS DA QUERÊNCIA',0,'',' ','',NULL,NULL,NULL,'2005-04-21','26'),
+	 (2252,' ','DCT HERANÇA GAÚCHA',0,'',' ','54 3358-1401',NULL,NULL,NULL,'2005-09-15','08'),
+	 (2253,' ','CTG TROPEIROS DO SUL',8083967000196,'LEOMAR TONIOLLI',' ','54 3613-2187',NULL,NULL,NULL,'2005-10-06','19'),
+	 (2254,' ','GN HERANÇA FARROUPILHA',8198800000170,'ATECIR COGHETTO',' ','54 996576465',NULL,NULL,NULL,'2006-07-20','19'),
+	 (2256,' ','PL BANDEIRA DOS FORTES',0,'JOÃO CARLOS LIKES',' ','54 3282-2254',NULL,NULL,NULL,'2006-06-21','27'),
+	 (2257,' ','PL QUERÊNCIA DO PASO RASO',0,'JOSE ELIZIO DE O. SILVA DOS SANTOS',' ','',NULL,NULL,NULL,'2006-08-20','27'),
+	 (2258,' ','PL ESTÂNCIA GAÚCHA',0,'',' ','',NULL,NULL,NULL,'2006-01-15','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2259,' ','PL PRESILHA SERRANA',0,'CLAITO GEOVANE DE JESUS MACEDO',' ','54 991374739',NULL,NULL,NULL,'2000-07-18','27'),
+	 (2260,' ','CTG ENCONTRO DAS ÁGUAS',0,'PAULO ROGERIO PEREIRA DA COSTA',' ','51 980162570',NULL,NULL,NULL,'2005-05-14','15'),
+	 (2261,' ','PQT DE LAÇADORES ESTÂNCIA DOS COQUEIROS',0,'EVANDRO MARCOS DEPONTI',' ','55 999617911',NULL,NULL,NULL,'2006-10-30','10'),
+	 (2262,' ','PT UNIÃO GAÚCHA',0,'FABIO FLORES SOUZA',' ','55 3254-1254',NULL,NULL,NULL,'2004-07-03','10'),
+	 (2264,' ','COORD. MUN. TRADICIONALISTA',0,'ARNILDO GOULARTE',' ','',NULL,NULL,NULL,'1991-03-25','18'),
+	 (2265,' ','CTG SENTINELA DO FORTE',0,'VILMAR FLORES LOURENÇO',' ','',NULL,NULL,NULL,'1970-09-07','18'),
+	 (2266,' ','CTG QUERÊNCIA DO BATISTA',0,'SANDRA R. SASSI DE OLIVEIRA',' ',' ',NULL,NULL,NULL,'1957-09-20','04'),
+	 (2268,' ','CTG HERÓIS DO SEIVAL',0,'ROQUE DE AQUINO TEIXEIRA DE OLIVEIRA',' ','',NULL,NULL,NULL,'2003-07-06','18'),
+	 (2269,' ','GN TROPEIROS DOS PAMPAS',9291259000103,'GEFERSON SOTIZZO',' ','54 99996 3977 / 54 99996 3477',NULL,NULL,NULL,'2003-05-18','19'),
+	 (2270,' ','PL GALPONEIRO',0,'',' ','',NULL,NULL,NULL,'2007-03-15','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2271,' ','PTG ACONCHEGO DO GAUDÉRIO',0,'JOSÉ LUIZ SUCHARD LOPES',' ','',NULL,NULL,NULL,'2002-04-22','18'),
+	 (2272,' ','DTG LANCEIROS DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2004-05-20','06'),
+	 (2274,' ','PTG JAYME CAETANO BRAUN',0,'LUIZ ANTONIO P. DOS SANTOS',' ','',NULL,NULL,NULL,'2005-03-29','18'),
+	 (2275,' ','GS DE CAVALGADAS',0,'FLÁVIO MACHADO CHAVES',' ','',NULL,NULL,NULL,'2004-03-29','18'),
+	 (2280,' ','PL PRESILHA DO CAPÃO PENSO',0,'GILBERTO MARQUES DOS REIS',' ','',NULL,NULL,NULL,'2003-11-12','27'),
+	 (2281,' ','PL MATIAS VELHO',0,'OLIVÉRIO ROST MARTINS',' ','51 3663-3839',NULL,NULL,NULL,'1963-09-20','23'),
+	 (2282,' ','PT PAU-FERRO',0,'PAULO DALTRO DE SOUZA COGO',' ','',NULL,NULL,NULL,'2008-05-15','10'),
+	 (2283,' ','DTG ÁGUAS CLARAS',94594330000104,'LUIS TADEU MALTA RAMOS',' ','51 3498-1408 ',NULL,NULL,NULL,'2006-11-05','01'),
+	 (2284,' ','PTG ZEFERINO GOMES PINHEIRO',9118353011165,'VILMO PINHEIRO',' ','54 99101 3085',NULL,NULL,NULL,'1987-02-11','19'),
+	 (2285,' ','GTCC ANITA GARIBALDI',0,'Lidiane Cataneo',' ','54 9114-8124',NULL,NULL,NULL,'2006-10-02','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2286,'PL','SÃO JOSÉ',0,'OLDEMAR HEBERLE',' ',' ',NULL,NULL,NULL,'2007-04-27','09'),
+	 (2287,' ','DTG LENÇO BRANCO',0,'CARLOS ANTONIO GOGGIA NETO',' ','',NULL,NULL,NULL,'1968-04-07','18'),
+	 (2288,' ','CTG ESTÂNCIA VELHA DA TRADIÇÃO',0,'MARCELO GAYER BARBOSA',' ','',NULL,NULL,NULL,'1956-06-24','18'),
+	 (2291,' ','PL RAÍZES SERRANA',0,'JOEL BERTUOL',' ','54 3244-2041',NULL,NULL,NULL,'2006-03-08','27'),
+	 (2292,' ','PL UNIÃO DE AMIGOS',0,'JOSÉ CARLOS DE LIMA PEREIRA',' ',' ',NULL,NULL,NULL,'2006-11-03','27'),
+	 (2294,' ','PQT ESTÂNCIA DO PAREDÃO',0,'IVAN PAULO P. BORGES',' ','51 984522729',NULL,NULL,NULL,'2005-11-29','15'),
+	 (2295,' ','PL PORTEIRA DA COXILHA',0,'Rodrigo Moretto',' ','54 99954-3535',NULL,NULL,NULL,'1998-10-10','07'),
+	 (2296,'CTG','QUERÊNCIA XUCRA',0,'MARCIO MACHADO',' ',' ',NULL,NULL,NULL,'1990-09-16','09'),
+	 (2297,' ','PTG CAUDILHOS',0,'',' ',' ',NULL,NULL,NULL,'2007-04-04','03'),
+	 (2298,' ','PTG AGROPECUÁRIA GANSO',0,'',' ','',NULL,NULL,NULL,'2007-08-10','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2299,' ','DTG TANCREDO NEVES',0,'',' ','',NULL,NULL,NULL,'1989-12-04','04'),
+	 (2300,' ','PTG ORELHANOS DO RIO GRANDE',0,'VOLMIR ALOÍSIO ISER',' ','51 996868298',NULL,NULL,NULL,'2006-03-06','05'),
+	 (2301,' ','CTG QUERÊNCIA DO BOM RETIRO',0,'LAUDIR PAIANO DA SILVA',' ','',NULL,NULL,NULL,'1987-04-07','27'),
+	 (2302,' ','PL MARCOLINO PINHEIRO',0,'ELIZEU TREVISAN',' ','',NULL,NULL,NULL,'1990-03-24','27'),
+	 (2303,' ','CTN ESTÂNCIA DO COCÃO',92717834000130,'MARIO SILVEIRA DOS SANTOS',' ','',NULL,NULL,NULL,'2007-05-16','01'),
+	 (2307,' ','CTG  GARRÃO DE POTRO',0,'MARCIO VANOIR DA ROSA',' ','',NULL,NULL,NULL,'2002-04-26','14'),
+	 (2308,' ','PL VENTO XUCRO',0,'MARCELO SILVA DO NASCIMENTO',' ','',NULL,NULL,NULL,'2008-10-11','23'),
+	 (2309,' ','GT SEPÉ TIARAJÚ',0,'HAROLDO FRANCISCO DUBOIS',' ','',NULL,NULL,NULL,'2005-05-10','18'),
+	 (2310,' ','PL JALMENGO AZEVEDO',0,'DILMAR CEOLIN',' ','',NULL,NULL,NULL,'2003-10-20','18'),
+	 (2314,' ','PQT RELINCHO DE POTRO',0,'RUI SILVA DE SOUZA',' ','',NULL,NULL,NULL,'2007-09-18','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2316,' ','DTG JOÃO DE BARRO',87169876000144,'SOLISMAR CORREA BERTINO',' ','51 3289-7260',NULL,NULL,NULL,'2005-10-31','01'),
+	 (2317,' ','GAF NOVO RUMO',8512078000105,'OSVINO ERNESTO  PETRY- NENE',' ','51 3434-1870   51 99974-4167',NULL,NULL,NULL,'2006-11-15','01'),
+	 (2318,' ','DTG PONTE D''AZENHA',89548531000127,'CARLOS BRASIL M. RODRIGUES',' ','51 3289-6131',NULL,NULL,NULL,'2005-09-29','01'),
+	 (2319,' ','PIQ ALDEIA FARRAPA',0,'Angela Oliveira da Silva',' ','51 99853-5847',NULL,NULL,NULL,'2003-04-23','15'),
+	 (2320,' ','CTG  ADROALDO BRAGA',0,'ALCIR SILVEIRA DA SILVA',' ','',NULL,NULL,NULL,'2006-10-14','15'),
+	 (2321,'CTG ','SENTINELA DA VÁRZEA',6138956000130,'SEM ATIVIDADES',' ',' ',NULL,NULL,NULL,'1994-05-18','17'),
+	 (2322,' ','PLN  SINUELO',0,'',' ','',NULL,NULL,NULL,'2007-01-02','20'),
+	 (2323,' ','PL ESTÂNCIA DO RIBEIRÃO',0,'SILVANO CAVALLIN',' ','',NULL,NULL,NULL,'2007-11-20','27'),
+	 (2324,' ','PT CAMPO À FORA',0,'FELIPE MACHADO DE MATTOS',' ','',NULL,NULL,NULL,'2007-07-14','10'),
+	 (2325,'GN','SÃO MIGUEL',0,'REGIS MENEGAZZI',' ',' ',NULL,NULL,NULL,'2007-10-15','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2326,' ','PL LIDER DO LAÇO',0,'',' ','',NULL,NULL,NULL,'2004-08-26','05'),
+	 (2327,' ','PTG BENTO GONÇALVES',0,'LINO DARTANHÃ DOS SANTOS',' ','',NULL,NULL,NULL,'1980-07-14','18'),
+	 (2328,' ','PL CABANHA QUINHECA',0,'',' ','',NULL,NULL,NULL,'2008-01-03','05'),
+	 (2330,' ','PTG GAUDÉRIOS DO RODEIO',0,'SEBASTIÃO ALESSANDRO NUNES',' ','',NULL,NULL,NULL,'2007-06-12','14'),
+	 (2334,' ','PTG PRESILHA CRIOULA',0,'',' ','',NULL,NULL,NULL,'2004-03-22','05'),
+	 (2335,' ','PL GUAPOS DA DIVISA',0,'CLÓVIS ALOISIO COLLING',' ','51 999788576',NULL,NULL,NULL,'2008-02-10','15'),
+	 (2337,' ','PL RECANTO DOS AMIGOS',0,'VILSON ALDOIR TEIXEIRA DOS SANTOS',' ','',NULL,NULL,NULL,'2008-01-17','27'),
+	 (2338,' ','PL NERO BOEIRA',0,'Valtoir Boeira Rocha',' ','54 99979-2381',NULL,NULL,NULL,'2007-06-08','07'),
+	 (2339,'PL','QUERÊNCIA FARROUPILHA',0,'ADILSO JOÃO MOLON','','54-99712700',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2340,'CTG','RECANTO GAÚCHO',9129136000170,'Marcos Sonda','marcossonda@hotmail.com','(54) 98109-4767',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2341,'PL','HERDEIROS DO PAMPA',9083042000108,'Assis Finger',' assisfinger2@gmail.com','(54) 999867121',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2342,' ','PL DANIEL LIOTE',0,'VANDERLEI LEOTE BROCHIER',' ','',NULL,NULL,NULL,'2006-01-10','15'),
+	 (2343,' ','PT TAPERA VELHA',0,'FRANKLIM VIANA BRUM',' ','',NULL,NULL,NULL,'2007-12-17','10'),
+	 (2344,' ','PL GAÚCHOS DO LITORAL',0,'FERNANDO SÉRGIO RODRIGUES',' ','',NULL,NULL,NULL,'2010-05-06','23'),
+	 (2345,' ','PQT BALNEÁRIO CASCATINHA',0,'',' ','',NULL,NULL,NULL,'2008-01-02','20'),
+	 (2349,' ','PL POUSADA DOS TROPEIROS',0,'ENIO SILVEIRA',' ','',NULL,NULL,NULL,'2007-03-06','27'),
+	 (2350,' ','PL SERRA E FRONTEIRA',0,'FABRICIO DOS S. MACEDO',' ','',NULL,NULL,NULL,'2007-06-19','27'),
+	 (2351,' ','PL CHAMA CRIOULA',0,'GILMAR GIRARDI PEREIRA',' ','',NULL,NULL,NULL,'2008-08-12','27'),
+	 (2352,' ','PL ESTAMPA DO RIO GRANDE',0,'WALTER PALMEIRA DA SILVA',' ','',NULL,NULL,NULL,'2008-04-18','27'),
+	 (2353,' ','GT AGROPECUÁRIA SAN TRANQUILO',0,'DÉCIO CARDINAL LOUREIRO',' ','55 999350961',NULL,NULL,NULL,'2000-12-23','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2354,' ','PT CAPRICHO DE PEÃO',0,'ARI SOARES DA SILVA',' ','55 9999-2034',NULL,NULL,NULL,'2008-05-27','10'),
+	 (2355,' ','PT CHÃO COLORADO',0,'ADAURI LEANDRO LOPES GUERRA',' ','',NULL,NULL,NULL,'2009-05-26','10'),
+	 (2356,' ','PT PEÃO BOIADEIRO',0,'',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (2357,' ','GL NESTOR MARTINS',0,'CARLOS DORNELES MARTINS',' ','',NULL,NULL,NULL,'2008-04-28','10'),
+	 (2358,' ','GT LAGOA DO JUNCO',0,'MILTOM NASCIMENTO BECK',' ','',NULL,NULL,NULL,'2008-05-05','10'),
+	 (2359,' ','PL FAZENDA DO IPÊ',0,'ENIO GARCIA DE SOUZA',' ','',NULL,NULL,NULL,'2008-02-19','10'),
+	 (2360,' ','PT PEÃO DO PAMPA',0,'',' ','',NULL,NULL,NULL,'1998-05-27','10'),
+	 (2361,'PL','PEÃO DE ESTÂNCIA',0,'ROANEI BATISTA',' ',' ',NULL,NULL,NULL,'2006-01-01','09'),
+	 (2363,' ','PL TRÊS PORTEIRAS',0,'FABRICIO SISNANDES PEREIRA',' ','',NULL,NULL,NULL,'2007-12-26','14'),
+	 (2368,' ','OS LANCEIROS DE MAUÁ',0,'',' ','',NULL,NULL,NULL,'2007-11-09','21');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2369,' ','PQT TRAVESSIA CRIOULA',0,'',' ','',NULL,NULL,NULL,'2007-10-25','24'),
+	 (2370,' ','PQT INVERNADA DE GUAPOS',0,'OSMAR BONACINA',' ','',NULL,NULL,NULL,'2008-01-12','24'),
+	 (2372,' ','DTG QUERÊNCIA NOVA',0,'FRANCISCO KERNER GRAMINHO',' ','',NULL,NULL,NULL,'2006-03-22','24'),
+	 (2373,' ','PL OS FILHOS DE SOLEDADE',0,'Alex Sandro Borella',' ','54 99964-6706',NULL,NULL,NULL,'2008-01-15','07'),
+	 (2374,' ','PL PORTEIRA DO RIO GRANDE',0,'',' ',' ',NULL,NULL,NULL,'2007-09-01','02'),
+	 (2375,' ','CTG QUERÊNCIA WESTFALIANA',0,'SAMUEL DRIEMEIER',' ','',NULL,NULL,NULL,'2007-06-09','24'),
+	 (2376,' ','PL TIO VEIO',0,'',' ','',NULL,NULL,NULL,'2008-03-01','10'),
+	 (2377,' ','PTG TÚNEL VERDE',0,'VINICIUS DE SOUZA FERREIRA',' ','',NULL,NULL,NULL,'2008-07-11','23'),
+	 (2378,' ','PL RANCHO DE XUCROS',0,'LEONIS QUADROS EBERHARDT',' ','',NULL,NULL,NULL,'2008-05-12','23'),
+	 (2379,' ','DTG SARAQUÁ',0,'VIDAL DE CASTRO MORAIS',' ','55 3411-5891',NULL,NULL,NULL,'1990-09-20','04');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2380,' ','CTG INHANDUÍ',93902757000151,'MANOEL ROGERIO FRAGA DA SILVA',' ','51 99245-0140',NULL,NULL,NULL,'1985-05-26','01'),
+	 (2382,' ','PT RECANTO DAS GUAJUVIRAS',0,'MARIO PASSAMANI DOS SANTOS',' ','',NULL,NULL,NULL,'2023-05-07','10'),
+	 (2383,' ','DTG PIAZITO DA TRADIÇÃO',0,'BRUNO SILVEIRA CASSARIEGO',' ','',NULL,NULL,NULL,'2002-01-09','24'),
+	 (2384,' ','ATSL ASSOC.TRAD.DE SANT.DO LIVRAM.',0,'ILTON MOACIR NOBRE DO E. SANTO',' ','',NULL,NULL,NULL,'2005-08-02','18'),
+	 (2386,' ','PQT HERDEIROS DA TRADIÇÃO',0,'GEISON DA SILVA TREMEA',' ',' ',NULL,NULL,NULL,'2008-08-09','02'),
+	 (2387,' ','PL OS AVENTUREIROS',0,'FÉLIX MAURO DE MACEDO',' ','',NULL,NULL,NULL,'2008-07-15','27'),
+	 (2388,' ','PL TRIBO DOS QUEBRA VEIO',0,'ROGERIO FERNANDES DE MACEDO',' ','',NULL,NULL,NULL,'2005-10-05','27'),
+	 (2389,'PQT','RINCÃO DO PROVISÓRIO',10311998000170,'JOSE EDENARDO FRUET DE SOUZA',' ',' ',NULL,NULL,NULL,'2008-02-25','17'),
+	 (2391,' ','DTG RECANTO DO PAFÚNCIO',87388914000150,'EDSON DSA SILVA PETITEMBERTE',' ','51 3218-9115',NULL,NULL,NULL,'2008-06-05','01'),
+	 (2392,' ','CTG TRADIÇÃO',8259215000133,'VILMAR BALDONI FERREIRA -NECO',' ','51 99905-3902',NULL,NULL,NULL,'2003-10-24','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2393,' ','GL AMIGO DO LAÇO',0,'GAUDÊNCIO MACHADO RAMOS',' ',' ',NULL,NULL,NULL,'2023-08-05','10'),
+	 (2394,' ','CTG LAÇO DE EMBIRA',94955176000140,'MARCO ANTONIO LOPES',' ','51 98455-5739',NULL,NULL,NULL,'1993-01-15','01'),
+	 (2395,'PQT ','CHÃO BATIDO',9411362000140,'MARIO DE OLIVEIRA NIEDERAUER',' ',' ',NULL,NULL,NULL,'2007-09-15','17'),
+	 (2396,' ','PT PAI E FILHO',0,'JOSÉ LUIZ RAMOS',' ','',NULL,NULL,NULL,'2008-03-17','10'),
+	 (2397,' ','PL RINCÃO DOS VIEIRAS',0,'VALDIR DA ROCHA',' ','55 999688398',NULL,NULL,NULL,'1997-09-24','10'),
+	 (2398,' ','PT COBRE GROSSO',0,'LUIZ ANTONIO FERREIRA DA SILVA',' ','',NULL,NULL,NULL,'2006-11-15','10'),
+	 (2399,' ','PL  LAÇO CERTEIRO',0,'',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (2401,' ','PTG PONTE VELHA',0,'JOÃO VIEIRA BRUM',' ','',NULL,NULL,NULL,'2008-01-30','23'),
+	 (2403,' ','PQT LAÇADORES DA QUERÊNCIA',0,'GILMAR JARDIM DOS SANTOS',' ','',NULL,NULL,NULL,'2007-11-24','12'),
+	 (2404,' ','CTG RANCHO DA AMIZADE',31544266000129,'SÔNIA MARIA MACEDO COSTA',' ','51 99320-3253',NULL,NULL,NULL,'1988-05-20','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2407,' ','DTG CRIADO EM GALPÃO',0,'GUILHERME PEDREIRA DA CUNHA',' ',' ',NULL,NULL,NULL,'2004-05-26','02'),
+	 (2408,' ','PQT  PARCERIA',0,'',' ','',NULL,NULL,NULL,'2007-06-02','03'),
+	 (2410,' ','PL AMIGOS DA QUERÊNCIA',0,'',' ','',NULL,NULL,NULL,'2010-05-19','28'),
+	 (2411,'PL','CHICO ACATROLLI',10405795000171,'LEONARDO DA LUZ',' ',' ',NULL,NULL,NULL,'2008-09-04','17'),
+	 (2412,' ','CTG TROPEIRO VELHO',0,'',' ','',NULL,NULL,NULL,'2008-04-29','05'),
+	 (2413,' ','PL POTRO PALETEADOR',0,'',' ','',NULL,NULL,NULL,'2005-06-30','05'),
+	 (2416,'NTG','ALMA FARRAPA',0,'MARCOS ROBERTO CASARIN JOVANOVICHS',' ',' ',NULL,NULL,NULL,'2008-09-15','09'),
+	 (2417,' ','PL JOSÉ LUIZ RIBEIRO BARRETO',0,'JOÃO CARLOS SARAIVA PREIFZ',' ','3654-1932',NULL,NULL,NULL,'2008-06-04','15'),
+	 (2418,' ','PQT CHEGADA DO RIO GRANDE',0,'JAIRO DARCISIO ZAVALHA',' ',' ',NULL,NULL,NULL,'1995-07-13','03'),
+	 (2419,' ','GT SANTO ANTONIO DO IGUARIAÇÁ',0,'BAYARD CORREA DE OLIVEIRA',' ',' ',NULL,NULL,NULL,'2008-11-25','03');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2420,' ','PT SINDICATO RURAL DE BOSSOROCA',0,'HENRIQUE C. RISTOW',' ','33561109',NULL,NULL,NULL,'2008-11-15','03'),
+	 (2421,' ','CTG  PASSO DO IVO',0,'OSVALDO JESUS BARRETO',' ','',NULL,NULL,NULL,'2008-12-28','18'),
+	 (2424,'GL ','SENTINELA DAS COXILHAS',0,'JOÃO MELLO',' ',' ',NULL,NULL,NULL,'1995-09-23','09'),
+	 (2425,'PL','THEODORICO DE ANDRADE',0,'JAIME',' ',' ',NULL,NULL,NULL,'1986-09-20','09'),
+	 (2426,' ','PQT AMIZADE SEM FRONTEIRA',0,'DIONEI CRISTIANO WEISS',' ','',NULL,NULL,NULL,'2006-03-30','20'),
+	 (2427,' ','PTG RANCHO DA AMIZADE',0,'ARMANDO CHARÃO ZAMARCHI',' ','',NULL,NULL,NULL,'2006-07-20','18'),
+	 (2433,' ','PT ALMA NATIVA',0,'MARIO LUCIO DA SILVA',' ','55 3251-2905',NULL,NULL,NULL,'1995-09-01','10'),
+	 (2434,' ','PTG DÁCIO ASSIS BRASIL',0,'RAFAEL GUARIENT',' ','',NULL,NULL,NULL,'2008-11-06','18'),
+	 (2435,' ','PTG AMIGOS DO LAÇO',0,'PAULO ROBERTO FERNANDES PIRIZ',' ','',NULL,NULL,NULL,'2004-11-04','18'),
+	 (2436,' ','CTG GALPÃO DA PEONADA',0,'JORGE GAMA',' ','53 84253007',NULL,NULL,NULL,'1986-03-23','16');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2437,' ','DTG  DR. MATHIAS AZAMBUJA VELHO',0,'ANTONIO SIDNEI PEREIRA DE SOUZA',' ','',NULL,NULL,NULL,'2008-11-27','23'),
+	 (2438,' ','PL TROPEIRO VELHO',0,'MESSIAS SOUZA DA COSTA',' ','',NULL,NULL,NULL,'2008-08-15','10'),
+	 (2439,' ','PT ALVORADA',0,'OTACILIO JOEL DE MOURA',' ','55 984473881',NULL,NULL,NULL,'1998-10-26','10'),
+	 (2440,' ','PT QUERÊNCIA DOS VARGAS',0,'MAURO GILBERTO VIEIRA WULFF',' ','55 999158263',NULL,NULL,NULL,'2008-09-07','10'),
+	 (2441,' ','DTG RINCÃO DAS DUNAS',0,'MIGUEL BASTOS DUARTE',' ','53 3232-1900',NULL,NULL,NULL,'2007-06-29','06'),
+	 (2443,' ','PL FOGO DE CHÃO',0,'ELTER ROBERTO',' ','54 99611 6275',NULL,NULL,NULL,'1969-12-31','29'),
+	 (2445,' ','PQT DESCANSO DO PINGO',5148107000103,'PAULO OSVALDO FELIX',' ','51 999348712',NULL,NULL,NULL,'2001-11-20','01'),
+	 (2446,' ','PQT FEIJÓ DO CAMPEADOR DA BOA VISTA',10648946000112,'ANTÔNIO CARLOS FERREIRA SOARES',' ','51 99828-5850',NULL,NULL,NULL,'2009-01-11','01'),
+	 (2447,' ','PL RINCÃO DO LAJEADO',0,'ALENIR NUNES DE QUADROS',' ','',NULL,NULL,NULL,'2008-11-27','27'),
+	 (2448,' ','QL CABANHA 44',0,'Rodrigo Sartori',' ','54 3334 1428 54 9165-9634',NULL,NULL,NULL,'2008-10-30','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2452,' ','PL ARTHUR MACHADO',0,'',' ','',NULL,NULL,NULL,'1995-08-17','05'),
+	 (2453,'PL','ESTÂNCIA DA AMIZADE',10524277000177,'Luiz Carlos Carneiro de Melo','kriativa.transportes@yahoo.com.br','(54) 991956301',NULL,NULL,NULL,'2008-02-07','25'),
+	 (2454,' ','CTG NOVA QUERÊNCIA',0,'',' ','',NULL,NULL,NULL,'1995-11-15','05'),
+	 (2456,' ','PL TROPEIROS DA QUERÊNCIA',0,'',' ','',NULL,NULL,NULL,'1994-03-13','05'),
+	 (2460,' ','GTCCF ESTÂNCIA DO LAGO',0,'Juliano Rodrigues da Silva',' ','54 9144-0658  54 9182-0831',NULL,NULL,NULL,'2003-02-25','07'),
+	 (2461,' ','PL JOÃO CARLOS DA SILVA',0,'JOÃO PAULO LOURENÇO DA SILVA',' ','',NULL,NULL,NULL,'2001-05-14','18'),
+	 (2462,' ','GN  HERANÇA CAMPEIRA',10755935000131,'ALEXANDRE GIARETTON',' ','54 984312001',NULL,NULL,NULL,'2009-01-02','19'),
+	 (2464,' ','CTG RANCHO DA TRADIÇÃO',8349806000100,'VAGNER ORSO',' ','54 98434 5749',NULL,NULL,NULL,'2002-01-26','19'),
+	 (2465,' ','PQT RECANTO GAÚCHO',0,'',' ','',NULL,NULL,NULL,'2011-10-20','24'),
+	 (2466,' ','CPF O TEMPO E O VENTO',10787600000103,'ALEXANDRA LACERDA e DANIEL RAUPP',' ','51 98022-8714  51 98949-5001 ',NULL,NULL,NULL,'1990-04-28','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2467,' ','CTG HERANÇA DOS TAURAS',7146449000101,'RONALDO LUIS DALLA AGNOL',' ','54 99242 9808',NULL,NULL,NULL,'2004-04-06','19'),
+	 (2468,' ','PT AGROPECUÁRIA SANTO AUGUSTO',0,'CLAÚDIO MARTINS COIMBRA',' ','',NULL,NULL,NULL,'1969-12-31','10'),
+	 (2469,' ','PT FREITAS NETTO',0,'MANOEL DE FREITAS',' ','',NULL,NULL,NULL,'2009-09-12','10'),
+	 (2470,' ','PL FREIO DE OURO',0,'',' ','',NULL,NULL,NULL,'2009-05-15','10'),
+	 (2471,' ','PTG ESTÂNCIA DOS ROLANTE',0,'SÉRGIO MOACIR BOEIRA RODRIGUES',' ','',NULL,NULL,NULL,'2009-04-14','23'),
+	 (2473,' ','PQT GAUDÉRIOS DO LITORAL',0,'JOSE CARLOS RIBEIRO ALVES',' ','3686-2861',NULL,NULL,NULL,'2004-02-15','23'),
+	 (2475,' ','PTG MACHRY',0,'MAIRON HENRIQUE MACHRY',' ','',NULL,NULL,NULL,'2009-06-17','24'),
+	 (2476,' ','CTG HERANÇA CAMPEIRA',0,'',' ','',NULL,NULL,NULL,'2003-03-02','26'),
+	 (2477,' ','CTG AMIGOS DO LAÇO',0,'',' ','',NULL,NULL,NULL,'2009-04-08','05'),
+	 (2478,'GF','CHÃO BATIDO',0,'LUIS MARTINS',' ',' ',NULL,NULL,NULL,'1993-10-01','09');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2480,' ','GR PAMPA E MINUANO',0,'ARLETE SANTOS ALVES VAZ',' ','',NULL,NULL,NULL,'1991-08-28','18'),
+	 (2481,' ','CTG HERANÇA PAMPEANA',8804626000162,'MARCO AURÉLIO DE ALMEIDA BATISTA',' ','',NULL,NULL,NULL,'1991-12-11','01'),
+	 (2482,' ','PL SÃO SIMÃO',0,'LISANDRO DA SILVA PEREIRA',' ','',NULL,NULL,NULL,'2009-06-20','23'),
+	 (2484,' ','PTG ESQUINA DE AMARAL FERRADOR',0,'',' ','',NULL,NULL,NULL,'2007-03-03','05'),
+	 (2485,' ','PT GUARÁ PITOCO',0,'HELIO FIDÊNCIO DA SILVA',' ','',NULL,NULL,NULL,'2008-04-15','28'),
+	 (2486,' ','CTG TROPEIROS DE CRISTAL DO SUL',0,'JOSÉ CARLOS PINTO',' ','',NULL,NULL,NULL,'2009-01-01','28'),
+	 (2490,' ','PL JERÔNIMO VIEIRA LOPES',0,'LEANDRO LOPES DOS SANTOS',' ',' 51 91734493',NULL,NULL,NULL,'2009-10-01','02'),
+	 (2491,' ','PTG OS LAÇADORES',0,'EDÍLSON DORNELES DE DORNELES',' ','',NULL,NULL,NULL,'1993-09-27','18'),
+	 (2492,' ','ATP ASSOC. DOS TRADICION. DE PIRAPÓ',0,'',' ',' ',NULL,NULL,NULL,'2006-05-12','03'),
+	 (2495,' ','PL MARCA DO PAMPA',0,'ORLANDO JOSÉ DE OLIVEIRA',' ','51 99831-3228',NULL,NULL,NULL,'2008-11-24','15');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2496,' ','CTG TAURAS DA TRADIÇÃO',0,'GILMAR ZANELLA',' ','',NULL,NULL,NULL,'2007-11-15','23'),
+	 (2497,' ','PQT CABANHA 100% CARESIA',10948547000177,'VANDERLEI CARESIA',' ','51 998062825',NULL,NULL,NULL,'2007-10-24','01'),
+	 (2498,' ','PQT VÔ JOÃO',0,'ADEMIR BORDINHÃO',' ','55 996062636',NULL,NULL,NULL,'2009-08-24','20'),
+	 (2499,'CTG','x-AURORA PAMPEANA - BLOQUEADA',0,'VILSON DA LUZ',' ',' ',NULL,NULL,NULL,'2006-02-18','09'),
+	 (2500,' ','PT FAZENDA SANTO ANTÔNIO',0,'VAGNER RODRIGUÊS',' ','55 996254466',NULL,NULL,NULL,'2009-09-21','10'),
+	 (2502,' ','GN ALMA NATIVA',11179255000180,'GUSTAVO CONFORTIN',' ','54 99941 3242',NULL,NULL,NULL,'2009-07-17','19'),
+	 (2506,' ','PL  AGROPECUÁRIA RANCHO BRANCO',0,'MARCELO FLORES',' ','55 9707 3674',NULL,NULL,NULL,'2008-09-07','10'),
+	 (2507,' ','CTG AMANHECER DO RINCÃO',10947634000100,'GILSON DA SILVA',' ','51 98467-1635',NULL,NULL,NULL,'2008-12-20','01'),
+	 (2508,' ','ACT SENADOR SALGADO FILHO',0,'GUSTAVO EDUARDO SAUTER GROFF',' ','55 36141195',NULL,NULL,NULL,'1997-09-19','03'),
+	 (2509,' ','CTG AMIGOS DA TRADIÇÃO',0,'INES CLOSS',' ','',NULL,NULL,NULL,'2009-09-15','30');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2510,' ','GN NATIVOS DO RIO GRANDE',11462384000180,'JÉSSICA KANIGOSKI',' ','54 99985 5586',NULL,NULL,NULL,'2009-05-09','19'),
+	 (2511,' ','CTG ANTONIO JOSÉ SEVERO',0,'',' ','',NULL,NULL,NULL,'2009-09-01','05'),
+	 (2513,' ','PL FRIGORIFICO BORRÚSSIA',0,'PETRONILIO FORMAGIO DA SILVEIRA',' ','',NULL,NULL,NULL,'2009-12-22','23'),
+	 (2514,' ','GTCN GUAPOS DA SERRA',0,'Aloísio Gilmar Rammé',' ','(51)99716-6299',NULL,NULL,NULL,'2010-02-06','15'),
+	 (2515,' ','PL QUERÊNCIA DA BOA VISTA',0,'MARCIO PRESTES PINTO',' ','54 3244-2056',NULL,NULL,NULL,'2009-11-23','27'),
+	 (2516,' ','CTG LENÇO VERDE',0,'IDERLI PEREIRA DE SOUZA',' ','',NULL,NULL,NULL,'1981-03-25','18'),
+	 (2517,' ','GR CAVALEIROS DA INTEGRAÇÃO',0,'',' ','',NULL,NULL,NULL,'2006-03-14','05'),
+	 (2518,' ','DTG OAB NH',0,'DISNEY CAMARGO',' ','',NULL,NULL,NULL,'2010-04-24','30'),
+	 (2520,' ','PTG CRIOULO DOS PAMPAS',0,'NEUZA MARIA DE OLIVEIRA',' ','',NULL,NULL,NULL,'2009-06-22','23'),
+	 (2521,' ','PL SANTA TEREZINHA',0,'RENATO MACHADO DA SILVA',' ','',NULL,NULL,NULL,'2010-04-19','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2522,' ','ASS RECANTO GALPONEIRO',0,'AÉCIO ROBERTO GAMPERT',' ','51 98406-4000',NULL,NULL,NULL,'2006-12-20','22'),
+	 (2523,' ','PL TAPERA VELHA',0,'AIRES MIGUEL PEREIRA DA SILVA',' ','',NULL,NULL,NULL,'2010-01-05','23'),
+	 (2525,' ','DTG AMIGOS DA TRADIÇÃO',0,'JANDIR CHAGAS',' ','51 98842022',NULL,NULL,NULL,'2006-08-08','16'),
+	 (2526,' ','PT HERANÇA DE TROPEIRO',0,'GIONEI RIGONI RIGHI',' ','55 999578977',NULL,NULL,NULL,'2009-09-02','10'),
+	 (2527,' ','CTG  QUERÊNCIA DO TIO PEDRO',0,'JONI BILHAR',' ','51 99978-7987',NULL,NULL,NULL,'1993-04-08','15'),
+	 (2528,' ','PIQ FAZENDA PAINEIRA',0,'CELSO DILON PRADO PINTO',' ','55 3251-2431',NULL,NULL,NULL,'2010-04-02','10'),
+	 (2529,' ','PT SINA SINA',0,'',' ','',NULL,NULL,NULL,'2010-04-01','10'),
+	 (2530,' ','PQT JOÃO ANTUNES',11766591000129,'JAIRTON SILVA DOS SANTOS',' ','51 3470-6844',NULL,NULL,NULL,'2007-10-05','01'),
+	 (2531,' ','PQT BOM GALOPE',8811302000151,'GILMAR DA ROCHA SANHUDO',' ','51 99040270',NULL,NULL,NULL,'2001-04-21','01'),
+	 (2532,' ','CTG ESTÂNCIA DO SALVADOR',0,'Daniel de Freitas Pereira',' ','(51) 99782-5056',NULL,NULL,NULL,'2006-09-20','15');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2533,' ','PTG MANOTAÇO',0,'',' ','',NULL,NULL,NULL,'2010-05-01','05'),
+	 (2536,' ','CTG SENTINELAS DO PAMPA',0,'IZILDA FURTADO',' ','',NULL,NULL,NULL,'2003-09-07','26'),
+	 (2538,' ','PL OS PARCEIROS',0,'Aliandro Roe',' ','54 99979-3869',NULL,NULL,NULL,'2000-06-01','07'),
+	 (2539,' ','PTG HERDEIROS DA TRADIÇÃO',0,'EDSON DA SILVA JARDIM',' ',' ',NULL,NULL,NULL,'2010-05-15','03'),
+	 (2540,' ','PQT HERANÇA GAÚCHA',0,'Paulo Aristeu de Campos',' ','(51) 99921-1408',NULL,NULL,NULL,'2001-08-21','15'),
+	 (2542,' ','PT HERANÇA GAÚCHA',0,'',' ','',NULL,NULL,NULL,'2010-08-20','10'),
+	 (2543,' ','PQT MARCA DA FERRADURA',0,'WALDOMIRO INACIO BAUMBACH',' ','',NULL,NULL,NULL,'2002-09-12','20'),
+	 (2544,' ','CTG GUARDIÕES DA FRONTEIRA',0,'EVANDRO DE BORBA',' ','55 996447945',NULL,NULL,NULL,'2000-07-08','20'),
+	 (2546,' ','PQT MATEADORES DO VALE',0,'',' ','',NULL,NULL,NULL,'1999-10-01','02'),
+	 (2548,' ','PL  POSTEIROS DO GUAJUVIRA',0,'',' ','',NULL,NULL,NULL,'2010-03-30','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2550,' ','GTG PONCHE VERDE',13146319000171,'LADEMIR ALVES SILVEIRA',' ','51 3041-5153',NULL,NULL,NULL,'2009-03-17','01'),
+	 (2551,' ','CTG QUERÊNCIA DO LEÃO',0,'Roberto Kemmerich',' ','54 99669-6833',NULL,NULL,NULL,'2010-02-27','07'),
+	 (2553,' ','CTG PORTEIRA GRANDE',13509894000191,'JOSE FERNANDO FRAGA FEIJO',' ','51  99932-9134',NULL,NULL,NULL,'2010-09-24','01'),
+	 (2559,' ','PL QUATRO RODAS',0,'',' ','',NULL,NULL,NULL,'2010-04-10','14'),
+	 (2560,' ','PTG BOCAL DE PRATA',0,'ETIZIANO QUADROS DE LIMA',' ','',NULL,NULL,NULL,'2010-08-25','23'),
+	 (2561,' ','GN CAMPEIROS DO URUGUAI',13104946000140,'JOERSON GENTIL FRASSINI',' ','54 99997 7363',NULL,NULL,NULL,'2010-10-07','19'),
+	 (2564,'PL','RINCÃO DOS LIRAS',11849863000154,'Sergio Adriano Lopes Dias','lopesadri50@gmail.com','(54) 99243-6541',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2567,'PL','COXILHA SERRANA',11807440000171,'Joel Gomes Santos',' joeldoesplanada@hotmail.com','(54) 999702558',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2571,' ','CTG CHARRUAS',0,'SIDNEI NUNES MACHADO',' ','51  997185610
+',NULL,NULL,NULL,'2010-04-21','02'),
+	 (2572,'PL','PRESILHA DA AMIZADE',12340715000172,'Evaldo Blauth','evaldoblauth@yahoo.com.br','(54) 99652-3424',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2573,' ','GFCD GRITOS DE LIBERDADE',0,'MARIA IV0NETE FREITAS',' ','54 08146 4311',NULL,NULL,NULL,'2007-10-19','29'),
+	 (2574,' ','DTG ESTRADEIROS',0,'',' ','',NULL,NULL,NULL,'2010-09-03','04'),
+	 (2575,' ','PIQ DOS FARRAPOS',0,'',' ','',NULL,NULL,NULL,'2001-11-17','03'),
+	 (2576,'PL','MARCA GAÚCHA',19468000000149,'Flavio Lauri Becher Gil','flaviogil@gilecarneiro.com.br','(54) 999782639',NULL,NULL,NULL,'2011-10-05','25'),
+	 (2579,' ','DTG ESTÂNCIA DA FIGUEIRA',0,'SAMARONI PANCOTTE',' ','',NULL,NULL,NULL,'2009-10-17','14'),
+	 (2580,' ','CTG RECANTO DO QUERO-QUERO',13700183000108,'CARLOS JOSÉ DEMOLINER',' ','54 999378970',NULL,NULL,NULL,'2010-09-13','19'),
+	 (2582,'DTG','SENTINELAS DA TRADIÇÃO',0,'EZEQUIEL PIOVESAN',' ',' ',NULL,NULL,NULL,'1996-09-20','09'),
+	 (2583,' ','PTG CAPÃO DO CEDRO',0,'',' ','',NULL,NULL,NULL,'2011-05-05','05'),
+	 (2584,' ','PTG AREIAL SANTA CRUZ',0,'',' ','',NULL,NULL,NULL,'2004-07-16','05'),
+	 (2586,' ','AT SANTACRUZENSE - ATS',0,'',' ','',NULL,NULL,NULL,'1995-06-19','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2587,' ','GT CLUBE DO LAÇO',0,'FERMINO LEOACIR MARTINS',' ','55 9 9603-9470',NULL,NULL,NULL,'2011-05-17','10'),
+	 (2588,' ','GC ÚLTIMA TROPEADA',0,'Laudir Goetz',' ','54 99122-1476',NULL,NULL,NULL,'2003-01-06','07'),
+	 (2589,'CTG','RONCO DO BUGIO',14039284000134,'Claudeci Leite da Silva','','(54) 99933-2907',NULL,NULL,NULL,'2011-12-07','25'),
+	 (2590,' ','PL LAÇO DA AMIZADE',0,'',' ','',NULL,NULL,NULL,'2011-06-24','15'),
+	 (2591,' ','UNIDOS PELA TRADIÇÃO',14385172000135,'PAULO FERNANDO MEDEIROS D''AVILA',' ','51 99624-2293',NULL,NULL,NULL,'2011-12-06','01'),
+	 (2593,' ','GAT ESTAMPA GAUDERIA',0,'TABITA RAQUEL SOUZA FRANÇA',' ','997835398',NULL,NULL,NULL,'2004-07-20','23'),
+	 (2594,' ','PIQ DRAGÕES DO RIO GRANDE',0,'',' ','',NULL,NULL,NULL,'2010-12-14','03'),
+	 (2595,' ','PQT TIO APARICIO',0,'',' ','',NULL,NULL,NULL,'2011-11-09','03'),
+	 (2596,' ','AL AGROPECUÁRIA BARCELOS',0,'',' ','',NULL,NULL,NULL,'2011-11-08','03'),
+	 (2598,' ','PQT PARCEIROS DA TRADIÇÃO',7180934000100,'RENATO SPANHOL',' ','51 99191-7411',NULL,NULL,NULL,'1986-03-01','01');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2599,' ','PQT VÁRZEA DOS PACHECO',10171995000107,'ARIVONIL SILVA DOS SANTOS',' ','51 99943-2492',NULL,NULL,NULL,'2003-03-05','01'),
+	 (2600,' ','PTQ ALTO ALEGRE',0,'',' ','',NULL,NULL,NULL,'2011-09-01','28'),
+	 (2603,' ','CTG GALPÃO ESTÂNCIA DA MATEADA',0,'WALDOMIRO DE MELLO ANTUNES',' ','',NULL,NULL,NULL,'2011-10-09','28'),
+	 (2604,'DTG','PONCHE VERDE',0,'ERENEU TRENNPOHL',' ',' ',NULL,NULL,NULL,'2011-09-04','09'),
+	 (2605,' ','ATC CACHOEIRA DO SUL',0,'UBIRATAN FREITAS DA SILVA',' ','51 980467989',NULL,NULL,NULL,'1994-05-18','05'),
+	 (2607,' ','GCG GUARDIÕES DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2012-03-03','08'),
+	 (2608,' ','GN QUERÊNCIA DAS ÁGUAS',14969897000170,'HUGO DIAS DOS SANTOS',' ','54 99905 5466',NULL,NULL,NULL,'2009-04-09','19'),
+	 (2609,' ','CTG JOÃO FORNARI SOBRINHO',0,'',' ','',NULL,NULL,NULL,'1994-05-26','15'),
+	 (2611,' ','PL  OS DESGARRADOS',0,'',' ','',NULL,NULL,NULL,'2012-02-04','27'),
+	 (2612,' ','PL ESTRELA CAMPEIRA',0,'',' ','',NULL,NULL,NULL,'2012-02-25','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2613,' ','ATROV ZEFERINO RUY TEIXEIRA DEFREITAS',0,'JORGE OSÓRIO DE FREITAS',' ','',NULL,NULL,NULL,'2011-07-18','18'),
+	 (2614,' ','PQT CLUBE DO LAÇO QUEBRA QUEIXO',0,'',' ','',NULL,NULL,NULL,'2011-02-02','24'),
+	 (2615,' ','GT SEPÉ TIARAJÚ',0,'VINÍCIOS DOS SANTOS MESQUITA',' ','51 991710009',NULL,NULL,NULL,'1998-04-19','12'),
+	 (2616,' ','PQT RANCHO VÔ EMÍLIO',0,'',' ','',NULL,NULL,NULL,'2012-05-05','14'),
+	 (2618,' ','PQT  BATE CASCO',0,'GERSON LUMI',' ','',NULL,NULL,NULL,'2012-01-10','24'),
+	 (2619,' ','CT LAÇADORES DE CAMPO NOVO',0,'',' ','',NULL,NULL,NULL,'1992-07-30','20'),
+	 (2620,' ','PQT LOURIVAL DIAS DE FREITAS',0,'ANDERSON FAN CASAGRANDE',' ','55  99775102
+',NULL,NULL,NULL,'2012-03-29','04'),
+	 (2622,'PL','HERANÇA DO MEU AVÔ',15274428000108,'Dinolva Almeida Dias',' douglas07dias@gmail.com','(54)  996887712',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2623,' ','PTG LAÇOS DE AMIZADE',0,'',' ','',NULL,NULL,NULL,'2012-01-30','02'),
+	 (2624,' ','CTG ESTÂNCIA DA LIBERDADE',0,'',' ','',NULL,NULL,NULL,'1998-09-01','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2625,' ','PL AMIGOS DO GALPÃO',0,'',' ','',NULL,NULL,NULL,'2011-04-08','14'),
+	 (2626,' ','CTG  RAÇA GAÚCHA',14495830000141,'JANE FLORES',' ','51 99111-1264',NULL,NULL,NULL,'2010-04-07','01'),
+	 (2627,' ','PL RECANTO DO LAÇO',0,'',' ','',NULL,NULL,NULL,'2012-06-13','27'),
+	 (2628,' ','PL HERANÇA DOS TROPEIROS',0,'',' ','',NULL,NULL,NULL,'2011-12-04','27'),
+	 (2629,' ','PT ABA LARGA',0,'',' ','',NULL,NULL,NULL,'2000-03-23','10'),
+	 (2630,' ','PQT RAÇA CAMPEIRA',0,'',' ','',NULL,NULL,NULL,'2011-12-03','24'),
+	 (2631,' ','PT SANGA DA BENTA',0,'',' ','',NULL,NULL,NULL,'2011-02-02','10'),
+	 (2633,' ','PT SINDICATO RURAL DE ITACURUBI',0,'',' ','',NULL,NULL,NULL,'2011-08-11','10'),
+	 (2634,' ','COORD. MUN. TRADICIONALISTA',0,'GLEIN ANERI SILVA DE LIMA',' ','',NULL,NULL,NULL,'1985-10-21','18'),
+	 (2638,' ','PTG RECULUTA DE TROPA',0,'JOSE VASCONCELOS DE ALMEIDA JR',' ','51 995587545',NULL,NULL,NULL,'2012-07-06','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2639,' ','PL TROPEIROS DO PAGO',0,'',' ','',NULL,NULL,NULL,'1970-03-20','23'),
+	 (2640,' ','DTG  TROPEIROS DO OURO NEGRO',0,'Marcela Carlos',' ','51 982882775',NULL,NULL,NULL,'1969-02-20','12'),
+	 (2641,' ','PL TIO ROSA',0,'',' ','',NULL,NULL,NULL,'2012-09-03','23'),
+	 (2642,' ','CTG VOVÔ IDALÉCIO FLORES',0,'',' ','',NULL,NULL,NULL,'2012-11-26','24'),
+	 (2643,' ','PQT CABANHA DOM VITORIO',0,'',' ','',NULL,NULL,NULL,'2012-07-03','24'),
+	 (2644,'PL','ENCONTRO DE AMIGOS',17321322000135,'Antonio Fermiano Alves','eduaradadaros@gmail.com','(54) 999349515',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2646,'CTG','VELHO TROPEIRO SERRANO',17139935000156,'Vanderlei Bresolin','luana-dartora@hotmail.com','(54) 9 9947-3410',NULL,NULL,NULL,'2012-05-05','25'),
+	 (2647,' ','GN DO ATLANTICO',17620874000144,'ADRIANA JOELITA CHAGAS DAMBROS',' ','54 991209224',NULL,NULL,NULL,'2011-09-24','19'),
+	 (2648,' ','CTG QUERÊNCIA DO CEDRO',0,'PLINIO NESTOR DUARTE',' ','',NULL,NULL,NULL,'2012-09-11','24'),
+	 (2649,' ','PL AMIGOS DE GALPÃO',0,'JOSÉ EDSON RICARDO',' ','54 99982-0267',NULL,NULL,NULL,'2013-01-10','27');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2650,' ','PQT GURIZADA CAMPEIRA',0,'Nilmar Gilberto Jacoby',' ','51 99874-1249',NULL,NULL,NULL,'2008-10-22','15'),
+	 (2651,' ','PQT FIGUEIRA NATIVA',0,'ADÃO CARLOS BORBA DE MOURA',' ','51 996915808',NULL,NULL,NULL,'2011-08-30','15'),
+	 (2652,' ','CTG HERANÇA DE TROPEIROS',0,'CLEBER JOSE DOS SANTOS PEREIRA',' ','54 996188883',NULL,NULL,NULL,'2013-04-21','08'),
+	 (2653,' ','CTG HERANÇA DO VELHO PAI',0,'',' ','51 9913-2076',NULL,NULL,NULL,'2012-07-18','23'),
+	 (2654,' ','PL JOSÉ INÁCIO PIRES',0,'',' ','51 9837-5203  - 51 9793-3588',NULL,NULL,NULL,'2012-06-25','23'),
+	 (2656,' ','PL OURO VERDE',0,'',' ','51 8434-7850  -  51 3416-1267',NULL,NULL,NULL,'2012-05-12','23'),
+	 (2657,' ','DTG ALTANEIRO',0,'CARLOS WAGNER FLORES',' ','51 99640-2516',NULL,NULL,NULL,'2013-04-30','15'),
+	 (2659,' ','AGT PORTONENSE - AGTP',0,'',' ','',NULL,NULL,NULL,'2010-11-01','15'),
+	 (2660,' ','PL LOMBA DO BUTIÁ',0,'CLEBERTON INÁCIO DA SILVA',' ','',NULL,NULL,NULL,'2013-08-16','23'),
+	 (2661,' ','CTG LIBERDADE GAÚCHA',0,'Pablo Humberto Veiga',' ','',NULL,NULL,NULL,'2013-04-07','30');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2663,' ','PL CAMPEIROS DO GERIBÁ',0,'',' ','',NULL,NULL,NULL,'2005-07-20','05'),
+	 (2664,' ','PTG PALA VELHO',0,'',' ','',NULL,NULL,NULL,'2000-10-13','05'),
+	 (2665,' ','PL LAGO VERDE',0,'RONI MACEDO HOMEM',' ','54 999313764',NULL,NULL,NULL,'2013-08-09','27'),
+	 (2666,' ','PL LAÇO SEM FRONTEIRA',0,'',' ','',NULL,NULL,NULL,'2013-01-01','02'),
+	 (2667,' ','PL OS MARAGATOS',0,'VILMAR BOEIRA',' ','',NULL,NULL,NULL,'2013-08-26','02'),
+	 (2668,' ','PL OS NATIVOS',0,'',' ','',NULL,NULL,NULL,'2012-09-02','02'),
+	 (2669,' ','PTG RONCO DA GAITA',0,'',' ','',NULL,NULL,NULL,'2012-10-23','02'),
+	 (2670,' ','GN OS GUAPOS',18687497000123,'CRISTIANO VIZOLLI',' ','54 99634 3911',NULL,NULL,NULL,'2015-04-21','19'),
+	 (2672,' ','AT VERACRUZENSE',0,'',' ','',NULL,NULL,NULL,'2012-08-20','05'),
+	 (2673,' ','GAT ABA LARGA',0,'EVANDRO LUIS MOTTA',' ','54 3232-4553 / 54 99625-1353',NULL,NULL,NULL,'2012-08-13','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2674,' ','PL LENÇO COLORADO',0,'LUIS ROBEERTO BENITES COSSENTINO',' ','55 991283391',NULL,NULL,NULL,'2013-06-15','10'),
+	 (2675,'PL','x-CAMINHO DAS TROPAS - BLOQUEADA',0,'CARLOS ROBERTO VIEIRA',' ',' ',NULL,NULL,NULL,'2013-07-15','09'),
+	 (2676,'PL','PONTA DE TROPA',0,'MARCO TÚLIO MAGALHÃES RODITO',' ',' ',NULL,NULL,NULL,'2013-09-01','09'),
+	 (2677,'PQT','x- COOPERADOS PELA TRADIÇÃO - BLOQUEADA',0,'DARCI PEDRO HARTMANN',' ',' ',NULL,NULL,NULL,'2013-08-05','09'),
+	 (2678,' ','PQT ALMA NATIVA',17902004000168,'JAIR MARTINS',' ','51 999994513',NULL,NULL,NULL,'2002-08-22','01'),
+	 (2679,' ','DTG ESTÂNCIA FARROUPILHA',18212646000106,'IZABEL DE FREITAS MACHADO MASSENA',' ','51 998285850',NULL,NULL,NULL,'2012-05-04','01'),
+	 (2683,' ','CTG FORQUETA DE SANTO AMARO',0,'',' ','',NULL,NULL,NULL,'2013-01-22','02'),
+	 (2684,' ','PL PORTEIRA DA SERRA',0,'MILTON JOSÉ DASSI',' ','51 999392818',NULL,NULL,NULL,'2012-12-05','14'),
+	 (2685,' ','CTG HERANÇA GAUDÉRIA',0,'GILSON PAULO NAUE',' ','',NULL,NULL,NULL,'2010-12-08','14'),
+	 (2686,' ','PTG ESTEIO DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2013-07-26','05');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2687,' ','PTG QUERENCIA AMADA',0,'',' ','',NULL,NULL,NULL,'2013-06-30','05'),
+	 (2688,' ','CTG SENTINELA DOS SINOS',0,'EVALDO SAUNER',' ','995370306',NULL,NULL,NULL,'2002-03-22','23'),
+	 (2689,' ','ASSOC CULTURAL SESMARIA',0,'',' ','',NULL,NULL,NULL,'2003-07-24','23'),
+	 (2690,' ','CTG RECANTO DA TRADIÇÃO',0,'JOSÉ RENATO HOFMANN',' ','',NULL,NULL,NULL,'2012-07-14','20'),
+	 (2691,' ','CTG MOIRÃO DA SERRA',0,'AILTON MOREIRA DA SILVA',' ','',NULL,NULL,NULL,'2008-06-07','20'),
+	 (2692,'PL','GAÚCHOS DA SERRA',19231436000110,'Igor Moreira Santos','nani19boeira@hotmail.com','(54) 996194615',NULL,NULL,NULL,'2013-10-09','25'),
+	 (2693,'PQT','CHEGANDO NA QUERÊNCIA',10607673000168,'Claudiomar Ribeiro de Andrade','claudiomarandrade01@gmail.com','(54) 98400-8297',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2694,'PL','TROPILHA DA AMIZADE',19330974000161,'João Rodrigues Francisco dos Passos','','(54) 999773403',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2696,' ','PTG RAÍZES DA FRONTEIRA',0,'MARIA PAOLA MONTERO MORA',' ','53 98106-2900',NULL,NULL,NULL,'2007-08-27','21'),
+	 (2697,' ','PQT ARMADA NATIVA',0,'JOSÉ LUIS DA SILVA ROSA',' ','',NULL,NULL,NULL,'2013-07-07','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2698,' ','CTG LIBERDADE SERRANA',0,'CELSO MARQUES JARDIM',' ','',NULL,NULL,NULL,'2013-12-18','24'),
+	 (2699,' ','PL HERANÇA GAUDÉRIA',0,'VICENTE VITORINO PEREIRA',' ','',NULL,NULL,NULL,'2014-02-03','23'),
+	 (2700,' ','PL  TIA BILICA',0,'IVAR MICHEL DALLA LIBERA',' ','',NULL,NULL,NULL,'2013-11-14','20'),
+	 (2701,' ','CTG ESSÊNCIA GAÚCHA',0,'JEFERSON LUÍS FERREIRA',' ','51 99634-7369',NULL,NULL,NULL,'2006-05-07','22'),
+	 (2702,'PL','x- RAÇA CAMPEIRA - BLOQUEADA',0,'VITOR CEZAR R. DE CAMPOS',' ',' ',NULL,NULL,NULL,'2013-08-02','09'),
+	 (2703,' ','DTG PORTEIRA ABERTA',0,'Fernando Antonio Gassen',' ','',NULL,NULL,NULL,'2013-04-05','30'),
+	 (2704,' ','CTG CABANHA PASSO DO VIGÁRIO',20600816000163,'SILVANO PIOVEZANI',' ','51 999676565',NULL,NULL,NULL,'2014-07-01','01'),
+	 (2705,'CTG','LAÇO EM FAMILIA',19757670000185,'Aldoir Lira de Barros','aldoirzorrinho@hotmail.com','(54) 991136716/999422491',NULL,NULL,NULL,'2014-12-02','25'),
+	 (2706,' ','CTG REMINISCÊNCIAS',0,'JOÃO VITOR DE MELLO',' ','51 999101700',NULL,NULL,NULL,'2014-06-06','15'),
+	 (2707,'PL','GARRÃO DE POTRO',20538411000142,'Max Leandro dos Santos Fernandes','max.fernandez777@gmail.com','(54) 999487702',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2708,' ','PL DA RESTINGA',0,'GETULIO POCHE FLORES',' ','55 9966 7382',NULL,NULL,NULL,'2013-07-20','10'),
+	 (2709,' ','CTG PRESILHA CRIOULA',0,'FELIPE PIRES KELLER',' ','51 9623 7183',NULL,NULL,NULL,'2013-08-10','15'),
+	 (2710,' ','PTG TRÊS GERAÇÕES',0,'GODOI PIRES DA CRUZ',' ','53 9974 9622',NULL,NULL,NULL,'2014-06-30','21'),
+	 (2711,'PL','VOVÔ AGOSTINHO TONELLA',20814945000154,'Arnos Jose Tonella','tatikieling@hotmail.com','(54) 999941290',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2712,'CTG','VELHO VARGAS',0,'CIRO EDUARDO SANTANA',' ',' ',NULL,NULL,NULL,'1993-01-19','09'),
+	 (2713,' ','ASS ASSOCIAÇÃO GAÚCHA ESTANCIENSE',0,'WILSON RAUBER',' ','',NULL,NULL,NULL,'2004-02-29','30'),
+	 (2715,' ','ACT AMIGOS DA QUERÊNCIA',0,'EDUARDO JOICIMAR DUARTE',' ','53 91789044',NULL,NULL,NULL,'2014-04-14','16'),
+	 (2716,' ','PQT ARNO MARKUS',0,'VANDERLEI AIRTON KUHN',' ','',NULL,NULL,NULL,'2014-03-12','24'),
+	 (2717,' ','CTG GALPÃO DA AMIZADE',2091296500168,'NELSON JONES FRANKLIN DA SILVA',' ','54 99182 2461',NULL,NULL,NULL,'2013-07-07','19'),
+	 (2718,' ','DTG ALMA GAÚCHA LITORÂNEA',0,'CLARICE DOS SANTOS',' ','51 9257-1875',NULL,NULL,NULL,'2014-11-24','23');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2719,' ','CTG ALMA CAMPEIRA',0,'',' ','',NULL,NULL,NULL,'2014-06-27','26'),
+	 (2720,' ','CTG  DÊNIO FLORES',0,'NELSON FLORES',' ','51 9842-7537',NULL,NULL,NULL,'2015-01-30','15'),
+	 (2721,' ','PQT RECANTO DO COSTÃO',0,'DOUGLAS FERNANDO JACOBS',' ','',NULL,NULL,NULL,'2014-09-09','24'),
+	 (2722,' ','PL ESTÂNCIA DO PORTÃO',0,'NEY PAULO DE OLIVEIRA RAMOS',' ','51 3663-3839',NULL,NULL,NULL,'2014-12-10','23'),
+	 (2723,' ','PL COXILHA DA SERRA',0,'NEUCIR LUIS CARAGNATO',' ','54 9984-8855',NULL,NULL,NULL,'2013-07-18','27'),
+	 (2724,' ','GN TERRA NOSSA',20432489000188,'MAICON FAITÃO',' ','54 3375 1162',NULL,NULL,NULL,'2014-03-19','19'),
+	 (2725,' ','PL CANDIEIRO DO PAGO',0,'',' ','',NULL,NULL,NULL,'2012-10-11','02'),
+	 (2728,' ','CTG GRITOS DE LIBERDADE',0,'',' ','',NULL,NULL,NULL,'2015-02-10','02'),
+	 (2729,' ','CTG UNIDOS DO PAMPA',0,'Vilceu Ferrão',' ','54 99682-1069',NULL,NULL,NULL,'2014-07-04','07'),
+	 (2730,' ','CTG VELHA TAPERA',0,'Nelso Vedana',' ','54 999152022',NULL,NULL,NULL,'2001-09-08','07');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2732,' ','AT DO VALE DO GRAVATAÍ',91339382000138,'JOELCI ALPE GUIMARÃES',' ','   51 98018-4307',NULL,NULL,NULL,'2014-05-23','01'),
+	 (2734,' ','PQT SINUELO DE TROPA',0,'',' ','',NULL,NULL,NULL,'2015-06-26','24'),
+	 (2735,'PL','20 DE SETEMBRO',20898092000186,'Jorge Valderez dos Passos','','(54) 996055148',NULL,NULL,NULL,'1969-12-31','25'),
+	 (2736,' ','GTF TROPILHA CRIOULA',0,'JUNIOR DOMINGUES',' ','51 991161750',NULL,NULL,NULL,'2015-03-15','12'),
+	 (2738,' ','PL GAUDÉRIOS DO GESSO',0,'CLAUDERLEI DE MATTOS',' ','51 9133-2877',NULL,NULL,NULL,'2015-05-13','23'),
+	 (2740,' ','GN CORAÇÃO DE POTRO',23169861000101,'ADRIEL NODARI',' ','54 99185 4017 ',NULL,NULL,NULL,'2014-08-10','19'),
+	 (2741,' ','CTG AMIGOS DO RODEIO',0,'',' ','',NULL,NULL,NULL,'2014-07-12','05'),
+	 (2742,' ','PL PRESILHA DO LAÇO',0,'JAIR ANTONIO DO AMARAL',' ','999020617',NULL,NULL,NULL,'2015-08-14','23'),
+	 (2743,' ','GPF ALDEBARÃ',0,'LEANDRO GIRARD DOS SANTOS',' ','51 998021381',NULL,NULL,NULL,'1998-05-01','12'),
+	 (2744,'PL','VOVÔ NATALÍCIO',20265395000161,'Antonio Ferreira de Andrade','','(54) 999686847',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2745,' ','CTG  GIRA MUNDO',0,'',' ','',NULL,NULL,NULL,'2015-07-27','05'),
+	 (2746,' ','PQT OS LEGENDÁRIOS',0,'',' ','',NULL,NULL,NULL,'2014-01-17','02'),
+	 (2747,'CTG','RANCHO DE ESPERANÇA',22033750000100,'Paulo dos Santos de Andrade','paulodossdandrade@gmail.com','(54) 99997-3576',NULL,NULL,NULL,'2015-07-02','25'),
+	 (2749,' ','ACTG CANCELA DO IMIGRANTE',0,'',' ','',NULL,NULL,NULL,'2015-10-28','08'),
+	 (2751,' ','CTG GUAPOS DE SENTINELA',0,'BRUNO GERMANO HELEN DA SILVA',' ','51 3679 1102',NULL,NULL,NULL,'2015-03-20','16'),
+	 (2753,' ','DCG ESTAMPA GAÚCHA',0,'DAIANA ANDRADE DE ANDRADE',' ','',NULL,NULL,NULL,'2015-11-06','18'),
+	 (2754,' ','GCTC CENTAUROS DA TRADIÇÃO',0,'Valmir Rodigheri',' ','54 9983-6625',NULL,NULL,NULL,'2009-08-25','07'),
+	 (2755,' ','GN ESTÂNCIA DA ESTRELA',24540753000158,'AMARILDO BORGES DE MOURA',' ','54 99950 7407',NULL,NULL,NULL,'2016-02-20','19'),
+	 (2756,' ','DTG LUZ E TRADIÇÃO',88022918000182,'JOSÉ RONALDO DA ROCHA DA SILVA',' ','51 3485-319',NULL,NULL,NULL,'2015-04-17','01'),
+	 (2758,'PL','TROPEIROS DO PAMPA',23524693000117,'Paulo Cesar da Silva','','(54) 996504328',NULL,NULL,NULL,'1969-12-31','25');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2759,' ','CTG CHARQUEADORES DO PAMPA',24900054000171,'EVANDRO SOARES',' ','51 99986-6338',NULL,NULL,NULL,'2016-03-16','01'),
+	 (2760,' ','CCT BOLSAN',0,'ADAIR DA SILVA GARCIA',' ','',NULL,NULL,NULL,'2016-06-03','23'),
+	 (2761,' ','DTG  LANCEIROS DO MAR',0,'NEUSA EUZEBIO FLORIANO',' ','5I 98259 0244   -  51 98301 0327',NULL,NULL,NULL,'2016-06-02','23'),
+	 (2762,' ','PL 4 M',0,'JOÃO RENE MOREIRA',' ','51-9816.6618',NULL,NULL,NULL,'2014-11-17','14'),
+	 (2763,' ','PL VIDAL DE TRINDADE',0,'',' ','',NULL,NULL,NULL,'2012-08-21','14'),
+	 (2765,'PL','TAURAS DO RIO GRANDE',0,'Anilson Carlos Zambra Riguer',' ',' ',NULL,NULL,NULL,'1969-12-31','09'),
+	 (2766,' ','CTG MANECO PEREIRA',0,'NOEL LERI FERREIRA DOS SANTOS',' ','',NULL,NULL,NULL,'1973-11-17','18'),
+	 (2767,' ','PL OS BUENACHOS',0,'',' ','',NULL,NULL,NULL,'2015-05-15','02'),
+	 (2768,' ','PQT REGALO CAMPEIRO',0,'JHONATAM LUIS FUNARI',' ','',NULL,NULL,NULL,'2005-02-14','24'),
+	 (2770,' ','PQT APORREADOS DO SÓVEU',0,'',' ','',NULL,NULL,NULL,'2016-02-10','24');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2771,' ','PL MASSAROCA',0,'',' ','',NULL,NULL,NULL,'2016-01-18','02'),
+	 (2772,' ','PQT MORRO SANTO',0,'ANDRE WINCK',' ','',NULL,NULL,NULL,'2017-01-20','24'),
+	 (2773,' ','GC ALFEU DE OLIVEIRA',0,'',' ','',NULL,NULL,NULL,'2016-05-02','02'),
+	 (2774,' ','CTG O TROPEIRO FREDERICO TROTT',0,'JOSÉ LUIZ BERNARDES DA SILVA',' ','51 997713971',NULL,NULL,NULL,'2016-04-11','22'),
+	 (2775,' ','PL CABANHA CORTES',0,'ENILDO ROSA CORTES',' ','51 999948144',NULL,NULL,NULL,'2009-10-05','05'),
+	 (2776,' ','DTG GETÚLIO VARGAS',0,'SANDRA RAQUEL SENA KERSTING',' ','51 995008028',NULL,NULL,NULL,'2016-06-20','05'),
+	 (2777,' ','PL AMANTES DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2016-08-10','10'),
+	 (2778,' ','PTG AMIZADE CRIOULA',0,'ALESSANDRO CAMARGO',' ','51 999969223',NULL,NULL,NULL,'2013-06-15','14'),
+	 (2779,' ','PL ESTÂNCIA DE SANTA ANA',0,'ROSANE DA SILVA HORBACH',' ','51 999071593',NULL,NULL,NULL,'2016-08-16','15'),
+	 (2781,' ','PTG HERDEIROS DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2014-12-10','18');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2782,' ','GN TROPEIRO VELHO',26322451000139,'VAGNER ARTINO DE MELLO',' ','54 99608 9971',NULL,NULL,NULL,'2016-04-04','19'),
+	 (2783,' ','CTG QUERÊNCIA GAÚCHA',0,'',' ','',NULL,NULL,NULL,'1993-05-05','20'),
+	 (2784,' ','CTG PÉ DA SERRA',0,'ANTONIO LUIZ BENETTI',' ','51 99632-6971',NULL,NULL,NULL,'1991-05-25','22'),
+	 (2785,' ','PT  AGROPECUÁRIA JACARANDÁ',0,'DOUGLAS UBERTI REBELO',' ','55 99907-2172',NULL,NULL,NULL,'2017-07-11','10'),
+	 (2786,' ','CTG TAPERA GRANDE',0,'',' ','',NULL,NULL,NULL,'2016-11-04','16'),
+	 (2787,' ','GN ALMA CRIOULA',27842114000135,'REGIS GEMELLI',' ','54 99633 0557',NULL,NULL,NULL,'2016-11-24','19'),
+	 (2788,' ','GN COXILHA DO MINUANO',28390352000110,'VALDIR LUIS AMBROSIO',' ','54 992603928',NULL,NULL,NULL,'2017-06-24','19'),
+	 (2789,' ','PL RANCHO DO CAPIVARI',0,'',' ','(51)99916-0051',NULL,NULL,NULL,'2017-07-07','23'),
+	 (2790,' ','GC ROTA DAS ARAUCÁRIAS',0,'Claudinei Bassegio',' ','54 99622-3049  54 99932-4505',NULL,NULL,NULL,'2006-08-17','07'),
+	 (2791,' ','ACT PIQUETE 35',0,'',' ','',NULL,NULL,NULL,'1985-09-20','08');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2792,' ','ASS CAVALEIROS SEM FRONTEIRAS',0,'GILNEI ALTEMIR DOS SANTOS',' ','51 997085212',NULL,NULL,NULL,'2017-03-06','12'),
+	 (2793,' ','PL MARCA DE CASCO',0,'',' ','',NULL,NULL,NULL,'2017-07-27','02'),
+	 (2794,' ','PL RANCHO DA AMIZADE',0,'JUCELINO NUNES FERREIRA',' ','996477853',NULL,NULL,NULL,'2017-08-05','23'),
+	 (2795,' ','PL A FAZENDINHA J.J',0,'JONAS ALVES DA SILVA',' ','51 998527573',NULL,NULL,NULL,'2017-05-25','23'),
+	 (2797,' ','CTG PRESILHA PAMPIANA',0,'FABIANA LISMEIA BECKER DEICKE',' ','51 981529282',NULL,NULL,NULL,'2013-10-01','05'),
+	 (2798,' ','QL CHAPÉU PRETO',0,'Plinio Aime',' ','54 9982-8421',NULL,NULL,NULL,'2017-09-05','07'),
+	 (2799,'CTG','PASSO DO BOZANO',0,'LOUVERAL SADI DE CARVALHO',' ',' ',NULL,NULL,NULL,'2002-09-13','09'),
+	 (2800,' ','PT ENCONTRO DE AMIGOS',0,'JOÃO NELSON MARQUITI LUNARDI',' ','55 99986-9933',NULL,NULL,NULL,'2016-09-20','10'),
+	 (2801,' ','PTG RINCÃO DO MANGUEIRÃO',0,'CRISTIANO LEIVAS ANDRADE',' ','',NULL,NULL,NULL,'2005-04-05','18'),
+	 (2802,'PQT','ESTÂNCIA DO LAÇO',29364343000117,'SCHAIANE MARTINS DE OLIVEIRA',' ',' ',NULL,NULL,NULL,'2017-05-06','17');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2803,' ','PQT DE LAÇO NOSSA SENHORA APARECIDA',0,'GILMAR NELSON ROVEA',' ','51 99289-7575',NULL,NULL,NULL,'2016-02-23','22'),
+	 (2804,' ','PTG RECANTO DA AMIZADE',0,'FABIO DOS SANTOS ESPINDOLA',' ','51 99676-6055',NULL,NULL,NULL,'2017-08-05','23'),
+	 (2805,' ','PIQ TRADIÇÃO CRIOULA',0,'GIOVAN ANTONIO MANICA',' ','',NULL,NULL,NULL,'2017-05-09','24'),
+	 (2806,' ','GF ESSÊNCIA DA TRADIÇÃO',0,'VALENTIM GALARSA SILVEIRA',' ','51 996044116',NULL,NULL,NULL,'2017-12-09','24'),
+	 (2808,' ','PL CABANHA SABIÁ',0,'TIAGO SCORTEGANHA',' ','54 9926 8713',NULL,NULL,NULL,'2013-11-15','29'),
+	 (2809,' ','CTG REPONTANDO O GADO',0,'MIGUEL DE OLIVEIRA',' ','',NULL,NULL,NULL,'1986-10-01','28'),
+	 (2810,' ','GCT CAVALEIROS DAS VEREDA DAS TROPAS',0,'Gilberto Roos da Silva',' ','54 9983-1523',NULL,NULL,NULL,'2017-12-27','07'),
+	 (2811,' ','CTG MARCO DAS ÁGUAS',0,'SANTO DA SILVA DIAS',' ','',NULL,NULL,NULL,'2017-12-06','18'),
+	 (2812,' ','CTG QUERÊNCIA DAS LAVRAS',0,'MARIA REGINA DE AZEVEDO DE SOUZA',' ','',NULL,NULL,NULL,'2012-12-03','18'),
+	 (2813,' ','DC GARRÃO DE POTRO',0,'LUIZ HENRIQUE MACHADO RODRIGUES',' ','',NULL,NULL,NULL,'2018-02-26','18');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2814,' ','CTG TROPEIROS DO PICÓ',0,'ANTONIO ADEMAR DE MELO FREITAS',' ','',NULL,NULL,NULL,'2015-11-27','18'),
+	 (2815,' ','PQT DOM ERMILO',0,'CESAR LUIZ PEREIRA DUARTE',' ','',NULL,NULL,NULL,'2018-04-10','24'),
+	 (2816,' ','GC PARCEIROS DA TRADIÇÃO',0,'',' ','',NULL,NULL,NULL,'2017-12-06','02'),
+	 (2817,' ','GN ESTAMPA DE GAÚCHO',21199996000186,'JUARES ANDRE ANIBALETTO ',' ','54 99114 7451',NULL,NULL,NULL,'2014-08-14','19'),
+	 (2818,' ','CTG PEDRAS BRANCAS',2576736000138,'LAUDELINO MACIEL',' ','51 99822-1263',NULL,NULL,NULL,'1993-07-30','01'),
+	 (2820,' ','PL GARRÃO DE POTRO',0,'DALVIO SILVO DE SOUZA',' ','51 99565-8859',NULL,NULL,NULL,'2018-08-02','02'),
+	 (2821,' ','PL ESTÂNCIA DO PUITÃ',0,'ALEIRSON MELLO JACQUES',' ','55 9 9699-2660',NULL,NULL,NULL,'2017-08-11','10'),
+	 (2822,' ','ASS CENTRO CULTURAL JOÃO CARDOSO',0,'MARIO NEI DOS SANTOS SILVA',' ','51 997823371',NULL,NULL,NULL,'2011-11-20','12'),
+	 (2823,' ','CTG COXILHA DO INHANDAVA',0,'THIAGO JOSE CENTOFANTE',' ','54 98413 9749',NULL,NULL,NULL,'2017-09-20','29'),
+	 (2824,' ','PQT FAZENDA SÃO PEDRO',0,'LOENARDO GUARDA VIELMO',' ','55 99546-8890 / 3251-6157',NULL,NULL,NULL,'2018-09-30','10');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2825,' ','CTG GALPÃO DO GAITAÇO',0,'HELIO MINUSCOLI',' ','54 99958-8560',NULL,NULL,NULL,'1999-10-15','11'),
+	 (2826,' ','DTG CORRETORES DA TRADIÇÃO',0,'LUIS CARLOS DA MATTA',' ','51 999853730',NULL,NULL,NULL,'1962-10-26','23'),
+	 (2828,' ','GA NOVOS TROPEIROS',0,'EMERSON ANTÔNIO CASSOL',' ','54 999815618',NULL,NULL,NULL,'2017-08-08','29'),
+	 (2829,' ','PT OS TAURAS',0,'JOSE AMADIR GUASSO',' ','55 99911-1313',NULL,NULL,NULL,'2018-10-24','10'),
+	 (2830,' ','PT AGROPECUÁRIA BAZANA',0,'ADAIR CARLOS BAZANA',' ','55 99974-1733',NULL,NULL,NULL,'2018-02-20','10'),
+	 (2831,' ','PL DO FANFA',0,'',' ','',NULL,NULL,NULL,'2018-05-11','15'),
+	 (2832,' ','CPF TERRA GAÚCHA',34181047000110,'ELISIANE DE AZEVEDO DE QUADROS',' ','54 999929011',NULL,NULL,NULL,'2019-01-25','19'),
+	 (2833,'CTG','GALPÃO CRIOULO',35111085000160,'Valmor Pesini','deniseferreira625@gmail.com','(54) 999735782',NULL,NULL,NULL,'1999-12-10','25'),
+	 (2834,'CTG','VALE DA AMIZADE',0,'Rodrigo Tonetto','','(48) 999856397','','','','0000-00-00','6'),
+	 (2835,'CTG','PORTEIRA DO RIO GRANDE',0,'ELVIO GIANETO GUAGNINI ROSSI','','54 3231-1011','','','','1955-07-23','8');
+  INSERT IGNORE  INTO   entidade (entidade_id,sigla,nome_entidade,cnpj,resp1,email_resp1,telefone_resp1,resp2,email_resp2,telefone_resp2,data_funda,RT) VALUES
+	 (2836,'CF','CONJUNTO FOLCLÓRICO FLOR DE IPÊ',0,'GIOVANE','','49988109522','','','','2020-01-01','14'),
+	 (2837,' ','PQT CHAMA DO RIO GRANDE',0,'MARCOS ENGELHOF',' ','55 99613-7288',NULL,NULL,NULL,'2019-06-07','03'),
+	 (2838,'RT','Regiao 25',0,'Gaucho','','','','','','0000-00-00','25'),
+	 (2839,' ','PQT FIGUEIRA DA TRADIÇÃO',0,'COSME CIRILO DE MORAES',' ','51 99723-4212',NULL,NULL,NULL,'2008-06-23','12'),
+	 (2849,' ','CTG PÁTRIA PAMPA',0,'EDSON LUIS DE FREITAS LINHARES',' ','51 99232-2079',NULL,NULL,NULL,'2017-09-01','12'),
+	 (26901,' ','ACT CAVALEIROS DO ALTO URUGUAI',14693289000186,'DERLI IRANI PERIN',' ','(54) 98112 5513',NULL,NULL,NULL,'2011-10-22','19');

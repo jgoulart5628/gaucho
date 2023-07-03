@@ -14,7 +14,6 @@
     `telefone_resp2` varchar(50) DEFAULT NULL COMMENT 'Telefone do Segundo responsável',
     `data_funda` date DEFAULT NULL COMMENT 'Data de Fundação da Entidade',
     `RT` varchar(3) DEFAULT NULL COMMENT 'Região Tradicionalista',
-    `matricula` int(5) DEFAULT NULL COMMENT 'Matricula MTG',
     PRIMARY KEY (`entidade_id`);
     */
    error_reporting(E_ALL);
@@ -34,7 +33,6 @@ class classe_entidade extends banco_Dados
     private $telefone_resp2;
     private $data_funda;
     private $RT;
-    private $matricula;
     public $db;
 
     public function __construct($nome)
@@ -90,7 +88,6 @@ class classe_entidade extends banco_Dados
         $telefone_resp2 = $dados_tela['telefone_resp2'];
         $data_funda = $dados_tela['data_funda'];
         $RT = $dados_tela['RT'];
-        $matricula = $dados_tela['matricula'];
         $flag = 0;
         if ($sigla !== $dados_tabela['sigla']) {
             $query .= " sigla =  '$sigla' ,";
@@ -136,10 +133,6 @@ class classe_entidade extends banco_Dados
             $query .= " RT =  '$rt' ,";
             ++$flag;
         }
-        if ($matricula !== $dados_tabela['matricula']) {
-            $query .= " matricula =  $matricula ,";
-            ++$flag;
-        }
         if ($flag > 0) {
             $queryx = rtrim($query, ' , ');
             $queryx .= " where entidade_id = $entidade_id ";
@@ -176,7 +169,6 @@ class classe_entidade extends banco_Dados
         $telefone_resp2 = $dados['telefone_resp2'];
         $data_funda = $dados['data_funda'];
         $RT = $dados['RT'];
-        $matricula = $dados['matricula'];
         $query = " insert into entidade values( 
                    '$sigla',
                    $entidade_id,
@@ -189,8 +181,7 @@ class classe_entidade extends banco_Dados
                    '$email_resp2', 
                    '$telefone_resp2',
                    '$data_funda',
-                   '$RT',
-                   $matricula   )";
+                   '$RT')";
         $e = $this->db->Executa_Query_SQL($query, $tela);
         $res = $this->Tipo_Invernada($tela);
         for ($i = 0; $i < count($res); ++$i) {

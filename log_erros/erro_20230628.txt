@@ -1,0 +1,140 @@
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Miguel Reis', 
+               '1963-11-15', 
+               'M', 
+               2650, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Antonella Locatelli', 
+               '2009-03-01', 
+               'F', 
+               874, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Alma Coutinho', 
+               '1982-07-19', 
+               'F', 
+               1962, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Calebe Assis', 
+               '2003-08-21', 
+               'M', 
+               2308, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Olívia Médici', 
+               '1964-10-03', 
+               'F', 
+               353, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Samantha Bernardes', 
+               '1966-02-16', 
+               'F', 
+               2685, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Alícia Evangelista', 
+               '1993-10-15', 
+               'F', 
+               1361, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Olívia Junqueira', 
+               '1999-03-09', 
+               'F', 
+               1808, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Alison Bicalho', 
+               '1997-06-18', 
+               'M', 
+               954, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )
+17:35:13||::1|SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'pessoas_UN'| insert into pessoas
+               (pessoa_id, nome, data_nascimento, sexo, entidade, docto_mtg, validade_docto_mtg, cpf, email,id_altera, data_altera)
+               values( 
+                4,  
+               'Olívia Sampedro', 
+               '1983-04-03', 
+               'F', 
+               1940, 
+               NULL, 
+               NULL, 
+               0,
+               NULL, 
+               1, 
+               CURRENT_TIMESTAMP )

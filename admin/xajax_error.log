@@ -1,7 +1,0 @@
-** xajax Error Log - Apr 26 2023 12:32:59 PM **
-
-----
-[UNKNOWN: 8192] Creation of dynamic property xajaxResponse::$sResponseType is deprecated
-Error on line 122 of file /AUX/www/gaucho/xajax/xajax_core/xajaxResponse.inc.php
-
-

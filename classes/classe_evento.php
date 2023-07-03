@@ -11,7 +11,7 @@ CREATE TABLE `evento` (
   `data_base_calculo_idade` date DEFAULT NULL COMMENT 'Data base para cálculo idade inscritos',
   PRIMARY KEY (`evento_id`),
   KEY `evento_FK` (`entidade_id`)
-   */
+   */ 
    error_reporting(E_ALL);
 
 class classe_evento extends banco_Dados
@@ -35,7 +35,7 @@ class classe_evento extends banco_Dados
 
     public function Monta_lista($resp = '')
     {
-        $query = " select *  from $this->tabela order by 1, 2 ";
+        $query = " select * from evento e order by e.data_evento ";
         $res = $this->db->Executa_Query_Array($query, $resp);
 
         return $res;

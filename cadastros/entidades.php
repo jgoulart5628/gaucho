@@ -42,7 +42,7 @@ $xajax->configure('javascript URI', '../xajax/');
     <link rel="stylesheet" href="../css/bs3/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" type="text/css" href="../css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/Navigation-with-Search.css">
     <link rel="stylesheet" href="../css/style4.css">
     <link rel="stylesheet" href="../css/tela_nova.css">
@@ -60,7 +60,7 @@ $xajax->configure('javascript URI', '../xajax/');
          );
     }
     </script>
-
+ 
 </head>    <?php $xajax->printJavascript('../xajax'); ?>
  </head>
  <body class="opaco">
@@ -70,7 +70,7 @@ $xajax->configure('javascript URI', '../xajax/');
     <div class="footer">
     <span> <i class="fa fa-thumbs-up" aria-hidden="true"></i></span>&#174; JGWeb
     </div>
-    <script type="text/javaScript" src="../js/jquery.min.js"></script>
+    <script type="text/javaScript" src="../js/jquery-3.3.1.min.js"></script>
     <script type="text/javaScript" src="../js/bootstrap.bundle.min.js"></script>  
     <script type="text/javaScript" src="../js/jquery.dataTables.min.js"></script>
     <script type="text/javaScript" src="../js/dataTables.bootstrap4.min.js" ></script>
@@ -141,7 +141,6 @@ function Tela_Inicial()
 "telefone_resp2","varchar(50)","YES","","",""
 "data_funda","date","YES","","",""
 "RT","varchar(3)","YES","","",""
-"matricula","int(5)","YES","","",""
 */
 function Manut_CRUD($id, $oper)
 {
@@ -161,7 +160,6 @@ function Manut_CRUD($id, $oper)
         $telefone_resp2 = $res['telefone_resp2'];
         $data_funda = $res['data_funda'];
         $RT = $res['RT'];
-        $matricula = $res['matricula'];
         $invern = $db->Busca_Invernadas($entidade_id, $resp);
         $resul = $db->Tipo_Invernada($resp);
         $inver = '';
@@ -187,6 +185,7 @@ function Manut_CRUD($id, $oper)
             $entidade_id = 1;
         }
         $sigla = '';
+        $check = '';
         $nome_entidade = '';
         $cnpj = 0;
         $resp1 = '';
@@ -197,7 +196,6 @@ function Manut_CRUD($id, $oper)
         $telefone_resp2 = '';
         $data_funda = '';
         $RT = '';
-        $matricula = 0;
         $res = $db->Tipo_Invernada($resp);
         $inver = '';
         for ($i = 0; $i < count($res); ++$i) {
@@ -257,10 +255,6 @@ function Manut_CRUD($id, $oper)
                        <label for="data_funda">Data de Fundação : </label>
                        <input class="form-control" type="date" name="data_funda" id="data_funda" value="'.$data_funda.'" required="required">
                     </div>   
-                    <div class="col-sm-3">
-                       <label for="matricula">Matricula MTG : </label>
-                       <input class="form-control" type="text" name="matricula" id="matricula" value="'.$matricula.'" onchange="xajax_valida_cnpj(xajax.getFormValues(\'dados_tela\')); return false;">
-                    </div>
                    </div>
                    <br>
                    <div class="row">

@@ -1,9 +1,0 @@
-1:55:24|http://localhost/gaucho/templates/about.php|::1|SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "lista_eventos" does not exist
-LINE 1:  select * from lista_eventos 
-                       ^| select * from lista_eventos 
-10:32:55|http://localhost/gaucho/templates/about.php|::1|SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "lista_eventos" does not exist
-LINE 1:  select * from lista_eventos 
-                       ^| select * from lista_eventos 
-20:15:29|http://localhost/gaucho/templates/about.php|::1|SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "lista_eventos" does not exist
-LINE 1:  select * from lista_eventos 
-                       ^| select * from lista_eventos 
