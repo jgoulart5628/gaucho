@@ -222,16 +222,14 @@ class banco_Dados
         $hora = date("G:i:s", $timestamp);
         $data = date("Ymd", $timestamp);
         $arq = '../log_trans/log_'.$data.'.txt';
-        error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
-        $fs = (file_exists($arq)) ? @fopen($arq, 'a') : @fopen($arq, 'w+');
-        //parametros do erro
         $ori   = $_SERVER["HTTP_REFERER"];
-        //    $brw   = $_SERVER["HTTP_USER_AGENT"];
         $ip    = $_SERVER["REMOTE_ADDR"];
-        // montando o texto
         $txt    = $hora.'|'.$ori.'|'.$ip.'|'.$sql.PHP_EOL;
-        @fwrite($fs, $txt);
-        @fclose($fs);
+        if (is_writable('../log_trans')) {
+            $fs = (file_exists($arq)) ? @fopen($arq, 'a') : @fopen($arq, 'w+');
+            @fwrite($fs, $txt);
+            @fclose($fs);
+        } else { die("Não posso gravar $arq"); }   
     }
 
 
@@ -279,26 +277,20 @@ class banco_Dados
 
     public function Grava_Erro_SQL($msg, $sql)
     {
-//        global $programa;
-//        $prog = explode('.', $programa);
         $timestamp = time();
         $hora = date("G:i:s", $timestamp);
         $data = date("Ymd", $timestamp);
         $arq =  '../log_erros/erro_'.$data.'.txt';
-        ini_set('default_charset', 'iso-8859-1');
-        error_reporting(E_ALL & ~(E_NOTICE | E_DEPRECATED | E_STRICT | E_WARNING));
-        if (file_exists($arq)) {
-            $fs = @fopen($arq, 'a');
-        } else {
-            $fs = @fopen($arq, 'w+');
-        }
-        //parametros do erro
         $ori   = $_SERVER["HTTP_REFERER"];
-        //    $brw   = $_SERVER["HTTP_USER_AGENT"];
         $ip    = $_SERVER["REMOTE_ADDR"];
-        // montando o texto
         $txt    = $hora.'|'.$ori.'|'.$ip.'|'.$msg.'|'.$sql.PHP_EOL;
-        @fwrite($fs, $txt);
-        @fclose($fs);
+        if (is_writable('../log_erros')) {
+            $fs = (file_exists($arq)) ? @fopen($arq, 'a') : @fopen($arq, 'w+');
+            @fwrite($fs, $txt);
+            @fclose($fs); 
+        } else {
+           die("Não pude gravar o arquivo $arq"); 
+        }
+
     }
 }

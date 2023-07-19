@@ -1,0 +1,1 @@
+16:42:35|http://localhost/gaucho/cadastros/inscri_evento.php|::1|SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION gaucho.curdate does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual|select evento_id, titulo_evento from evento where data_evento > curdate ()

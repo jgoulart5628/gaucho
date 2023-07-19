@@ -1,15 +1,11 @@
-define('DS', DIRECTORY_SEPARATOR);
-define('D1', '://');
-$msgx = 'Teste';
-$sql = 'Select tudo from todo mundo'; 
-if ($_SERVER['SCRIPT_NAME'] == '/gaucho/inter/index.php') {
- $arq = '/gaucho/admin/erro.php'; } else {
- $arq = '../admin/erro.php'; }
-echo( '<script>
-               var myWin  = window.open("'.$arq.'?tipo=Erro de SQL.&msg='.$msgx.'&sql='.$sql.'", "Erro.", "status = 1, height = 400, width = 500, resizable = 0, scrollbars=1" );
-                 myWin.focus();
-                </script>');
+$d1 = new DateTime("2023-08-19");
+$d2  = new DateTime("1984-12-30");
+$resul  = Calcular_datas($d1, $d2);
+echo $resul;
 
-// $arq = $_SERVER['DOCUMENT_ROOT'] . DS;
-// echo ROOT_PATH;
-//echo $arq;
+function Calcular_datas($d1, $d2)
+{
+   if (!$d1) {  $d1 = new DateTime("now"); }
+   $intervalo = $d1->diff( $d2 );
+   return $intervalo->y.'-'.$intervalo->m.'-'.$intervalo->d;
+}

@@ -91,13 +91,13 @@ function lista_links($evento_id, $resp)  {
   global $db;
   $query = " select * from links_evento where evento_id = $evento_id ";
   $links = $db->Executa_Query_Array($query, $resp);
-  $lista_links = '';
-  if (count($links) == 0) { return '<div></div>'; }
-  foreach ($links as $link) {
-       $link_titulo = $link['link_titulo'];
-       $link_url    = $link['link_url'];
-       $lista_links .= '<a href="'.$link_url.'" class="form-control btn btn-primary" target="_blank" >'.$link_titulo.'</a>';
+  $lista_links = '<div>';
+  for ($a = 0; $a < count($links); $a++) {
+      $link_titulo = $link[$a]['link_titulo'];
+      $link_url   = $link[$a]['link_url'];
+      $lista_links .= '<a href="'.$link_url.'" class="form-control btn btn-primary" target="_blank" >'.$link_titulo.'</a>';
   }
+  $lista_links .= '<a href="../cadastros/inscri_evento.php?evento_id='.$evento_id.'" class="form-control btn btn-primary" target="_blank" >Inscrições Evento</a>';
   return $lista_links;
 }
 

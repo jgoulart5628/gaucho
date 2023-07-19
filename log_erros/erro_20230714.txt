@@ -1,0 +1,4 @@
+16:18:30|http://localhost/gaucho/cadastros/inscri_evento.php?evento_id=10|::1|SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2|select modal_id, (select m.descri from modalidades m where mod_id = modal_id) descri, limite_inscritos
+   from modal_evento  where evento_id =  
+16:18:40|http://localhost/gaucho/cadastros/inscri_evento.php?evento_id=10|::1|SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2|select modal_id, (select m.descri from modalidades m where mod_id = modal_id) descri, limite_inscritos
+   from modal_evento  where evento_id =  
